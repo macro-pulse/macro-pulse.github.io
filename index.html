@@ -111,9 +111,19 @@ footer{font-size:11.5px;color:var(--mu);border-top:1px solid var(--bd);line-heig
 .hs{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:4px;margin:6px 0 14px}
 .hs a{display:block;padding:6px 8px;border-radius:6px;color:var(--tx);text-decoration:none;font-size:11.5px;background:color-mix(in srgb,var(--hc) var(--ha),var(--card));border:1px solid var(--bd)}
 .hs b{display:block;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}@media(max-width:520px){.hs{grid-template-columns:repeat(3,minmax(0,1fr))}.hs a{padding:5px 6px;font-size:11px}.hs small{font-size:9.5px}}.hs small{color:var(--mu);font-size:10px}
+
+/* nav band (t315u) */
+header{border-bottom:0!important}
+nav{background:linear-gradient(180deg,#0b1f3a,#12305a)!important;border:0!important;border-radius:0!important;margin:0 0 14px!important;padding:2px max(12px,calc((100% - 1100px)/2)) 0!important;max-width:none!important;row-gap:0!important;box-shadow:0 1px 0 #ffffff14}
+nav a{background:transparent!important;border:0!important;border-radius:0!important;color:#e2e8f0!important;opacity:.8;font-weight:500!important;font-size:13px!important;padding:10px 4px 9px!important;box-shadow:none!important;outline:none;transition:opacity .12s,color .12s}
+nav a:nth-child(n+5){border-top:1px solid #ffffff0f!important}
+nav a:hover{opacity:1;color:#fff!important;background:transparent!important}
+nav a.on{opacity:1;color:#fff!important;font-weight:600!important;background:transparent!important;box-shadow:inset 0 -3px 0 #3b82f6!important}
+nav a:focus-visible{opacity:1;outline:2px solid #93c5fd!important;outline-offset:-3px}
+@media(max-width:520px){nav{padding:2px 4px 0!important}nav a{font-size:12px!important}}
 </style><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"></head><body>
 <header><div><h1 id="t"></h1><div id="upd">Loading…</div><div id="mkt"><i></i><span></span></div></div></header>
-<nav><a href="#macro" data-t="macro">Macro</a><a href="#earnings" data-t="earnings">Earnings</a><a href="#calendar" data-t="calendar">Calendar</a><a href="#ipo" data-t="ipo">IPOs</a><a href="#analysts" data-t="analysts">Analyst U/D</a><a href="#notes" data-t="notes">Notes</a><a href="#more" data-t="more">More data</a><a href="#bonds" data-t="bonds">Bonds</a><a href="#vol" data-t="vol">Volatility</a><a href="#indexes" data-t="indexes">Indexes</a></nav>
+<nav><a href="#macro" data-t="macro">Macro</a><a href="#earnings" data-t="earnings">Earnings</a><a href="#calendar" data-t="calendar">Calendar</a><a href="#ipo" data-t="ipo">IPOs</a><a href="#analysts" data-t="analysts">Analyst U/D</a><a href="#more" data-t="more">More data</a><a href="#bonds" data-t="bonds">Bonds</a><a href="#vol" data-t="vol">Volatility</a><a href="#indexes" data-t="indexes">Indexes</a><a href="#notes" data-t="notes">Notes</a></nav>
 <main id="m"></main>
 <footer>Data: FRED, St. Louis Fed. Not investment advice.<br>"Exp." = nowcast/forecast for the next release, not a guarantee: inflation from <a href="https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting">Cleveland Fed Inflation Nowcasting</a>, GDP from <a href="https://www.atlantafed.org/cqer/research/gdpnow">Atlanta Fed GDPNow</a>, mortgage path from the <a href="https://www.fanniemae.com/data-and-insights/forecast">Fannie Mae ESR Housing Forecast</a> (quarterly averages).<br>Calendar: <a href="https://fred.stlouisfed.org/releases/calendar">FRED release calendar</a>, <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm">Federal Reserve</a>, <a href="https://www.nasdaq.com/market-activity/earnings">Nasdaq earnings calendar</a> (market cap ≥ $100B). Times ET.<br>Analyst ratings: Nasdaq consensus. Bonds &amp; volatility: FRED, Cboe, CNBC, Nasdaq, central banks, STOXX, ChinaBond. Indexes: CNBC quote data, Nasdaq (ETFs).<br><b>Not investment advice.</b> Data may be delayed; verify before trading.</footer>
 <script>
