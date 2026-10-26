@@ -12,11 +12,11 @@ main{max-width:1100px;margin:auto;padding:0 12px 24px}h2{font-size:13px;text-tra
 .c{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:12px 14px;display:block;color:inherit;text-decoration:none}
 .l{font-size:13px;color:var(--mu);font-weight:600}.row{display:flex;justify-content:space-between;align-items:flex-end;gap:8px}
 .v{font-size:26px;font-weight:700;letter-spacing:-.02em;margin-top:2px}.ch{font-size:13px;font-weight:600}
-.up{color:var(--up)}.dn{color:var(--dn)}.m{font-size:12px;color:var(--mu);margin-top:6px}svg{display:block}
+.ex{font-size:14px;font-weight:600;color:var(--mu);letter-spacing:0}.up{color:var(--up)}.dn{color:var(--dn)}.m{font-size:12px;color:var(--mu);margin-top:6px}svg{display:block}
 footer{text-align:center;color:var(--mu);font-size:12px;padding:16px 12px 32px}
 </style></head><body>
 <header><h1 id="t"></h1><div id="upd">Loading…</div></header><main id="m"></main>
-<footer>Data: FRED, St. Louis Fed. Not investment advice.</footer>
+<footer>Data: FRED, St. Louis Fed. Not investment advice.<br>"Exp." = nowcast for the next release: inflation from <a href="https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting" style="color:inherit">Cleveland Fed Inflation Nowcasting</a>, GDP from <a href="https://www.atlantafed.org/cqer/research/gdpnow" style="color:inherit">Atlanta Fed GDPNow</a>. A model estimate, not a guarantee.</footer>
 <script>
 const SITE_TITLE="Macro Pulse";
 document.getElementById('t').textContent=SITE_TITLE;document.title=SITE_TITLE;
@@ -32,8 +32,8 @@ let h='';for(const g of['Inflation','Labor','Growth','Rates','Markets']){if(!gs[
 for(const i of gs[g]){let body;
 if(i.range)body=`<div class="v">${i.range[0].toFixed(2)}–${i.range[1].toFixed(2)}%</div><div class="m">As of ${i.date}</div>`;
 else{const c=i.change,cl=c>0?'up':c<0?'dn':'';const cu=i.unit=='%'?' pp':i.unit=='bp'?' bp':i.unit=='K'?'K':'';
-body=`<div class="row"><div><div class="v">${f(i.latest,i.decimals,i.unit)}</div><div class="ch ${cl}">${c>0?'▲ +':c<0?'▼ ':''}${f(c,i.decimals,'')}${cu}</div></div>${spark(i.spark)}</div>
+body=`<div class="row"><div><div class="v">${f(i.latest,i.decimals,i.unit)}${i.expected?` <span class="ex">(Exp. ${esc(i.expected.period)}: ${f(i.expected.value,i.decimals,i.unit)})</span>`:''}</div><div class="ch ${cl}">${c>0?'▲ +':c<0?'▼ ':''}${f(c,i.decimals,'')}${cu}</div></div>${spark(i.spark)}</div>
 <div class="m">${esc(i.date)} · prior ${f(i.prior,i.decimals,i.unit)} (${esc(i.prior_date)})</div>`}
-h+=`<a class="c" href="${esc(i.source)}" target="_blank" rel="noopener"><div class="l">${esc(i.label)}</div>${body}<div class="m">FRED: ${esc(i.series)} ↗</div></a>`}
+h+=`<a class="c" href="${esc(i.source)}" target="_blank" rel="noopener"><div class="l">${esc(i.label)}</div>${body}<div class="m">FRED: ${esc(i.series)} ↗${i.expected?' · Exp.: '+esc(i.expected.source):''}</div></a>`}
 h+='</div>'}document.getElementById('m').innerHTML=h}).catch(()=>document.getElementById('upd').textContent='Data unavailable');
 </script></body></html>
