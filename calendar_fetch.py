@@ -9,6 +9,10 @@ RELEASES = {10: ("CPI", ["cpi", "core_cpi"]), 46: ("PPI", []), 50: ("Jobs report
             192: ("JOLTS", []), 180: ("Jobless claims", []), 9: ("Retail sales", []),
             53: ("GDP", ["gdp"]), 54: ("PCE / income", ["core_pce"]), 91: ("UMich sentiment", [])}
 MIN_CAP = 100e9
+MAG7 = {"AAPL", "MSFT", "GOOGL", "GOOG", "AMZN", "META", "NVDA", "TSLA"}
+KEY_CAP = 200e9
+BELL = {"INTC", "MU", "QCOM", "ARM", "AMAT", "LRCX", "KLAC", "WFC", "MS", "C", "BA", "UPS", "FDX", "F", "GM",
+        "SBUX", "NKE", "DIS", "UBER", "SHOP", "COIN", "SMCI"}  # bellwethers, shown even below MIN_CAP
 
 def http(url, accept="text/html", tries=3, timeout=20):
     ua = "curl/8.5.0" if "stlouisfed" in url else UA  # FRED stalls browser-like UAs
@@ -69,11 +73,13 @@ def _earn_day(d):
     out = []
     for r in rows:
         cap = int(re.sub(r"[^\d]", "", r.get("marketCap") or "") or 0)
-        if cap >= MIN_CAP:
+        sym = r["symbol"].upper()
+        if cap >= MIN_CAP or sym in BELL:
             tm = {"time-pre-market": "BMO", "time-after-hours": "AMC"}.get(r.get("time"), "")
             eps = r.get("epsForecast") or ""
             out.append(dict(date=d.isoformat(), type="earnings", title=r["symbol"], name=r.get("name", ""),
                             time=tm, eps_est=eps if eps.strip() not in ("", "N/A") else "", cap=cap,
+                            tier="mag7" if sym in MAG7 else "key" if cap >= KEY_CAP or sym in BELL else "",
                             url=f"https://www.nasdaq.com/market-activity/stocks/{r['symbol'].lower()}/earnings"))
     return out
 
