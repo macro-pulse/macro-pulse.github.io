@@ -3,9 +3,9 @@
 <meta name="color-scheme" content="light dark"><meta name="theme-color" content="#0b2545"><title>Macro Pulse</title>
 <style>
 :root{--bg:#eef3f8;--card:#fff;--tx:#0b1b2e;--mu:#475569;--bd:#d5dfea;--up:#047857;--dn:#b91c1c;--pri:#1d4ed8;--hd1:#0b2545;--hd2:#134074;
---inflation:#1e40af;--labor:#0369a1;--growth:#0f766e;--rates:#1d4ed8;--markets:#475569;--mortgage:#0e7490;--earn:#64748b;--tint:6%}
+--inflation:#1e40af;--labor:#0369a1;--growth:#0f766e;--rates:#1d4ed8;--markets:#475569;--mortgage:#0e7490;--earn:#64748b;--ipo:#4338ca;--tint:6%}
 @media(prefers-color-scheme:dark){:root{--bg:#06111f;--card:#0d1f35;--tx:#eef4fb;--mu:#9fb3c8;--bd:#1c3350;--up:#34d399;--dn:#f87171;--pri:#3b82f6;--hd1:#061a33;--hd2:#0f3a68;
---inflation:#60a5fa;--labor:#38bdf8;--growth:#2dd4bf;--rates:#93c5fd;--markets:#94a3b8;--mortgage:#22d3ee;--earn:#8ea3bd;--tint:10%}}
+--inflation:#60a5fa;--labor:#38bdf8;--growth:#2dd4bf;--rates:#93c5fd;--markets:#94a3b8;--mortgage:#22d3ee;--earn:#8ea3bd;--ipo:#a5b4fc;--tint:10%}}
 *{box-sizing:border-box}body{margin:0;font:15px/1.4 -apple-system,system-ui,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--tx)}
 header{background:linear-gradient(120deg,var(--hd1),var(--hd2));color:#fff;padding:22px 16px 18px}
 header>div{max-width:1100px;margin:auto}h1{margin:0;font-size:30px;font-weight:800;letter-spacing:-.02em;text-shadow:0 2px 8px #0003}
@@ -46,11 +46,11 @@ h2:before{content:"";width:10px;height:10px;border-radius:3px;background:var(--s
 .ert{display:flex;align-items:baseline;gap:6px;min-width:0}.ert b{font-size:15px}.ern{font-size:12px;color:var(--mu);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
 .sb{display:inline-block;font-size:11px;font-weight:800;padding:1px 7px;border-radius:999px;color:#fff}.sb.bullish{background:var(--up)}.sb.neutral{background:var(--markets)}.sb.bearish{background:var(--dn)}
 @media(prefers-color-scheme:dark){.sb{color:#06111f}}
-.eg{font-size:12px;font-weight:700;color:var(--hd2);text-transform:uppercase;letter-spacing:.04em;margin:8px 0 4px;padding-bottom:3px;border-bottom:1px solid var(--line,#cbd5e1)}.eg:first-child{margin-top:0}nav{gap:6px}nav a{padding:9px 4px;font-size:13px}
+.eg{font-size:12px;font-weight:700;color:var(--hd2);text-transform:uppercase;letter-spacing:.04em;margin:8px 0 4px;padding-bottom:3px;border-bottom:1px solid var(--line,#cbd5e1)}.eg:first-child{margin-top:0}nav{gap:5px;overflow-x:auto;scrollbar-width:none}nav a{padding:8px 6px;font-size:12.5px;flex:1 0 auto;white-space:nowrap}
 footer{text-align:center;color:var(--mu);font-size:12px;padding:16px 12px 32px}footer a{color:inherit}
 </style></head><body>
 <header><div><h1 id="t"></h1><div id="upd">Loading…</div></div></header>
-<nav><a href="#macro" data-t="macro">Macro</a><a href="#earnings" data-t="earnings">Earnings</a><a href="#more" data-t="more">More data</a><a href="#calendar" data-t="calendar">Calendar</a></nav>
+<nav><a href="#macro" data-t="macro">Macro</a><a href="#earnings" data-t="earnings">Earnings</a><a href="#ipo" data-t="ipo">IPOs</a><a href="#more" data-t="more">More data</a><a href="#calendar" data-t="calendar">Calendar</a></nav>
 <main id="m"></main>
 <footer>Data: FRED, St. Louis Fed. Not investment advice.<br>"Exp." = nowcast/forecast for the next release, not a guarantee: inflation from <a href="https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting">Cleveland Fed Inflation Nowcasting</a>, GDP from <a href="https://www.atlantafed.org/cqer/research/gdpnow">Atlanta Fed GDPNow</a>, mortgage path from the <a href="https://www.fanniemae.com/data-and-insights/forecast">Fannie Mae ESR Housing Forecast</a> (quarterly averages).<br>Calendar: <a href="https://fred.stlouisfed.org/releases/calendar">FRED release calendar</a>, <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm">Federal Reserve</a>, <a href="https://www.nasdaq.com/market-activity/earnings">Nasdaq earnings calendar</a> (market cap ≥ $100B). Times ET.<br>Analyst ratings are consensus opinions, not advice. Source: Nasdaq.</footer>
 <script>
@@ -60,7 +60,7 @@ const SC={Inflation:'inflation',Labor:'labor',Growth:'growth',Rates:'rates',Mark
 const TABS={macro:['Inflation','Labor','Growth','Rates','Markets'],more:['Mortgage rates']};
 // macro calendar category colors
 const CAT={'CPI':'inflation','PPI':'inflation','PCE / income':'inflation','Jobs report':'labor','JOLTS':'labor','Jobless claims':'labor','GDP':'growth','Retail sales':'growth','UMich sentiment':'growth'};
-const catOf=e=>e.type=='earnings'?'earn':e.title.startsWith('FOMC')?'rates':(CAT[e.title]||'markets');
+const catOf=e=>e.type=='earnings'?'earn':e.type=='ipo'?'ipo':e.title.startsWith('FOMC')?'rates':(CAT[e.title]||'markets');
 const f=(x,d,u)=>{const s=Number(x).toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d});return u=='$'?'$'+s:u=='%'?s+'%':u?s+(u=='bp'?' bp':u):s};
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function spark(a){if(!a||a.length<2)return'';const w=120,h=38,mn=Math.min(...a),mx=Math.max(...a),r=mx-mn||1;
@@ -90,6 +90,28 @@ const G=[['BMO','☀️ Before market open (BMO)'],['AMC','🌙 After market clo
 for(const d of Object.keys(by).sort()){h+=`<div class="ud"><div class="udl">${lab(d)}</div><div>`;
 for(const[k,n]of G){const g=by[d].filter(e=>k?(e.time||'').includes(k):!/BMO|AMC/.test(e.time||''));if(g.length)h+=`<div class="eg">${n} · ${g.length}</div>`+g.map(row).join('')}h+='</div></div>'}
 return h+'<div class="note">Analyst ratings are consensus opinions, not advice. Source: Nasdaq (analyst consensus, price targets, quotes at last update).</div></section>'}
+function ipoTab(){const I=D.ipo;if(!I)return'<div class="note">IPO data unavailable.</div>';
+const t0=new Date();t0.setHours(0,0,0,0);const td=iso(t0),tm=iso(new Date(t0.getFullYear(),t0.getMonth(),t0.getDate()+1));
+const lab=d=>!d?'Date not set':d==td?'Today':d==tm?'Tomorrow':new Date(d+'T12:00').toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
+const pr=p=>p?(String(p).includes('-')?'$'+esc(p).replace('-','–$'):'$'+esc(p)):'';
+const lk=r=>`https://www.nasdaq.com/market-activity/ipos/overview?dealId=${encodeURIComponent(r.deal)}`;
+const up=I.upcoming.filter(u=>!u.date||u.date>=td);
+let h=I.stale?'<div class="note">Nasdaq IPO calendar unreachable at last update — showing the last fetched data.</div>':'';
+h+=`<section class="up7" style="--sc:var(--ipo)"><h2>Upcoming IPOs (${up.length})</h2>`;
+if(!up.length)h+='<div class="note">No IPOs currently scheduled on the Nasdaq IPO calendar.</div>';
+const by={};up.forEach(u=>(by[u.date]=by[u.date]||[]).push(u));
+for(const d of Object.keys(by).sort()){h+=`<div class="ud"><div class="udl">${lab(d)}</div><div>`+by[d].map(u=>`<a class="er" href="${lk(u)}" target="_blank" rel="noopener"><div class="ert"><b>${esc(u.ticker||'—')}</b><span class="ern">${esc(u.name)}</span><span class="ut">${esc(u.exchange)}</span></div>
+<div class="m" style="margin:2px 0 0">${u.price?'Price '+pr(u.price):'Price n/a'}${u.shares?' · '+esc(u.shares)+' shares':''}${u.size?' · Deal '+esc(u.size):''}</div></a>`).join('')+'</div></div>'}
+h+='</section>';
+h+=`<section class="up7" style="--sc:var(--ipo)"><h2>Recently priced · last 2 weeks (${I.priced.length})</h2>`;
+if(!I.priced.length)h+='<div class="note">None in the last 2 weeks.</div>';
+h+=I.priced.map(p=>{const ip=parseFloat(p.price),ch=ip&&p.last?((p.last/ip-1)*100):null;
+return`<a class="er" href="${lk(p)}" target="_blank" rel="noopener"><div class="ert"><b>${esc(p.ticker||'—')}</b><span class="ern">${esc(p.name)}</span><span class="ut">${lab(p.date)}</span></div>
+<div class="m" style="margin:2px 0 0">${p.price?'IPO $'+esc(p.price):'IPO price n/a'}${p.last!=null?' · Now $'+p.last.toFixed(2):''}${ch!=null?` <span class="sb ${ch>=0?'bullish':'bearish'}">${ch>=0?'+':''}${ch.toFixed(1)}%</span>`:''}${p.size?' · '+esc(p.size):''}</div></a>`}).join('');
+h+='</section>';
+if(I.filed&&I.filed.length){h+=`<section class="up7" style="--sc:var(--markets)"><details><summary><h2 style="display:inline">Filed, no date yet (${I.filed.length})</h2></summary><div class="m">`+
+I.filed.map(f=>`<a href="${lk(f)}" target="_blank" rel="noopener" style="color:inherit">${esc(f.ticker||'—')} · ${esc(f.name)} · filed ${esc(f.date)}${f.size?' · '+esc(f.size):''}</a>`).join('<br>')+'</div></details></section>'}
+return h+`<div class="note">Source: <a href="https://www.nasdaq.com/market-activity/ipos" target="_blank" rel="noopener">Nasdaq IPO calendar</a> (expected dates can change); quotes at last update (${esc(D.updated_et)}). Lead underwriters are not in the Nasdaq feed. Not advice.</div>`}
 function upcoming(){const ev=(D.calendar&&D.calendar.events||[]).filter(e=>e.type=='macro');const t0=new Date();t0.setHours(0,0,0,0);
 const end=n=>iso(new Date(t0.getFullYear(),t0.getMonth(),t0.getDate()+n));let n=7,list=ev.filter(e=>e.date>=iso(t0)&&e.date<end(n));
 if(list.length<3){n=14;list=ev.filter(e=>e.date>=iso(t0)&&e.date<end(n))}
@@ -107,8 +129,8 @@ function expFor(e){if(!e.keys||!e.keys.length)return'';const now=iso(new Date())
 const nxt=D.calendar.events.find(x=>x.title==e.title&&x.date>=now);if(!nxt||nxt.date!=e.date)return'';
 return e.keys.map(k=>D.indicators.find(i=>i.key==k)).filter(i=>i&&i.expected).map(i=>`${i.label.replace(' YoY','').replace(/ \(.*\)/,'').replace('Real GDP growth','GDP')} ${f(i.expected.value,i.decimals,i.unit)}`).join(', ')}
 function evRow(e){const c=catOf(e);const ex=expFor(e);
-const sub=e.type=='earnings'?esc(e.name)+(e.eps_est?` · EPS est. ${esc(e.eps_est)}`:''):(ex?'Exp. '+esc(ex):'');
-return`<a class="ev" style="--ec:var(--${c})" href="${esc(e.url)}" target="_blank" rel="noopener"><span class="chip" style="background:var(--${c})">${e.type=='earnings'?'Earnings':'Macro'}</span><div><b>${esc(e.title)}</b>${sub?`<div class="m" style="margin:0">${sub}</div>`:''}</div><span class="t">${esc(e.time)}</span></a>`}
+const sub=e.type=='ipo'?esc(e.name)+(e.price?` · $${esc(e.price)}`:'')+(e.size?` · ${esc(e.size)}`:''):e.type=='earnings'?esc(e.name)+(e.eps_est?` · EPS est. ${esc(e.eps_est)}`:''):(ex?'Exp. '+esc(ex):'');
+return`<a class="ev" style="--ec:var(--${c})" href="${esc(e.url)}" target="_blank" rel="noopener"><span class="chip" style="background:var(--${c})">${e.type=='earnings'?'Earnings':e.type=='ipo'?'IPO':'Macro'}</span><div><b>${esc(e.title)}</b>${sub?`<div class="m" style="margin:0">${sub}</div>`:''}</div><span class="t">${esc(e.time)}</span></a>`}
 function calendar(){const C=D.calendar||{events:[]};const today=new Date();if(!calM)calM=new Date(today.getFullYear(),today.getMonth(),1);
 if(!sel)sel=iso(today);const y=calM.getFullYear(),mo=calM.getMonth();const by={};C.events.forEach(e=>(by[e.date]=by[e.date]||[]).push(e));
 let h=`<div class="calh"><button onclick="mv(-1)" aria-label="Previous month">‹</button><b>${calM.toLocaleString('en-US',{month:'long',year:'numeric'})}</b><button onclick="mv(1)" aria-label="Next month">›</button></div>
@@ -116,8 +138,8 @@ let h=`<div class="calh"><button onclick="mv(-1)" aria-label="Previous month">�
 h+=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].map(d=>`<div class="dow">${d}</div>`).join('');
 const s=new Date(y,mo,1-new Date(y,mo,1).getDay());
 for(let k=0;k<42;k++){const d=new Date(s.getFullYear(),s.getMonth(),s.getDate()+k);if(k>=35&&d.getMonth()!=mo)break;const ds=iso(d),ev=by[ds]||[];
-const macro=ev.filter(e=>e.type=='macro'),earn=ev.filter(e=>e.type=='earnings');
-const chips=macro.map(e=>`<span class="chip" style="background:var(--${catOf(e)})">${esc(e.title=='Jobless claims'?'Claims':e.title)}</span>`).join('')+earn.slice(0,4).map(e=>`<span class="chip" style="background:var(--earn)">${esc(e.title)}${e.time?' '+e.time:''}</span>`).join('')+(earn.length>4?`<span class="chip" style="background:var(--earn)">+${earn.length-4}</span>`:'');
+const macro=ev.filter(e=>e.type=='macro'),earn=ev.filter(e=>e.type=='earnings'),ipo=ev.filter(e=>e.type=='ipo');
+const chips=ipo.map(e=>`<span class="chip" style="background:var(--ipo)">IPO ${esc(e.title)}</span>`).join('')+macro.map(e=>`<span class="chip" style="background:var(--${catOf(e)})">${esc(e.title=='Jobless claims'?'Claims':e.title)}</span>`).join('')+earn.slice(0,4).map(e=>`<span class="chip" style="background:var(--earn)">${esc(e.title)}${e.time?' '+e.time:''}</span>`).join('')+(earn.length>4?`<span class="chip" style="background:var(--earn)">+${earn.length-4}</span>`:'');
 h+=`<div class="day${d.getMonth()!=mo?' out':''}${ds==iso(today)?' today':''}${ds==sel?' sel':''}" onclick="pick('${ds}')"><div class="dn_">${d.getDate()}</div><div class="dots">${ev.slice(0,8).map(e=>`<span class="dot" style="background:var(--${catOf(e)})"></span>`).join('')}</div><div class="chips">${chips}</div></div>`}
 h+='</div>';const se=by[sel]||[];
 h+=`<div class="list"><h2 style="--sc:var(--labor)">${new Date(sel+'T12:00').toLocaleDateString('en-US',{weekday:'long',month:'short',day:'numeric'})}</h2>${se.length?se.map(evRow).join(''):'<div class="note">No scheduled events.</div>'}</div>`;
@@ -125,9 +147,9 @@ if(C.start)h+=`<div class="note">Covers ${esc(C.start)} to ${esc(C.end)}. Earnin
 return h}
 function mv(n){calM=new Date(calM.getFullYear(),calM.getMonth()+n,1);render()}
 function pick(d){sel=d;render()}
-function render(){if(!D)return;const t=['#more','#calendar','#earnings'].includes(location.hash)?location.hash.slice(1):'macro';
+function render(){if(!D)return;const t=['#more','#calendar','#earnings','#ipo'].includes(location.hash)?location.hash.slice(1):'macro';
 document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('on',a.dataset.t==t));
-document.getElementById('m').innerHTML=t=='calendar'?calendar():t=='earnings'?upEarn()||'<div class="note">No large-cap earnings in the next 2 weeks.</div>':(t=='macro'?upcoming():'')+cards(t)}
+document.getElementById('m').innerHTML=t=='calendar'?calendar():t=='ipo'?ipoTab():t=='earnings'?upEarn()||'<div class="note">No large-cap earnings in the next 2 weeks.</div>':(t=='macro'?upcoming():'')+cards(t)}
 window.addEventListener('hashchange',render);
 fetch('data.json?v='+Date.now()).then(r=>r.json()).then(j=>{D=j;document.getElementById('upd').textContent='Last updated '+D.updated_et;render()}).catch(()=>document.getElementById('upd').textContent='Data unavailable');
 </script></body></html>

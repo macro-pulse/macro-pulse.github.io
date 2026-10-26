@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Fetch US macro series from FRED public CSV endpoints into data.json."""
-import csv, io, json, sys, urllib.request
+import csv, io, json, sys, time, urllib.request
+T0 = time.time()
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
@@ -113,6 +114,7 @@ def main():
                 source=f"https://fred.stlouisfed.org/series/{sid}"))
         except Exception as e:
             failed.append(dict(key=key, series=sid, error=str(e))); print("FAIL", sid, e, file=sys.stderr)
+    print(f"indicators fetched ({time.time()-T0:.0f}s)")
     add_expectations(res)
     try:  # manual, sourced forecasts (e.g. Fannie Mae mortgage rate path)
         fc = json.load(open("forecasts.json"))
@@ -130,18 +132,34 @@ def main():
         failed.append(dict(key="target", series="DFEDTAR*", error=str(e)))
     try:
         import calendar_fetch
-        cal = calendar_fetch.build(datetime.now(et).date())
+        t1 = time.time(); cal = calendar_fetch.build(datetime.now(et).date()); print(f"calendar built ({time.time()-t1:.0f}s)")
         try:
             old = json.load(open("data.json")).get("calendar", {}).get("events", [])
             prev = {(e["date"], e["title"]): e["analyst"] for e in old if e.get("analyst")}
         except Exception:
             prev = {}
-        print("analyst ratings:", calendar_fetch.enrich_upcoming(cal, datetime.now(et).date(), prev=prev))
+        t1 = time.time()
+        print("analyst ratings:", calendar_fetch.enrich_upcoming(cal, datetime.now(et).date(), prev=prev), f"({time.time()-t1:.0f}s)")
     except Exception as e:
         cal = dict(events=[], notes=[f"calendar failed: {e}"]); print("WARN calendar", e, file=sys.stderr)
-    json.dump(dict(calendar=cal, updated_et=datetime.now(et).strftime("%Y-%m-%d %H:%M ET"), indicators=res, failed=failed),
+    t1 = time.time()
+    try:
+        ipo = calendar_fetch.ipos(datetime.now(et).date(), cal.setdefault("notes", []))
+    except Exception as e:
+        ipo = None; print("WARN ipo", e, file=sys.stderr)
+    if ipo is None:  # keep last data
+        try: ipo = json.load(open("data.json")).get("ipo"); ipo and ipo.update(stale=True)
+        except Exception: ipo = None
+    else:
+        for u in ipo["upcoming"]:
+            if u["date"] and cal.get("start", "") <= u["date"] <= cal.get("end", ""):
+                cal["events"].append(dict(date=u["date"], type="ipo", title=u["ticker"] or u["name"], name=u["name"], time="",
+                    price=u["price"], size=u["size"], url=f"https://www.nasdaq.com/market-activity/ipos/overview?dealId={u['deal']}"))
+        cal["events"].sort(key=lambda e: (e["date"], e["type"] != "macro"))
+    print(f"ipo: {ipo and len(ipo['upcoming'])} upcoming, {ipo and len(ipo['priced'])} priced ({time.time()-t1:.0f}s)")
+    json.dump(dict(calendar=cal, ipo=ipo, updated_et=datetime.now(et).strftime("%Y-%m-%d %H:%M ET"), indicators=res, failed=failed),
               open("data.json", "w"), indent=1)
-    print(f"ok {len(res)} indicators, {len(failed)} failed")
+    print(f"ok {len(res)} indicators, {len(failed)} failed, total {time.time()-T0:.0f}s")
     if not res: sys.exit(1)
 
 if __name__ == "__main__": main()

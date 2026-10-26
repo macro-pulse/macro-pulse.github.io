@@ -1,5 +1,6 @@
 """Build calendar events (macro releases, FOMC, big-cap earnings) for data.json."""
-import json, re, sys, urllib.request
+import json, re, sys, time, urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
@@ -63,24 +64,30 @@ def fomc(notes):
         notes.append("Federal Reserve FOMC calendar failed"); print("WARN fomc", e, file=sys.stderr)
     return ev
 
+def _earn_day(d):
+    rows = json.loads(http(f"https://api.nasdaq.com/api/calendar/earnings?date={d}", "application/json", 2, 10))["data"]["rows"] or []
+    out = []
+    for r in rows:
+        cap = int(re.sub(r"[^\d]", "", r.get("marketCap") or "") or 0)
+        if cap >= MIN_CAP:
+            tm = {"time-pre-market": "BMO", "time-after-hours": "AMC"}.get(r.get("time"), "")
+            eps = r.get("epsForecast") or ""
+            out.append(dict(date=d.isoformat(), type="earnings", title=r["symbol"], name=r.get("name", ""),
+                            time=tm, eps_est=eps if eps.strip() not in ("", "N/A") else "", cap=cap,
+                            url=f"https://www.nasdaq.com/market-activity/stocks/{r['symbol'].lower()}/earnings"))
+    return out
+
 def earnings(start, end, notes):
+    days = [start + timedelta(n) for n in range((end - start).days + 1)]
+    days = [d for d in days if d.weekday() < 5]
     ev, fails = [], 0
-    d = start
-    while d <= end:
-        if d.weekday() < 5:
-            try:
-                rows = json.loads(http(f"https://api.nasdaq.com/api/calendar/earnings?date={d}", "application/json", 1, 10))["data"]["rows"] or []
-                for r in rows:
-                    cap = int(re.sub(r"[^\d]", "", r.get("marketCap") or "") or 0)
-                    if cap >= MIN_CAP:
-                        tm = {"time-pre-market": "BMO", "time-after-hours": "AMC"}.get(r.get("time"), "")
-                        eps = r.get("epsForecast") or ""
-                        ev.append(dict(date=d.isoformat(), type="earnings", title=r["symbol"], name=r.get("name", ""),
-                                       time=tm, eps_est=eps if eps.strip() not in ("", "N/A") else "", cap=cap,
-                                       url=f"https://www.nasdaq.com/market-activity/stocks/{r['symbol'].lower()}/earnings"))
-            except Exception as e:
-                fails += 1; print("WARN earnings", d, e, file=sys.stderr)
-        d += timedelta(days=1)
+    def safe(d):
+        try: return _earn_day(d)
+        except Exception as e: print("WARN earnings", d, e, file=sys.stderr); return None
+    with ThreadPoolExecutor(6) as ex:
+        for r in ex.map(safe, days):
+            if r is None: fails += 1
+            else: ev += r
     if fails: notes.append(f"Nasdaq earnings calendar failed for {fails} day(s)")
     seen, out = set(), []
     for e in sorted(ev, key=lambda e: (e["date"], -e["cap"])):
@@ -129,14 +136,71 @@ def analyst(sym):
     return out
 
 def enrich_upcoming(cal, today, days=14, prev=None):
-    """prev: {(date,title): analyst} from last data.json, used if Nasdaq is unreachable."""
+    """Analyst data for the next `days`. prev: {(date,title): analyst} from last data.json.
+    Ratings fetched earlier the same ET day are reused (refresh once a day); if Nasdaq fails, last data is kept."""
     end = (today + timedelta(days=days)).isoformat()
-    n = fails = 0
     prev = prev or {}
-    for e in cal.get("events", []):
-        if e["type"] == "earnings" and today.isoformat() <= e["date"] < end:
-            a = analyst(e["title"]) if fails < 3 else {}
-            fails = 0 if a else fails + 1
-            if not a: a = prev.get((e["date"], e["title"]), {})
-            if a: e["analyst"] = a; n += 1
+    todo = [e for e in cal.get("events", []) if e["type"] == "earnings" and today.isoformat() <= e["date"] < end]
+    need = [e for e in todo if prev.get((e["date"], e["title"]), {}).get("fetched") != today.isoformat()]
+    def one(e):
+        a = analyst(e["title"])
+        if a: a["fetched"] = today.isoformat()
+        return a
+    with ThreadPoolExecutor(6) as ex:
+        got = dict(zip([id(e) for e in need], ex.map(one, need)))
+    n = 0
+    for e in todo:
+        a = got.get(id(e)) or prev.get((e["date"], e["title"]), {})
+        if a: e["analyst"] = a; n += 1
+    print(f"analyst: {len(need)} fetched, {len(todo) - len(need)} cached today")
     return n
+
+def ipos(today, notes):
+    """Nasdaq IPO calendar for current + next month: upcoming, priced, filed."""
+    up, pr, fi, ok = [], [], [], 0
+    m1 = today.replace(day=1); m2 = (m1 + timedelta(days=32)).replace(day=1)
+    pm = (m1 - timedelta(days=1)).replace(day=1)  # previous month too, for 'recently priced'
+    def md(s):
+        try: return datetime.strptime(s, "%m/%d/%Y").date().isoformat()
+        except Exception: return ""
+    seen = set()
+    for m in (pm, m1, m2):
+        try:
+            d = json.loads(http(f"https://api.nasdaq.com/api/ipo/calendar?date={m:%Y-%m}", "application/json", 2, 15))["data"]; ok += 1
+        except Exception as e:
+            print("WARN ipo", m, e, file=sys.stderr); continue
+        def rows(k):
+            v = d.get(k) or {}
+            return v.get("rows") or (v.get("upcomingTable") or {}).get("rows") or []
+        for r in rows("upcoming"):
+            if ("u", r["dealID"]) in seen: continue
+            seen.add(("u", r["dealID"]))
+            up.append(dict(date=md(r.get("expectedPriceDate") or ""), ticker=r.get("proposedTickerSymbol") or "", name=r.get("companyName") or "",
+                           exchange=r.get("proposedExchange") or "", price=r.get("proposedSharePrice") or "",
+                           shares=r.get("sharesOffered") or "", size=r.get("dollarValueOfSharesOffered") or "", deal=r["dealID"]))
+        for r in rows("priced"):
+            if ("p", r["dealID"]) in seen: continue
+            seen.add(("p", r["dealID"]))
+            pr.append(dict(date=md(r.get("pricedDate") or ""), ticker=r.get("proposedTickerSymbol") or "", name=r.get("companyName") or "",
+                           exchange=r.get("proposedExchange") or "", price=r.get("proposedSharePrice") or "",
+                           shares=r.get("sharesOffered") or "", size=r.get("dollarValueOfSharesOffered") or "", deal=r["dealID"]))
+        if m == m1 or m == pm:
+            for r in rows("filed"):
+                if ("f", r["dealID"]) in seen: continue
+                seen.add(("f", r["dealID"]))
+                fi.append(dict(date=md(r.get("filedDate") or ""), ticker=r.get("proposedTickerSymbol") or "", name=r.get("companyName") or "",
+                               size=r.get("dollarValueOfSharesOffered") or "", deal=r["dealID"]))
+    if not ok: return None
+    cut = (today - timedelta(days=14)).isoformat()
+    pr = [p for p in pr if p["date"] >= cut]
+    def quote(p):
+        if not p["ticker"]: return
+        try:
+            q = json.loads(http(f"https://api.nasdaq.com/api/quote/{p['ticker']}/info?assetclass=stocks", "application/json", 1, 10))["data"]["primaryData"]
+            p["last"] = float(q["lastSalePrice"].replace("$", "").replace(",", "")); p["last_time"] = q.get("lastTradeTimestamp", "")
+        except Exception as e: print("WARN ipo quote", p["ticker"], e, file=sys.stderr)
+    with ThreadPoolExecutor(6) as ex: list(ex.map(quote, pr))
+    up.sort(key=lambda r: (r["date"] or "9", r["name"])); pr.sort(key=lambda r: r["date"], reverse=True)
+    fi.sort(key=lambda r: r["date"], reverse=True)
+    return dict(upcoming=up, priced=pr, filed=fi, as_of=datetime.now().strftime("%Y-%m-%d"),
+                source="https://www.nasdaq.com/market-activity/ipos")
