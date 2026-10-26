@@ -99,3 +99,40 @@ def build(today):
     return dict(start=start.isoformat(), end=end.isoformat(), events=ev, notes=notes,
                 sources=["FRED release calendar (BLS, BEA, Census, DOL, UMich release dates)",
                          "Federal Reserve FOMC calendar", "Nasdaq earnings calendar (market cap >= $100B)"])
+
+MAP = {"strong buy": "Bullish", "buy": "Bullish", "outperform": "Bullish", "overweight": "Bullish",
+       "hold": "Neutral", "neutral": "Neutral", "sell": "Bearish", "strong sell": "Bearish",
+       "underperform": "Bearish", "underweight": "Bearish"}
+
+def analyst(sym):
+    """Nasdaq consensus analyst rating, counts, price target and last price; {} if unavailable."""
+    out = {}
+    s = sym.upper().replace(".", "-")
+    try:
+        d = json.loads(http(f"https://api.nasdaq.com/api/analyst/{s}/ratings", "application/json"))["data"] or {}
+        m = (d.get("meanRatingType") or "").strip()
+        if m.lower() in MAP: out.update(rating=m, sentiment=MAP[m.lower()])
+    except Exception as e:
+        print("WARN rating", sym, e, file=sys.stderr)
+    try:
+        c = (json.loads(http(f"https://api.nasdaq.com/api/analyst/{s}/targetprice", "application/json"))["data"] or {}).get("consensusOverview") or {}
+        if c.get("buy") is not None: out.update(buy=c.get("buy"), hold=c.get("hold"), sell=c.get("sell"))
+        if c.get("priceTarget"): out["target"] = c["priceTarget"]
+    except Exception as e:
+        print("WARN target", sym, e, file=sys.stderr)
+    try:
+        p = json.loads(http(f"https://api.nasdaq.com/api/quote/{s}/info?assetclass=stocks", "application/json"))["data"]["primaryData"]
+        out["price"] = float(p["lastSalePrice"].replace("$", "").replace(",", ""))
+        out["price_time"] = p.get("lastTradeTimestamp", "")
+    except Exception as e:
+        print("WARN quote", sym, e, file=sys.stderr)
+    return out
+
+def enrich_upcoming(cal, today, days=14):
+    end = (today + timedelta(days=days)).isoformat()
+    n = 0
+    for e in cal.get("events", []):
+        if e["type"] == "earnings" and today.isoformat() <= e["date"] < end:
+            a = analyst(e["title"])
+            if a: e["analyst"] = a; n += 1
+    return n

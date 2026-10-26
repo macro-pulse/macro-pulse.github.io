@@ -42,12 +42,17 @@ h2:before{content:"";width:10px;height:10px;border-radius:3px;background:var(--s
 .udl{width:64px;flex:none;font-weight:800;font-size:13px;padding-top:2px}.ud>div:last-child{flex:1;min-width:0}
 .ur{display:flex;align-items:center;gap:6px;color:inherit;text-decoration:none;padding:2px 0}.ur .chip{font-size:12px;padding:2px 8px}
 .ux{font-size:12px;font-weight:700;color:var(--mu);min-width:0}.ut{margin-left:auto;font-size:12px;color:var(--mu);white-space:nowrap}
+.er{display:block;color:inherit;text-decoration:none;padding:5px 0;border-top:1px dashed var(--bd)}.ud>div:last-child>.er:first-child{border-top:0;padding-top:2px}
+.ert{display:flex;align-items:baseline;gap:6px;min-width:0}.ert b{font-size:15px}.ern{font-size:12px;color:var(--mu);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.sb{display:inline-block;font-size:11px;font-weight:800;padding:1px 7px;border-radius:999px;color:#fff}.sb.bullish{background:var(--up)}.sb.neutral{background:var(--markets)}.sb.bearish{background:var(--dn)}
+@media(prefers-color-scheme:dark){.sb{color:#06111f}}
+.up7+.up7{margin-top:12px}
 footer{text-align:center;color:var(--mu);font-size:12px;padding:16px 12px 32px}footer a{color:inherit}
 </style></head><body>
 <header><div><h1 id="t"></h1><div id="upd">Loading…</div></div></header>
 <nav><a href="#macro" data-t="macro">Macro</a><a href="#more" data-t="more">More data</a><a href="#calendar" data-t="calendar">Calendar</a></nav>
 <main id="m"></main>
-<footer>Data: FRED, St. Louis Fed. Not investment advice.<br>"Exp." = nowcast/forecast for the next release, not a guarantee: inflation from <a href="https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting">Cleveland Fed Inflation Nowcasting</a>, GDP from <a href="https://www.atlantafed.org/cqer/research/gdpnow">Atlanta Fed GDPNow</a>, mortgage path from the <a href="https://www.fanniemae.com/data-and-insights/forecast">Fannie Mae ESR Housing Forecast</a> (quarterly averages).<br>Calendar: <a href="https://fred.stlouisfed.org/releases/calendar">FRED release calendar</a>, <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm">Federal Reserve</a>, <a href="https://www.nasdaq.com/market-activity/earnings">Nasdaq earnings calendar</a> (market cap ≥ $100B). Times ET.</footer>
+<footer>Data: FRED, St. Louis Fed. Not investment advice.<br>"Exp." = nowcast/forecast for the next release, not a guarantee: inflation from <a href="https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting">Cleveland Fed Inflation Nowcasting</a>, GDP from <a href="https://www.atlantafed.org/cqer/research/gdpnow">Atlanta Fed GDPNow</a>, mortgage path from the <a href="https://www.fanniemae.com/data-and-insights/forecast">Fannie Mae ESR Housing Forecast</a> (quarterly averages).<br>Calendar: <a href="https://fred.stlouisfed.org/releases/calendar">FRED release calendar</a>, <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm">Federal Reserve</a>, <a href="https://www.nasdaq.com/market-activity/earnings">Nasdaq earnings calendar</a> (market cap ≥ $100B). Times ET.<br>Analyst ratings are consensus opinions, not advice. Source: Nasdaq.</footer>
 <script>
 const SITE_TITLE="Macro Pulse";
 document.getElementById('t').textContent=SITE_TITLE;document.title=SITE_TITLE;
@@ -71,6 +76,17 @@ body=`<div class="row"><div><div class="v">${f(i.latest,i.decimals,i.unit)}${ex}
 let src=`FRED: ${esc(i.series)} ↗`;if(i.expected)src+=' · Exp.: '+esc(i.expected.source);if(i.forecast)src+=' · Exp.: '+esc(i.forecast.source)+', published '+esc(i.forecast.published);
 return`<a class="c" href="${esc(i.source)}" target="_blank" rel="noopener"><div class="l">${esc(i.label)}</div>${body}<div class="m">${src}</div></a>`}
 let D,calM,sel;
+function upEarn(){const t0=new Date();t0.setHours(0,0,0,0);const e14=iso(new Date(t0.getFullYear(),t0.getMonth(),t0.getDate()+14));
+const L=(D.calendar&&D.calendar.events||[]).filter(e=>e.type=='earnings'&&e.date>=iso(t0)&&e.date<e14);if(!L.length)return'';
+const by={};L.forEach(e=>(by[e.date]=by[e.date]||[]).push(e));
+const lab=d=>d==iso(t0)?'Today':d==iso(new Date(t0.getFullYear(),t0.getMonth(),t0.getDate()+1))?'Tomorrow':new Date(d+'T12:00').toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
+let h=`<section class="up7" style="--sc:var(--earn)"><h2>Upcoming earnings · next 2 weeks (${L.length})</h2>`;
+for(const d of Object.keys(by).sort()){h+=`<div class="ud"><div class="udl">${lab(d)}</div><div>`+by[d].map(e=>{const a=e.analyst||{};
+const cnt=a.buy!=null?` · ${a.buy} Buy / ${a.hold} Hold / ${a.sell} Sell`:'';
+const pt=a.target&&a.price?` · PT $${a.target.toFixed(0)} vs $${a.price.toFixed(2)} (${((a.target/a.price-1)*100).toFixed(0)>0?'+':''}${((a.target/a.price-1)*100).toFixed(0)}%)`:'';
+return`<a class="er" href="${esc(e.url)}" target="_blank" rel="noopener"><div class="ert"><b>${esc(e.title)}</b><span class="ern">${esc(e.name)}</span><span class="ut">${esc(e.time)}</span></div>
+<div class="m" style="margin:2px 0 0">${e.eps_est?'EPS est. '+esc(e.eps_est):'EPS est. n/a'}${a.sentiment?` <span class="sb ${a.sentiment.toLowerCase()}">${esc(a.sentiment)}</span>`:''}${esc(cnt)}${esc(pt)}</div></a>`}).join('')+'</div></div>'}
+return h+'<div class="note">Analyst ratings are consensus opinions, not advice. Source: Nasdaq (analyst consensus, price targets, quotes at last update).</div></section>'}
 function upcoming(){const ev=(D.calendar&&D.calendar.events||[]).filter(e=>e.type=='macro');const t0=new Date();t0.setHours(0,0,0,0);
 const end=n=>iso(new Date(t0.getFullYear(),t0.getMonth(),t0.getDate()+n));let n=7,list=ev.filter(e=>e.date>=iso(t0)&&e.date<end(n));
 if(list.length<3){n=14;list=ev.filter(e=>e.date>=iso(t0)&&e.date<end(n))}
@@ -108,7 +124,7 @@ function mv(n){calM=new Date(calM.getFullYear(),calM.getMonth()+n,1);render()}
 function pick(d){sel=d;render()}
 function render(){if(!D)return;const t=['#more','#calendar'].includes(location.hash)?location.hash.slice(1):'macro';
 document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('on',a.dataset.t==t));
-document.getElementById('m').innerHTML=t=='calendar'?calendar():(t=='macro'?upcoming():'')+cards(t)}
+document.getElementById('m').innerHTML=t=='calendar'?calendar():(t=='macro'?upcoming()+upEarn():'')+cards(t)}
 window.addEventListener('hashchange',render);
 fetch('data.json?v='+Date.now()).then(r=>r.json()).then(j=>{D=j;document.getElementById('upd').textContent='Last updated '+D.updated_et;render()}).catch(()=>document.getElementById('upd').textContent='Data unavailable');
 </script></body></html>

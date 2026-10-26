@@ -131,6 +131,7 @@ def main():
     try:
         import calendar_fetch
         cal = calendar_fetch.build(datetime.now(et).date())
+        print("analyst ratings:", calendar_fetch.enrich_upcoming(cal, datetime.now(et).date()))
     except Exception as e:
         cal = dict(events=[], notes=[f"calendar failed: {e}"]); print("WARN calendar", e, file=sys.stderr)
     json.dump(dict(calendar=cal, updated_et=datetime.now(et).strftime("%Y-%m-%d %H:%M ET"), indicators=res, failed=failed),

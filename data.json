@@ -18,7 +18,7 @@
     "name": "Accenture plc",
     "time": "",
     "eps_est": "$3.19",
-    "cap": 173025346000,
+    "cap": 166759416000,
     "url": "https://www.nasdaq.com/market-activity/stocks/acn/earnings"
    },
    {
@@ -62,7 +62,7 @@
     "name": "J P Morgan Chase & Co",
     "time": "",
     "eps_est": "$5.94",
-    "cap": 894586000000,
+    "cap": 881401400000,
     "url": "https://www.nasdaq.com/market-activity/stocks/jpm/earnings"
    },
    {
@@ -72,7 +72,7 @@
     "name": "Johnson & Johnson",
     "time": "",
     "eps_est": "$2.53",
-    "cap": 644220320000,
+    "cap": 635072540000,
     "url": "https://www.nasdaq.com/market-activity/stocks/jnj/earnings"
    },
    {
@@ -82,7 +82,7 @@
     "name": "UnitedHealth Group Incorporated",
     "time": "",
     "eps_est": "$4.12",
-    "cap": 381459857000,
+    "cap": 375275422000,
     "url": "https://www.nasdaq.com/market-activity/stocks/unh/earnings"
    },
    {
@@ -92,7 +92,7 @@
     "name": "The Goldman Sachs Group, Inc.",
     "time": "",
     "eps_est": "$12.90",
-    "cap": 259521069000,
+    "cap": 254972985000,
     "url": "https://www.nasdaq.com/market-activity/stocks/gs/earnings"
    },
    {
@@ -102,7 +102,7 @@
     "name": "Wells Fargo & Company",
     "time": "",
     "eps_est": "$1.85",
-    "cap": 251022180000,
+    "cap": 249147310000,
     "url": "https://www.nasdaq.com/market-activity/stocks/wfc/earnings"
    },
    {
@@ -112,7 +112,7 @@
     "name": "Citigroup Inc.",
     "time": "",
     "eps_est": "$2.66",
-    "cap": 205502775000,
+    "cap": 202332422000,
     "url": "https://www.nasdaq.com/market-activity/stocks/c/earnings"
    },
    {
@@ -327,7 +327,7 @@
     "name": "Philip Morris International Inc",
     "time": "",
     "eps_est": "$2.30",
-    "cap": 310896624000,
+    "cap": 314434683000,
     "url": "https://www.nasdaq.com/market-activity/stocks/pm/earnings"
    },
    {
@@ -337,7 +337,7 @@
     "name": "SAP SE",
     "time": "",
     "eps_est": "$2.03",
-    "cap": 292556014000,
+    "cap": 295565820000,
     "url": "https://www.nasdaq.com/market-activity/stocks/sap/earnings"
    },
    {
@@ -367,7 +367,7 @@
     "name": "Thermo Fisher Scientific Inc",
     "time": "",
     "eps_est": "$6.40",
-    "cap": 249143116000,
+    "cap": 250148831000,
     "url": "https://www.nasdaq.com/market-activity/stocks/tmo/earnings"
    },
    {
@@ -377,7 +377,7 @@
     "name": "International Business Machines Corporation",
     "time": "",
     "eps_est": "$2.88",
-    "cap": 239644836000,
+    "cap": 237521502000,
     "url": "https://www.nasdaq.com/market-activity/stocks/ibm/earnings"
    },
    {
@@ -387,7 +387,7 @@
     "name": "Abbott Laboratories",
     "time": "",
     "eps_est": "$1.43",
-    "cap": 179440746000,
+    "cap": 177381589000,
     "url": "https://www.nasdaq.com/market-activity/stocks/abt/earnings"
    },
    {
@@ -397,7 +397,7 @@
     "name": "NextEra Energy, Inc.",
     "time": "",
     "eps_est": "$1.20",
-    "cap": 172188828000,
+    "cap": 171769364000,
     "url": "https://www.nasdaq.com/market-activity/stocks/nee/earnings"
    },
    {
@@ -407,7 +407,7 @@
     "name": "Danaher Corporation",
     "time": "",
     "eps_est": "$1.92",
-    "cap": 162163851000,
+    "cap": 161636205000,
     "url": "https://www.nasdaq.com/market-activity/stocks/dhr/earnings"
    },
    {
@@ -417,7 +417,7 @@
     "name": "Southern Copper Corporation",
     "time": "",
     "eps_est": "$2.04",
-    "cap": 156203942000,
+    "cap": 155005043000,
     "url": "https://www.nasdaq.com/market-activity/stocks/scco/earnings"
    },
    {
@@ -427,7 +427,7 @@
     "name": "AT&T Inc.",
     "time": "",
     "eps_est": "$0.61",
-    "cap": 140994396000,
+    "cap": 153187402000,
     "url": "https://www.nasdaq.com/market-activity/stocks/t/earnings"
    },
    {
@@ -544,7 +544,17 @@
     "time": "BMO",
     "eps_est": "$1.27",
     "cap": 187795833000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/vz/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/vz/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 6,
+     "hold": 8,
+     "sell": 0,
+     "target": 50.0,
+     "price": 44.38,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-10-26",
@@ -554,7 +564,17 @@
     "time": "AMC",
     "eps_est": "$1.64",
     "cap": 171104846000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/well/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/well/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 14,
+     "hold": 1,
+     "sell": 0,
+     "target": 244.08,
+     "price": 237.0,
+     "price_time": "Oct 26, 2026 9:09 AM ET"
+    }
    },
    {
     "date": "2026-10-27",
@@ -564,7 +584,17 @@
     "time": "AMC",
     "eps_est": "$3.43",
     "cap": 740324150000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/v/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/v/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 26,
+     "hold": 2,
+     "sell": 0,
+     "target": 430.77,
+     "price": 407.7675,
+     "price_time": "Oct 26, 2026 9:10 AM ET"
+    }
    },
    {
     "date": "2026-10-27",
@@ -574,7 +604,17 @@
     "time": "BMO",
     "eps_est": "$0.87",
     "cap": 410205061000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/ko/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/ko/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 15,
+     "hold": 2,
+     "sell": 0,
+     "target": 97.81,
+     "price": 92.32,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-10-27",
@@ -584,7 +624,13 @@
     "time": "",
     "eps_est": "$2.13",
     "cap": 321593049000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/hsbc/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/hsbc/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "price": 91.78,
+     "price_time": "Oct 26, 2026 9:10 AM ET"
+    }
    },
    {
     "date": "2026-10-27",
@@ -594,7 +640,17 @@
     "time": "BMO",
     "eps_est": "$2.25",
     "cap": 298186867000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/nvs/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/nvs/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 2,
+     "hold": 3,
+     "sell": 0,
+     "target": 160.8,
+     "price": 153.86,
+     "price_time": "Oct 26, 2026 9:10 AM ET"
+    }
    },
    {
     "date": "2026-10-27",
@@ -604,7 +660,17 @@
     "time": "BMO",
     "eps_est": "($0.21)",
     "cap": 148233896000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/ba/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/ba/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 17,
+     "hold": 1,
+     "sell": 0,
+     "target": 266.94,
+     "price": 188.7,
+     "price_time": "Oct 26, 2026 9:10 AM ET"
+    }
    },
    {
     "date": "2026-10-27",
@@ -614,7 +680,17 @@
     "time": "AMC",
     "eps_est": "$7.17",
     "cap": 146869338000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/stx/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/stx/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 13,
+     "hold": 2,
+     "sell": 0,
+     "target": 1057.33,
+     "price": 640.7949,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-10-27",
@@ -624,7 +700,17 @@
     "time": "BMO",
     "eps_est": "$4.43",
     "cap": 133573878000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/spgi/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/spgi/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 17,
+     "hold": 0,
+     "sell": 0,
+     "target": 519.88,
+     "price": 448.35,
+     "price_time": "Oct 26, 2026 9:07 AM ET"
+    }
    },
    {
     "date": "2026-10-27",
@@ -634,7 +720,17 @@
     "time": "BMO",
     "eps_est": "$0.89",
     "cap": 106803536000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/glw/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/glw/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 7,
+     "hold": 4,
+     "sell": 0,
+     "target": 182.0,
+     "price": 124.39,
+     "price_time": "Oct 26, 2026 9:10 AM ET"
+    }
    },
    {
     "date": "2026-10-27",
@@ -644,7 +740,17 @@
     "time": "BMO",
     "eps_est": "$6.74",
     "cap": 101173314000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/hca/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/hca/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 13,
+     "hold": 7,
+     "sell": 1,
+     "target": 455.16,
+     "price": 468.8,
+     "price_time": "Oct 26, 2026 9:03 AM ET"
+    }
    },
    {
     "date": "2026-10-28",
@@ -662,7 +768,17 @@
     "time": "AMC",
     "eps_est": "$2.94",
     "cap": 3916168430000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/goog/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/goog/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 5,
+     "hold": 1,
+     "sell": 0,
+     "target": 428.0,
+     "price": 319.05,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-10-28",
@@ -672,7 +788,17 @@
     "time": "AMC",
     "eps_est": "$4.71",
     "cap": 3895235180000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/msft/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/msft/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 33,
+     "hold": 1,
+     "sell": 0,
+     "target": 610.2,
+     "price": 527.83,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-10-28",
@@ -681,18 +807,18 @@
     "name": "GE Vernova Inc.",
     "time": "BMO",
     "eps_est": "$4.03",
-    "cap": 220369732000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/gev/earnings"
-   },
-   {
-    "date": "2026-10-28",
-    "type": "earnings",
-    "title": "SAN",
-    "name": "Banco Santander, S.A.",
-    "time": "BMO",
-    "eps_est": "$0.26",
-    "cap": 195044770000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/san/earnings"
+    "cap": 217061868000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/gev/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 14,
+     "hold": 1,
+     "sell": 1,
+     "target": 1213.71,
+     "price": 828.15,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-10-28",
@@ -702,7 +828,33 @@
     "time": "AMC",
     "eps_est": "$1.18",
     "cap": 190021992000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/klac/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/klac/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 14,
+     "hold": 6,
+     "sell": 0,
+     "target": 240.0,
+     "price": 148.0,
+     "price_time": "Oct 26, 2026 9:10 AM ET"
+    }
+   },
+   {
+    "date": "2026-10-28",
+    "type": "earnings",
+    "title": "SAN",
+    "name": "Banco Santander, S.A.",
+    "time": "BMO",
+    "eps_est": "$0.26",
+    "cap": 185979306000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/san/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "price": 12.38,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-10-28",
@@ -711,8 +863,18 @@
     "name": "Amphenol Corporation",
     "time": "BMO",
     "eps_est": "$0.73",
-    "cap": 180188201000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/aph/earnings"
+    "cap": 182703489000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/aph/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 11,
+     "hold": 1,
+     "sell": 0,
+     "target": 104.18,
+     "price": 75.5094,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-10-28",
@@ -721,8 +883,18 @@
     "name": "ServiceNow, Inc.",
     "time": "AMC",
     "eps_est": "$0.56",
-    "cap": 162337997000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/now/earnings"
+    "cap": 164364632000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/now/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 24,
+     "hold": 1,
+     "sell": 0,
+     "target": 171.5,
+     "price": 158.64,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-10-28",
@@ -732,7 +904,17 @@
     "time": "AMC",
     "eps_est": "$2.86",
     "cap": 157189292000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/tmus/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/tmus/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 8,
+     "hold": 2,
+     "sell": 0,
+     "target": 210.29,
+     "price": 145.5,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-10-28",
@@ -741,8 +923,18 @@
     "name": "UBS AG",
     "time": "BMO",
     "eps_est": "$0.91",
-    "cap": 145458004000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/ubs/earnings"
+    "cap": 143906292000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/ubs/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 5,
+     "hold": 1,
+     "sell": 1,
+     "target": 59.32,
+     "price": 46.72,
+     "price_time": "Oct 26, 2026 9:08 AM ET"
+    }
    },
    {
     "date": "2026-10-28",
@@ -751,8 +943,14 @@
     "name": "Banco Bilbao Vizcaya Argentaria S.A.",
     "time": "AMC",
     "eps_est": "$0.60",
-    "cap": 141889159000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/bbva/earnings"
+    "cap": 141038846000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/bbva/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "price": 25.4,
+     "price_time": "Oct 26, 2026 9:04 AM ET"
+    }
    },
    {
     "date": "2026-10-28",
@@ -762,7 +960,17 @@
     "time": "AMC",
     "eps_est": "$0.77",
     "cap": 132061118000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/ftnt/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/ftnt/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 7,
+     "hold": 21,
+     "sell": 4,
+     "target": 176.0,
+     "price": 182.28,
+     "price_time": "Oct 26, 2026 9:10 AM ET"
+    }
    },
    {
     "date": "2026-10-28",
@@ -772,7 +980,17 @@
     "time": "BMO",
     "eps_est": "$2.78",
     "cap": 120523874000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/adp/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/adp/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 3,
+     "hold": 10,
+     "sell": 2,
+     "target": 291.07,
+     "price": 302.66,
+     "price_time": "Oct 26, 2026 9:08 AM ET"
+    }
    },
    {
     "date": "2026-10-28",
@@ -781,8 +999,18 @@
     "name": "Phillips 66",
     "time": "BMO",
     "eps_est": "$11.97",
-    "cap": 113573323000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/psx/earnings"
+    "cap": 112994746000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/psx/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 8,
+     "hold": 7,
+     "sell": 0,
+     "target": 291.69,
+     "price": 279.57,
+     "price_time": "Oct 26, 2026 9:09 AM ET"
+    }
    },
    {
     "date": "2026-10-28",
@@ -791,8 +1019,18 @@
     "name": "GSK plc",
     "time": "BMO",
     "eps_est": "$1.40",
-    "cap": 101219934000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/gsk/earnings"
+    "cap": 102441058000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/gsk/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 0,
+     "hold": 1,
+     "sell": 0,
+     "target": 65.0,
+     "price": 50.8317,
+     "price_time": "Oct 26, 2026 9:08 AM ET"
+    }
    },
    {
     "date": "2026-10-29",
@@ -829,8 +1067,18 @@
     "name": "Amazon.com, Inc.",
     "time": "AMC",
     "eps_est": "$2.01",
-    "cap": 2700677220000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/amzn/earnings"
+    "cap": 2675005720000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/amzn/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 41,
+     "hold": 2,
+     "sell": 0,
+     "target": 331.54,
+     "price": 250.56,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-10-29",
@@ -839,8 +1087,18 @@
     "name": "Eli Lilly and Company",
     "time": "BMO",
     "eps_est": "$5.38",
-    "cap": 1230061830000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/lly/earnings"
+    "cap": 1198780580000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/lly/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 20,
+     "hold": 1,
+     "sell": 1,
+     "target": 1388.25,
+     "price": 1277.9389,
+     "price_time": "Oct 26, 2026 9:10 AM ET"
+    }
    },
    {
     "date": "2026-10-29",
@@ -849,8 +1107,18 @@
     "name": "Mastercard Incorporated",
     "time": "BMO",
     "eps_est": "$5.14",
-    "cap": 554698280000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/ma/earnings"
+    "cap": 546279784000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/ma/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 22,
+     "hold": 2,
+     "sell": 0,
+     "target": 671.13,
+     "price": 622.22,
+     "price_time": "Oct 26, 2026 9:06 AM ET"
+    }
    },
    {
     "date": "2026-10-29",
@@ -859,8 +1127,18 @@
     "name": "Intel Corporation",
     "time": "AMC",
     "eps_est": "$0.28",
-    "cap": 451820585000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/intc/earnings"
+    "cap": 459589648000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/intc/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 4,
+     "hold": 12,
+     "sell": 0,
+     "target": 114.29,
+     "price": 88.39,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-10-29",
@@ -869,8 +1147,18 @@
     "name": "Merck & Company, Inc.",
     "time": "BMO",
     "eps_est": "$2.12",
-    "cap": 363266343000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/mrk/earnings"
+    "cap": 358406029000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/mrk/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 15,
+     "hold": 6,
+     "sell": 0,
+     "target": 161.19,
+     "price": 145.3,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-10-29",
@@ -879,8 +1167,18 @@
     "name": "Caterpillar, Inc.",
     "time": "BMO",
     "eps_est": "$7.12",
-    "cap": 323634102000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/cat/earnings"
+    "cap": 315796652000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/cat/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 7,
+     "hold": 8,
+     "sell": 0,
+     "target": 948.21,
+     "price": 693.0,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-10-29",
@@ -889,8 +1187,18 @@
     "name": "Shell PLC",
     "time": "BMO",
     "eps_est": "$3.54",
-    "cap": 289658175000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/shel/earnings"
+    "cap": 298299982000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/shel/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 3,
+     "hold": 3,
+     "sell": 0,
+     "target": 104.86,
+     "price": 106.341,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-10-29",
@@ -899,8 +1207,18 @@
     "name": "Linde plc",
     "time": "BMO",
     "eps_est": "$4.52",
-    "cap": 235265835000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/lin/earnings"
+    "cap": 234560537000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/lin/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 14,
+     "hold": 1,
+     "sell": 0,
+     "target": 558.07,
+     "price": 508.48,
+     "price_time": "Oct 26, 2026 9:00 AM ET"
+    }
    },
    {
     "date": "2026-10-29",
@@ -909,8 +1227,18 @@
     "name": "TotalEnergies SE",
     "time": "BMO",
     "eps_est": "$4.11",
-    "cap": 195478110000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/tte/earnings"
+    "cap": 212610105000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/tte/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 9,
+     "hold": 5,
+     "sell": 0,
+     "target": 99.06746288,
+     "price": 92.73,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-10-29",
@@ -919,8 +1247,18 @@
     "name": "Gilead Sciences, Inc.",
     "time": "AMC",
     "eps_est": "$2.17",
-    "cap": 194908553000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/gild/earnings"
+    "cap": 193482605000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/gild/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 17,
+     "hold": 4,
+     "sell": 0,
+     "target": 160.8,
+     "price": 156.98,
+     "price_time": "Oct 26, 2026 9:06 AM ET"
+    }
    },
    {
     "date": "2026-10-29",
@@ -929,8 +1267,18 @@
     "name": "Sandisk Corporation",
     "time": "AMC",
     "eps_est": "$45.22",
-    "cap": 183248028000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/sndk/earnings"
+    "cap": 179920028000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/sndk/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 15,
+     "hold": 2,
+     "sell": 0,
+     "target": 2205.59,
+     "price": 1258.0,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-10-29",
@@ -939,8 +1287,18 @@
     "name": "Anheuser-Busch Inbev SA",
     "time": "BMO",
     "eps_est": "$1.14",
-    "cap": 168597651000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/bud/earnings"
+    "cap": 166171935000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/bud/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 5,
+     "hold": 1,
+     "sell": 0,
+     "target": 96.88,
+     "price": 81.5,
+     "price_time": "Oct 26, 2026 9:05 AM ET"
+    }
    },
    {
     "date": "2026-10-29",
@@ -949,8 +1307,18 @@
     "name": "Bristol-Myers Squibb Company",
     "time": "BMO",
     "eps_est": "$1.28",
-    "cap": 128691020000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/bmy/earnings"
+    "cap": 125586096000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/bmy/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 9,
+     "hold": 11,
+     "sell": 1,
+     "target": 66.14,
+     "price": 61.5,
+     "price_time": "Oct 26, 2026 9:00 AM ET"
+    }
    },
    {
     "date": "2026-10-29",
@@ -959,8 +1327,18 @@
     "name": "Altria Group",
     "time": "BMO",
     "eps_est": "$1.51",
-    "cap": 127017419000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/mo/earnings"
+    "cap": 124078670000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/mo/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 3,
+     "hold": 4,
+     "sell": 1,
+     "target": 68.4,
+     "price": 73.7,
+     "price_time": "Oct 26, 2026 9:10 AM ET"
+    }
    },
    {
     "date": "2026-10-29",
@@ -969,8 +1347,18 @@
     "name": "Stryker Corporation",
     "time": "AMC",
     "eps_est": "$3.56",
-    "cap": 117787607000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/syk/earnings"
+    "cap": 117814460000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/syk/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 18,
+     "hold": 2,
+     "sell": 0,
+     "target": 364.72,
+     "price": 306.8,
+     "price_time": "Oct 26, 2026 9:05 AM ET"
+    }
    },
    {
     "date": "2026-10-29",
@@ -979,8 +1367,18 @@
     "name": "Starbucks Corporation",
     "time": "AMC",
     "eps_est": "$0.73",
-    "cap": 116177404000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/sbux/earnings"
+    "cap": 114912002000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/sbux/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 12,
+     "hold": 7,
+     "sell": 0,
+     "target": 116.25,
+     "price": 100.97,
+     "price_time": "Oct 26, 2026 9:10 AM ET"
+    }
    },
    {
     "date": "2026-10-30",
@@ -990,7 +1388,17 @@
     "time": "BMO",
     "eps_est": "$3.90",
     "cap": 732866080000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/xom/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/xom/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 7,
+     "hold": 10,
+     "sell": 0,
+     "target": 178.06,
+     "price": 180.6,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-10-30",
@@ -1000,7 +1408,17 @@
     "time": "BMO",
     "eps_est": "$3.76",
     "cap": 503964172000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/abbv/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/abbv/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 20,
+     "hold": 4,
+     "sell": 0,
+     "target": 290.48,
+     "price": 285.07,
+     "price_time": "Oct 26, 2026 9:09 AM ET"
+    }
    },
    {
     "date": "2026-10-30",
@@ -1010,7 +1428,17 @@
     "time": "BMO",
     "eps_est": "$4.78",
     "cap": 447867847000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/cvx/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/cvx/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 12,
+     "hold": 3,
+     "sell": 0,
+     "target": 232.07,
+     "price": 230.66,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-10-30",
@@ -1020,7 +1448,17 @@
     "time": "BMO",
     "eps_est": "$2.60",
     "cap": 262007882000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/azn/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/azn/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 12,
+     "hold": 2,
+     "sell": 0,
+     "target": 210.0150728632,
+     "price": 171.61,
+     "price_time": "Oct 26, 2026 9:10 AM ET"
+    }
    },
    {
     "date": "2026-10-30",
@@ -1030,7 +1468,17 @@
     "time": "BMO",
     "eps_est": "$2.66",
     "cap": 129834885000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/bp/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/bp/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 3,
+     "hold": 4,
+     "sell": 1,
+     "target": 50.61,
+     "price": 50.2171,
+     "price_time": "Oct 26, 2026 9:07 AM ET"
+    }
    },
    {
     "date": "2026-10-30",
@@ -1040,7 +1488,17 @@
     "time": "BMO",
     "eps_est": "$1.63",
     "cap": 102334325000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/sny/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/sny/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 0,
+     "hold": 1,
+     "sell": 0,
+     "target": 59.5,
+     "price": 41.72,
+     "price_time": "Oct 26, 2026 9:09 AM ET"
+    }
    },
    {
     "date": "2026-11-02",
@@ -1049,8 +1507,18 @@
     "name": "Apple Inc.",
     "time": "AMC",
     "eps_est": "$2",
-    "cap": 5074761300000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/aapl/earnings"
+    "cap": 5081985400000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/aapl/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 16,
+     "hold": 10,
+     "sell": 4,
+     "target": 337.45,
+     "price": 343.51,
+     "price_time": "Oct 26, 2026 9:12 AM ET"
+    }
    },
    {
     "date": "2026-11-02",
@@ -1059,8 +1527,18 @@
     "name": "Palantir Technologies Inc.",
     "time": "AMC",
     "eps_est": "$0.34",
-    "cap": 472604017000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/pltr/earnings"
+    "cap": 471258857000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/pltr/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 17,
+     "hold": 4,
+     "sell": 2,
+     "target": 212.38,
+     "price": 197.34,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-11-02",
@@ -1069,8 +1547,18 @@
     "name": "Vertex Pharmaceuticals Incorporated",
     "time": "AMC",
     "eps_est": "$4.36",
-    "cap": 132795785000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/vrtx/earnings"
+    "cap": 135644684000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/vrtx/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 21,
+     "hold": 3,
+     "sell": 0,
+     "target": 589.45,
+     "price": 520.5,
+     "price_time": "Oct 26, 2026 9:07 AM ET"
+    }
    },
    {
     "date": "2026-11-02",
@@ -1079,8 +1567,18 @@
     "name": "Marriott International",
     "time": "BMO",
     "eps_est": "$2.86",
-    "cap": 101883994000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/mar/earnings"
+    "cap": 103472062000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/mar/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 10,
+     "hold": 10,
+     "sell": 0,
+     "target": 391.0,
+     "price": 393.0,
+     "price_time": "Oct 26, 2026 9:03 AM ET"
+    }
    },
    {
     "date": "2026-11-03",
@@ -1097,8 +1595,18 @@
     "name": "Advanced Micro Devices, Inc.",
     "time": "AMC",
     "eps_est": "$1.68",
-    "cap": 829183030000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/amd/earnings"
+    "cap": 843646760000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/amd/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 29,
+     "hold": 6,
+     "sell": 0,
+     "target": 663.28,
+     "price": 522.1,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-11-03",
@@ -1107,8 +1615,18 @@
     "name": "Amgen Inc.",
     "time": "AMC",
     "eps_est": "$5.74",
-    "cap": 241813881000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/amgn/earnings"
+    "cap": 237478019000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/amgn/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 9,
+     "hold": 14,
+     "sell": 2,
+     "target": 405.42,
+     "price": 441.99,
+     "price_time": "Oct 26, 2026 9:08 AM ET"
+    }
    },
    {
     "date": "2026-11-03",
@@ -1117,8 +1635,18 @@
     "name": "Shopify Inc.",
     "time": "BMO",
     "eps_est": "$0.33",
-    "cap": 218146963000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/shop/earnings"
+    "cap": 218580795000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/shop/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 27,
+     "hold": 3,
+     "sell": 0,
+     "target": 177.73,
+     "price": 168.6,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-11-03",
@@ -1128,7 +1656,17 @@
     "time": "AMC",
     "eps_est": "$0.99",
     "cap": 215757701000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/anet/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/anet/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 18,
+     "hold": 0,
+     "sell": 0,
+     "target": 248.24,
+     "price": 174.8,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-11-03",
@@ -1138,7 +1676,17 @@
     "time": "BMO",
     "eps_est": "$0.72",
     "cap": 173384073000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/pfe/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/pfe/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 8,
+     "hold": 13,
+     "sell": 1,
+     "target": 29.62,
+     "price": 30.0089,
+     "price_time": "Oct 26, 2026 9:12 AM ET"
+    }
    },
    {
     "date": "2026-11-03",
@@ -1148,7 +1696,17 @@
     "time": "BMO",
     "eps_est": "$3.54",
     "cap": 143315714000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/etn/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/etn/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 11,
+     "hold": 0,
+     "sell": 0,
+     "target": 507.78,
+     "price": 370.0,
+     "price_time": "Oct 26, 2026 9:12 AM ET"
+    }
    },
    {
     "date": "2026-11-03",
@@ -1158,7 +1716,17 @@
     "time": "BMO",
     "eps_est": "$25.74",
     "cap": 128977199000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/mpc/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/mpc/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 9,
+     "hold": 8,
+     "sell": 0,
+     "target": 457.12,
+     "price": 451.9106,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-11-03",
@@ -1167,8 +1735,18 @@
     "name": "Booking Holdings Inc.",
     "time": "AMC",
     "eps_est": "$4.47",
-    "cap": 121047400000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/bkng/earnings"
+    "cap": 117087625000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/bkng/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 23,
+     "hold": 4,
+     "sell": 0,
+     "target": 233.65,
+     "price": 156.58,
+     "price_time": "Oct 26, 2026 9:12 AM ET"
+    }
    },
    {
     "date": "2026-11-03",
@@ -1178,7 +1756,17 @@
     "time": "AMC",
     "eps_est": "$0.22",
     "cap": 104644985000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/itub/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/itub/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 2,
+     "hold": 1,
+     "sell": 0,
+     "target": 9.8,
+     "price": 7.23,
+     "price_time": "Oct 26, 2026 9:12 AM ET"
+    }
    },
    {
     "date": "2026-11-04",
@@ -1188,7 +1776,13 @@
     "time": "",
     "eps_est": "",
     "cap": 258358591000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/tm/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/tm/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "price": 198.87,
+     "price_time": "Oct 26, 2026 8:58 AM ET"
+    }
    },
    {
     "date": "2026-11-04",
@@ -1198,7 +1792,17 @@
     "time": "AMC",
     "eps_est": "$0.22",
     "cap": 223558009000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/arm/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/arm/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 17,
+     "hold": 5,
+     "sell": 0,
+     "target": 299.47,
+     "price": 213.88,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-11-04",
@@ -1208,7 +1812,17 @@
     "time": "AMC",
     "eps_est": "$1.46",
     "cap": 181511930000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/qcom/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/qcom/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 6,
+     "hold": 14,
+     "sell": 2,
+     "target": 200.64,
+     "price": 177.12,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-11-04",
@@ -1218,7 +1832,17 @@
     "time": "BMO",
     "eps_est": "$3.37",
     "cap": 178771476000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/mcd/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/mcd/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 14,
+     "hold": 10,
+     "sell": 1,
+     "target": 287.22,
+     "price": 247.5,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-11-04",
@@ -1228,7 +1852,17 @@
     "time": "BMO",
     "eps_est": "$0.81",
     "cap": 174593294000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/nvo/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/nvo/earnings",
+    "analyst": {
+     "rating": "Underperform",
+     "sentiment": "Bearish",
+     "buy": 0,
+     "hold": 5,
+     "sell": 1,
+     "target": 42.53,
+     "price": 38.979,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-11-04",
@@ -1238,7 +1872,17 @@
     "time": "BMO",
     "eps_est": "$0.94",
     "cap": 141079626000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/uber/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/uber/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 26,
+     "hold": 2,
+     "sell": 0,
+     "target": 102.92,
+     "price": 66.7,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-11-04",
@@ -1248,7 +1892,17 @@
     "time": "BMO",
     "eps_est": "$1.62",
     "cap": 120837120000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/cvs/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/cvs/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 17,
+     "hold": 0,
+     "sell": 0,
+     "target": 114.59,
+     "price": 93.5643,
+     "price_time": "Oct 26, 2026 9:06 AM ET"
+    }
    },
    {
     "date": "2026-11-04",
@@ -1258,7 +1912,17 @@
     "time": "AMC",
     "eps_est": "$10.69",
     "cap": 118029091000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/mck/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/mck/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 11,
+     "hold": 3,
+     "sell": 0,
+     "target": 1005.07,
+     "price": 998.0,
+     "price_time": "Oct 26, 2026 8:53 AM ET"
+    }
    },
    {
     "date": "2026-11-04",
@@ -1268,7 +1932,17 @@
     "time": "",
     "eps_est": "$1.38",
     "cap": 116062585000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/eqnr/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/eqnr/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 1,
+     "hold": 1,
+     "sell": 1,
+     "target": 40.9,
+     "price": 47.76,
+     "price_time": "Oct 26, 2026 9:10 AM ET"
+    }
    },
    {
     "date": "2026-11-05",
@@ -1285,8 +1959,18 @@
     "name": "ConocoPhillips",
     "time": "BMO",
     "eps_est": "$2.95",
-    "cap": 181161689000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/cop/earnings"
+    "cap": 174950777000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/cop/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 16,
+     "hold": 3,
+     "sell": 0,
+     "target": 151.78,
+     "price": 149.41,
+     "price_time": "Oct 26, 2026 9:04 AM ET"
+    }
    },
    {
     "date": "2026-11-05",
@@ -1295,8 +1979,14 @@
     "name": "Sony Group Corporation",
     "time": "BMO",
     "eps_est": "$0.38",
-    "cap": 153769050000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/sony/earnings"
+    "cap": 154476577000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/sony/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "price": 26.26,
+     "price_time": "Oct 26, 2026 9:09 AM ET"
+    }
    },
    {
     "date": "2026-11-05",
@@ -1306,27 +1996,17 @@
     "time": "",
     "eps_est": "$0.30",
     "cap": 135733035000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/mnst/earnings"
-   },
-   {
-    "date": "2026-11-05",
-    "type": "earnings",
-    "title": "NET",
-    "name": "Cloudflare, Inc.",
-    "time": "AMC",
-    "eps_est": "$0.02",
-    "cap": 115985842000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/net/earnings"
-   },
-   {
-    "date": "2026-11-05",
-    "type": "earnings",
-    "title": "CNQ",
-    "name": "Canadian Natural Resources Limited",
-    "time": "BMO",
-    "eps_est": "$1.05",
-    "cap": 113922843000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/cnq/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/mnst/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 11,
+     "hold": 7,
+     "sell": 0,
+     "target": 51.44,
+     "price": 46.4,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-11-05",
@@ -1335,8 +2015,58 @@
     "name": "Parker-Hannifin Corporation",
     "time": "BMO",
     "eps_est": "$8.23",
-    "cap": 111050809000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/ph/earnings"
+    "cap": 112644874000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/ph/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 11,
+     "hold": 4,
+     "sell": 0,
+     "target": 1173.75,
+     "price": 889.3797,
+     "price_time": "Oct 26, 2026 9:07 AM ET"
+    }
+   },
+   {
+    "date": "2026-11-05",
+    "type": "earnings",
+    "title": "CNQ",
+    "name": "Canadian Natural Resources Limited",
+    "time": "BMO",
+    "eps_est": "$1.05",
+    "cap": 111228355000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/cnq/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 6,
+     "hold": 5,
+     "sell": 0,
+     "target": 54.71,
+     "price": 54.785,
+     "price_time": "Oct 26, 2026 8:41 AM ET"
+    }
+   },
+   {
+    "date": "2026-11-05",
+    "type": "earnings",
+    "title": "NET",
+    "name": "Cloudflare, Inc.",
+    "time": "AMC",
+    "eps_est": "$0.02",
+    "cap": 108109365000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/net/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 21,
+     "hold": 5,
+     "sell": 1,
+     "target": 358.0,
+     "price": 328.28,
+     "price_time": "Oct 26, 2026 9:11 AM ET"
+    }
    },
    {
     "date": "2026-11-05",
@@ -1345,8 +2075,18 @@
     "name": "Southern Company (The)",
     "time": "BMO",
     "eps_est": "$1.71",
-    "cap": 106857218000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/so/earnings"
+    "cap": 107927052000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/so/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 5,
+     "hold": 7,
+     "sell": 2,
+     "target": 94.73,
+     "price": 92.69,
+     "price_time": "Oct 26, 2026 9:04 AM ET"
+    }
    },
    {
     "date": "2026-11-05",
@@ -1356,7 +2096,17 @@
     "time": "AMC",
     "eps_est": "$2.89",
     "cap": 102997123000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/abnb/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/abnb/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 21,
+     "hold": 10,
+     "sell": 1,
+     "target": 189.73,
+     "price": 171.0,
+     "price_time": "Oct 26, 2026 8:50 AM ET"
+    }
    },
    {
     "date": "2026-11-06",
@@ -1384,7 +2134,17 @@
     "time": "BMO",
     "eps_est": "$0.38",
     "cap": 104501019000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/enb/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/enb/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 8,
+     "hold": 6,
+     "sell": 1,
+     "target": 55.72,
+     "price": 47.8,
+     "price_time": "Oct 26, 2026 9:01 AM ET"
+    }
    },
    {
     "date": "2026-11-10",
@@ -1404,7 +2164,7 @@
     "name": "Petroleo Brasileiro S.A.- Petrobras",
     "time": "AMC",
     "eps_est": "$1.21",
-    "cap": 165104665000,
+    "cap": 168584626000,
     "url": "https://www.nasdaq.com/market-activity/stocks/pbr/earnings"
    },
    {
@@ -1662,7 +2422,7 @@
     "name": "Deere & Company",
     "time": "BMO",
     "eps_est": "$4.07",
-    "cap": 173536313000,
+    "cap": 174218461000,
     "url": "https://www.nasdaq.com/market-activity/stocks/de/earnings"
    }
   ],
@@ -1673,7 +2433,7 @@
    "Nasdaq earnings calendar (market cap >= $100B)"
   ]
  },
- "updated_et": "2026-10-26 08:56 ET",
+ "updated_et": "2026-10-26 09:12 ET",
  "indicators": [
   {
    "key": "cpi",
