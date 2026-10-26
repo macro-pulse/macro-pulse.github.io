@@ -155,8 +155,8 @@ def build(http, today, prev=None):
                     ("VIX6M", "VIX6M · 6-month", "eq"), ("VIX1Y", "VIX1Y · 1-year", "eq"), ("VVIX", "VVIX · vol of VIX", "eq"),
                     ("VXN", "VXN · Nasdaq-100 vol", "eq"), ("RVX", "RVX · Russell 2000 vol", "eq"), ("VXD", "VXD · Dow vol", "eq"),
                     ("SKEW", "SKEW · S&P 500 tail risk", "eq"), ("OVX", "OVX · crude oil vol", "x"), ("GVZ", "GVZ · gold vol", "x"),
-                    ("EVZ", "EVZ · euro FX vol", "x"), ("VXEEM", "VXEEM · emerging markets vol", "x")]:
-        J("v"+s, (lambda s=s: fred(http, "EVZCLS")) if s == "EVZ" else (lambda s=s: cboe(http, s)), l, "vol_"+g, "", "Cboe via FRED (EVZCLS)" if s == "EVZ" else CB,
+("VXEEM", "VXEEM · emerging markets vol", "x")]:
+        J("v"+s, lambda s=s: cboe(http, s), l, "vol_"+g, "", CB,
           f"https://www.cboe.com/us/indices/dashboard/{s}/", ticker=s)
     J("vMOVE", lambda: cnbc_hist(http, ".MOVE"), "MOVE · ICE BofA Treasury vol", "vol_x", "", CN, "https://www.cnbc.com/quotes/.MOVE", ticker="MOVE")
     J("vV2TX", lambda: stoxx(http), "VSTOXX · Euro Stoxx 50 vol", "vol_g", "", "STOXX", "https://www.stoxx.com/index/v2tx/", ticker="V2TX")
