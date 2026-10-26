@@ -100,6 +100,20 @@ def add_expectations(res):
     except Exception as e:
         print("WARN gdpnow", e, file=sys.stderr)
 
+DAILY = {"DFF","DGS2","DGS10","DGS30","T10Y2Y","DTWEXBGS","DCOILWTICO"}
+def candles(sid, s):
+    """Daily FRED series -> weekly candles from daily closes (o=first, c=last, h/l=max/min of closes).
+    Releases -> change candles (o=prior reading, c=new reading, no wicks)."""
+    if sid in DAILY:
+        wk = {}
+        for d, v in s:
+            dt = datetime.fromisoformat(d).date(); k = (dt - timedelta(days=dt.weekday())).isoformat()
+            wk.setdefault(k, []).append(v)
+        out = [[k, round(v[0], 4), round(max(v), 4), round(min(v), 4), round(v[-1], 4)] for k, v in sorted(wk.items())][-26:]
+        return dict(kind="weekly", candles=out)
+    out = [[s[i][0], round(s[i-1][1], 4), None, None, round(s[i][1], 4)] for i in range(max(1, len(s)-24), len(s))]
+    return dict(kind="change", candles=out)
+
 def main():
     et = ZoneInfo("America/New_York")
     res, failed = [], []
@@ -110,7 +124,7 @@ def main():
             hist = [p for p in s if p[0] >= cutoff][-60:]
             res.append(dict(key=key, label=label, series=sid, unit=unit, group=group, decimals=dec,
                 latest=round(s[-1][1], 4), date=s[-1][0], prior=round(s[-2][1], 4), prior_date=s[-2][0],
-                change=round(s[-1][1]-s[-2][1], 4), spark=[round(p[1], 4) for p in hist],
+                change=round(s[-1][1]-s[-2][1], 4), spark=[round(p[1], 4) for p in hist], ohlc=candles(sid, s),
                 source=f"https://fred.stlouisfed.org/series/{sid}"))
         except Exception as e:
             failed.append(dict(key=key, series=sid, error=str(e))); print("FAIL", sid, e, file=sys.stderr)
