@@ -131,7 +131,12 @@ def main():
     try:
         import calendar_fetch
         cal = calendar_fetch.build(datetime.now(et).date())
-        print("analyst ratings:", calendar_fetch.enrich_upcoming(cal, datetime.now(et).date()))
+        try:
+            old = json.load(open("data.json")).get("calendar", {}).get("events", [])
+            prev = {(e["date"], e["title"]): e["analyst"] for e in old if e.get("analyst")}
+        except Exception:
+            prev = {}
+        print("analyst ratings:", calendar_fetch.enrich_upcoming(cal, datetime.now(et).date(), prev=prev))
     except Exception as e:
         cal = dict(events=[], notes=[f"calendar failed: {e}"]); print("WARN calendar", e, file=sys.stderr)
     json.dump(dict(calendar=cal, updated_et=datetime.now(et).strftime("%Y-%m-%d %H:%M ET"), indicators=res, failed=failed),

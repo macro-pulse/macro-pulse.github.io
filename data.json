@@ -552,8 +552,8 @@
      "hold": 8,
      "sell": 0,
      "target": 50.0,
-     "price": 44.38,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 43.27,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -592,8 +592,8 @@
      "hold": 2,
      "sell": 0,
      "target": 430.77,
-     "price": 407.7675,
-     "price_time": "Oct 26, 2026 9:10 AM ET"
+     "price": 406.5302,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -612,8 +612,8 @@
      "hold": 2,
      "sell": 0,
      "target": 97.81,
-     "price": 92.32,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 92.671,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -628,8 +628,8 @@
     "analyst": {
      "rating": "Hold",
      "sentiment": "Neutral",
-     "price": 91.78,
-     "price_time": "Oct 26, 2026 9:10 AM ET"
+     "price": 91.822,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -648,8 +648,8 @@
      "hold": 3,
      "sell": 0,
      "target": 160.8,
-     "price": 153.86,
-     "price_time": "Oct 26, 2026 9:10 AM ET"
+     "price": 153.83,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -668,8 +668,8 @@
      "hold": 1,
      "sell": 0,
      "target": 266.94,
-     "price": 188.7,
-     "price_time": "Oct 26, 2026 9:10 AM ET"
+     "price": 189.0,
+     "price_time": "Oct 26, 2026 9:22 AM ET"
     }
    },
    {
@@ -688,8 +688,8 @@
      "hold": 2,
      "sell": 0,
      "target": 1057.33,
-     "price": 640.7949,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 640.39,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -708,8 +708,8 @@
      "hold": 0,
      "sell": 0,
      "target": 519.88,
-     "price": 448.35,
-     "price_time": "Oct 26, 2026 9:07 AM ET"
+     "price": 447.99,
+     "price_time": "Oct 26, 2026 9:21 AM ET"
     }
    },
    {
@@ -728,8 +728,8 @@
      "hold": 4,
      "sell": 0,
      "target": 182.0,
-     "price": 124.39,
-     "price_time": "Oct 26, 2026 9:10 AM ET"
+     "price": 124.98,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -748,8 +748,8 @@
      "hold": 7,
      "sell": 1,
      "target": 455.16,
-     "price": 468.8,
-     "price_time": "Oct 26, 2026 9:03 AM ET"
+     "price": 469.82,
+     "price_time": "Oct 26, 2026 9:21 AM ET"
     }
    },
    {
@@ -776,8 +776,8 @@
      "hold": 1,
      "sell": 0,
      "target": 428.0,
-     "price": 319.05,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 318.7416,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -796,8 +796,8 @@
      "hold": 1,
      "sell": 0,
      "target": 610.2,
-     "price": 527.83,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 527.6491,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -816,8 +816,8 @@
      "hold": 1,
      "sell": 1,
      "target": 1213.71,
-     "price": 828.15,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 830.14,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -836,8 +836,8 @@
      "hold": 6,
      "sell": 0,
      "target": 240.0,
-     "price": 148.0,
-     "price_time": "Oct 26, 2026 9:10 AM ET"
+     "price": 147.73,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -852,8 +852,8 @@
     "analyst": {
      "rating": "Buy",
      "sentiment": "Bullish",
-     "price": 12.38,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 12.39,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -872,8 +872,8 @@
      "hold": 1,
      "sell": 0,
      "target": 104.18,
-     "price": 75.5094,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 75.86,
+     "price_time": "Oct 26, 2026 9:22 AM ET"
     }
    },
    {
@@ -892,8 +892,8 @@
      "hold": 1,
      "sell": 0,
      "target": 171.5,
-     "price": 158.64,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 158.45,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -912,8 +912,8 @@
      "hold": 2,
      "sell": 0,
      "target": 210.29,
-     "price": 145.5,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 145.4964,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -933,7 +933,7 @@
      "sell": 1,
      "target": 59.32,
      "price": 46.72,
-     "price_time": "Oct 26, 2026 9:08 AM ET"
+     "price_time": "Oct 26, 2026 9:20 AM ET"
     }
    },
    {
@@ -948,8 +948,8 @@
     "analyst": {
      "rating": "Hold",
      "sentiment": "Neutral",
-     "price": 25.4,
-     "price_time": "Oct 26, 2026 9:04 AM ET"
+     "price": 25.4295,
+     "price_time": "Oct 26, 2026 9:17 AM ET"
     }
    },
    {
@@ -968,8 +968,8 @@
      "hold": 21,
      "sell": 4,
      "target": 176.0,
-     "price": 182.28,
-     "price_time": "Oct 26, 2026 9:10 AM ET"
+     "price": 182.1,
+     "price_time": "Oct 26, 2026 9:22 AM ET"
     }
    },
    {
@@ -1008,8 +1008,8 @@
      "hold": 7,
      "sell": 0,
      "target": 291.69,
-     "price": 279.57,
-     "price_time": "Oct 26, 2026 9:09 AM ET"
+     "price": 284.5812,
+     "price_time": "Oct 26, 2026 9:17 AM ET"
     }
    },
    {
@@ -1028,8 +1028,8 @@
      "hold": 1,
      "sell": 0,
      "target": 65.0,
-     "price": 50.8317,
-     "price_time": "Oct 26, 2026 9:08 AM ET"
+     "price": 50.81,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -1076,8 +1076,8 @@
      "hold": 2,
      "sell": 0,
      "target": 331.54,
-     "price": 250.56,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 250.24,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -1096,8 +1096,8 @@
      "hold": 1,
      "sell": 1,
      "target": 1388.25,
-     "price": 1277.9389,
-     "price_time": "Oct 26, 2026 9:10 AM ET"
+     "price": 1276.65,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -1116,8 +1116,8 @@
      "hold": 2,
      "sell": 0,
      "target": 671.13,
-     "price": 622.22,
-     "price_time": "Oct 26, 2026 9:06 AM ET"
+     "price": 620.7,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -1136,8 +1136,8 @@
      "hold": 12,
      "sell": 0,
      "target": 114.29,
-     "price": 88.39,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 88.24,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -1156,8 +1156,8 @@
      "hold": 6,
      "sell": 0,
      "target": 161.19,
-     "price": 145.3,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 145.32,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -1176,8 +1176,8 @@
      "hold": 8,
      "sell": 0,
      "target": 948.21,
-     "price": 693.0,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 691.91,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -1196,8 +1196,8 @@
      "hold": 3,
      "sell": 0,
      "target": 104.86,
-     "price": 106.341,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 106.47,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -1216,8 +1216,8 @@
      "hold": 1,
      "sell": 0,
      "target": 558.07,
-     "price": 508.48,
-     "price_time": "Oct 26, 2026 9:00 AM ET"
+     "price": 508.23,
+     "price_time": "Oct 26, 2026 9:15 AM ET"
     }
    },
    {
@@ -1236,8 +1236,8 @@
      "hold": 5,
      "sell": 0,
      "target": 99.06746288,
-     "price": 92.73,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 92.85,
+     "price_time": "Oct 26, 2026 9:20 AM ET"
     }
    },
    {
@@ -1256,8 +1256,8 @@
      "hold": 4,
      "sell": 0,
      "target": 160.8,
-     "price": 156.98,
-     "price_time": "Oct 26, 2026 9:06 AM ET"
+     "price": 156.3,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -1276,8 +1276,8 @@
      "hold": 2,
      "sell": 0,
      "target": 2205.59,
-     "price": 1258.0,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 1257.27,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -1296,8 +1296,8 @@
      "hold": 1,
      "sell": 0,
      "target": 96.88,
-     "price": 81.5,
-     "price_time": "Oct 26, 2026 9:05 AM ET"
+     "price": 81.54,
+     "price_time": "Oct 26, 2026 9:20 AM ET"
     }
    },
    {
@@ -1316,8 +1316,8 @@
      "hold": 11,
      "sell": 1,
      "target": 66.14,
-     "price": 61.5,
-     "price_time": "Oct 26, 2026 9:00 AM ET"
+     "price": 61.6,
+     "price_time": "Oct 26, 2026 9:22 AM ET"
     }
    },
    {
@@ -1336,8 +1336,8 @@
      "hold": 4,
      "sell": 1,
      "target": 68.4,
-     "price": 73.7,
-     "price_time": "Oct 26, 2026 9:10 AM ET"
+     "price": 73.85,
+     "price_time": "Oct 26, 2026 9:22 AM ET"
     }
    },
    {
@@ -1357,7 +1357,7 @@
      "sell": 0,
      "target": 364.72,
      "price": 306.8,
-     "price_time": "Oct 26, 2026 9:05 AM ET"
+     "price_time": "Oct 26, 2026 9:18 AM ET"
     }
    },
    {
@@ -1376,8 +1376,8 @@
      "hold": 7,
      "sell": 0,
      "target": 116.25,
-     "price": 100.97,
-     "price_time": "Oct 26, 2026 9:10 AM ET"
+     "price": 100.51,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -1396,8 +1396,8 @@
      "hold": 10,
      "sell": 0,
      "target": 178.06,
-     "price": 180.6,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 180.6175,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -1416,8 +1416,8 @@
      "hold": 4,
      "sell": 0,
      "target": 290.48,
-     "price": 285.07,
-     "price_time": "Oct 26, 2026 9:09 AM ET"
+     "price": 286.4,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -1436,8 +1436,8 @@
      "hold": 3,
      "sell": 0,
      "target": 232.07,
-     "price": 230.66,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 230.85,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -1456,8 +1456,8 @@
      "hold": 2,
      "sell": 0,
      "target": 210.0150728632,
-     "price": 171.61,
-     "price_time": "Oct 26, 2026 9:10 AM ET"
+     "price": 171.34,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -1476,8 +1476,8 @@
      "hold": 4,
      "sell": 1,
      "target": 50.61,
-     "price": 50.2171,
-     "price_time": "Oct 26, 2026 9:07 AM ET"
+     "price": 50.3329,
+     "price_time": "Oct 26, 2026 9:20 AM ET"
     }
    },
    {
@@ -1496,8 +1496,8 @@
      "hold": 1,
      "sell": 0,
      "target": 59.5,
-     "price": 41.72,
-     "price_time": "Oct 26, 2026 9:09 AM ET"
+     "price": 41.7,
+     "price_time": "Oct 26, 2026 9:22 AM ET"
     }
    },
    {
@@ -1516,8 +1516,8 @@
      "hold": 10,
      "sell": 4,
      "target": 337.45,
-     "price": 343.51,
-     "price_time": "Oct 26, 2026 9:12 AM ET"
+     "price": 344.23,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -1536,8 +1536,8 @@
      "hold": 4,
      "sell": 2,
      "target": 212.38,
-     "price": 197.34,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 197.68,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -1556,8 +1556,8 @@
      "hold": 3,
      "sell": 0,
      "target": 589.45,
-     "price": 520.5,
-     "price_time": "Oct 26, 2026 9:07 AM ET"
+     "price": 527.79,
+     "price_time": "Oct 26, 2026 9:22 AM ET"
     }
    },
    {
@@ -1576,8 +1576,8 @@
      "hold": 10,
      "sell": 0,
      "target": 391.0,
-     "price": 393.0,
-     "price_time": "Oct 26, 2026 9:03 AM ET"
+     "price": 392.0,
+     "price_time": "Oct 26, 2026 9:22 AM ET"
     }
    },
    {
@@ -1604,8 +1604,8 @@
      "hold": 6,
      "sell": 0,
      "target": 663.28,
-     "price": 522.1,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 520.53,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -1624,8 +1624,8 @@
      "hold": 14,
      "sell": 2,
      "target": 405.42,
-     "price": 441.99,
-     "price_time": "Oct 26, 2026 9:08 AM ET"
+     "price": 441.8088,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -1644,8 +1644,8 @@
      "hold": 3,
      "sell": 0,
      "target": 177.73,
-     "price": 168.6,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 167.9,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -1664,8 +1664,8 @@
      "hold": 0,
      "sell": 0,
      "target": 248.24,
-     "price": 174.8,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 175.0,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -1684,8 +1684,8 @@
      "hold": 13,
      "sell": 1,
      "target": 29.62,
-     "price": 30.0089,
-     "price_time": "Oct 26, 2026 9:12 AM ET"
+     "price": 30.0074,
+     "price_time": "Oct 26, 2026 9:24 AM ET"
     }
    },
    {
@@ -1704,8 +1704,8 @@
      "hold": 0,
      "sell": 0,
      "target": 507.78,
-     "price": 370.0,
-     "price_time": "Oct 26, 2026 9:12 AM ET"
+     "price": 370.78,
+     "price_time": "Oct 26, 2026 9:22 AM ET"
     }
    },
    {
@@ -1724,8 +1724,8 @@
      "hold": 8,
      "sell": 0,
      "target": 457.12,
-     "price": 451.9106,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 451.0,
+     "price_time": "Oct 26, 2026 9:20 AM ET"
     }
    },
    {
@@ -1744,8 +1744,8 @@
      "hold": 4,
      "sell": 0,
      "target": 233.65,
-     "price": 156.58,
-     "price_time": "Oct 26, 2026 9:12 AM ET"
+     "price": 155.86,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -1764,8 +1764,8 @@
      "hold": 1,
      "sell": 0,
      "target": 9.8,
-     "price": 7.23,
-     "price_time": "Oct 26, 2026 9:12 AM ET"
+     "price": 7.25,
+     "price_time": "Oct 26, 2026 9:24 AM ET"
     }
    },
    {
@@ -1800,8 +1800,8 @@
      "hold": 5,
      "sell": 0,
      "target": 299.47,
-     "price": 213.88,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 213.55,
+     "price_time": "Oct 26, 2026 9:24 AM ET"
     }
    },
    {
@@ -1820,8 +1820,8 @@
      "hold": 14,
      "sell": 2,
      "target": 200.64,
-     "price": 177.12,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 177.77,
+     "price_time": "Oct 26, 2026 9:24 AM ET"
     }
    },
    {
@@ -1840,8 +1840,8 @@
      "hold": 10,
      "sell": 1,
      "target": 287.22,
-     "price": 247.5,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 247.4159,
+     "price_time": "Oct 26, 2026 9:22 AM ET"
     }
    },
    {
@@ -1860,8 +1860,8 @@
      "hold": 5,
      "sell": 1,
      "target": 42.53,
-     "price": 38.979,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 38.98,
+     "price_time": "Oct 26, 2026 9:24 AM ET"
     }
    },
    {
@@ -1880,8 +1880,8 @@
      "hold": 2,
      "sell": 0,
      "target": 102.92,
-     "price": 66.7,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 66.62,
+     "price_time": "Oct 26, 2026 9:24 AM ET"
     }
    },
    {
@@ -1900,8 +1900,8 @@
      "hold": 0,
      "sell": 0,
      "target": 114.59,
-     "price": 93.5643,
-     "price_time": "Oct 26, 2026 9:06 AM ET"
+     "price": 93.55,
+     "price_time": "Oct 26, 2026 9:21 AM ET"
     }
    },
    {
@@ -1940,8 +1940,8 @@
      "hold": 1,
      "sell": 1,
      "target": 40.9,
-     "price": 47.76,
-     "price_time": "Oct 26, 2026 9:10 AM ET"
+     "price": 47.83,
+     "price_time": "Oct 26, 2026 9:20 AM ET"
     }
    },
    {
@@ -1968,8 +1968,8 @@
      "hold": 3,
      "sell": 0,
      "target": 151.78,
-     "price": 149.41,
-     "price_time": "Oct 26, 2026 9:04 AM ET"
+     "price": 149.11,
+     "price_time": "Oct 26, 2026 9:21 AM ET"
     }
    },
    {
@@ -1984,8 +1984,8 @@
     "analyst": {
      "rating": "Buy",
      "sentiment": "Bullish",
-     "price": 26.26,
-     "price_time": "Oct 26, 2026 9:09 AM ET"
+     "price": 26.25,
+     "price_time": "Oct 26, 2026 9:24 AM ET"
     }
    },
    {
@@ -2004,8 +2004,8 @@
      "hold": 7,
      "sell": 0,
      "target": 51.44,
-     "price": 46.4,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 46.2,
+     "price_time": "Oct 26, 2026 9:20 AM ET"
     }
    },
    {
@@ -2044,8 +2044,8 @@
      "hold": 5,
      "sell": 0,
      "target": 54.71,
-     "price": 54.785,
-     "price_time": "Oct 26, 2026 8:41 AM ET"
+     "price": 54.41,
+     "price_time": "Oct 26, 2026 9:19 AM ET"
     }
    },
    {
@@ -2064,8 +2064,8 @@
      "hold": 5,
      "sell": 1,
      "target": 358.0,
-     "price": 328.28,
-     "price_time": "Oct 26, 2026 9:11 AM ET"
+     "price": 327.66,
+     "price_time": "Oct 26, 2026 9:24 AM ET"
     }
    },
    {
@@ -2104,8 +2104,8 @@
      "hold": 10,
      "sell": 1,
      "target": 189.73,
-     "price": 171.0,
-     "price_time": "Oct 26, 2026 8:50 AM ET"
+     "price": 172.3838,
+     "price_time": "Oct 26, 2026 9:23 AM ET"
     }
    },
    {
@@ -2142,8 +2142,8 @@
      "hold": 6,
      "sell": 1,
      "target": 55.72,
-     "price": 47.8,
-     "price_time": "Oct 26, 2026 9:01 AM ET"
+     "price": 47.96,
+     "price_time": "Oct 26, 2026 9:19 AM ET"
     }
    },
    {
@@ -2433,7 +2433,7 @@
    "Nasdaq earnings calendar (market cap >= $100B)"
   ]
  },
- "updated_et": "2026-10-26 09:12 ET",
+ "updated_et": "2026-10-26 09:24 ET",
  "indicators": [
   {
    "key": "cpi",

@@ -9,16 +9,16 @@ RELEASES = {10: ("CPI", ["cpi", "core_cpi"]), 46: ("PPI", []), 50: ("Jobs report
             53: ("GDP", ["gdp"]), 54: ("PCE / income", ["core_pce"]), 91: ("UMich sentiment", [])}
 MIN_CAP = 100e9
 
-def http(url, accept="text/html"):
+def http(url, accept="text/html", tries=3, timeout=20):
     ua = "curl/8.5.0" if "stlouisfed" in url else UA  # FRED stalls browser-like UAs
-    for attempt in range(3):
-        try: return _http(url, accept, ua)
+    for attempt in range(tries):
+        try: return _http(url, accept, ua, timeout)
         except Exception:
-            if attempt == 2: raise
+            if attempt == tries - 1: raise
 
-def _http(url, accept, ua):
+def _http(url, accept, ua, timeout=20):
     req = urllib.request.Request(url, headers={"User-Agent": ua, "Accept": accept, "Accept-Language": "en-US,en;q=0.9"})
-    return urllib.request.urlopen(req, timeout=20).read().decode("utf-8", "replace")
+    return urllib.request.urlopen(req, timeout=timeout).read().decode("utf-8", "replace")
 
 def ct_to_et(t):
     m = re.match(r"(\d+):(\d+) (am|pm)", t.strip())
@@ -69,7 +69,7 @@ def earnings(start, end, notes):
     while d <= end:
         if d.weekday() < 5:
             try:
-                rows = json.loads(http(f"https://api.nasdaq.com/api/calendar/earnings?date={d}", "application/json"))["data"]["rows"] or []
+                rows = json.loads(http(f"https://api.nasdaq.com/api/calendar/earnings?date={d}", "application/json", 1, 10))["data"]["rows"] or []
                 for r in rows:
                     cap = int(re.sub(r"[^\d]", "", r.get("marketCap") or "") or 0)
                     if cap >= MIN_CAP:
@@ -109,30 +109,34 @@ def analyst(sym):
     out = {}
     s = sym.upper().replace(".", "-")
     try:
-        d = json.loads(http(f"https://api.nasdaq.com/api/analyst/{s}/ratings", "application/json"))["data"] or {}
+        d = json.loads(http(f"https://api.nasdaq.com/api/analyst/{s}/ratings", "application/json", 1, 10))["data"] or {}
         m = (d.get("meanRatingType") or "").strip()
         if m.lower() in MAP: out.update(rating=m, sentiment=MAP[m.lower()])
     except Exception as e:
         print("WARN rating", sym, e, file=sys.stderr)
     try:
-        c = (json.loads(http(f"https://api.nasdaq.com/api/analyst/{s}/targetprice", "application/json"))["data"] or {}).get("consensusOverview") or {}
+        c = (json.loads(http(f"https://api.nasdaq.com/api/analyst/{s}/targetprice", "application/json", 1, 10))["data"] or {}).get("consensusOverview") or {}
         if c.get("buy") is not None: out.update(buy=c.get("buy"), hold=c.get("hold"), sell=c.get("sell"))
         if c.get("priceTarget"): out["target"] = c["priceTarget"]
     except Exception as e:
         print("WARN target", sym, e, file=sys.stderr)
     try:
-        p = json.loads(http(f"https://api.nasdaq.com/api/quote/{s}/info?assetclass=stocks", "application/json"))["data"]["primaryData"]
+        p = json.loads(http(f"https://api.nasdaq.com/api/quote/{s}/info?assetclass=stocks", "application/json", 1, 10))["data"]["primaryData"]
         out["price"] = float(p["lastSalePrice"].replace("$", "").replace(",", ""))
         out["price_time"] = p.get("lastTradeTimestamp", "")
     except Exception as e:
         print("WARN quote", sym, e, file=sys.stderr)
     return out
 
-def enrich_upcoming(cal, today, days=14):
+def enrich_upcoming(cal, today, days=14, prev=None):
+    """prev: {(date,title): analyst} from last data.json, used if Nasdaq is unreachable."""
     end = (today + timedelta(days=days)).isoformat()
-    n = 0
+    n = fails = 0
+    prev = prev or {}
     for e in cal.get("events", []):
         if e["type"] == "earnings" and today.isoformat() <= e["date"] < end:
-            a = analyst(e["title"])
+            a = analyst(e["title"]) if fails < 3 else {}
+            fails = 0 if a else fails + 1
+            if not a: a = prev.get((e["date"], e["title"]), {})
             if a: e["analyst"] = a; n += 1
     return n
