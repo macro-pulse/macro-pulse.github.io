@@ -71,11 +71,51 @@ footer{text-align:center;color:var(--mu);font-size:12px;padding:16px 12px 32px}f
 .cv{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:10px 12px;margin-bottom:10px}.cv svg{width:100%;height:190px;display:block}
 .cvl{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--mu)}.cvl i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:3px;margin-right:4px}
 .pb{height:6px;border-radius:3px;background:var(--bd);margin-top:4px;overflow:hidden}.pb i{display:block;height:100%;background:linear-gradient(90deg,#16a34a,#f59e0b,#dc2626)}
-.tag{display:inline-block;font-size:11px;font-weight:900;padding:2px 8px;border-radius:999px;color:#fff}</style></head><body>
-<header><div><h1 id="t"></h1><div id="upd">Loading…</div></div></header>
-<nav><a href="#macro" data-t="macro">Macro</a><a href="#earnings" data-t="earnings">Earnings</a><a href="#calendar" data-t="calendar">Calendar</a><a href="#ipo" data-t="ipo">IPOs</a><a href="#analysts" data-t="analysts">Analyst U/D</a><a href="#notes" data-t="notes">Notes</a><a href="#more" data-t="more">More data</a><a href="#bonds" data-t="bonds">Bonds</a><a href="#vol" data-t="vol">Volatility</a></nav>
+.tag{display:inline-block;font-size:11px;font-weight:900;padding:2px 8px;border-radius:999px;color:#fff}/* ===== v12 professional polish ===== */
+:root{--bg:#f4f6f9;--card:#fff;--tx:#0f172a;--mu:#5b6676;--bd:#e2e8f0;--up:#16a34a;--dn:#dc2626;--pri:#1d4ed8;--hd1:#0b2545;--hd2:#0b2545;--zb:#f8fafc}
+@media(prefers-color-scheme:dark){:root{--bg:#0a1220;--card:#0f1b2d;--tx:#e6edf6;--mu:#9aa8ba;--bd:#1e2d44;--up:#4ade80;--dn:#f87171;--pri:#60a5fa;--hd1:#081a31;--hd2:#081a31;--zb:#122036}}
+body{font-family:Inter,-apple-system,system-ui,"Segoe UI",Roboto,sans-serif!important;font-size:14px;line-height:1.45;font-feature-settings:"tnum" 1,"cv11" 1;font-variant-numeric:tabular-nums;-webkit-font-smoothing:antialiased}
+header{background:var(--hd1)!important;padding:10px 16px!important;border-bottom:1px solid #ffffff1a}
+header>div{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+h1{font-size:18px!important;font-weight:700!important;letter-spacing:-.01em!important;text-shadow:none!important;display:flex;align-items:center;gap:8px}
+h1:before{content:"";width:22px;height:22px;flex:none;border-radius:5px;background:#1d4ed8 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 17l6-6 4 4 8-8'/%3E%3C/svg%3E") center/16px no-repeat}
+#upd{font-size:11.5px!important;opacity:.75!important;font-weight:400!important;margin:0!important}
+#mkt{margin-left:auto;font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;display:flex;align-items:center;gap:6px;color:#cbd5e1}
+#mkt i{width:7px;height:7px;border-radius:50%;background:#64748b}#mkt.open i{background:#22c55e;box-shadow:0 0 0 3px #22c55e33}
+nav{gap:0!important;background:var(--card);border:1px solid var(--bd);border-radius:8px;overflow:hidden!important;padding:0!important;margin-top:12px!important;margin-bottom:12px!important}
+nav a{border:0!important;border-radius:0!important;background:transparent!important;color:var(--mu)!important;font-weight:600!important;font-size:12.5px!important;padding:9px 4px!important;box-shadow:none!important;border-right:1px solid var(--bd)!important;border-bottom:1px solid var(--bd)!important;transition:background .12s,color .12s}
+nav a:hover{background:var(--zb)!important;color:var(--tx)!important}
+nav a.on{color:var(--pri)!important;background:color-mix(in srgb,var(--pri) 8%,var(--card))!important;box-shadow:inset 0 -2px 0 var(--pri)!important}
+h2{font-size:11.5px!important;font-weight:700!important;text-transform:uppercase;letter-spacing:.08em;color:var(--mu)!important}
+h2:before{width:3px!important;height:12px!important;border-radius:1px!important}
+.c,.up7,.bc,.cv,.nc,.calh,.day,.ev,.nq,.er.mag7,.er.key{border-radius:8px!important}
+.c{background:var(--card)!important}
+.c,.up7,.bc,.cv,.nc,.ev{box-shadow:none!important;border:1px solid var(--bd)}
+.bc{border-top:1px solid var(--bd)!important}
+.chip,.sb,.ab,.adt,.tb,.tag,.cc{border-radius:4px!important;letter-spacing:.02em}
+.rg button,.ntg button,.calh button{border-radius:6px!important;font-weight:600!important}
+.rg button{padding:3px 10px!important;font-size:12px}
+.calh{background:var(--hd1)!important;box-shadow:none!important}
+.day.today{border:1px solid var(--pri)!important;box-shadow:inset 0 0 0 1px var(--pri)!important}
+.day.today .dn_{background:var(--pri)!important}
+.cc{background:color-mix(in srgb,var(--k) 12%,var(--card))!important;color:var(--tx)!important;border:0!important}
+.cc .kd{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--k);margin-right:4px;vertical-align:1px}
+.er.mag7,.er.key{background:transparent!important;border:0!important;border-top:1px solid var(--bd)!important;border-left:3px solid #d4a017!important;border-radius:0!important;padding:5px 8px!important;margin:0!important}
+.er.key{border-left-color:var(--pri)!important}
+.er:nth-child(even){background:var(--zb)}
+svg polyline,svg path{stroke-width:1.5}svg line{stroke-opacity:.5}
+svg text{fill:var(--mu)}
+footer{font-size:11.5px;color:var(--mu);border-top:1px solid var(--bd);line-height:1.6}
+.bv,.ix td,.bm{font-variant-numeric:tabular-nums}
+/* indexes */
+.hs{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:4px;margin:6px 0 14px}
+.hs a{display:block;padding:6px 8px;border-radius:6px;color:var(--tx);text-decoration:none;font-size:11.5px;background:color-mix(in srgb,var(--hc) var(--ha),var(--card));border:1px solid var(--bd)}
+.hs b{display:block;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}@media(max-width:520px){.hs{grid-template-columns:repeat(3,minmax(0,1fr))}.hs a{padding:5px 6px;font-size:11px}.hs small{font-size:9.5px}}.hs small{color:var(--mu);font-size:10px}
+</style><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"></head><body>
+<header><div><h1 id="t"></h1><div id="upd">Loading…</div><div id="mkt"><i></i><span></span></div></div></header>
+<nav><a href="#macro" data-t="macro">Macro</a><a href="#earnings" data-t="earnings">Earnings</a><a href="#calendar" data-t="calendar">Calendar</a><a href="#ipo" data-t="ipo">IPOs</a><a href="#analysts" data-t="analysts">Analyst U/D</a><a href="#notes" data-t="notes">Notes</a><a href="#more" data-t="more">More data</a><a href="#bonds" data-t="bonds">Bonds</a><a href="#vol" data-t="vol">Volatility</a><a href="#indexes" data-t="indexes">Indexes</a></nav>
 <main id="m"></main>
-<footer>Data: FRED, St. Louis Fed. Not investment advice.<br>"Exp." = nowcast/forecast for the next release, not a guarantee: inflation from <a href="https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting">Cleveland Fed Inflation Nowcasting</a>, GDP from <a href="https://www.atlantafed.org/cqer/research/gdpnow">Atlanta Fed GDPNow</a>, mortgage path from the <a href="https://www.fanniemae.com/data-and-insights/forecast">Fannie Mae ESR Housing Forecast</a> (quarterly averages).<br>Calendar: <a href="https://fred.stlouisfed.org/releases/calendar">FRED release calendar</a>, <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm">Federal Reserve</a>, <a href="https://www.nasdaq.com/market-activity/earnings">Nasdaq earnings calendar</a> (market cap ≥ $100B). Times ET.<br>Analyst ratings are consensus opinions, not advice. Source: Nasdaq.</footer>
+<footer>Data: FRED, St. Louis Fed. Not investment advice.<br>"Exp." = nowcast/forecast for the next release, not a guarantee: inflation from <a href="https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting">Cleveland Fed Inflation Nowcasting</a>, GDP from <a href="https://www.atlantafed.org/cqer/research/gdpnow">Atlanta Fed GDPNow</a>, mortgage path from the <a href="https://www.fanniemae.com/data-and-insights/forecast">Fannie Mae ESR Housing Forecast</a> (quarterly averages).<br>Calendar: <a href="https://fred.stlouisfed.org/releases/calendar">FRED release calendar</a>, <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm">Federal Reserve</a>, <a href="https://www.nasdaq.com/market-activity/earnings">Nasdaq earnings calendar</a> (market cap ≥ $100B). Times ET.<br>Analyst ratings: Nasdaq consensus. Bonds &amp; volatility: FRED, Cboe, CNBC, Nasdaq, central banks, STOXX, ChinaBond. Indexes: CNBC quote data, Nasdaq (ETFs).<br><b>Not investment advice.</b> Data may be delayed; verify before trading.</footer>
 <script>
 const SITE_TITLE="Macro Pulse";
 document.getElementById('t').textContent=SITE_TITLE;document.title=SITE_TITLE;
@@ -109,7 +149,7 @@ const cnt=a.buy!=null?` · ${a.buy} Buy / ${a.hold} Hold / ${a.sell} Sell`:'';
 const pt=a.target&&a.price?` · PT $${a.target.toFixed(0)} vs $${a.price.toFixed(2)} (${((a.target/a.price-1)*100).toFixed(0)>0?'+':''}${((a.target/a.price-1)*100).toFixed(0)}%)`:'';
 return`<a class="er ${e.tier||''}" href="${esc(e.url)}" target="_blank" rel="noopener"><div class="ert"><b>${esc(e.title)}</b>${tierB(e.tier)}<span class="ern">${esc(e.name)}</span><span class="ut">${esc(e.time)}</span></div>
 <div class="m" style="margin:2px 0 0">${e.eps_est?'EPS est. '+esc(e.eps_est):'EPS est. n/a'}${a.sentiment?` <span class="sb ${a.sentiment.toLowerCase()}">${esc(a.sentiment)}</span>`:''}${esc(cnt)}${esc(pt)}</div></a>`};
-const G=[['BMO','☀️ Before market open (BMO)'],['AMC','🌙 After market close (AMC)'],['','🕒 Time not confirmed']];
+const G=[['BMO','Before market open (BMO)'],['AMC','After market close (AMC)'],['','Time not confirmed']];
 for(const d of Object.keys(by).sort()){h+=`<div class="ud"><div class="udl">${lab(d)}</div><div>`;
 for(const[k,n]of G){const g=by[d].filter(e=>k?(e.time||'').includes(k):!/BMO|AMC/.test(e.time||''));g.sort((a,b)=>(TR[a.tier]??2)-(TR[b.tier]??2));if(g.length)h+=`<div class="eg">${n} · ${g.length}</div>`+g.map(row).join('')}h+='</div></div>'}
 return h+'<div class="note">Analyst ratings are consensus opinions, not advice. Source: Nasdaq (analyst consensus, price targets, quotes at last update).</div></section>'}
@@ -174,7 +214,7 @@ function expFor(e){if(!e.keys||!e.keys.length)return'';const now=iso(new Date())
 const nxt=D.calendar.events.find(x=>x.title==e.title&&x.date>=now);if(!nxt||nxt.date!=e.date)return'';
 return e.keys.map(k=>D.indicators.find(i=>i.key==k)).filter(i=>i&&i.expected).map(i=>`${i.label.replace(' YoY','').replace(/ \(.*\)/,'').replace('Real GDP growth','GDP')} ${f(i.expected.value,i.decimals,i.unit)}`).join(', ')}
 const KIND={CPI:'infl',PPI:'infl','PCE / income':'infl','Jobs report':'jobs',JOLTS:'jobs','Jobless claims':'jobs',GDP:'gdp'};
-const KI={infl:'🔥',jobs:'👷',gdp:'🏭',fed:'🏦',earn:'💼',mag7:'⭐',ipo:'🚀',oth:'📊'};
+const KI=new Proxy({},{get:()=>'<i class="kd"></i>'});
 const kindOf=e=>e.type=='earnings'?(e.tier=='mag7'?'mag7':'earn'):e.type=='ipo'?'ipo':/^FOMC|Fed/.test(e.title)?'fed':(KIND[e.title]||'oth');
 const tierB=t=>t=='mag7'?'<span class="tb mag7">MAG 7</span>':t=='key'?'<span class="tb key">KEY</span>':'';
 const TR={mag7:0,key:1};
@@ -184,7 +224,7 @@ return`<a class="ev k" style="--k:var(--k-${kindOf(e)})" href="${esc(e.url)}" ta
 function calendar(){const C=D.calendar||{events:[]};const today=new Date();if(!calM)calM=new Date(today.getFullYear(),today.getMonth(),1);
 if(!sel)sel=iso(today);const y=calM.getFullYear(),mo=calM.getMonth();const by={};C.events.forEach(e=>(by[e.date]=by[e.date]||[]).push(e));
 let h=`<div class="calh"><button onclick="mv(-1)" aria-label="Previous month">‹</button><b>${calM.toLocaleString('en-US',{month:'long',year:'numeric'})}</b><button onclick="mv(1)" aria-label="Next month">›</button></div>
-<div class="leg"><span class="cc" style="--k:var(--k-infl)">🔥 Inflation</span><span class="cc" style="--k:var(--k-jobs)">👷 Jobs</span><span class="cc" style="--k:var(--k-gdp)">🏭 GDP</span><span class="cc" style="--k:var(--k-fed)">🏦 Fed / FOMC</span><span class="cc" style="--k:var(--k-earn)">💼 Earnings</span><span class="cc" style="--k:var(--k-mag7)">⭐ Mag 7 earnings</span><span class="cc" style="--k:var(--k-ipo)">🚀 IPO</span><span class="cc" style="--k:var(--k-oth)">📊 Other macro</span></div><div class="grid">`;
+<div class="leg"><span class="cc" style="--k:var(--k-infl)"><i class="kd"></i>Inflation</span><span class="cc" style="--k:var(--k-jobs)"><i class="kd"></i>Jobs</span><span class="cc" style="--k:var(--k-gdp)"><i class="kd"></i>GDP</span><span class="cc" style="--k:var(--k-fed)"><i class="kd"></i>Fed / FOMC</span><span class="cc" style="--k:var(--k-earn)"><i class="kd"></i>Earnings</span><span class="cc" style="--k:var(--k-mag7)"><i class="kd"></i>Mag 7 earnings</span><span class="cc" style="--k:var(--k-ipo)"><i class="kd"></i>IPO</span><span class="cc" style="--k:var(--k-oth)"><i class="kd"></i>Other macro</span></div><div class="grid">`;
 h+=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].map(d=>`<div class="dow${d=='Sun'||d=='Sat'?' we':''}">${d}</div>`).join('');
 const s=new Date(y,mo,1-new Date(y,mo,1).getDay());
 for(let k=0;k<42;k++){const d=new Date(s.getFullYear(),s.getMonth(),s.getDate()+k);if(k>=35&&d.getMonth()!=mo)break;const ds=iso(d),ev=by[ds]||[];
@@ -250,10 +290,38 @@ return`<div class="note" style="margin-top:12px">Government bonds are shown as <
 ${bsec('ust','US Treasuries','Daily constant-maturity yields, FRED (H.15), ~1 business day lag.',S('ust'),'bonds',pre)}
 ${bsec('tips','TIPS & breakevens','Real yields (DFII) and market-implied inflation (T5YIE/T10YIE), FRED.',S('tips'),'bonds')}
 ${bsec('glob','Global sovereign 10Y yields','Germany, France, Italy, China: CNBC daily. UK: Bank of England. Japan: MoF. Canada: Bank of Canada. Australia: RBA. India: OECD via FRED (monthly).',S('glob'),'bonds')}
-${bsec('india','🇮🇳 India G-Secs','10Y & 30Y: CNBC daily quote (free history not published, so charts build up from Oct 26, 2026). Monthly OECD series via FRED for longer history.',order(S('india'),['in10','in30','inus','inusm','in3m','inr']),'bonds',ipre)}
-${bsec('china','🇨🇳 China government bonds','ChinaBond / MoF China curve (1Y–30Y, daily); CNBC 2Y/10Y daily history; USD/CNY from FRED.',order(I,['cb1','cb2','cb5','cb10','cb30','cn2','cn10','cnus','cny']),'bonds',cpre)}
+${bsec('india','India G-Secs','10Y & 30Y: CNBC daily quote (free history not published, so charts build up from Oct 26, 2026). Monthly OECD series via FRED for longer history.',order(S('india'),['in10','in30','inus','inusm','in3m','inr']),'bonds',ipre)}
+${bsec('china','China government bonds','ChinaBond / MoF China curve (1Y–30Y, daily); CNBC 2Y/10Y daily history; USD/CNY from FRED.',order(I,['cb1','cb2','cb5','cb10','cb30','cn2','cn10','cnus','cny']),'bonds',cpre)}
 ${bsec('etf','US bond ETFs','Daily closing prices, Nasdaq historical quotes.',S('etf'),'bonds')}
 <div class="note">Not shown: India 91-day & 364-day T-bills and 2Y/5Y/40Y G-Secs (FBIL/CCIL/RBI pages need a browser or returned 404; no free API found), India gilt ETF (no free quote API). ${(B.failed||[]).length?'Failed this run: '+B.failed.map(esc).join('; '):''}</div>`}
+RG.indexes='3M';
+const MK={US:['America/New_York','09:30','16:00','NYSE'],IN:['Asia/Kolkata','09:15','15:30','NSE'],EU:['Europe/Berlin','09:00','17:30','Eurex'],DE:['Europe/Berlin','09:00','17:30','Xetra'],UK:['Europe/London','08:00','16:30','LSE'],FR:['Europe/Paris','09:00','17:30','Euronext'],ES:['Europe/Madrid','09:00','17:30','BME'],IT:['Europe/Rome','09:00','17:30','Borsa'],CH:['Europe/Zurich','09:00','17:30','SIX'],JP:['Asia/Tokyo','09:00','15:30','TSE'],HK:['Asia/Hong_Kong','09:30','16:00','HKEX'],CN:['Asia/Shanghai','09:30','15:00','SSE'],KR:['Asia/Seoul','09:00','15:30','KRX'],AU:['Australia/Sydney','10:00','16:00','ASX'],TW:['Asia/Taipei','09:00','13:30','TWSE'],CA:['America/Toronto','09:30','16:00','TSX'],BR:['America/Sao_Paulo','10:00','17:00','B3'],MX:['America/Mexico_City','08:30','15:00','BMV']};
+function mOpen(c){const m=MK[c];if(!m)return null;const p=Object.fromEntries(new Intl.DateTimeFormat('en-US',{timeZone:m[0],weekday:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(new Date()).map(x=>[x.type,x.value]));const hm=p.hour+':'+p.minute;return!['Sat','Sun'].includes(p.weekday)&&hm>=m[1]&&hm<m[2]}
+function ist(it){const h=it.h,L=h[h.length-1],lv=L[1],ld=L[0],pr=h.length>1?h[h.length-2][1]:null;const pc=(a)=>a?(lv/a-1)*100:null;
+const w=h[0][0]<=dsub(ld,7)?at(h,dsub(ld,7)):null,m=h[0][0]<=dsub(ld,30)?at(h,dsub(ld,30)):null,y0=at(h,(+ld.slice(0,4)-1)+'-12-31');const yr=h.filter(p=>p[0]>=dsub(ld,365)).map(p=>p[1]);
+return{lv,ld,d:pr!=null?lv-pr:null,dp:pr?pc(pr):null,w:pc(w),m:pc(m),ytd:h[0][0]<=(+ld.slice(0,4)-1)+'-12-31'?pc(y0):null,lo:Math.min(...yr),hi:Math.max(...yr),n:yr.length}}
+const pf=v=>v==null||isNaN(v)?'<span>—</span>':`<span class="${v>0?'up':v<0?'dn':''}">${v>0?'+':''}${v.toFixed(2)}%</span>`;
+const nf=(v,d=2)=>v.toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d});
+function icard(it){const s=ist(it);const pos=s.hi>s.lo?(s.lv-s.lo)/(s.hi-s.lo)*100:50;const et=it.src=='Nasdaq';const hh=it.h.filter(p=>p[0]>=dsub(s.ld,RD[RG.indexes]));
+return`<div class="bc"><div class="bh"><b>${esc(it.label)}</b><span class="bf">${esc(it.ticker)}</span></div>
+<div class="bv">${et?'$':''}${nf(s.lv)}${s.d!=null?`<span class="${s.d>0?'up':s.d<0?'dn':''}">${s.d>0?'+':''}${nf(s.d)}</span>`+pf(s.dp):''}</div>
+<div class="bm">1W ${pf(s.w)} · 1M ${pf(s.m)} · YTD ${pf(s.ytd)}</div>
+<div class="bm" style="display:flex;justify-content:space-between"><span>52W low ${nf(s.lo)}</span><span>high ${nf(s.hi)}</span></div><div class="pb" style="position:relative;overflow:visible"><i style="position:absolute;left:calc(${pos.toFixed(1)}% - 1px);top:-3px;width:3px;height:12px;background:var(--tx);border-radius:1px"></i></div>
+${lsvg(hh,'var(--pri)')}<div class="bs">Source: <a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.src)}</a> · ${it.live?'latest quote '+esc(it.live)+' (may be intraday)':'last close '+esc(s.ld)}</div></div>`}
+function ixTab(){const X=D.indexes;if(!X)return'<div class="note">Index data unavailable.</div>';const I=X.items,S=k=>I.filter(i=>i.sec==k);
+const hs=I.filter(i=>i.src!='Nasdaq').map(i=>{const s=ist(i),o=mOpen(i.mkt),m=MK[i.mkt];const a=s.dp==null?0:Math.min(34,Math.abs(s.dp)*14+6);
+return`<a href="#ix-${i.key}" onclick="document.getElementById('ix-${i.key}')?.scrollIntoView({behavior:'smooth'});return false" style="--hc:${s.dp>=0?'var(--up)':'var(--dn)'};--ha:${a.toFixed(0)}%"><b>${esc(i.label)}</b>${pf(s.dp)}<br><small>${o?'● Open':'Closed'} · closes ${m?m[2]+' '+m[3]+' local':''}</small></a>`}).join('');
+const sec=(id,t,sub,its)=>its.length?`<section class="bsec"><h2 style="--sc:var(--markets)">${t}</h2><div class="bsub">${sub}</div><div class="bgrid">${its.map(i=>`<div id="ix-${i.key}">${icard(i)}</div>`).join('')}</div></section>`:'';
+return`<div class="note" style="margin-top:12px">Equity index levels in local currency points; ETFs in US$. Daily change vs prior close; 1W/1M/YTD and 52-week range computed from the daily history shown. Updated ${esc(X.updated_et||D.updated_et)}.</div>
+<h2 style="--sc:var(--markets)">World markets</h2><div class="hs">${hs}</div>${rgb('indexes')}
+${sec('us','United States','Index levels: CNBC quote data.',S('us'))}${sec('etf','US index ETFs','Daily closes, Nasdaq historical quotes.',S('etf'))}
+${sec('india','India','NSE / BSE indexes via CNBC quote data.',S('india'))}${sec('eu','Europe','CNBC quote data.',S('eu'))}
+${sec('asia','Asia-Pacific','CNBC quote data.',S('asia'))}${sec('am','Americas ex-US','CNBC quote data.',S('am'))}
+${sec('glob','Global (MSCI via ETFs)','MSCI index levels are licensed, not free, so the iShares ETFs tracking them are shown (Nasdaq daily closes).',S('glob'))}
+<div class="note">Open/closed status uses each exchange's regular hours in its local time zone and ignores holidays and lunch breaks. ${(X.failed||[]).length?'Failed this run: '+X.failed.map(esc).join('; '):''}</div>`}
+function mktStrip(){const el=document.getElementById('mkt');if(!el)return;const o=mOpen('US');el.className=o?'open':'';el.querySelector('span').textContent='NYSE '+(o?'Open':'Closed')}
+setInterval(mktStrip,60000);
+
 function volTab(){const V=D.vol;if(!V)return'<div class="note">Volatility data unavailable.</div>';const I=V.items,S=k=>I.filter(i=>i.sec==k),K=Object.fromEntries(I.map(i=>[i.ticker,i]));
 const ts=['VIX9D','VIX','VIX3M','VIX6M','VIX1Y'].map(t=>K[t]).filter(Boolean);let pre='';if(ts.length==5){const ld=ts[1].h[ts[1].h.length-1][0];const now=ts.map(i=>at(i.h,ld)),ago=ts.map(i=>at(i.h,dsub(ld,30)));
 const st=a=>a[1]<a[2]?['Contango','#16a34a']:['Backwardation','#dc2626'];const [l,c]=st(now),[l2]=st(ago);
@@ -262,9 +330,9 @@ return`<div class="note" style="margin-top:12px">Implied-volatility indexes (ann
 ${bsec('veq','Equity volatility','Cboe daily closes.',S('vol_eq'),'vol',pre)}${bsec('vx','Cross-asset volatility','Cboe (OVX, GVZ, VXEEM); MOVE via CNBC.',S('vol_x'),'vol')}
 ${bsec('vg','Global volatility','VSTOXX: STOXX. India VIX: NSE index via CNBC.',S('vol_g'),'vol')}
 <div class="note">Not shown: EVZ (euro FX vol): Cboe's CSV returns 403 and FRED's EVZCLS stopped in March 2025. Nikkei Volatility Index (Nikkei's download returns a web page, not data, and no other free source was found). ${(V.failed||[]).length?'Failed this run: '+V.failed.map(esc).join('; '):''}</div>`}
-function render(){if(!D)return;const t=['more','calendar','earnings','ipo','notes','analysts','bonds','vol'].includes(location.hash.slice(1).split('?')[0])?location.hash.slice(1).split('?')[0]:'macro';
+function render(){if(!D)return;const t=['more','calendar','earnings','ipo','notes','analysts','bonds','vol','indexes'].includes(location.hash.slice(1).split('?')[0])?location.hash.slice(1).split('?')[0]:'macro';
 document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('on',a.dataset.t==t));if(t=='notes'){notesTab();return}if(t=='analysts'){anTab();return}
-document.getElementById('m').innerHTML=t=='bonds'?bondsTab():t=='vol'?volTab():t=='calendar'?calendar():t=='ipo'?ipoTab():t=='earnings'?upEarn()||'<div class="note">No large-cap earnings in the next 2 weeks.</div>':(t=='macro'?upcoming():'')+cards(t)}
+document.getElementById('m').innerHTML=t=='indexes'?ixTab():t=='bonds'?bondsTab():t=='vol'?volTab():t=='calendar'?calendar():t=='ipo'?ipoTab():t=='earnings'?upEarn()||'<div class="note">No large-cap earnings in the next 2 weeks.</div>':(t=='macro'?upcoming():'')+cards(t)}
 window.addEventListener('hashchange',render);
-fetch('data.json?v='+Date.now()).then(r=>r.json()).then(j=>{D=j;document.getElementById('upd').textContent='Last updated '+D.updated_et;render()}).catch(()=>document.getElementById('upd').textContent='Data unavailable');
+fetch('data.json?v='+Date.now()).then(r=>r.json()).then(j=>{D=j;mktStrip();document.getElementById('upd').textContent='Last updated '+D.updated_et;render()}).catch(()=>document.getElementById('upd').textContent='Data unavailable');
 </script></body></html>

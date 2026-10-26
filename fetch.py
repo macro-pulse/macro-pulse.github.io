@@ -181,7 +181,17 @@ def main():
         try: prev_all = json.load(open("data.json")); bonds, vol = prev_all.get("bonds"), prev_all.get("vol")
         except Exception: bonds = vol = None
     print(f"bonds/vol done ({time.time()-t1:.0f}s)")
-    json.dump(dict(bonds=bonds, vol=vol, calendar=cal, ipo=ipo, analysts=analysts, updated_et=datetime.now(et).strftime("%Y-%m-%d %H:%M ET"), indicators=res, failed=failed),
+    t1 = time.time()
+    try:
+        import indexes_fetch
+        idx = indexes_fetch.build(calendar_fetch.http, datetime.now(et).date())
+        idx["updated_et"] = datetime.now(et).strftime("%Y-%m-%d %H:%M ET")
+    except Exception as e:
+        print("WARN indexes", e, file=sys.stderr)
+        try: idx = json.load(open("data.json")).get("indexes")
+        except Exception: idx = None
+    print(f"indexes done ({time.time()-t1:.0f}s)")
+    json.dump(dict(bonds=bonds, vol=vol, indexes=idx, calendar=cal, ipo=ipo, analysts=analysts, updated_et=datetime.now(et).strftime("%Y-%m-%d %H:%M ET"), indicators=res, failed=failed),
               open("data.json", "w"), indent=1)
     print(f"ok {len(res)} indicators, {len(failed)} failed, total {time.time()-T0:.0f}s")
     if not res: sys.exit(1)
