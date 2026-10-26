@@ -59,9 +59,21 @@ footer{text-align:center;color:var(--mu);font-size:12px;padding:16px 12px 32px}f
 .day.we{background:color-mix(in srgb,var(--pri) 5%,var(--card))}.day.past{opacity:.6}.day.out{opacity:.3}
 .day.today{border:2px solid #3b82f6!important;box-shadow:0 0 0 3px #3b82f644,0 0 14px #3b82f680;opacity:1}.day.today .dn_{color:#fff;background:#2563eb;border-radius:999px;display:inline-block;min-width:20px;text-align:center}
 .day.st-fed{box-shadow:inset 0 3px 0 var(--k-fed)}.day.st-mag7{box-shadow:inset 0 3px 0 var(--k-mag7)}.day.st-fed.st-mag7{box-shadow:inset 0 3px 0 var(--k-fed),inset 0 6px 0 var(--k-mag7)}
-.ev.k{border-left-color:var(--k);background:color-mix(in srgb,var(--k) 7%,var(--card))}</style></head><body>
+.ev.k{border-left-color:var(--k);background:color-mix(in srgb,var(--k) 7%,var(--card))}.bsec{margin:18px 0 8px}.bsec h2{margin:0 0 4px}.bsub{font-size:12px;color:var(--mu);margin:0 0 8px}
+.bgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
+.bc{background:var(--card);border:1px solid var(--bd);border-top:3px solid var(--pri);border-radius:12px;padding:10px 12px;min-width:0}
+.bc.stale{border-top-color:var(--mu)}.bh{display:flex;justify-content:space-between;gap:6px;align-items:baseline}.bh b{font-size:14px}
+.bf{font-size:10px;font-weight:700;color:var(--mu);text-transform:uppercase;letter-spacing:.03em;text-align:right}
+.bv{font-size:22px;font-weight:900;margin:2px 0}.bv span{font-size:13px;margin-left:6px}.up{color:var(--up)}.dn{color:var(--dn)}
+.bm{font-size:12px;color:var(--mu)}.bm b{color:var(--tx)}.bs{font-size:11px;color:var(--mu);margin-top:2px}.bs a{color:var(--mu)}
+.bc svg{width:100%;height:76px;display:block;margin-top:4px}.rg{display:inline-flex;gap:4px;margin:6px 0}
+.rg button{border:1px solid var(--bd);background:var(--card);color:var(--pri);font-weight:800;border-radius:999px;padding:4px 12px;cursor:pointer}.rg button.on{background:var(--pri);color:#fff}
+.cv{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:10px 12px;margin-bottom:10px}.cv svg{width:100%;height:190px;display:block}
+.cvl{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--mu)}.cvl i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:3px;margin-right:4px}
+.pb{height:6px;border-radius:3px;background:var(--bd);margin-top:4px;overflow:hidden}.pb i{display:block;height:100%;background:linear-gradient(90deg,#16a34a,#f59e0b,#dc2626)}
+.tag{display:inline-block;font-size:11px;font-weight:900;padding:2px 8px;border-radius:999px;color:#fff}</style></head><body>
 <header><div><h1 id="t"></h1><div id="upd">Loading…</div></div></header>
-<nav><a href="#macro" data-t="macro">Macro</a><a href="#earnings" data-t="earnings">Earnings</a><a href="#calendar" data-t="calendar">Calendar</a><a href="#ipo" data-t="ipo">IPOs</a><a href="#analysts" data-t="analysts">Analyst U/D</a><a href="#notes" data-t="notes">Notes</a><a href="#more" data-t="more">More data</a></nav>
+<nav><a href="#macro" data-t="macro">Macro</a><a href="#earnings" data-t="earnings">Earnings</a><a href="#calendar" data-t="calendar">Calendar</a><a href="#ipo" data-t="ipo">IPOs</a><a href="#analysts" data-t="analysts">Analyst U/D</a><a href="#notes" data-t="notes">Notes</a><a href="#more" data-t="more">More data</a><a href="#bonds" data-t="bonds">Bonds</a><a href="#vol" data-t="vol">Volatility</a></nav>
 <main id="m"></main>
 <footer>Data: FRED, St. Louis Fed. Not investment advice.<br>"Exp." = nowcast/forecast for the next release, not a guarantee: inflation from <a href="https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting">Cleveland Fed Inflation Nowcasting</a>, GDP from <a href="https://www.atlantafed.org/cqer/research/gdpnow">Atlanta Fed GDPNow</a>, mortgage path from the <a href="https://www.fanniemae.com/data-and-insights/forecast">Fannie Mae ESR Housing Forecast</a> (quarterly averages).<br>Calendar: <a href="https://fred.stlouisfed.org/releases/calendar">FRED release calendar</a>, <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm">Federal Reserve</a>, <a href="https://www.nasdaq.com/market-activity/earnings">Nasdaq earnings calendar</a> (market cap ≥ $100B). Times ET.<br>Analyst ratings are consensus opinions, not advice. Source: Nasdaq.</footer>
 <script>
@@ -203,9 +215,56 @@ const LL=ALIM?L.slice(0,ALIM):L;const by={};LL.forEach(a=>(by[a.date]=by[a.date]
 const ar=(o,nw)=>o&&nw&&o!=nw?`${hl(o,q)} → ${hl(nw,q)}`:hl(nw||o||'',q);
 document.getElementById('al').innerHTML=!L.length?'<div class="note">No matches'+(q?' for “'+esc(q)+'”':'')+'.</div>':Object.keys(by).sort().reverse().map(d=>`<div class="eg" style="color:var(--pri)">${hl(dl(d),q)} · ${by[d].length}</div>`+by[d].map(a=>{const pt=a.pt_old&&a.pt_new&&a.pt_old!=a.pt_new?`PT ${esc(a.pt_old)} → ${esc(a.pt_new)}`:(a.pt_new||a.pt_old)?'PT '+esc(a.pt_new||a.pt_old):'';const rt=ar(a.rating_old,a.rating_new);
 return`<div class="ar" style="--ac:${col(a)}"><div><a href="https://www.marketbeat.com/stocks/${encodeURIComponent(a.ticker)}/forecast/" target="_blank" rel="noopener"><b>${hl(a.ticker,q)}</b> <span class="ern">${hl(a.company,q)}</span></a><div class="m"><span class="adt">${hl(sd(a.date),q)}</span><span class="ab">${hl(a.action_raw||a.action,q)}</span>${hl(a.firm,q)}${rt?' · '+rt:''}</div></div><div class="arp">${pt?`<div>${pt}</div>`:''}${a.price?`<div class="m">Price ${esc(a.price)}</div>`:''}</div></div>`}).join('')).join('')+(ALIM&&L.length>ALIM?`<div class="note">Showing ${ALIM} of ${L.length} — <a href="#analysts${q?'?q='+encodeURIComponent(q):''}">see all</a></div>`:'')}
-function render(){if(!D)return;const t=['more','calendar','earnings','ipo','notes','analysts'].includes(location.hash.slice(1).split('?')[0])?location.hash.slice(1).split('?')[0]:'macro';
+const RG={bonds:'3M',vol:'3M'},RD={'1M':31,'3M':92,'1Y':366};
+const dsub=(d,n)=>{const x=new Date(d+'T12:00');x.setDate(x.getDate()-n);return iso(x)};
+const at=(h,d)=>{let v=null;for(const p of h){if(p[0]<=d)v=p[1];else break}return v};
+const fv=(v,u)=>v==null?'—':u=='$'?'$'+v.toFixed(2):u=='%'?v.toFixed(2)+'%':u=='pp'?(v>0?'+':'')+v.toFixed(2)+' pp':v.toFixed(2);
+const fc=(c,u,base)=>{if(c==null||isNaN(c))return'<span>—</span>';const bp=u=='%'||u=='pp';const t=bp?(c>0?'+':'')+(c*100).toFixed(0)+' bp':(c>0?'+':'')+(c/base*100).toFixed(2)+'%';return`<span class="${c>0?'up':c<0?'dn':''}">${t}</span>`};
+function lsvg(h,col){if(!h||h.length<2)return'<div class="bs" style="margin:10px 0">Chart builds as daily readings accumulate.</div>';const W=300,H=76,P=4;const v=h.map(p=>p[1]),mn=Math.min(...v),mx=Math.max(...v),r=mx-mn||1;
+const xy=h.map((p,i)=>[(P+i*(W-2*P)/(h.length-1)).toFixed(1),(P+(H-2*P)*(1-(p[1]-mn)/r)).toFixed(1)]);const id='g'+Math.random().toString(36).slice(2,8);
+return`<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none"><defs><linearGradient id="${id}" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="${col}" stop-opacity=".25"/><stop offset="1" stop-color="${col}" stop-opacity="0"/></linearGradient></defs><path d="M${xy.map(p=>p.join(',')).join('L')}L${xy[xy.length-1][0]},${H}L${xy[0][0]},${H}Z" fill="url(#${id})"/><polyline points="${xy.map(p=>p.join(',')).join(' ')}" fill="none" stroke="${col}" stroke-width="2" vector-effect="non-scaling-stroke"/></svg><div class="bs" style="display:flex;justify-content:space-between"><span>${h[0][0]}</span><span>low ${mn.toFixed(2)} · high ${mx.toFixed(2)}</span><span>${h[h.length-1][0]}</span></div>`}
+function bcard(it,tab){const h=it.h||[],L=h[h.length-1];if(!L)return'';const ld=L[0],lv=L[1],u=it.unit;const mo=it.freq=='monthly';
+const pr=h.length>1?h[h.length-2][1]:null;let d1=pr!=null?lv-pr:null,w1=mo?null:at(h,dsub(ld,7)),m1=at(h,dsub(ld,mo?28:30));
+let ch=`1W ${w1!=null&&h.length>1&&h[0][0]<=dsub(ld,7)?fc(lv-w1,u,w1):'<span>—</span>'} · 1M ${m1!=null&&h[0][0]<=dsub(ld,mo?28:30)?fc(lv-m1,u,m1):'<span>—</span>'}`;
+if(it.src_chg){d1=it.src_chg.d/100;ch=`1M <span class="${it.src_chg.m>0?'up':it.src_chg.m<0?'dn':''}">${it.src_chg.m>0?'+':''}${it.src_chg.m.toFixed(0)} bp</span> · 1Y <span class="${it.src_chg.y>0?'up':'dn'}">${it.src_chg.y>0?'+':''}${it.src_chg.y.toFixed(0)} bp</span> (ChinaBond)`}
+let pc='';if(tab=='vol'){const y=h.filter(p=>p[0]>=dsub(ld,365)).map(p=>p[1]);const p=Math.round(y.filter(x=>x<=lv).length/y.length*100);pc=`<div class="bm">1Y percentile <b>${p}th</b> (${y.length} days)</div><div class="pb"><i style="width:${p}%"></i></div>`}
+const hh=h.filter(p=>p[0]>=dsub(ld,mo?RD[RG[tab]]*3:RD[RG[tab]]));
+return`<div class="bc${it.stale?' stale':''}"><div class="bh"><b>${esc(it.label)}</b><span class="bf">${esc(it.freq)}${it.stale?' · stale':''}</span></div>
+<div class="bv">${fv(lv,u)}${(it.unit=='₹'||it.unit=='¥')?' '+it.unit:''}${d1!=null?fc(d1,u,pr||1):''}</div><div class="bm">${mo?'vs prior month '+fc(d1,u,pr||1)+' · ':''}${ch} · as of ${esc(ld)}</div>${pc}
+${lsvg(hh,it.stale?'var(--mu)':'var(--pri)')}<div class="bs">Source: <a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.src)}</a></div></div>`}
+function csvg(xs,lines,unit){const W=600,H=190,PL=40,PR=10,PT=10,PB=24;const all=lines.flatMap(l=>l.v).filter(v=>v!=null);if(!all.length)return'';let mn=Math.min(...all),mx=Math.max(...all);const pd=(mx-mn)*.1||.1;mn-=pd;mx+=pd;
+const X=i=>PL+i*(W-PL-PR)/Math.max(1,xs.length-1),Y=v=>PT+(H-PT-PB)*(1-(v-mn)/(mx-mn));let g='';for(let k=0;k<=4;k++){const v=mn+(mx-mn)*k/4;g+=`<line x1="${PL}" x2="${W-PR}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--bd)"/><text x="${PL-4}" y="${Y(v)+4}" font-size="11" text-anchor="end" fill="var(--mu)">${v.toFixed(unit=='%'?2:1)}</text>`}
+xs.forEach((x,i)=>g+=`<text x="${X(i)}" y="${H-6}" font-size="11" text-anchor="middle" fill="var(--mu)">${esc(x)}</text>`);
+for(const l of lines){const p=l.v.map((v,i)=>v==null?null:`${X(i).toFixed(1)},${Y(v).toFixed(1)}`).filter(Boolean);g+=`<polyline points="${p.join(' ')}" fill="none" stroke="${l.c}" stroke-width="${l.w||2}" ${l.dash?'stroke-dasharray="5 4"':''}/>`+l.v.map((v,i)=>v==null?'':`<circle cx="${X(i)}" cy="${Y(v)}" r="3" fill="${l.c}"/>`).join('')}
+return`<svg viewBox="0 0 ${W} ${H}">${g}</svg><div class="cvl">${lines.map(l=>`<span><i style="background:${l.c}"></i>${esc(l.n)}</span>`).join('')}</div>`}
+const CC=['var(--pri)','#f59e0b','#94a3b8'];
+const rgb=t=>`<div class="rg">${['1M','3M','1Y'].map(r=>`<button class="${RG[t]==r?'on':''}" onclick="RG['${t}']='${r}';render()">${r}</button>`).join('')}</div>`;
+function bsec(id,title,sub,its,tab,pre){if(!its.length&&!pre)return'';return`<section class="bsec" id="s-${id}"><h2 style="--sc:var(--rates)">${title}</h2>${sub?`<div class="bsub">${sub}</div>`:''}${pre||''}<div class="bgrid">${its.map(i=>bcard(i,tab)).join('')}</div></section>`}
+function bondsTab(){const B=D.bonds;if(!B)return'<div class="note">Bond data unavailable.</div>';const I=B.items,S=k=>I.filter(i=>i.sec==k),K=Object.fromEntries(I.map(i=>[i.key,i]));
+const ust=S('ust').filter(i=>i.tenor);let pre='';if(ust.length){const ld=ust.map(i=>i.h[i.h.length-1][0]).sort().pop();
+pre=`<div class="cv"><b>US Treasury yield curve</b>${csvg(ust.map(i=>i.tenor),[{n:'Latest ('+ld+')',c:CC[0],w:3,v:ust.map(i=>at(i.h,ld))},{n:'1 month ago',c:CC[1],v:ust.map(i=>at(i.h,dsub(ld,30)))},{n:'1 year ago',c:CC[2],dash:1,v:ust.map(i=>at(i.h,dsub(ld,365)))}],'%')}</div>`}
+const cc=B.cn_curve;const cpre=cc?`<div class="cv"><b>China government bond yield curve (ChinaBond, ${esc(cc.date)})</b>${csvg(cc.tenors.map(t=>t.replace('Yr','Y').replace('Mo','M')),[{n:'Latest',c:CC[0],w:3,v:cc.now},{n:'1 month ago',c:CC[1],v:cc.m1},{n:'1 year ago',c:CC[2],dash:1,v:cc.y1}],'%')}<div class="bs">1M/1Y-ago curves = latest yield minus ChinaBond's published monthly/annual change.</div></div>`:'';
+const it=['in10','in30'].map(k=>K[k]).filter(Boolean);const ipre=it.length?`<div class="cv"><b>India G-Sec curve (daily tenors available)</b>${csvg(it.map(i=>i.tenor),[{n:'Latest',c:CC[0],w:3,v:it.map(i=>i.h[i.h.length-1][1])}],'%')}<div class="bs">Only the 10Y and 30Y have a free daily source; T-bills, 2Y, 5Y and 40Y are not shown (see below).</div></div>`:'';
+const order=(a,ks)=>ks.map(k=>K[k]).filter(Boolean);
+return`<div class="note" style="margin-top:12px">Government bonds are shown as <b>yields</b> (the market standard; prices move opposite to yields). Bond ETFs are shown as <b>prices</b>. Yield changes in basis points (bp). Updated ${esc(B.updated_et||D.updated_et)}.</div>${rgb('bonds')}
+${bsec('ust','US Treasuries','Daily constant-maturity yields, FRED (H.15), ~1 business day lag.',S('ust'),'bonds',pre)}
+${bsec('tips','TIPS & breakevens','Real yields (DFII) and market-implied inflation (T5YIE/T10YIE), FRED.',S('tips'),'bonds')}
+${bsec('glob','Global sovereign 10Y yields','Germany, France, Italy, China: CNBC daily. UK: Bank of England. Japan: MoF. Canada: Bank of Canada. Australia: RBA. India: OECD via FRED (monthly).',S('glob'),'bonds')}
+${bsec('india','🇮🇳 India G-Secs','10Y & 30Y: CNBC daily quote (free history not published, so charts build up from Oct 26, 2026). Monthly OECD series via FRED for longer history.',order(S('india'),['in10','in30','inus','inusm','in3m','inr']),'bonds',ipre)}
+${bsec('china','🇨🇳 China government bonds','ChinaBond / MoF China curve (1Y–30Y, daily); CNBC 2Y/10Y daily history; USD/CNY from FRED.',order(I,['cb1','cb2','cb5','cb10','cb30','cn2','cn10','cnus','cny']),'bonds',cpre)}
+${bsec('etf','US bond ETFs','Daily closing prices, Nasdaq historical quotes.',S('etf'),'bonds')}
+<div class="note">Not shown: India 91-day & 364-day T-bills and 2Y/5Y/40Y G-Secs (FBIL/CCIL/RBI pages need a browser or returned 404; no free API found), India gilt ETF (no free quote API). ${(B.failed||[]).length?'Failed this run: '+B.failed.map(esc).join('; '):''}</div>`}
+function volTab(){const V=D.vol;if(!V)return'<div class="note">Volatility data unavailable.</div>';const I=V.items,S=k=>I.filter(i=>i.sec==k),K=Object.fromEntries(I.map(i=>[i.ticker,i]));
+const ts=['VIX9D','VIX','VIX3M','VIX6M','VIX1Y'].map(t=>K[t]).filter(Boolean);let pre='';if(ts.length==5){const ld=ts[1].h[ts[1].h.length-1][0];const now=ts.map(i=>at(i.h,ld)),ago=ts.map(i=>at(i.h,dsub(ld,30)));
+const st=a=>a[1]<a[2]?['Contango','#16a34a']:['Backwardation','#dc2626'];const [l,c]=st(now),[l2]=st(ago);
+pre=`<div class="cv"><b>VIX term structure</b> <span class="tag" style="background:${c}">${l}</span> <span class="bs">VIX/VIX3M = ${(now[1]/now[2]).toFixed(2)} (below 1 = contango). A month ago: ${l2}.</span>${csvg(ts.map(i=>i.ticker),[{n:'Latest ('+ld+')',c:CC[0],w:3,v:now},{n:'1 month ago',c:CC[1],v:ago}],'')}</div>`}
+return`<div class="note" style="margin-top:12px">Implied-volatility indexes (annualized %, except SKEW and MOVE which are index points). Percentile = share of the last year's daily closes at or below the latest. Updated ${esc(V.updated_et||D.updated_et)}.</div>${rgb('vol')}
+${bsec('veq','Equity volatility','Cboe daily closes.',S('vol_eq'),'vol',pre)}${bsec('vx','Cross-asset volatility','Cboe (OVX, GVZ, VXEEM), Cboe via FRED (EVZ), MOVE via CNBC.',S('vol_x'),'vol')}
+${bsec('vg','Global volatility','VSTOXX: STOXX. India VIX: NSE index via CNBC.',S('vol_g'),'vol')}
+<div class="note">Not shown: Nikkei Volatility Index (Nikkei's download returns a web page, not data, and no other free source was found). ${(V.failed||[]).length?'Failed this run: '+V.failed.map(esc).join('; '):''}</div>`}
+function render(){if(!D)return;const t=['more','calendar','earnings','ipo','notes','analysts','bonds','vol'].includes(location.hash.slice(1).split('?')[0])?location.hash.slice(1).split('?')[0]:'macro';
 document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('on',a.dataset.t==t));if(t=='notes'){notesTab();return}if(t=='analysts'){anTab();return}
-document.getElementById('m').innerHTML=t=='calendar'?calendar():t=='ipo'?ipoTab():t=='earnings'?upEarn()||'<div class="note">No large-cap earnings in the next 2 weeks.</div>':(t=='macro'?upcoming():'')+cards(t)}
+document.getElementById('m').innerHTML=t=='bonds'?bondsTab():t=='vol'?volTab():t=='calendar'?calendar():t=='ipo'?ipoTab():t=='earnings'?upEarn()||'<div class="note">No large-cap earnings in the next 2 weeks.</div>':(t=='macro'?upcoming():'')+cards(t)}
 window.addEventListener('hashchange',render);
 fetch('data.json?v='+Date.now()).then(r=>r.json()).then(j=>{D=j;document.getElementById('upd').textContent='Last updated '+D.updated_et;render()}).catch(()=>document.getElementById('upd').textContent='Data unavailable');
 </script></body></html>
