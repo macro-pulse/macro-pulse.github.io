@@ -157,7 +157,19 @@ def main():
                     price=u["price"], size=u["size"], url=f"https://www.nasdaq.com/market-activity/ipos/overview?dealId={u['deal']}"))
         cal["events"].sort(key=lambda e: (e["date"], e["type"] != "macro"))
     print(f"ipo: {ipo and len(ipo['upcoming'])} upcoming, {ipo and len(ipo['priced'])} priced ({time.time()-t1:.0f}s)")
-    json.dump(dict(calendar=cal, ipo=ipo, updated_et=datetime.now(et).strftime("%Y-%m-%d %H:%M ET"), indicators=res, failed=failed),
+    t1 = time.time()
+    try:
+        import analysts_fetch, calendar_fetch
+        try: prev_an = json.load(open("data.json")).get("analysts")
+        except Exception: prev_an = None
+        analysts = analysts_fetch.build(datetime.now(et).date(), calendar_fetch.http, prev_an)
+        analysts["updated_et"] = datetime.now(et).strftime("%Y-%m-%d %H:%M ET")
+    except Exception as e:
+        print("WARN analysts", e, file=sys.stderr)
+        try: analysts = json.load(open("data.json")).get("analysts"); analysts and analysts.update(stale=True)
+        except Exception: analysts = None
+    print(f"analysts done ({time.time()-t1:.0f}s)")
+    json.dump(dict(calendar=cal, ipo=ipo, analysts=analysts, updated_et=datetime.now(et).strftime("%Y-%m-%d %H:%M ET"), indicators=res, failed=failed),
               open("data.json", "w"), indent=1)
     print(f"ok {len(res)} indicators, {len(failed)} failed, total {time.time()-T0:.0f}s")
     if not res: sys.exit(1)
