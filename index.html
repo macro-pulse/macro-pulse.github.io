@@ -1,39 +1,99 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="color-scheme" content="light dark"><title>Macro Pulse</title>
+<meta name="color-scheme" content="light dark"><meta name="theme-color" content="#7c3aed"><title>Macro Pulse</title>
 <style>
-:root{--bg:#f6f7f9;--card:#fff;--tx:#111827;--mu:#6b7280;--bd:#e5e7eb;--up:#059669;--dn:#dc2626;--ac:#2563eb}
-@media(prefers-color-scheme:dark){:root{--bg:#0b0f17;--card:#141a24;--tx:#e5e7eb;--mu:#9ca3af;--bd:#232b38;--up:#34d399;--dn:#f87171;--ac:#60a5fa}}
+:root{--bg:#f5f3ff;--card:#fff;--tx:#0f172a;--mu:#475569;--bd:#e2e8f0;--up:#047857;--dn:#b91c1c;
+--inflation:#e11d48;--labor:#7c3aed;--growth:#059669;--rates:#2563eb;--markets:#d97706;--mortgage:#0891b2;--earn:#c026d3;--tint:8%}
+@media(prefers-color-scheme:dark){:root{--bg:#0b0a16;--card:#151427;--tx:#f1f5f9;--mu:#a5b4c8;--bd:#2a2843;--up:#34d399;--dn:#fb7185;
+--inflation:#fb7185;--labor:#a78bfa;--growth:#34d399;--rates:#60a5fa;--markets:#fbbf24;--mortgage:#22d3ee;--earn:#e879f9;--tint:12%}}
 *{box-sizing:border-box}body{margin:0;font:15px/1.4 -apple-system,system-ui,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--tx)}
-header{padding:20px 16px 8px;max-width:1100px;margin:auto}h1{margin:0;font-size:26px;letter-spacing:-.02em}
-h1 span{color:var(--ac)}#upd{color:var(--mu);font-size:13px;margin-top:4px}
-main{max-width:1100px;margin:auto;padding:0 12px 24px}h2{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--mu);margin:20px 4px 8px}
-.g{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
-.c{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:12px 14px;display:block;color:inherit;text-decoration:none}
-.l{font-size:13px;color:var(--mu);font-weight:600}.row{display:flex;justify-content:space-between;align-items:flex-end;gap:8px}
-.v{font-size:26px;font-weight:700;letter-spacing:-.02em;margin-top:2px}.ch{font-size:13px;font-weight:600}
-.ex{font-size:14px;font-weight:600;color:var(--mu);letter-spacing:0}.up{color:var(--up)}.dn{color:var(--dn)}.m{font-size:12px;color:var(--mu);margin-top:6px}svg{display:block}
-footer{text-align:center;color:var(--mu);font-size:12px;padding:16px 12px 32px}
+header{background:linear-gradient(120deg,#6d28d9,#db2777 55%,#f97316);color:#fff;padding:22px 16px 18px}
+header>div{max-width:1100px;margin:auto}h1{margin:0;font-size:30px;font-weight:800;letter-spacing:-.02em;text-shadow:0 2px 8px #0003}
+#upd{opacity:.95;font-size:13px;margin-top:4px;font-weight:500}
+nav{max-width:1100px;margin:-2px auto 0;padding:12px 12px 0;display:flex;gap:8px}
+nav a{flex:1;max-width:170px;text-align:center;padding:9px 10px;border-radius:999px;border:1.5px solid var(--bd);color:var(--tx);text-decoration:none;font-weight:700;font-size:14px;background:var(--card)}
+nav a.on{background:linear-gradient(120deg,#7c3aed,#db2777,#f97316);border-color:transparent;color:#fff;box-shadow:0 4px 14px #db277744}
+main{max-width:1100px;margin:auto;padding:0 12px 24px}
+h2{font-size:13px;text-transform:uppercase;letter-spacing:.1em;color:var(--sc);margin:22px 4px 8px;font-weight:800;display:flex;align-items:center;gap:8px}
+h2:before{content:"";width:10px;height:10px;border-radius:3px;background:var(--sc)}
+.g{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+.c{background:linear-gradient(180deg,color-mix(in srgb,var(--sc) var(--tint),var(--card)),var(--card) 70%);border:1px solid var(--bd);border-top:4px solid var(--sc);border-radius:14px;padding:12px 14px;display:block;color:inherit;text-decoration:none}
+.l{font-size:13px;color:var(--mu);font-weight:700}.row{display:flex;justify-content:space-between;align-items:flex-end;gap:8px}
+.v{font-size:26px;font-weight:800;letter-spacing:-.02em;margin-top:2px}.ex{font-size:14px;font-weight:700;color:var(--sc);letter-spacing:0}
+.ch{font-size:13px;font-weight:700}.up{color:var(--up)}.dn{color:var(--dn)}.m{font-size:12px;color:var(--mu);margin-top:6px}svg{display:block;flex:none}
+/* calendar */
+.calh{display:flex;align-items:center;justify-content:space-between;margin:18px 4px 10px}.calh b{font-size:20px}
+.calh button{border:0;background:linear-gradient(120deg,#7c3aed,#db2777);color:#fff;border-radius:999px;width:38px;height:38px;font-size:18px;font-weight:800;cursor:pointer}
+.leg{display:flex;flex-wrap:wrap;gap:6px;margin:0 4px 10px;font-size:12px}
+.grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+.dow{font-size:11px;font-weight:800;color:var(--mu);text-align:center;padding:2px 0}
+.day{background:var(--card);border:1px solid var(--bd);border-radius:10px;min-height:58px;padding:4px;cursor:pointer;overflow:hidden}
+.day.out{opacity:.35}.day.sel{outline:2px solid #db2777}.day.today{background:linear-gradient(135deg,#7c3aed22,#f9731622);border-color:#db2777}
+.dn_{font-size:12px;font-weight:800}.today .dn_{color:#db2777}
+.dots{display:flex;flex-wrap:wrap;gap:2px;margin-top:3px}.dot{width:7px;height:7px;border-radius:50%}
+.chip{display:inline-block;font-size:11px;font-weight:700;padding:1px 6px;border-radius:999px;color:#fff;margin:1px 2px 1px 0;white-space:nowrap;text-decoration:none}
+.chips{display:none}
+@media(min-width:760px){.day{min-height:96px}.dots{display:none}.chips{display:block}}
+.list{margin-top:12px}.ev{display:flex;gap:10px;align-items:center;background:var(--card);border:1px solid var(--bd);border-left:5px solid var(--ec);border-radius:12px;padding:9px 12px;margin-bottom:6px;color:inherit;text-decoration:none}
+.ev b{font-size:15px}.ev .t{margin-left:auto;font-size:12px;color:var(--mu);text-align:right;white-space:nowrap}
+.note{font-size:12px;color:var(--mu);margin:8px 4px}
+footer{text-align:center;color:var(--mu);font-size:12px;padding:16px 12px 32px}footer a{color:inherit}
 </style></head><body>
-<header><h1 id="t"></h1><div id="upd">Loading…</div></header><main id="m"></main>
-<footer>Data: FRED, St. Louis Fed. Not investment advice.<br>"Exp." = nowcast for the next release: inflation from <a href="https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting" style="color:inherit">Cleveland Fed Inflation Nowcasting</a>, GDP from <a href="https://www.atlantafed.org/cqer/research/gdpnow" style="color:inherit">Atlanta Fed GDPNow</a>. A model estimate, not a guarantee.</footer>
+<header><div><h1 id="t"></h1><div id="upd">Loading…</div></div></header>
+<nav><a href="#macro" data-t="macro">Macro</a><a href="#more" data-t="more">More data</a><a href="#calendar" data-t="calendar">Calendar</a></nav>
+<main id="m"></main>
+<footer>Data: FRED, St. Louis Fed. Not investment advice.<br>"Exp." = nowcast/forecast for the next release, not a guarantee: inflation from <a href="https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting">Cleveland Fed Inflation Nowcasting</a>, GDP from <a href="https://www.atlantafed.org/cqer/research/gdpnow">Atlanta Fed GDPNow</a>, mortgage path from the <a href="https://www.fanniemae.com/data-and-insights/forecast">Fannie Mae ESR Housing Forecast</a> (quarterly averages).<br>Calendar: <a href="https://fred.stlouisfed.org/releases/calendar">FRED release calendar</a>, <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm">Federal Reserve</a>, <a href="https://www.nasdaq.com/market-activity/earnings">Nasdaq earnings calendar</a> (market cap ≥ $100B). Times ET.</footer>
 <script>
 const SITE_TITLE="Macro Pulse";
 document.getElementById('t').textContent=SITE_TITLE;document.title=SITE_TITLE;
+const SC={Inflation:'inflation',Labor:'labor',Growth:'growth',Rates:'rates',Markets:'markets','Mortgage rates':'mortgage'};
+const TABS={macro:['Inflation','Labor','Growth','Rates','Markets'],more:['Mortgage rates']};
+// macro calendar category colors
+const CAT={'CPI':'inflation','PPI':'inflation','PCE / income':'inflation','Jobs report':'labor','JOLTS':'labor','Jobless claims':'labor','GDP':'growth','Retail sales':'growth','UMich sentiment':'growth'};
+const catOf=e=>e.type=='earnings'?'earn':e.title.startsWith('FOMC')?'rates':(CAT[e.title]||'markets');
 const f=(x,d,u)=>{const s=Number(x).toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d});return u=='$'?'$'+s:u=='%'?s+'%':u?s+(u=='bp'?' bp':u):s};
-function spark(a){if(!a||a.length<2)return'';const w=120,h=36,mn=Math.min(...a),mx=Math.max(...a),r=mx-mn||1;
-const p=a.map((v,i)=>(i*w/(a.length-1)).toFixed(1)+','+(h-2-(v-mn)/r*(h-4)).toFixed(1)).join(' ');
-return`<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><polyline fill="none" stroke="var(--ac)" stroke-width="1.8" points="${p}"/></svg>`}
-const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-fetch('data.json?v='+Date.now()).then(r=>r.json()).then(D=>{
-document.getElementById('upd').textContent='Last updated '+D.updated_et;
-const gs={};D.indicators.forEach(i=>(gs[i.group]=gs[i.group]||[]).push(i));
-let h='';for(const g of['Inflation','Labor','Growth','Rates','Markets']){if(!gs[g])continue;h+=`<h2>${g}</h2><div class="g">`;
-for(const i of gs[g]){let body;
-if(i.range)body=`<div class="v">${i.range[0].toFixed(2)}–${i.range[1].toFixed(2)}%</div><div class="m">As of ${i.date}</div>`;
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function spark(a){if(!a||a.length<2)return'';const w=120,h=38,mn=Math.min(...a),mx=Math.max(...a),r=mx-mn||1;
+const p=a.map((v,i)=>(i*w/(a.length-1)).toFixed(1)+','+(h-3-(v-mn)/r*(h-6)).toFixed(1));
+return`<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><polygon fill="var(--sc)" opacity=".15" points="0,${h} ${p.join(' ')} ${w},${h}"/><polyline fill="none" stroke="var(--sc)" stroke-width="2.2" stroke-linejoin="round" points="${p.join(' ')}"/></svg>`}
+function card(i){let body;
+if(i.range)body=`<div class="v">${i.range[0].toFixed(2)}–${i.range[1].toFixed(2)}%</div><div class="m">As of ${esc(i.date)}</div>`;
 else{const c=i.change,cl=c>0?'up':c<0?'dn':'';const cu=i.unit=='%'?' pp':i.unit=='bp'?' bp':i.unit=='K'?'K':'';
-body=`<div class="row"><div><div class="v">${f(i.latest,i.decimals,i.unit)}${i.expected?` <span class="ex">(Exp. ${esc(i.expected.period)}: ${f(i.expected.value,i.decimals,i.unit)})</span>`:''}</div><div class="ch ${cl}">${c>0?'▲ +':c<0?'▼ ':''}${f(c,i.decimals,'')}${cu}</div></div>${spark(i.spark)}</div>
+let ex='';if(i.expected)ex=` <span class="ex">(Exp. ${esc(i.expected.period)}: ${f(i.expected.value,i.decimals,i.unit)})</span>`;
+if(i.forecast)ex+=` <span class="ex">(Exp. ${i.forecast.points.map(p=>esc(p.period)+': '+f(p.value,1,'%')).join(', ')})</span>`;
+body=`<div class="row"><div><div class="v">${f(i.latest,i.decimals,i.unit)}${ex}</div><div class="ch ${cl}">${c>0?'▲ +':c<0?'▼ ':''}${f(c,i.decimals,'')}${cu}</div></div>${spark(i.spark)}</div>
 <div class="m">${esc(i.date)} · prior ${f(i.prior,i.decimals,i.unit)} (${esc(i.prior_date)})</div>`}
-h+=`<a class="c" href="${esc(i.source)}" target="_blank" rel="noopener"><div class="l">${esc(i.label)}</div>${body}<div class="m">FRED: ${esc(i.series)} ↗${i.expected?' · Exp.: '+esc(i.expected.source):''}</div></a>`}
-h+='</div>'}document.getElementById('m').innerHTML=h}).catch(()=>document.getElementById('upd').textContent='Data unavailable');
+let src=`FRED: ${esc(i.series)} ↗`;if(i.expected)src+=' · Exp.: '+esc(i.expected.source);if(i.forecast)src+=' · Exp.: '+esc(i.forecast.source)+', published '+esc(i.forecast.published);
+return`<a class="c" href="${esc(i.source)}" target="_blank" rel="noopener"><div class="l">${esc(i.label)}</div>${body}<div class="m">${src}</div></a>`}
+let D,calM,sel;
+function cards(t){const gs={};D.indicators.forEach(i=>(gs[i.group]=gs[i.group]||[]).push(i));let h='';
+for(const g of TABS[t]){if(!gs[g])continue;h+=`<section style="--sc:var(--${SC[g]})"><h2>${g}</h2><div class="g">${gs[g].map(card).join('')}</div></section>`}return h}
+const iso=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+function expFor(e){if(!e.keys||!e.keys.length)return'';const now=iso(new Date());
+const nxt=D.calendar.events.find(x=>x.title==e.title&&x.date>=now);if(!nxt||nxt.date!=e.date)return'';
+return e.keys.map(k=>D.indicators.find(i=>i.key==k)).filter(i=>i&&i.expected).map(i=>`${esc(i.label.replace(' YoY',''))} exp. ${f(i.expected.value,i.decimals,i.unit)}`).join(' · ')}
+function evRow(e){const c=catOf(e);const ex=expFor(e);
+const sub=e.type=='earnings'?esc(e.name)+(e.eps_est?` · EPS est. ${esc(e.eps_est)}`:''):(ex||'');
+return`<a class="ev" style="--ec:var(--${c})" href="${esc(e.url)}" target="_blank" rel="noopener"><span class="chip" style="background:var(--${c})">${e.type=='earnings'?'Earnings':'Macro'}</span><div><b>${esc(e.title)}</b>${sub?`<div class="m" style="margin:0">${sub}</div>`:''}</div><span class="t">${esc(e.time)}</span></a>`}
+function calendar(){const C=D.calendar||{events:[]};const today=new Date();if(!calM)calM=new Date(today.getFullYear(),today.getMonth(),1);
+if(!sel)sel=iso(today);const y=calM.getFullYear(),mo=calM.getMonth();const by={};C.events.forEach(e=>(by[e.date]=by[e.date]||[]).push(e));
+let h=`<div class="calh"><button onclick="mv(-1)" aria-label="Previous month">‹</button><b>${calM.toLocaleString('en-US',{month:'long',year:'numeric'})}</b><button onclick="mv(1)" aria-label="Next month">›</button></div>
+<div class="leg"><span class="chip" style="background:var(--inflation)">Inflation</span><span class="chip" style="background:var(--labor)">Labor</span><span class="chip" style="background:var(--growth)">Growth</span><span class="chip" style="background:var(--rates)">Fed</span><span class="chip" style="background:var(--earn)">Earnings</span></div><div class="grid">`;
+h+=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].map(d=>`<div class="dow">${d}</div>`).join('');
+const s=new Date(y,mo,1-new Date(y,mo,1).getDay());
+for(let k=0;k<42;k++){const d=new Date(s.getFullYear(),s.getMonth(),s.getDate()+k);if(k>=35&&d.getMonth()!=mo)break;const ds=iso(d),ev=by[ds]||[];
+const macro=ev.filter(e=>e.type=='macro'),earn=ev.filter(e=>e.type=='earnings');
+const chips=macro.map(e=>`<span class="chip" style="background:var(--${catOf(e)})">${esc(e.title=='Jobless claims'?'Claims':e.title)}</span>`).join('')+earn.slice(0,4).map(e=>`<span class="chip" style="background:var(--earn)">${esc(e.title)}${e.time?' '+e.time:''}</span>`).join('')+(earn.length>4?`<span class="chip" style="background:var(--earn)">+${earn.length-4}</span>`:'');
+h+=`<div class="day${d.getMonth()!=mo?' out':''}${ds==iso(today)?' today':''}${ds==sel?' sel':''}" onclick="pick('${ds}')"><div class="dn_">${d.getDate()}</div><div class="dots">${ev.slice(0,8).map(e=>`<span class="dot" style="background:var(--${catOf(e)})"></span>`).join('')}</div><div class="chips">${chips}</div></div>`}
+h+='</div>';const se=by[sel]||[];
+h+=`<div class="list"><h2 style="--sc:var(--labor)">${new Date(sel+'T12:00').toLocaleDateString('en-US',{weekday:'long',month:'short',day:'numeric'})}</h2>${se.length?se.map(evRow).join(''):'<div class="note">No scheduled events.</div>'}</div>`;
+if(C.start)h+=`<div class="note">Covers ${esc(C.start)} to ${esc(C.end)}. Earnings: Nasdaq calendar, companies ≥ $100B market cap; BMO = before market open, AMC = after close.${(C.notes||[]).length?' Missing: '+C.notes.map(esc).join('; '):''}</div>`;
+return h}
+function mv(n){calM=new Date(calM.getFullYear(),calM.getMonth()+n,1);render()}
+function pick(d){sel=d;render()}
+function render(){if(!D)return;const t=['#more','#calendar'].includes(location.hash)?location.hash.slice(1):'macro';
+document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('on',a.dataset.t==t));
+document.getElementById('m').innerHTML=t=='calendar'?calendar():cards(t)}
+window.addEventListener('hashchange',render);
+fetch('data.json?v='+Date.now()).then(r=>r.json()).then(j=>{D=j;document.getElementById('upd').textContent='Last updated '+D.updated_et;render()}).catch(()=>document.getElementById('upd').textContent='Data unavailable');
 </script></body></html>

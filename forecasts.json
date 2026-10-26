@@ -1,0 +1,9 @@
+{
+ "_note": "Manually maintained. Refresh monthly from Fannie Mae ESR Housing Forecast (forecast-monthly-archive). Only real published figures.",
+ "mortgage30": {
+  "source": "Fannie Mae ESR Housing Forecast",
+  "published": "2026-10-12",
+  "url": "https://www.fanniemae.com/media/58256/display",
+  "points": [{"period": "Q4 2026", "value": 7.4}, {"period": "Q1 2027", "value": 7.5}]
+ }
+}

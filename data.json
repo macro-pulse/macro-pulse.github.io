@@ -1,4 +1,1678 @@
 {
+ "calendar": {
+  "start": "2026-10-01",
+  "end": "2026-11-30",
+  "events": [
+   {
+    "date": "2026-10-01",
+    "type": "macro",
+    "title": "Jobless claims",
+    "time": "8:30 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=180"
+   },
+   {
+    "date": "2026-10-01",
+    "type": "earnings",
+    "title": "ACN",
+    "name": "Accenture plc",
+    "time": "",
+    "eps_est": "$3.19",
+    "cap": 173025346000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/acn/earnings"
+   },
+   {
+    "date": "2026-10-02",
+    "type": "macro",
+    "title": "Jobs report",
+    "time": "8:30 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=50"
+   },
+   {
+    "date": "2026-10-07",
+    "type": "macro",
+    "title": "FOMC minutes",
+    "time": "2:00 pm ET",
+    "keys": [],
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+   },
+   {
+    "date": "2026-10-08",
+    "type": "macro",
+    "title": "Jobless claims",
+    "time": "8:30 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=180"
+   },
+   {
+    "date": "2026-10-08",
+    "type": "earnings",
+    "title": "PEP",
+    "name": "Pepsico, Inc.",
+    "time": "",
+    "eps_est": "$2.29",
+    "cap": 185019351000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/pep/earnings"
+   },
+   {
+    "date": "2026-10-13",
+    "type": "earnings",
+    "title": "JPM",
+    "name": "J P Morgan Chase & Co",
+    "time": "",
+    "eps_est": "$5.94",
+    "cap": 894586000000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/jpm/earnings"
+   },
+   {
+    "date": "2026-10-13",
+    "type": "earnings",
+    "title": "JNJ",
+    "name": "Johnson & Johnson",
+    "time": "",
+    "eps_est": "$2.53",
+    "cap": 644220320000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/jnj/earnings"
+   },
+   {
+    "date": "2026-10-13",
+    "type": "earnings",
+    "title": "UNH",
+    "name": "UnitedHealth Group Incorporated",
+    "time": "",
+    "eps_est": "$4.12",
+    "cap": 381459857000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/unh/earnings"
+   },
+   {
+    "date": "2026-10-13",
+    "type": "earnings",
+    "title": "GS",
+    "name": "The Goldman Sachs Group, Inc.",
+    "time": "",
+    "eps_est": "$12.90",
+    "cap": 259521069000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/gs/earnings"
+   },
+   {
+    "date": "2026-10-13",
+    "type": "earnings",
+    "title": "WFC",
+    "name": "Wells Fargo & Company",
+    "time": "",
+    "eps_est": "$1.85",
+    "cap": 251022180000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/wfc/earnings"
+   },
+   {
+    "date": "2026-10-13",
+    "type": "earnings",
+    "title": "C",
+    "name": "Citigroup Inc.",
+    "time": "",
+    "eps_est": "$2.66",
+    "cap": 205502775000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/c/earnings"
+   },
+   {
+    "date": "2026-10-14",
+    "type": "macro",
+    "title": "CPI",
+    "time": "8:30 am ET",
+    "keys": [
+     "cpi",
+     "core_cpi"
+    ],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=10"
+   },
+   {
+    "date": "2026-10-14",
+    "type": "earnings",
+    "title": "ASML",
+    "name": "ASML Holding N.V.",
+    "time": "",
+    "eps_est": "$12.47",
+    "cap": 601459650000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/asml/earnings"
+   },
+   {
+    "date": "2026-10-14",
+    "type": "earnings",
+    "title": "BAC",
+    "name": "Bank of America Corporation",
+    "time": "",
+    "eps_est": "$1.11",
+    "cap": 357189583000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/bac/earnings"
+   },
+   {
+    "date": "2026-10-14",
+    "type": "earnings",
+    "title": "MS",
+    "name": "Morgan Stanley",
+    "time": "",
+    "eps_est": "$2.83",
+    "cap": 288937083000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/ms/earnings"
+   },
+   {
+    "date": "2026-10-14",
+    "type": "earnings",
+    "title": "BLK",
+    "name": "BlackRock, Inc.",
+    "time": "",
+    "eps_est": "$14.01",
+    "cap": 176131260000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/blk/earnings"
+   },
+   {
+    "date": "2026-10-14",
+    "type": "earnings",
+    "title": "PGR",
+    "name": "Progressive Corporation (The)",
+    "time": "",
+    "eps_est": "$4.46",
+    "cap": 133494587000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/pgr/earnings"
+   },
+   {
+    "date": "2026-10-15",
+    "type": "macro",
+    "title": "PPI",
+    "time": "8:30 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=46"
+   },
+   {
+    "date": "2026-10-15",
+    "type": "macro",
+    "title": "Jobless claims",
+    "time": "8:30 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=180"
+   },
+   {
+    "date": "2026-10-15",
+    "type": "macro",
+    "title": "Retail sales",
+    "time": "8:30 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=9"
+   },
+   {
+    "date": "2026-10-15",
+    "type": "earnings",
+    "title": "TSM",
+    "name": "Taiwan Semiconductor Manufacturing Company Ltd.",
+    "time": "",
+    "eps_est": "$4.45",
+    "cap": 2170604220000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/tsm/earnings"
+   },
+   {
+    "date": "2026-10-15",
+    "type": "earnings",
+    "title": "SCHW",
+    "name": "The Charles Schwab Corporation",
+    "time": "",
+    "eps_est": "$1.66",
+    "cap": 156643230000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/schw/earnings"
+   },
+   {
+    "date": "2026-10-15",
+    "type": "earnings",
+    "title": "PLD",
+    "name": "Prologis, Inc.",
+    "time": "",
+    "eps_est": "$1.58",
+    "cap": 119884210000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/pld/earnings"
+   },
+   {
+    "date": "2026-10-20",
+    "type": "earnings",
+    "title": "SPCX",
+    "name": "Space Exploration Technologies Corp.",
+    "time": "",
+    "eps_est": "$0.10",
+    "cap": 1964666000000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/spcx/earnings"
+   },
+   {
+    "date": "2026-10-20",
+    "type": "earnings",
+    "title": "GE",
+    "name": "GE Aerospace",
+    "time": "",
+    "eps_est": "$2.02",
+    "cap": 303330132000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/ge/earnings"
+   },
+   {
+    "date": "2026-10-20",
+    "type": "earnings",
+    "title": "NFLX",
+    "name": "Netflix, Inc.",
+    "time": "",
+    "eps_est": "$0.82",
+    "cap": 275329155000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/nflx/earnings"
+   },
+   {
+    "date": "2026-10-20",
+    "type": "earnings",
+    "title": "RTX",
+    "name": "RTX Corporation",
+    "time": "",
+    "eps_est": "$1.78",
+    "cap": 262749569000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/rtx/earnings"
+   },
+   {
+    "date": "2026-10-20",
+    "type": "earnings",
+    "title": "ISRG",
+    "name": "Intuitive Surgical, Inc.",
+    "time": "",
+    "eps_est": "$2.13",
+    "cap": 153857819000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/isrg/earnings"
+   },
+   {
+    "date": "2026-10-20",
+    "type": "earnings",
+    "title": "CB",
+    "name": "Chubb Limited",
+    "time": "",
+    "eps_est": "$6.53",
+    "cap": 140411863000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/cb/earnings"
+   },
+   {
+    "date": "2026-10-20",
+    "type": "earnings",
+    "title": "COF",
+    "name": "Capital One Financial Corporation",
+    "time": "",
+    "eps_est": "$5.45",
+    "cap": 124801221000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/cof/earnings"
+   },
+   {
+    "date": "2026-10-21",
+    "type": "earnings",
+    "title": "META",
+    "name": "Meta Platforms, Inc.",
+    "time": "",
+    "eps_est": "$6.52",
+    "cap": 1642691690000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/meta/earnings"
+   },
+   {
+    "date": "2026-10-21",
+    "type": "earnings",
+    "title": "TSLA",
+    "name": "Tesla, Inc. ",
+    "time": "",
+    "eps_est": "$0.22",
+    "cap": 1471295520000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/tsla/earnings"
+   },
+   {
+    "date": "2026-10-21",
+    "type": "earnings",
+    "title": "PM",
+    "name": "Philip Morris International Inc",
+    "time": "",
+    "eps_est": "$2.30",
+    "cap": 310896624000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/pm/earnings"
+   },
+   {
+    "date": "2026-10-21",
+    "type": "earnings",
+    "title": "SAP",
+    "name": "SAP SE",
+    "time": "",
+    "eps_est": "$2.03",
+    "cap": 292556014000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/sap/earnings"
+   },
+   {
+    "date": "2026-10-21",
+    "type": "earnings",
+    "title": "LRCX",
+    "name": "Lam Research Corporation",
+    "time": "",
+    "eps_est": "$2.17",
+    "cap": 287434244000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/lrcx/earnings"
+   },
+   {
+    "date": "2026-10-21",
+    "type": "earnings",
+    "title": "TXN",
+    "name": "Texas Instruments Incorporated",
+    "time": "",
+    "eps_est": "$2.40",
+    "cap": 259992486000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/txn/earnings"
+   },
+   {
+    "date": "2026-10-21",
+    "type": "earnings",
+    "title": "TMO",
+    "name": "Thermo Fisher Scientific Inc",
+    "time": "",
+    "eps_est": "$6.40",
+    "cap": 249143116000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/tmo/earnings"
+   },
+   {
+    "date": "2026-10-21",
+    "type": "earnings",
+    "title": "IBM",
+    "name": "International Business Machines Corporation",
+    "time": "",
+    "eps_est": "$2.88",
+    "cap": 239644836000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/ibm/earnings"
+   },
+   {
+    "date": "2026-10-21",
+    "type": "earnings",
+    "title": "ABT",
+    "name": "Abbott Laboratories",
+    "time": "",
+    "eps_est": "$1.43",
+    "cap": 179440746000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/abt/earnings"
+   },
+   {
+    "date": "2026-10-21",
+    "type": "earnings",
+    "title": "NEE",
+    "name": "NextEra Energy, Inc.",
+    "time": "",
+    "eps_est": "$1.20",
+    "cap": 172188828000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/nee/earnings"
+   },
+   {
+    "date": "2026-10-21",
+    "type": "earnings",
+    "title": "DHR",
+    "name": "Danaher Corporation",
+    "time": "",
+    "eps_est": "$1.92",
+    "cap": 162163851000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/dhr/earnings"
+   },
+   {
+    "date": "2026-10-21",
+    "type": "earnings",
+    "title": "SCCO",
+    "name": "Southern Copper Corporation",
+    "time": "",
+    "eps_est": "$2.04",
+    "cap": 156203942000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/scco/earnings"
+   },
+   {
+    "date": "2026-10-21",
+    "type": "earnings",
+    "title": "T",
+    "name": "AT&T Inc.",
+    "time": "",
+    "eps_est": "$0.61",
+    "cap": 140994396000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/t/earnings"
+   },
+   {
+    "date": "2026-10-21",
+    "type": "earnings",
+    "title": "CME",
+    "name": "CME Group Inc.",
+    "time": "",
+    "eps_est": "$2.98",
+    "cap": 109926973000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/cme/earnings"
+   },
+   {
+    "date": "2026-10-22",
+    "type": "macro",
+    "title": "Jobless claims",
+    "time": "8:30 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=180"
+   },
+   {
+    "date": "2026-10-22",
+    "type": "earnings",
+    "title": "PG",
+    "name": "Procter & Gamble Company (The)",
+    "time": "",
+    "eps_est": "$1.89",
+    "cap": 384902857000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/pg/earnings"
+   },
+   {
+    "date": "2026-10-22",
+    "type": "earnings",
+    "title": "UNP",
+    "name": "Union Pacific Corporation",
+    "time": "",
+    "eps_est": "$3.47",
+    "cap": 177087971000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/unp/earnings"
+   },
+   {
+    "date": "2026-10-22",
+    "type": "earnings",
+    "title": "LMT",
+    "name": "Lockheed Martin Corporation",
+    "time": "",
+    "eps_est": "$7.49",
+    "cap": 136145773000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/lmt/earnings"
+   },
+   {
+    "date": "2026-10-22",
+    "type": "earnings",
+    "title": "WDC",
+    "name": "Western Digital Corporation",
+    "time": "",
+    "eps_est": "$3.99",
+    "cap": 128384106000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/wdc/earnings"
+   },
+   {
+    "date": "2026-10-22",
+    "type": "earnings",
+    "title": "VLO",
+    "name": "Valero Energy Corporation",
+    "time": "",
+    "eps_est": "$21.28",
+    "cap": 122737721000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/vlo/earnings"
+   },
+   {
+    "date": "2026-10-22",
+    "type": "earnings",
+    "title": "NEM",
+    "name": "Newmont Corporation",
+    "time": "",
+    "eps_est": "$1.94",
+    "cap": 120236827000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/nem/earnings"
+   },
+   {
+    "date": "2026-10-22",
+    "type": "earnings",
+    "title": "SPOT",
+    "name": "Spotify Technology S.A.",
+    "time": "",
+    "eps_est": "$3.10",
+    "cap": 120136212000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/spot/earnings"
+   },
+   {
+    "date": "2026-10-23",
+    "type": "macro",
+    "title": "UMich sentiment",
+    "time": "11:00 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=91"
+   },
+   {
+    "date": "2026-10-23",
+    "type": "earnings",
+    "title": "AXP",
+    "name": "American Express Company",
+    "time": "",
+    "eps_est": "$4.47",
+    "cap": 211520553000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/axp/earnings"
+   },
+   {
+    "date": "2026-10-26",
+    "type": "earnings",
+    "title": "VZ",
+    "name": "Verizon Communications Inc.",
+    "time": "BMO",
+    "eps_est": "$1.27",
+    "cap": 187795833000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/vz/earnings"
+   },
+   {
+    "date": "2026-10-26",
+    "type": "earnings",
+    "title": "WELL",
+    "name": "Welltower Inc.",
+    "time": "AMC",
+    "eps_est": "$1.64",
+    "cap": 171104846000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/well/earnings"
+   },
+   {
+    "date": "2026-10-27",
+    "type": "earnings",
+    "title": "V",
+    "name": "Visa Inc.",
+    "time": "AMC",
+    "eps_est": "$3.43",
+    "cap": 740324150000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/v/earnings"
+   },
+   {
+    "date": "2026-10-27",
+    "type": "earnings",
+    "title": "KO",
+    "name": "Coca-Cola Company (The)",
+    "time": "BMO",
+    "eps_est": "$0.87",
+    "cap": 410205061000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/ko/earnings"
+   },
+   {
+    "date": "2026-10-27",
+    "type": "earnings",
+    "title": "HSBC",
+    "name": "HSBC Holdings plc",
+    "time": "",
+    "eps_est": "$2.13",
+    "cap": 321593049000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/hsbc/earnings"
+   },
+   {
+    "date": "2026-10-27",
+    "type": "earnings",
+    "title": "NVS",
+    "name": "Novartis AG",
+    "time": "BMO",
+    "eps_est": "$2.25",
+    "cap": 298186867000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/nvs/earnings"
+   },
+   {
+    "date": "2026-10-27",
+    "type": "earnings",
+    "title": "BA",
+    "name": "Boeing Company (The)",
+    "time": "BMO",
+    "eps_est": "($0.21)",
+    "cap": 148233896000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/ba/earnings"
+   },
+   {
+    "date": "2026-10-27",
+    "type": "earnings",
+    "title": "STX",
+    "name": "Seagate Technology Holdings PLC",
+    "time": "AMC",
+    "eps_est": "$7.17",
+    "cap": 146869338000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/stx/earnings"
+   },
+   {
+    "date": "2026-10-27",
+    "type": "earnings",
+    "title": "SPGI",
+    "name": "S&P Global Inc.",
+    "time": "BMO",
+    "eps_est": "$4.43",
+    "cap": 133573878000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/spgi/earnings"
+   },
+   {
+    "date": "2026-10-27",
+    "type": "earnings",
+    "title": "GLW",
+    "name": "Corning Incorporated",
+    "time": "BMO",
+    "eps_est": "$0.89",
+    "cap": 106803536000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/glw/earnings"
+   },
+   {
+    "date": "2026-10-27",
+    "type": "earnings",
+    "title": "HCA",
+    "name": "HCA Healthcare, Inc.",
+    "time": "BMO",
+    "eps_est": "$6.74",
+    "cap": 101173314000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/hca/earnings"
+   },
+   {
+    "date": "2026-10-28",
+    "type": "macro",
+    "title": "FOMC decision",
+    "time": "2:00 pm ET",
+    "keys": [],
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+   },
+   {
+    "date": "2026-10-28",
+    "type": "earnings",
+    "title": "GOOG",
+    "name": "Alphabet Inc.",
+    "time": "AMC",
+    "eps_est": "$2.94",
+    "cap": 3916168430000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/goog/earnings"
+   },
+   {
+    "date": "2026-10-28",
+    "type": "earnings",
+    "title": "MSFT",
+    "name": "Microsoft Corporation",
+    "time": "AMC",
+    "eps_est": "$4.71",
+    "cap": 3895235180000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/msft/earnings"
+   },
+   {
+    "date": "2026-10-28",
+    "type": "earnings",
+    "title": "GEV",
+    "name": "GE Vernova Inc.",
+    "time": "BMO",
+    "eps_est": "$4.03",
+    "cap": 217061868000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/gev/earnings"
+   },
+   {
+    "date": "2026-10-28",
+    "type": "earnings",
+    "title": "KLAC",
+    "name": "KLA Corporation ",
+    "time": "AMC",
+    "eps_est": "$1.18",
+    "cap": 190021992000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/klac/earnings"
+   },
+   {
+    "date": "2026-10-28",
+    "type": "earnings",
+    "title": "SAN",
+    "name": "Banco Santander, S.A.",
+    "time": "BMO",
+    "eps_est": "$0.26",
+    "cap": 185979306000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/san/earnings"
+   },
+   {
+    "date": "2026-10-28",
+    "type": "earnings",
+    "title": "APH",
+    "name": "Amphenol Corporation",
+    "time": "BMO",
+    "eps_est": "$0.73",
+    "cap": 182703489000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/aph/earnings"
+   },
+   {
+    "date": "2026-10-28",
+    "type": "earnings",
+    "title": "NOW",
+    "name": "ServiceNow, Inc.",
+    "time": "AMC",
+    "eps_est": "$0.56",
+    "cap": 164364632000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/now/earnings"
+   },
+   {
+    "date": "2026-10-28",
+    "type": "earnings",
+    "title": "TMUS",
+    "name": "T-Mobile US, Inc.",
+    "time": "AMC",
+    "eps_est": "$2.86",
+    "cap": 157189292000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/tmus/earnings"
+   },
+   {
+    "date": "2026-10-28",
+    "type": "earnings",
+    "title": "UBS",
+    "name": "UBS AG",
+    "time": "BMO",
+    "eps_est": "$0.91",
+    "cap": 143906292000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/ubs/earnings"
+   },
+   {
+    "date": "2026-10-28",
+    "type": "earnings",
+    "title": "BBVA",
+    "name": "Banco Bilbao Vizcaya Argentaria S.A.",
+    "time": "AMC",
+    "eps_est": "$0.60",
+    "cap": 141038846000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/bbva/earnings"
+   },
+   {
+    "date": "2026-10-28",
+    "type": "earnings",
+    "title": "FTNT",
+    "name": "Fortinet, Inc.",
+    "time": "AMC",
+    "eps_est": "$0.77",
+    "cap": 132061118000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/ftnt/earnings"
+   },
+   {
+    "date": "2026-10-28",
+    "type": "earnings",
+    "title": "ADP",
+    "name": "Automatic Data Processing, Inc.",
+    "time": "BMO",
+    "eps_est": "$2.78",
+    "cap": 120523874000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/adp/earnings"
+   },
+   {
+    "date": "2026-10-28",
+    "type": "earnings",
+    "title": "PSX",
+    "name": "Phillips 66",
+    "time": "BMO",
+    "eps_est": "$11.97",
+    "cap": 112994746000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/psx/earnings"
+   },
+   {
+    "date": "2026-10-28",
+    "type": "earnings",
+    "title": "GSK",
+    "name": "GSK plc",
+    "time": "BMO",
+    "eps_est": "$1.40",
+    "cap": 102441058000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/gsk/earnings"
+   },
+   {
+    "date": "2026-10-29",
+    "type": "macro",
+    "title": "Jobless claims",
+    "time": "8:30 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=180"
+   },
+   {
+    "date": "2026-10-29",
+    "type": "macro",
+    "title": "GDP",
+    "time": "8:30 am ET",
+    "keys": [
+     "gdp"
+    ],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=53"
+   },
+   {
+    "date": "2026-10-29",
+    "type": "macro",
+    "title": "PCE / income",
+    "time": "8:30 am ET",
+    "keys": [
+     "core_pce"
+    ],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=54"
+   },
+   {
+    "date": "2026-10-29",
+    "type": "earnings",
+    "title": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "time": "AMC",
+    "eps_est": "$2.01",
+    "cap": 2675005720000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/amzn/earnings"
+   },
+   {
+    "date": "2026-10-29",
+    "type": "earnings",
+    "title": "LLY",
+    "name": "Eli Lilly and Company",
+    "time": "BMO",
+    "eps_est": "$5.38",
+    "cap": 1198780580000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/lly/earnings"
+   },
+   {
+    "date": "2026-10-29",
+    "type": "earnings",
+    "title": "MA",
+    "name": "Mastercard Incorporated",
+    "time": "BMO",
+    "eps_est": "$5.14",
+    "cap": 546279784000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/ma/earnings"
+   },
+   {
+    "date": "2026-10-29",
+    "type": "earnings",
+    "title": "INTC",
+    "name": "Intel Corporation",
+    "time": "AMC",
+    "eps_est": "$0.28",
+    "cap": 459589648000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/intc/earnings"
+   },
+   {
+    "date": "2026-10-29",
+    "type": "earnings",
+    "title": "MRK",
+    "name": "Merck & Company, Inc.",
+    "time": "BMO",
+    "eps_est": "$2.12",
+    "cap": 358406029000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/mrk/earnings"
+   },
+   {
+    "date": "2026-10-29",
+    "type": "earnings",
+    "title": "CAT",
+    "name": "Caterpillar, Inc.",
+    "time": "BMO",
+    "eps_est": "$7.12",
+    "cap": 315796652000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/cat/earnings"
+   },
+   {
+    "date": "2026-10-29",
+    "type": "earnings",
+    "title": "SHEL",
+    "name": "Shell PLC",
+    "time": "BMO",
+    "eps_est": "$3.54",
+    "cap": 298299982000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/shel/earnings"
+   },
+   {
+    "date": "2026-10-29",
+    "type": "earnings",
+    "title": "LIN",
+    "name": "Linde plc",
+    "time": "BMO",
+    "eps_est": "$4.52",
+    "cap": 234560537000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/lin/earnings"
+   },
+   {
+    "date": "2026-10-29",
+    "type": "earnings",
+    "title": "TTE",
+    "name": "TotalEnergies SE",
+    "time": "BMO",
+    "eps_est": "$4.11",
+    "cap": 212610105000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/tte/earnings"
+   },
+   {
+    "date": "2026-10-29",
+    "type": "earnings",
+    "title": "GILD",
+    "name": "Gilead Sciences, Inc.",
+    "time": "AMC",
+    "eps_est": "$2.17",
+    "cap": 193482605000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/gild/earnings"
+   },
+   {
+    "date": "2026-10-29",
+    "type": "earnings",
+    "title": "SNDK",
+    "name": "Sandisk Corporation",
+    "time": "AMC",
+    "eps_est": "$45.22",
+    "cap": 179920028000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/sndk/earnings"
+   },
+   {
+    "date": "2026-10-29",
+    "type": "earnings",
+    "title": "BUD",
+    "name": "Anheuser-Busch Inbev SA",
+    "time": "BMO",
+    "eps_est": "$1.14",
+    "cap": 166171935000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/bud/earnings"
+   },
+   {
+    "date": "2026-10-29",
+    "type": "earnings",
+    "title": "BMY",
+    "name": "Bristol-Myers Squibb Company",
+    "time": "BMO",
+    "eps_est": "$1.28",
+    "cap": 125586096000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/bmy/earnings"
+   },
+   {
+    "date": "2026-10-29",
+    "type": "earnings",
+    "title": "MO",
+    "name": "Altria Group",
+    "time": "BMO",
+    "eps_est": "$1.51",
+    "cap": 124078670000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/mo/earnings"
+   },
+   {
+    "date": "2026-10-29",
+    "type": "earnings",
+    "title": "SYK",
+    "name": "Stryker Corporation",
+    "time": "AMC",
+    "eps_est": "$3.56",
+    "cap": 117814460000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/syk/earnings"
+   },
+   {
+    "date": "2026-10-29",
+    "type": "earnings",
+    "title": "SBUX",
+    "name": "Starbucks Corporation",
+    "time": "AMC",
+    "eps_est": "$0.73",
+    "cap": 114912002000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/sbux/earnings"
+   },
+   {
+    "date": "2026-10-30",
+    "type": "earnings",
+    "title": "XOM",
+    "name": "ExxonMobil Holdings Corporation",
+    "time": "BMO",
+    "eps_est": "$3.90",
+    "cap": 753343400000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/xom/earnings"
+   },
+   {
+    "date": "2026-10-30",
+    "type": "earnings",
+    "title": "ABBV",
+    "name": "AbbVie Inc.",
+    "time": "BMO",
+    "eps_est": "$3.76",
+    "cap": 504759386000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/abbv/earnings"
+   },
+   {
+    "date": "2026-10-30",
+    "type": "earnings",
+    "title": "CVX",
+    "name": "Chevron Corporation",
+    "time": "BMO",
+    "eps_est": "$4.78",
+    "cap": 460769624000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/cvx/earnings"
+   },
+   {
+    "date": "2026-10-30",
+    "type": "earnings",
+    "title": "AZN",
+    "name": "AstraZeneca PLC",
+    "time": "BMO",
+    "eps_est": "$2.60",
+    "cap": 265882616000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/azn/earnings"
+   },
+   {
+    "date": "2026-10-30",
+    "type": "earnings",
+    "title": "BP",
+    "name": "BP p.l.c.",
+    "time": "BMO",
+    "eps_est": "$2.66",
+    "cap": 134091629000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/bp/earnings"
+   },
+   {
+    "date": "2026-10-30",
+    "type": "earnings",
+    "title": "SNY",
+    "name": "Sanofi",
+    "time": "BMO",
+    "eps_est": "$1.63",
+    "cap": 101456331000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/sny/earnings"
+   },
+   {
+    "date": "2026-11-02",
+    "type": "earnings",
+    "title": "AAPL",
+    "name": "Apple Inc.",
+    "time": "AMC",
+    "eps_est": "$2",
+    "cap": 5074761300000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/aapl/earnings"
+   },
+   {
+    "date": "2026-11-02",
+    "type": "earnings",
+    "title": "PLTR",
+    "name": "Palantir Technologies Inc.",
+    "time": "AMC",
+    "eps_est": "$0.34",
+    "cap": 472604017000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/pltr/earnings"
+   },
+   {
+    "date": "2026-11-02",
+    "type": "earnings",
+    "title": "VRTX",
+    "name": "Vertex Pharmaceuticals Incorporated",
+    "time": "AMC",
+    "eps_est": "$4.36",
+    "cap": 132795785000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/vrtx/earnings"
+   },
+   {
+    "date": "2026-11-02",
+    "type": "earnings",
+    "title": "MAR",
+    "name": "Marriott International",
+    "time": "BMO",
+    "eps_est": "$2.86",
+    "cap": 101883994000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/mar/earnings"
+   },
+   {
+    "date": "2026-11-03",
+    "type": "macro",
+    "title": "JOLTS",
+    "time": "10:00 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=192"
+   },
+   {
+    "date": "2026-11-03",
+    "type": "earnings",
+    "title": "AMD",
+    "name": "Advanced Micro Devices, Inc.",
+    "time": "AMC",
+    "eps_est": "$1.68",
+    "cap": 829183030000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/amd/earnings"
+   },
+   {
+    "date": "2026-11-03",
+    "type": "earnings",
+    "title": "AMGN",
+    "name": "Amgen Inc.",
+    "time": "AMC",
+    "eps_est": "$5.74",
+    "cap": 241813881000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/amgn/earnings"
+   },
+   {
+    "date": "2026-11-03",
+    "type": "earnings",
+    "title": "SHOP",
+    "name": "Shopify Inc.",
+    "time": "BMO",
+    "eps_est": "$0.33",
+    "cap": 218146963000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/shop/earnings"
+   },
+   {
+    "date": "2026-11-03",
+    "type": "earnings",
+    "title": "ANET",
+    "name": "Arista Networks, Inc.",
+    "time": "AMC",
+    "eps_est": "$0.99",
+    "cap": 215757701000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/anet/earnings"
+   },
+   {
+    "date": "2026-11-03",
+    "type": "earnings",
+    "title": "PFE",
+    "name": "Pfizer, Inc.",
+    "time": "BMO",
+    "eps_est": "$0.72",
+    "cap": 173384073000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/pfe/earnings"
+   },
+   {
+    "date": "2026-11-03",
+    "type": "earnings",
+    "title": "ETN",
+    "name": "Eaton Corporation, PLC",
+    "time": "BMO",
+    "eps_est": "$3.54",
+    "cap": 143315714000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/etn/earnings"
+   },
+   {
+    "date": "2026-11-03",
+    "type": "earnings",
+    "title": "MPC",
+    "name": "Marathon Petroleum Corporation",
+    "time": "BMO",
+    "eps_est": "$25.74",
+    "cap": 128977199000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/mpc/earnings"
+   },
+   {
+    "date": "2026-11-03",
+    "type": "earnings",
+    "title": "BKNG",
+    "name": "Booking Holdings Inc.",
+    "time": "AMC",
+    "eps_est": "$4.47",
+    "cap": 121047400000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/bkng/earnings"
+   },
+   {
+    "date": "2026-11-03",
+    "type": "earnings",
+    "title": "ITUB",
+    "name": "Itau Unibanco Banco Holding SA",
+    "time": "AMC",
+    "eps_est": "$0.22",
+    "cap": 104644985000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/itub/earnings"
+   },
+   {
+    "date": "2026-11-04",
+    "type": "earnings",
+    "title": "TM",
+    "name": "Toyota Motor Corp Ltd Ord",
+    "time": "",
+    "eps_est": "",
+    "cap": 258358591000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/tm/earnings"
+   },
+   {
+    "date": "2026-11-04",
+    "type": "earnings",
+    "title": "ARM",
+    "name": "Arm Holdings plc",
+    "time": "AMC",
+    "eps_est": "$0.22",
+    "cap": 223802737000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/arm/earnings"
+   },
+   {
+    "date": "2026-11-04",
+    "type": "earnings",
+    "title": "QCOM",
+    "name": "QUALCOMM Incorporated",
+    "time": "AMC",
+    "eps_est": "$1.46",
+    "cap": 184746656000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/qcom/earnings"
+   },
+   {
+    "date": "2026-11-04",
+    "type": "earnings",
+    "title": "MCD",
+    "name": "McDonald's Corporation",
+    "time": "BMO",
+    "eps_est": "$3.37",
+    "cap": 178771476000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/mcd/earnings"
+   },
+   {
+    "date": "2026-11-04",
+    "type": "earnings",
+    "title": "NVO",
+    "name": "Novo Nordisk A/S",
+    "time": "BMO",
+    "eps_est": "$0.81",
+    "cap": 174593294000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/nvo/earnings"
+   },
+   {
+    "date": "2026-11-04",
+    "type": "earnings",
+    "title": "UBER",
+    "name": "Uber Technologies, Inc.",
+    "time": "BMO",
+    "eps_est": "$0.94",
+    "cap": 141079626000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/uber/earnings"
+   },
+   {
+    "date": "2026-11-04",
+    "type": "earnings",
+    "title": "CVS",
+    "name": "CVS Health Corporation",
+    "time": "BMO",
+    "eps_est": "$1.62",
+    "cap": 120837120000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/cvs/earnings"
+   },
+   {
+    "date": "2026-11-04",
+    "type": "earnings",
+    "title": "MCK",
+    "name": "McKesson Corporation",
+    "time": "AMC",
+    "eps_est": "$10.69",
+    "cap": 118029091000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/mck/earnings"
+   },
+   {
+    "date": "2026-11-04",
+    "type": "earnings",
+    "title": "EQNR",
+    "name": "Equinor ASA",
+    "time": "",
+    "eps_est": "$1.38",
+    "cap": 116062585000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/eqnr/earnings"
+   },
+   {
+    "date": "2026-11-05",
+    "type": "macro",
+    "title": "Jobless claims",
+    "time": "8:30 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=180"
+   },
+   {
+    "date": "2026-11-05",
+    "type": "earnings",
+    "title": "COP",
+    "name": "ConocoPhillips",
+    "time": "BMO",
+    "eps_est": "$2.95",
+    "cap": 174950777000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/cop/earnings"
+   },
+   {
+    "date": "2026-11-05",
+    "type": "earnings",
+    "title": "SONY",
+    "name": "Sony Group Corporation",
+    "time": "BMO",
+    "eps_est": "$0.38",
+    "cap": 154476577000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/sony/earnings"
+   },
+   {
+    "date": "2026-11-05",
+    "type": "earnings",
+    "title": "MNST",
+    "name": "Monster Beverage Corporation",
+    "time": "",
+    "eps_est": "$0.30",
+    "cap": 135733035000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/mnst/earnings"
+   },
+   {
+    "date": "2026-11-05",
+    "type": "earnings",
+    "title": "PH",
+    "name": "Parker-Hannifin Corporation",
+    "time": "BMO",
+    "eps_est": "$8.23",
+    "cap": 112644874000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/ph/earnings"
+   },
+   {
+    "date": "2026-11-05",
+    "type": "earnings",
+    "title": "CNQ",
+    "name": "Canadian Natural Resources Limited",
+    "time": "BMO",
+    "eps_est": "$1.05",
+    "cap": 111228355000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/cnq/earnings"
+   },
+   {
+    "date": "2026-11-05",
+    "type": "earnings",
+    "title": "NET",
+    "name": "Cloudflare, Inc.",
+    "time": "AMC",
+    "eps_est": "$0.02",
+    "cap": 108109365000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/net/earnings"
+   },
+   {
+    "date": "2026-11-05",
+    "type": "earnings",
+    "title": "SO",
+    "name": "Southern Company (The)",
+    "time": "BMO",
+    "eps_est": "$1.71",
+    "cap": 107927052000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/so/earnings"
+   },
+   {
+    "date": "2026-11-05",
+    "type": "earnings",
+    "title": "ABNB",
+    "name": "Airbnb, Inc.",
+    "time": "AMC",
+    "eps_est": "$2.89",
+    "cap": 102997123000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/abnb/earnings"
+   },
+   {
+    "date": "2026-11-06",
+    "type": "macro",
+    "title": "Jobs report",
+    "time": "8:30 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=50"
+   },
+   {
+    "date": "2026-11-06",
+    "type": "earnings",
+    "title": "BRK.A",
+    "name": "Berkshire Hathaway Inc.",
+    "time": "",
+    "eps_est": "",
+    "cap": 1178601520000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/brk.a/earnings"
+   },
+   {
+    "date": "2026-11-06",
+    "type": "earnings",
+    "title": "ENB",
+    "name": "Enbridge Inc",
+    "time": "BMO",
+    "eps_est": "$0.38",
+    "cap": 104501019000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/enb/earnings"
+   },
+   {
+    "date": "2026-11-10",
+    "type": "macro",
+    "title": "CPI",
+    "time": "8:30 am ET",
+    "keys": [
+     "cpi",
+     "core_cpi"
+    ],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=10"
+   },
+   {
+    "date": "2026-11-10",
+    "type": "earnings",
+    "title": "PBR",
+    "name": "Petroleo Brasileiro S.A.- Petrobras",
+    "time": "AMC",
+    "eps_est": "$1.21",
+    "cap": 168584626000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/pbr/earnings"
+   },
+   {
+    "date": "2026-11-11",
+    "type": "earnings",
+    "title": "CSCO",
+    "name": "Cisco Systems, Inc.",
+    "time": "",
+    "eps_est": "$1.15",
+    "cap": 419885515000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/csco/earnings"
+   },
+   {
+    "date": "2026-11-12",
+    "type": "macro",
+    "title": "Jobless claims",
+    "time": "8:30 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=180"
+   },
+   {
+    "date": "2026-11-12",
+    "type": "earnings",
+    "title": "AMAT",
+    "name": "Applied Materials, Inc.",
+    "time": "AMC",
+    "eps_est": "$4.06",
+    "cap": 299376706000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/amat/earnings"
+   },
+   {
+    "date": "2026-11-13",
+    "type": "macro",
+    "title": "PPI",
+    "time": "8:30 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=46"
+   },
+   {
+    "date": "2026-11-13",
+    "type": "earnings",
+    "title": "MUFG",
+    "name": "Mitsubishi UFJ Financial Group Inc",
+    "time": "",
+    "eps_est": "$0.45",
+    "cap": 254087692000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/mufg/earnings"
+   },
+   {
+    "date": "2026-11-13",
+    "type": "earnings",
+    "title": "SMFG",
+    "name": "Sumitomo Mitsui Financial Group Inc",
+    "time": "",
+    "eps_est": "$0.24",
+    "cap": 153740116000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/smfg/earnings"
+   },
+   {
+    "date": "2026-11-13",
+    "type": "earnings",
+    "title": "MFG",
+    "name": "Mizuho Financial Group, Inc.",
+    "time": "",
+    "eps_est": "$0.21",
+    "cap": 120882151000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/mfg/earnings"
+   },
+   {
+    "date": "2026-11-17",
+    "type": "macro",
+    "title": "Retail sales",
+    "time": "8:30 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=9"
+   },
+   {
+    "date": "2026-11-17",
+    "type": "earnings",
+    "title": "HD",
+    "name": "Home Depot, Inc. (The)",
+    "time": "BMO",
+    "eps_est": "$3.86",
+    "cap": 319091081000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/hd/earnings"
+   },
+   {
+    "date": "2026-11-17",
+    "type": "earnings",
+    "title": "BHP",
+    "name": "BHP Group Limited",
+    "time": "",
+    "eps_est": "",
+    "cap": 198964347000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/bhp/earnings"
+   },
+   {
+    "date": "2026-11-17",
+    "type": "earnings",
+    "title": "DIS",
+    "name": "Walt Disney Company (The)",
+    "time": "BMO",
+    "eps_est": "$1.68",
+    "cap": 194286813000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/dis/earnings"
+   },
+   {
+    "date": "2026-11-17",
+    "type": "earnings",
+    "title": "MDT",
+    "name": "Medtronic plc",
+    "time": "",
+    "eps_est": "$1.34",
+    "cap": 122042548000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/mdt/earnings"
+   },
+   {
+    "date": "2026-11-17",
+    "type": "earnings",
+    "title": "PDD",
+    "name": "PDD Holdings Inc.",
+    "time": "",
+    "eps_est": "$2.60",
+    "cap": 112505258000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/pdd/earnings"
+   },
+   {
+    "date": "2026-11-18",
+    "type": "earnings",
+    "title": "NVDA",
+    "name": "NVIDIA Corporation",
+    "time": "",
+    "eps_est": "$2.49",
+    "cap": 5084136100000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/nvda/earnings"
+   },
+   {
+    "date": "2026-11-18",
+    "type": "earnings",
+    "title": "PANW",
+    "name": "Palo Alto Networks, Inc.",
+    "time": "",
+    "eps_est": "$0.52",
+    "cap": 311289905000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/panw/earnings"
+   },
+   {
+    "date": "2026-11-18",
+    "type": "earnings",
+    "title": "TJX",
+    "name": "TJX Companies, Inc. (The)",
+    "time": "BMO",
+    "eps_est": "$1.33",
+    "cap": 162114175000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/tjx/earnings"
+   },
+   {
+    "date": "2026-11-18",
+    "type": "earnings",
+    "title": "LOW",
+    "name": "Lowe's Companies, Inc.",
+    "time": "BMO",
+    "eps_est": "$2.86",
+    "cap": 114662613000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/low/earnings"
+   },
+   {
+    "date": "2026-11-19",
+    "type": "macro",
+    "title": "Jobless claims",
+    "time": "8:30 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=180"
+   },
+   {
+    "date": "2026-11-19",
+    "type": "earnings",
+    "title": "WMT",
+    "name": "Walmart Inc.",
+    "time": "BMO",
+    "eps_est": "$0.64",
+    "cap": 951176860000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/wmt/earnings"
+   },
+   {
+    "date": "2026-11-20",
+    "type": "macro",
+    "title": "UMich sentiment",
+    "time": "11:00 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=91"
+   },
+   {
+    "date": "2026-11-24",
+    "type": "earnings",
+    "title": "DELL",
+    "name": "Dell Technologies Inc.",
+    "time": "",
+    "eps_est": "$6.41",
+    "cap": 290210382000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/dell/earnings"
+   },
+   {
+    "date": "2026-11-24",
+    "type": "earnings",
+    "title": "BABA",
+    "name": "Alibaba Group Holding Limited",
+    "time": "",
+    "eps_est": "$1.31",
+    "cap": 241376510000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/baba/earnings"
+   },
+   {
+    "date": "2026-11-24",
+    "type": "earnings",
+    "title": "ADI",
+    "name": "Analog Devices, Inc.",
+    "time": "BMO",
+    "eps_est": "$3.89",
+    "cap": 189499015000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/adi/earnings"
+   },
+   {
+    "date": "2026-11-25",
+    "type": "macro",
+    "title": "Jobless claims",
+    "time": "8:30 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=180"
+   },
+   {
+    "date": "2026-11-25",
+    "type": "macro",
+    "title": "GDP",
+    "time": "8:30 am ET",
+    "keys": [
+     "gdp"
+    ],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=53"
+   },
+   {
+    "date": "2026-11-25",
+    "type": "macro",
+    "title": "PCE / income",
+    "time": "8:30 am ET",
+    "keys": [
+     "core_pce"
+    ],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=54"
+   },
+   {
+    "date": "2026-11-25",
+    "type": "earnings",
+    "title": "DE",
+    "name": "Deere & Company",
+    "time": "BMO",
+    "eps_est": "$4.07",
+    "cap": 174218461000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/de/earnings"
+   }
+  ],
+  "notes": [],
+  "sources": [
+   "FRED release calendar (BLS, BEA, Census, DOL, UMich release dates)",
+   "Federal Reserve FOMC calendar",
+   "Nasdaq earnings calendar (market cap >= $100B)"
+  ]
+ },
  "updated_et": "2026-10-26 08:44 ET",
  "indicators": [
   {
@@ -1021,6 +2695,173 @@
     107.89
    ],
    "source": "https://fred.stlouisfed.org/series/DCOILWTICO"
+  },
+  {
+   "key": "mortgage30",
+   "label": "30-year fixed mortgage (Freddie Mac PMMS)",
+   "series": "MORTGAGE30US",
+   "unit": "%",
+   "group": "Mortgage rates",
+   "decimals": 2,
+   "latest": 7.32,
+   "date": "2026-10-22",
+   "prior": 7.4,
+   "prior_date": "2026-10-15",
+   "change": -0.08,
+   "spark": [
+    6.5,
+    6.35,
+    6.26,
+    6.3,
+    6.34,
+    6.3,
+    6.27,
+    6.19,
+    6.17,
+    6.22,
+    6.24,
+    6.26,
+    6.23,
+    6.19,
+    6.22,
+    6.21,
+    6.18,
+    6.15,
+    6.16,
+    6.06,
+    6.09,
+    6.1,
+    6.11,
+    6.09,
+    6.01,
+    5.98,
+    6.0,
+    6.11,
+    6.22,
+    6.38,
+    6.46,
+    6.37,
+    6.3,
+    6.23,
+    6.3,
+    6.37,
+    6.36,
+    6.51,
+    6.53,
+    6.48,
+    6.52,
+    6.47,
+    6.49,
+    6.43,
+    6.49,
+    6.55,
+    6.58,
+    6.66,
+    6.69,
+    6.67,
+    6.65,
+    6.66,
+    6.71,
+    6.76,
+    6.95,
+    7.03,
+    7.28,
+    7.4,
+    7.4,
+    7.32
+   ],
+   "source": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+   "forecast": {
+    "source": "Fannie Mae ESR Housing Forecast",
+    "published": "2026-10-12",
+    "url": "https://www.fanniemae.com/media/58256/display",
+    "points": [
+     {
+      "period": "Q4 2026",
+      "value": 7.4
+     },
+     {
+      "period": "Q1 2027",
+      "value": 7.5
+     }
+    ]
+   }
+  },
+  {
+   "key": "mortgage15",
+   "label": "15-year fixed mortgage (Freddie Mac PMMS)",
+   "series": "MORTGAGE15US",
+   "unit": "%",
+   "group": "Mortgage rates",
+   "decimals": 2,
+   "latest": 6.68,
+   "date": "2026-10-22",
+   "prior": 6.71,
+   "prior_date": "2026-10-15",
+   "change": -0.03,
+   "spark": [
+    5.6,
+    5.5,
+    5.41,
+    5.49,
+    5.55,
+    5.53,
+    5.52,
+    5.44,
+    5.41,
+    5.5,
+    5.49,
+    5.54,
+    5.51,
+    5.44,
+    5.54,
+    5.47,
+    5.5,
+    5.44,
+    5.46,
+    5.38,
+    5.44,
+    5.49,
+    5.5,
+    5.44,
+    5.35,
+    5.44,
+    5.43,
+    5.5,
+    5.54,
+    5.75,
+    5.77,
+    5.74,
+    5.65,
+    5.58,
+    5.64,
+    5.72,
+    5.71,
+    5.85,
+    5.87,
+    5.79,
+    5.84,
+    5.81,
+    5.84,
+    5.79,
+    5.82,
+    5.93,
+    5.96,
+    6.04,
+    6.01,
+    5.96,
+    5.95,
+    5.98,
+    6.04,
+    6.09,
+    6.26,
+    6.42,
+    6.6,
+    6.73,
+    6.71,
+    6.68
+   ],
+   "source": "https://fred.stlouisfed.org/series/MORTGAGE15US"
   },
   {
    "key": "target",

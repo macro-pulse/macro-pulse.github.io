@@ -23,6 +23,8 @@ IND = [
  ("s2s10","2s10s spread","T10Y2Y","bp","bp","Rates",0),
  ("usd","Trade-weighted dollar (broad)","DTWEXBGS","level","","Markets",2),
  ("wti","WTI crude oil","DCOILWTICO","level","$","Markets",2),
+ ("mortgage30","30-year fixed mortgage (Freddie Mac PMMS)","MORTGAGE30US","level","%","Mortgage rates",2),
+ ("mortgage15","15-year fixed mortgage (Freddie Mac PMMS)","MORTGAGE15US","level","%","Mortgage rates",2),
 ]
 
 def get(sid):
@@ -112,6 +114,12 @@ def main():
         except Exception as e:
             failed.append(dict(key=key, series=sid, error=str(e))); print("FAIL", sid, e, file=sys.stderr)
     add_expectations(res)
+    try:  # manual, sourced forecasts (e.g. Fannie Mae mortgage rate path)
+        fc = json.load(open("forecasts.json"))
+        for r in res:
+            if r["key"] in fc: r["forecast"] = fc[r["key"]]
+    except Exception as e:
+        print("WARN forecasts.json", e, file=sys.stderr)
     # Fed target range
     try:
         lo, hi = get("DFEDTARL"), get("DFEDTARU")
@@ -120,7 +128,12 @@ def main():
             source="https://fred.stlouisfed.org/series/DFEDTARU"))
     except Exception as e:
         failed.append(dict(key="target", series="DFEDTAR*", error=str(e)))
-    json.dump(dict(updated_et=datetime.now(et).strftime("%Y-%m-%d %H:%M ET"), indicators=res, failed=failed),
+    try:
+        import calendar_fetch
+        cal = calendar_fetch.build(datetime.now(et).date())
+    except Exception as e:
+        cal = dict(events=[], notes=[f"calendar failed: {e}"]); print("WARN calendar", e, file=sys.stderr)
+    json.dump(dict(calendar=cal, updated_et=datetime.now(et).strftime("%Y-%m-%d %H:%M ET"), indicators=res, failed=failed),
               open("data.json", "w"), indent=1)
     print(f"ok {len(res)} indicators, {len(failed)} failed")
     if not res: sys.exit(1)
