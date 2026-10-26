@@ -46,11 +46,11 @@ h2:before{content:"";width:10px;height:10px;border-radius:3px;background:var(--s
 .ert{display:flex;align-items:baseline;gap:6px;min-width:0}.ert b{font-size:15px}.ern{font-size:12px;color:var(--mu);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
 .sb{display:inline-block;font-size:11px;font-weight:800;padding:1px 7px;border-radius:999px;color:#fff}.sb.bullish{background:var(--up)}.sb.neutral{background:var(--markets)}.sb.bearish{background:var(--dn)}
 @media(prefers-color-scheme:dark){.sb{color:#06111f}}
-.eg{font-size:12px;font-weight:700;color:var(--hd2);text-transform:uppercase;letter-spacing:.04em;margin:8px 0 4px;padding-bottom:3px;border-bottom:1px solid var(--line,#cbd5e1)}.eg:first-child{margin-top:0}nav{gap:5px;overflow-x:auto;scrollbar-width:none}nav a{padding:8px 6px;font-size:12.5px;flex:1 0 auto;white-space:nowrap}
+.nq{width:100%;box-sizing:border-box;padding:10px 12px;border-radius:10px;border:1.5px solid var(--bd);background:var(--card);color:var(--tx);font-size:15px}.ntg{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}.ntg button{border:1.5px solid var(--bd);background:var(--card);color:var(--pri);border-radius:999px;padding:3px 10px;font-size:12px;font-weight:700;cursor:pointer}.ntg button.on{background:var(--pri);color:#fff;border-color:var(--pri)}.nc{background:var(--card);border:1px solid var(--bd);border-left:4px solid var(--pri);border-radius:12px;padding:12px 14px;margin:10px 0}.nd{font-size:12px;font-weight:800;color:var(--pri);text-transform:uppercase;letter-spacing:.04em}.nc h3{margin:4px 0 6px;font-size:16px}.nb p{margin:6px 0}.nb ul{margin:6px 0;padding-left:20px}.nb a{color:var(--pri)}mark{background:#fde68a;color:#111;border-radius:2px}.eg{font-size:12px;font-weight:700;color:var(--hd2);text-transform:uppercase;letter-spacing:.04em;margin:8px 0 4px;padding-bottom:3px;border-bottom:1px solid var(--line,#cbd5e1)}.eg:first-child{margin-top:0}nav{gap:5px;overflow-x:auto;scrollbar-width:none}nav a{padding:8px 9px;font-size:12.5px;flex:1 0 auto;white-space:nowrap}
 footer{text-align:center;color:var(--mu);font-size:12px;padding:16px 12px 32px}footer a{color:inherit}
 </style></head><body>
 <header><div><h1 id="t"></h1><div id="upd">Loading…</div></div></header>
-<nav><a href="#macro" data-t="macro">Macro</a><a href="#earnings" data-t="earnings">Earnings</a><a href="#ipo" data-t="ipo">IPOs</a><a href="#more" data-t="more">More data</a><a href="#calendar" data-t="calendar">Calendar</a></nav>
+<nav><a href="#macro" data-t="macro">Macro</a><a href="#earnings" data-t="earnings">Earnings</a><a href="#ipo" data-t="ipo">IPOs</a><a href="#notes" data-t="notes">Notes</a><a href="#more" data-t="more">More data</a><a href="#calendar" data-t="calendar">Calendar</a></nav>
 <main id="m"></main>
 <footer>Data: FRED, St. Louis Fed. Not investment advice.<br>"Exp." = nowcast/forecast for the next release, not a guarantee: inflation from <a href="https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting">Cleveland Fed Inflation Nowcasting</a>, GDP from <a href="https://www.atlantafed.org/cqer/research/gdpnow">Atlanta Fed GDPNow</a>, mortgage path from the <a href="https://www.fanniemae.com/data-and-insights/forecast">Fannie Mae ESR Housing Forecast</a> (quarterly averages).<br>Calendar: <a href="https://fred.stlouisfed.org/releases/calendar">FRED release calendar</a>, <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm">Federal Reserve</a>, <a href="https://www.nasdaq.com/market-activity/earnings">Nasdaq earnings calendar</a> (market cap ≥ $100B). Times ET.<br>Analyst ratings are consensus opinions, not advice. Source: Nasdaq.</footer>
 <script>
@@ -112,6 +112,28 @@ h+='</section>';
 if(I.filed&&I.filed.length){h+=`<section class="up7" style="--sc:var(--markets)"><details><summary><h2 style="display:inline">Filed, no date yet (${I.filed.length})</h2></summary><div class="m">`+
 I.filed.map(f=>`<a href="${lk(f)}" target="_blank" rel="noopener" style="color:inherit">${esc(f.ticker||'—')} · ${esc(f.name)} · filed ${esc(f.date)}${f.size?' · '+esc(f.size):''}</a>`).join('<br>')+'</div></details></section>'}
 return h+`<div class="note">Source: <a href="https://www.nasdaq.com/market-activity/ipos" target="_blank" rel="noopener">Nasdaq IPO calendar</a> (expected dates can change); quotes at last update (${esc(D.updated_et)}). Lead underwriters are not in the Nasdaq feed. Not advice.</div>`}
+let NOTES=null,NTAG='';
+function notesTab(){const m=document.getElementById('m');
+if(NOTES===null){m.innerHTML='<div class="note">Loading notes…</div>';fetch('notes.json?v='+Date.now()).then(r=>r.json()).then(j=>{NOTES=Array.isArray(j)?j:[];notesTab()}).catch(()=>{NOTES=[];notesTab()});return}
+const q0=decodeURIComponent((location.hash.split('?q=')[1]||new URLSearchParams(location.search).get('q')||'').replace(/\+/g,' '));
+const tags=[...new Set(NOTES.flatMap(n=>n.tags||[]))].sort();
+m.innerHTML=`<section class="up7" style="--sc:var(--pri)"><h2>Notes</h2><input class="nq" id="nq" type="search" placeholder="Search notes by text, tag or date…" value="${esc(q0)}">`+
+(tags.length?`<div class="ntg"><button data-g="" class="${NTAG?'':'on'}">All</button>${tags.map(g=>`<button data-g="${esc(g)}" class="${g==NTAG?'on':''}">#${esc(g)}</button>`).join('')}</div>`:'')+
+`<div class="m" id="ncount"></div><div id="nl"></div></section>`;
+const inp=document.getElementById('nq');inp.oninput=()=>{history.replaceState(null,'','#notes'+(inp.value?'?q='+encodeURIComponent(inp.value):''));drawNotes(inp.value)};
+m.querySelectorAll('.ntg button').forEach(b=>b.onclick=()=>{NTAG=b.dataset.g;notesTab()});drawNotes(q0)}
+const nDate=d=>{const x=new Date(d+'T12:00');return isNaN(x)?d:x.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric',year:'numeric'})};
+function hl(t,q){t=esc(t);if(!q)return t;const r=new RegExp('('+esc(q).replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi');return t.split(/(<[^>]*>)/).map(p=>p.startsWith('<')?p:p.replace(r,'<mark>$1</mark>')).join('')}
+function md(src,q){const inl=t=>{let h=hl(t,q);h=h.replace(/\*\*(.+?)\*\*/g,'<b>$1</b>');
+h=h.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,(m,a,u)=>`<a href="${u.replace(/<\/?mark>/g,'').replace(/"/g,'%22')}" target="_blank" rel="noopener">${a}</a>`);return h};
+return String(src||'').split(/\n\s*\n/).map(b=>{const L=b.split('\n');return L.every(l=>/^\s*[-*] /.test(l))?'<ul>'+L.map(l=>'<li>'+inl(l.replace(/^\s*[-*] /,''))+'</li>').join('')+'</ul>':'<p>'+L.map(inl).join('<br>')+'</p>'}).join('')}
+function drawNotes(q){q=(q||'').trim();const ql=q.toLowerCase();
+const L=NOTES.filter(n=>(!NTAG||(n.tags||[]).includes(NTAG))&&(!ql||[n.title,n.body,(n.tags||[]).join(' '),n.date,nDate(n.date),n.time].join(' ').toLowerCase().includes(ql)))
+.sort((a,b)=>(b.date+(b.time||'')).localeCompare(a.date+(a.time||'')));
+document.getElementById('ncount').textContent=NOTES.length?`${L.length} of ${NOTES.length} note${NOTES.length==1?'':'s'}`:'';
+document.getElementById('nl').innerHTML=!NOTES.length?'<div class="note">No notes yet.</div>':!L.length?'<div class="note">No notes match.</div>':
+L.map(n=>`<article class="nc"><div class="nd">${hl(nDate(n.date),q)}${n.time?' · '+hl(n.time,q):''}</div>${n.title?`<h3>${hl(n.title,q)}</h3>`:''}<div class="nb">${md(n.body,q)}</div>${(n.tags||[]).length?`<div class="ntg">${n.tags.map(g=>`<button data-g="${esc(g)}">#${hl(g,q)}</button>`).join('')}</div>`:''}</article>`).join('');
+document.querySelectorAll('#nl .ntg button').forEach(b=>b.onclick=()=>{NTAG=b.dataset.g;notesTab()})}
 function upcoming(){const ev=(D.calendar&&D.calendar.events||[]).filter(e=>e.type=='macro');const t0=new Date();t0.setHours(0,0,0,0);
 const end=n=>iso(new Date(t0.getFullYear(),t0.getMonth(),t0.getDate()+n));let n=7,list=ev.filter(e=>e.date>=iso(t0)&&e.date<end(n));
 if(list.length<3){n=14;list=ev.filter(e=>e.date>=iso(t0)&&e.date<end(n))}
@@ -147,8 +169,8 @@ if(C.start)h+=`<div class="note">Covers ${esc(C.start)} to ${esc(C.end)}. Earnin
 return h}
 function mv(n){calM=new Date(calM.getFullYear(),calM.getMonth()+n,1);render()}
 function pick(d){sel=d;render()}
-function render(){if(!D)return;const t=['#more','#calendar','#earnings','#ipo'].includes(location.hash)?location.hash.slice(1):'macro';
-document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('on',a.dataset.t==t));
+function render(){if(!D)return;const t=['more','calendar','earnings','ipo','notes'].includes(location.hash.slice(1).split('?')[0])?location.hash.slice(1).split('?')[0]:'macro';
+document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('on',a.dataset.t==t));if(t=='notes'){notesTab();return}
 document.getElementById('m').innerHTML=t=='calendar'?calendar():t=='ipo'?ipoTab():t=='earnings'?upEarn()||'<div class="note">No large-cap earnings in the next 2 weeks.</div>':(t=='macro'?upcoming():'')+cards(t)}
 window.addEventListener('hashchange',render);
 fetch('data.json?v='+Date.now()).then(r=>r.json()).then(j=>{D=j;document.getElementById('upd').textContent='Last updated '+D.updated_et;render()}).catch(()=>document.getElementById('upd').textContent='Data unavailable');
