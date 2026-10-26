@@ -18,7 +18,7 @@
     "name": "Accenture plc",
     "time": "",
     "eps_est": "$3.19",
-    "cap": 166759416000,
+    "cap": 173025346000,
     "url": "https://www.nasdaq.com/market-activity/stocks/acn/earnings"
    },
    {
@@ -52,7 +52,7 @@
     "name": "Pepsico, Inc.",
     "time": "",
     "eps_est": "$2.29",
-    "cap": 185019351000,
+    "cap": 189189341000,
     "url": "https://www.nasdaq.com/market-activity/stocks/pep/earnings"
    },
    {
@@ -237,7 +237,7 @@
     "name": "Space Exploration Technologies Corp.",
     "time": "",
     "eps_est": "$0.10",
-    "cap": 2003071140000,
+    "cap": 1964666000000,
     "url": "https://www.nasdaq.com/market-activity/stocks/spcx/earnings"
    },
    {
@@ -247,7 +247,7 @@
     "name": "GE Aerospace",
     "time": "",
     "eps_est": "$2.02",
-    "cap": 295166640000,
+    "cap": 303330132000,
     "url": "https://www.nasdaq.com/market-activity/stocks/ge/earnings"
    },
    {
@@ -257,7 +257,7 @@
     "name": "Netflix, Inc.",
     "time": "",
     "eps_est": "$0.82",
-    "cap": 270401569000,
+    "cap": 275329155000,
     "url": "https://www.nasdaq.com/market-activity/stocks/nflx/earnings"
    },
    {
@@ -267,7 +267,7 @@
     "name": "RTX Corporation",
     "time": "",
     "eps_est": "$1.78",
-    "cap": 257756643000,
+    "cap": 262749569000,
     "url": "https://www.nasdaq.com/market-activity/stocks/rtx/earnings"
    },
    {
@@ -277,7 +277,7 @@
     "name": "Intuitive Surgical, Inc.",
     "time": "",
     "eps_est": "$2.13",
-    "cap": 156783493000,
+    "cap": 153857819000,
     "url": "https://www.nasdaq.com/market-activity/stocks/isrg/earnings"
    },
    {
@@ -287,7 +287,7 @@
     "name": "Chubb Limited",
     "time": "",
     "eps_est": "$6.53",
-    "cap": 137001386000,
+    "cap": 140411863000,
     "url": "https://www.nasdaq.com/market-activity/stocks/cb/earnings"
    },
    {
@@ -297,7 +297,7 @@
     "name": "Capital One Financial Corporation",
     "time": "",
     "eps_est": "$5.45",
-    "cap": 123519033000,
+    "cap": 124801221000,
     "url": "https://www.nasdaq.com/market-activity/stocks/cof/earnings"
    },
    {
@@ -327,7 +327,7 @@
     "name": "Philip Morris International Inc",
     "time": "",
     "eps_est": "$2.30",
-    "cap": 314434683000,
+    "cap": 310896624000,
     "url": "https://www.nasdaq.com/market-activity/stocks/pm/earnings"
    },
    {
@@ -337,7 +337,7 @@
     "name": "SAP SE",
     "time": "",
     "eps_est": "$2.03",
-    "cap": 295565820000,
+    "cap": 292556014000,
     "url": "https://www.nasdaq.com/market-activity/stocks/sap/earnings"
    },
    {
@@ -367,7 +367,7 @@
     "name": "Thermo Fisher Scientific Inc",
     "time": "",
     "eps_est": "$6.40",
-    "cap": 250148831000,
+    "cap": 249143116000,
     "url": "https://www.nasdaq.com/market-activity/stocks/tmo/earnings"
    },
    {
@@ -377,7 +377,7 @@
     "name": "International Business Machines Corporation",
     "time": "",
     "eps_est": "$2.88",
-    "cap": 237521502000,
+    "cap": 239644836000,
     "url": "https://www.nasdaq.com/market-activity/stocks/ibm/earnings"
    },
    {
@@ -387,7 +387,7 @@
     "name": "Abbott Laboratories",
     "time": "",
     "eps_est": "$1.43",
-    "cap": 177381589000,
+    "cap": 179440746000,
     "url": "https://www.nasdaq.com/market-activity/stocks/abt/earnings"
    },
    {
@@ -397,7 +397,7 @@
     "name": "NextEra Energy, Inc.",
     "time": "",
     "eps_est": "$1.20",
-    "cap": 171769364000,
+    "cap": 172188828000,
     "url": "https://www.nasdaq.com/market-activity/stocks/nee/earnings"
    },
    {
@@ -407,7 +407,7 @@
     "name": "Danaher Corporation",
     "time": "",
     "eps_est": "$1.92",
-    "cap": 161636205000,
+    "cap": 162163851000,
     "url": "https://www.nasdaq.com/market-activity/stocks/dhr/earnings"
    },
    {
@@ -417,7 +417,7 @@
     "name": "Southern Copper Corporation",
     "time": "",
     "eps_est": "$2.04",
-    "cap": 155005043000,
+    "cap": 156203942000,
     "url": "https://www.nasdaq.com/market-activity/stocks/scco/earnings"
    },
    {
@@ -427,7 +427,7 @@
     "name": "AT&T Inc.",
     "time": "",
     "eps_est": "$0.61",
-    "cap": 153187402000,
+    "cap": 140994396000,
     "url": "https://www.nasdaq.com/market-activity/stocks/t/earnings"
    },
    {
@@ -455,7 +455,7 @@
     "name": "Procter & Gamble Company (The)",
     "time": "",
     "eps_est": "$1.89",
-    "cap": 373209432000,
+    "cap": 384902857000,
     "url": "https://www.nasdaq.com/market-activity/stocks/pg/earnings"
    },
    {
@@ -465,7 +465,7 @@
     "name": "Union Pacific Corporation",
     "time": "",
     "eps_est": "$3.47",
-    "cap": 174038122000,
+    "cap": 177087971000,
     "url": "https://www.nasdaq.com/market-activity/stocks/unp/earnings"
    },
    {
@@ -475,7 +475,7 @@
     "name": "Lockheed Martin Corporation",
     "time": "",
     "eps_est": "$7.49",
-    "cap": 139568382000,
+    "cap": 136145773000,
     "url": "https://www.nasdaq.com/market-activity/stocks/lmt/earnings"
    },
    {
@@ -485,18 +485,8 @@
     "name": "Western Digital Corporation",
     "time": "",
     "eps_est": "$3.99",
-    "cap": 128384106000,
+    "cap": 132314046000,
     "url": "https://www.nasdaq.com/market-activity/stocks/wdc/earnings"
-   },
-   {
-    "date": "2026-10-22",
-    "type": "earnings",
-    "title": "SPOT",
-    "name": "Spotify Technology S.A.",
-    "time": "",
-    "eps_est": "$3.10",
-    "cap": 123119264000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/spot/earnings"
    },
    {
     "date": "2026-10-22",
@@ -505,7 +495,7 @@
     "name": "Valero Energy Corporation",
     "time": "",
     "eps_est": "$21.28",
-    "cap": 120722227000,
+    "cap": 122737721000,
     "url": "https://www.nasdaq.com/market-activity/stocks/vlo/earnings"
    },
    {
@@ -515,8 +505,18 @@
     "name": "Newmont Corporation",
     "time": "",
     "eps_est": "$1.94",
-    "cap": 113136959000,
+    "cap": 120236827000,
     "url": "https://www.nasdaq.com/market-activity/stocks/nem/earnings"
+   },
+   {
+    "date": "2026-10-22",
+    "type": "earnings",
+    "title": "SPOT",
+    "name": "Spotify Technology S.A.",
+    "time": "",
+    "eps_est": "$3.10",
+    "cap": 120136212000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/spot/earnings"
    },
    {
     "date": "2026-10-23",
@@ -533,7 +533,7 @@
     "name": "American Express Company",
     "time": "",
     "eps_est": "$4.47",
-    "cap": 211520553000,
+    "cap": 219590492000,
     "url": "https://www.nasdaq.com/market-activity/stocks/axp/earnings"
    },
    {
@@ -585,7 +585,7 @@
     "name": "Visa Inc.",
     "time": "AMC",
     "eps_est": "$3.43",
-    "cap": 740324150000,
+    "cap": 728853180000,
     "url": "https://www.nasdaq.com/market-activity/stocks/v/earnings",
     "analyst": {
      "rating": "Buy",
@@ -606,7 +606,7 @@
     "name": "Coca-Cola Company (The)",
     "time": "BMO",
     "eps_est": "$0.87",
-    "cap": 410205061000,
+    "cap": 398889353000,
     "url": "https://www.nasdaq.com/market-activity/stocks/ko/earnings",
     "analyst": {
      "rating": "Buy",
@@ -627,7 +627,7 @@
     "name": "HSBC Holdings plc",
     "time": "",
     "eps_est": "$2.13",
-    "cap": 321593049000,
+    "cap": 310309224000,
     "url": "https://www.nasdaq.com/market-activity/stocks/hsbc/earnings",
     "analyst": {
      "rating": "Hold",
@@ -644,7 +644,7 @@
     "name": "Novartis AG",
     "time": "BMO",
     "eps_est": "$2.25",
-    "cap": 298186867000,
+    "cap": 288359875000,
     "url": "https://www.nasdaq.com/market-activity/stocks/nvs/earnings",
     "analyst": {
      "rating": "Hold",
@@ -665,7 +665,7 @@
     "name": "Boeing Company (The)",
     "time": "BMO",
     "eps_est": "($0.21)",
-    "cap": 148233896000,
+    "cap": 148866187000,
     "url": "https://www.nasdaq.com/market-activity/stocks/ba/earnings",
     "analyst": {
      "rating": "Buy",
@@ -686,7 +686,7 @@
     "name": "Seagate Technology Holdings PLC",
     "time": "AMC",
     "eps_est": "$7.17",
-    "cap": 146869338000,
+    "cap": 144204759000,
     "url": "https://www.nasdaq.com/market-activity/stocks/stx/earnings",
     "analyst": {
      "rating": "Buy",
@@ -707,7 +707,7 @@
     "name": "S&P Global Inc.",
     "time": "BMO",
     "eps_est": "$4.43",
-    "cap": 133573878000,
+    "cap": 132751385000,
     "url": "https://www.nasdaq.com/market-activity/stocks/spgi/earnings",
     "analyst": {
      "rating": "Buy",
@@ -728,7 +728,7 @@
     "name": "Corning Incorporated",
     "time": "BMO",
     "eps_est": "$0.89",
-    "cap": 106803536000,
+    "cap": 106545119000,
     "url": "https://www.nasdaq.com/market-activity/stocks/glw/earnings",
     "analyst": {
      "rating": "Buy",
@@ -749,7 +749,7 @@
     "name": "HCA Healthcare, Inc.",
     "time": "BMO",
     "eps_est": "$6.74",
-    "cap": 101173314000,
+    "cap": 101545697000,
     "url": "https://www.nasdaq.com/market-activity/stocks/hca/earnings",
     "analyst": {
      "rating": "Buy",
@@ -1438,7 +1438,7 @@
     "name": "ExxonMobil Holdings Corporation",
     "time": "BMO",
     "eps_est": "$3.90",
-    "cap": 732866080000,
+    "cap": 753343400000,
     "url": "https://www.nasdaq.com/market-activity/stocks/xom/earnings",
     "analyst": {
      "rating": "Hold",
@@ -1459,7 +1459,7 @@
     "name": "AbbVie Inc.",
     "time": "BMO",
     "eps_est": "$3.76",
-    "cap": 503964172000,
+    "cap": 504759386000,
     "url": "https://www.nasdaq.com/market-activity/stocks/abbv/earnings",
     "analyst": {
      "rating": "Buy",
@@ -1480,7 +1480,7 @@
     "name": "Chevron Corporation",
     "time": "BMO",
     "eps_est": "$4.78",
-    "cap": 447867847000,
+    "cap": 460769624000,
     "url": "https://www.nasdaq.com/market-activity/stocks/cvx/earnings",
     "analyst": {
      "rating": "Buy",
@@ -1501,7 +1501,7 @@
     "name": "AstraZeneca PLC",
     "time": "BMO",
     "eps_est": "$2.60",
-    "cap": 262007882000,
+    "cap": 265882616000,
     "url": "https://www.nasdaq.com/market-activity/stocks/azn/earnings",
     "analyst": {
      "rating": "Buy",
@@ -1522,7 +1522,7 @@
     "name": "BP p.l.c.",
     "time": "BMO",
     "eps_est": "$2.66",
-    "cap": 129834885000,
+    "cap": 134091629000,
     "url": "https://www.nasdaq.com/market-activity/stocks/bp/earnings",
     "analyst": {
      "rating": "Buy",
@@ -1543,7 +1543,7 @@
     "name": "Sanofi",
     "time": "BMO",
     "eps_est": "$1.63",
-    "cap": 102334325000,
+    "cap": 101456331000,
     "url": "https://www.nasdaq.com/market-activity/stocks/sny/earnings",
     "analyst": {
      "rating": "Hold",
@@ -1564,7 +1564,7 @@
     "name": "Apple Inc.",
     "time": "AMC",
     "eps_est": "$2",
-    "cap": 5081985400000,
+    "cap": 5074761300000,
     "url": "https://www.nasdaq.com/market-activity/stocks/aapl/earnings",
     "analyst": {
      "rating": "Hold",
@@ -1585,7 +1585,7 @@
     "name": "Palantir Technologies Inc.",
     "time": "AMC",
     "eps_est": "$0.34",
-    "cap": 471258857000,
+    "cap": 472604017000,
     "url": "https://www.nasdaq.com/market-activity/stocks/pltr/earnings",
     "analyst": {
      "rating": "Buy",
@@ -1606,7 +1606,7 @@
     "name": "Vertex Pharmaceuticals Incorporated",
     "time": "AMC",
     "eps_est": "$4.36",
-    "cap": 135644684000,
+    "cap": 132795785000,
     "url": "https://www.nasdaq.com/market-activity/stocks/vrtx/earnings",
     "analyst": {
      "rating": "Buy",
@@ -1627,7 +1627,7 @@
     "name": "Marriott International",
     "time": "BMO",
     "eps_est": "$2.86",
-    "cap": 103472062000,
+    "cap": 101883994000,
     "url": "https://www.nasdaq.com/market-activity/stocks/mar/earnings",
     "analyst": {
      "rating": "Hold",
@@ -1719,7 +1719,7 @@
     "name": "Arista Networks, Inc.",
     "time": "AMC",
     "eps_est": "$0.99",
-    "cap": 215757701000,
+    "cap": 217397297000,
     "url": "https://www.nasdaq.com/market-activity/stocks/anet/earnings",
     "analyst": {
      "rating": "Buy",
@@ -1740,7 +1740,7 @@
     "name": "Pfizer, Inc.",
     "time": "BMO",
     "eps_est": "$0.72",
-    "cap": 173384073000,
+    "cap": 171161190000,
     "url": "https://www.nasdaq.com/market-activity/stocks/pfe/earnings",
     "analyst": {
      "rating": "Hold",
@@ -1761,7 +1761,7 @@
     "name": "Eaton Corporation, PLC",
     "time": "BMO",
     "eps_est": "$3.54",
-    "cap": 143315714000,
+    "cap": 142197129000,
     "url": "https://www.nasdaq.com/market-activity/stocks/etn/earnings",
     "analyst": {
      "rating": "Buy",
@@ -1782,7 +1782,7 @@
     "name": "Marathon Petroleum Corporation",
     "time": "BMO",
     "eps_est": "$25.74",
-    "cap": 128977199000,
+    "cap": 128398696000,
     "url": "https://www.nasdaq.com/market-activity/stocks/mpc/earnings",
     "analyst": {
      "rating": "Buy",
@@ -1824,7 +1824,7 @@
     "name": "Itau Unibanco Banco Holding SA",
     "time": "AMC",
     "eps_est": "$0.22",
-    "cap": 104644985000,
+    "cap": 106629825000,
     "url": "https://www.nasdaq.com/market-activity/stocks/itub/earnings",
     "analyst": {
      "rating": "Buy",
@@ -2280,7 +2280,7 @@
     "name": "Applied Materials, Inc.",
     "time": "AMC",
     "eps_est": "$4.06",
-    "cap": 299376706000,
+    "cap": 298059334000,
     "url": "https://www.nasdaq.com/market-activity/stocks/amat/earnings"
    },
    {
@@ -2434,7 +2434,7 @@
     "name": "Walmart Inc.",
     "time": "BMO",
     "eps_est": "$0.64",
-    "cap": 951176860000,
+    "cap": 960935360000,
     "url": "https://www.nasdaq.com/market-activity/stocks/wmt/earnings"
    },
    {
@@ -2510,7 +2510,7 @@
     "name": "Deere & Company",
     "time": "BMO",
     "eps_est": "$4.07",
-    "cap": 174218461000,
+    "cap": 173536313000,
     "url": "https://www.nasdaq.com/market-activity/stocks/de/earnings"
    }
   ],
@@ -2544,8 +2544,8 @@
     "shares": "17,640,000",
     "size": "$317,520,000",
     "deal": "1112626-119575",
-    "last": 27.1,
-    "last_time": "Oct 26, 2026 10:34 AM ET"
+    "last": 27.85,
+    "last_time": "Oct 26, 2026 10:38 AM ET"
    },
    {
     "date": "2026-10-22",
@@ -2556,8 +2556,8 @@
     "shares": "25,000,000",
     "size": "",
     "deal": "1344257-114782",
-    "last": 4.05,
-    "last_time": "Oct 26, 2026 10:34 AM ET"
+    "last": 4.0006,
+    "last_time": "Oct 26, 2026 10:38 AM ET"
    },
    {
     "date": "2026-10-16",
@@ -2568,8 +2568,8 @@
     "shares": "11,111,111",
     "size": "$199,999,998",
     "deal": "1403574-119467",
-    "last": 21.09,
-    "last_time": "Oct 26, 2026 10:34 AM ET"
+    "last": 20.75,
+    "last_time": "Oct 26, 2026 10:38 AM ET"
    },
    {
     "date": "2026-10-16",
@@ -2581,7 +2581,7 @@
     "size": "$100,000,000",
     "deal": "1403753-119489",
     "last": 10.37,
-    "last_time": "Oct 26, 2026 10:34 AM ET"
+    "last_time": "Oct 26, 2026 10:38 AM ET"
    },
    {
     "date": "2026-10-15",
@@ -2592,8 +2592,8 @@
     "shares": "9,375,000",
     "size": "$150,000,000",
     "deal": "1273626-119431",
-    "last": 14.3802,
-    "last_time": "Oct 26, 2026 10:34 AM ET"
+    "last": 14.22,
+    "last_time": "Oct 26, 2026 10:38 AM ET"
    },
    {
     "date": "2026-10-15",
@@ -2604,8 +2604,8 @@
     "shares": "4,705,883",
     "size": "$20,000,003",
     "deal": "1400157-119190",
-    "last": 5.7,
-    "last_time": "Oct 26, 2026 10:34 AM ET"
+    "last": 5.88,
+    "last_time": "Oct 26, 2026 10:38 AM ET"
    },
    {
     "date": "2026-10-14",
@@ -2617,7 +2617,7 @@
     "size": "$75,000,000",
     "deal": "1403442-119456",
     "last": 10.3,
-    "last_time": "Oct 26, 2026 10:34 AM ET"
+    "last_time": "Oct 26, 2026 10:38 AM ET"
    }
   ],
   "filed": [
@@ -3086,7 +3086,7 @@
     "rating_new": "Outperform",
     "pt_old": "",
     "pt_new": "$625.00",
-    "price": "$527.63",
+    "price": "$527.29",
     "id": "2486127",
     "cap": 3895235078383.0
    },
@@ -3101,7 +3101,7 @@
     "rating_new": "Sector Outperform",
     "pt_old": "$615.00",
     "pt_new": "$625.00",
-    "price": "$527.63",
+    "price": "$527.29",
     "id": "2486210",
     "cap": 3895235078383.0
    },
@@ -3116,7 +3116,7 @@
     "rating_new": "Buy",
     "pt_old": "",
     "pt_new": "$348.00",
-    "price": "$249.10",
+    "price": "$249.84",
     "id": "2486039",
     "cap": 2675005765856.0
    },
@@ -3131,7 +3131,7 @@
     "rating_new": "",
     "pt_old": "",
     "pt_new": "$267.00",
-    "price": "$147.55",
+    "price": "$147.72",
     "id": "2486003",
     "cap": 2003071086440.0
    },
@@ -3146,7 +3146,7 @@
     "rating_new": "Overweight",
     "pt_old": "$370.00",
     "pt_new": "$450.00",
-    "price": "$393.89",
+    "price": "$393.76",
     "id": "2486001",
     "cap": 1471295562660.0
    },
@@ -3161,7 +3161,7 @@
     "rating_new": "Outperform",
     "pt_old": "",
     "pt_new": "$1,450.00",
-    "price": "$1,284.81",
+    "price": "$1,283.70",
     "id": "2486133",
     "cap": 1198780567995.0
    },
@@ -3176,7 +3176,7 @@
     "rating_new": "Overweight",
     "pt_old": "$300.00",
     "pt_new": "$250.00",
-    "price": "$139.27",
+    "price": "$139.55",
     "id": "2486156",
     "cap": 998691508100.0
    },
@@ -3191,7 +3191,7 @@
     "rating_new": "",
     "pt_old": "",
     "pt_new": "$480.00",
-    "price": "$406.20",
+    "price": "$406.16",
     "id": "2486224",
     "cap": 728853191382.0
    },
@@ -3206,7 +3206,7 @@
     "rating_new": "Positive",
     "pt_old": "$427.00",
     "pt_new": "$480.00",
-    "price": "$406.20",
+    "price": "$406.16",
     "id": "2486135",
     "cap": 728853191382.0
    },
@@ -3229,14 +3229,14 @@
     "date": "2026-10-26",
     "ticker": "ORCL",
     "company": "Oracle",
-    "action": "Reiterated",
-    "action_raw": "Reiterated",
+    "action": "Target change",
+    "action_raw": "Target Lowered",
     "firm": "Wells Fargo & Company",
     "rating_old": "",
     "rating_new": "Overweight",
     "pt_old": "$280.00",
     "pt_new": "$250.00",
-    "price": "$126.07",
+    "price": "$126.27",
     "id": "2486040",
     "cap": 381474533760.0
    },
@@ -3251,7 +3251,7 @@
     "rating_new": "Neutral",
     "pt_old": "$145.00",
     "pt_new": "$167.00",
-    "price": "$160.62",
+    "price": "$160.41",
     "id": "2486114",
     "cap": 373209441686.0
    },
@@ -3266,7 +3266,7 @@
     "rating_new": "",
     "pt_old": "",
     "pt_new": "$165.00",
-    "price": "$160.62",
+    "price": "$160.41",
     "id": "2486094",
     "cap": 373209441686.0
    },
@@ -3281,7 +3281,7 @@
     "rating_new": "",
     "pt_old": "",
     "pt_new": "$322.00",
-    "price": "$319.40",
+    "price": "$319.89",
     "id": "2486235",
     "cap": 319091073084.0
    },
@@ -3296,7 +3296,7 @@
     "rating_new": "Neutral",
     "pt_old": "",
     "pt_new": "$750.00",
-    "price": "$686.12",
+    "price": "$688.13",
     "id": "2486043",
     "cap": 315796648743.0
    },
@@ -3311,7 +3311,7 @@
     "rating_new": "Overweight",
     "pt_old": "$1,155.00",
     "pt_new": "$840.00",
-    "price": "$686.12",
+    "price": "$688.13",
     "id": "2486186",
     "cap": 315796648743.0
    },
@@ -3326,7 +3326,7 @@
     "rating_new": "Buy",
     "pt_old": "$210.00",
     "pt_new": "$220.00",
-    "price": "$203.27",
+    "price": "$203.36",
     "id": "2486209",
     "cap": 310896622677.0
    },
@@ -3341,7 +3341,7 @@
     "rating_new": "",
     "pt_old": "",
     "pt_new": "$942.00",
-    "price": "$892.61",
+    "price": "$892.81",
     "id": "2486098",
     "cap": 254972978557.0
    },
@@ -3353,8 +3353,8 @@
     "action_raw": "Target Set",
     "firm": "Barclays",
     "rating_old": "",
-    "rating_new": "",
-    "pt_old": "",
+    "rating_new": "Equal Weight",
+    "pt_old": "$342.00",
     "pt_new": "$340.00",
     "price": "$316.60",
     "id": "2486097",
@@ -3371,7 +3371,7 @@
     "rating_new": "Outperform",
     "pt_old": "",
     "pt_new": "",
-    "price": "$74.98",
+    "price": "$74.97",
     "id": "2486058",
     "cap": 182703488658.0
    },
@@ -3386,7 +3386,7 @@
     "rating_new": "",
     "pt_old": "",
     "pt_new": "$100.00",
-    "price": "$74.98",
+    "price": "$74.97",
     "id": "2486102",
     "cap": 182703488658.0
    },
@@ -3401,7 +3401,7 @@
     "rating_new": "Overweight",
     "pt_old": "$2,900.00",
     "pt_new": "$2,200.00",
-    "price": "$1,231.57",
+    "price": "$1,236.31",
     "id": "2486155",
     "cap": 179920030146.0
    },
@@ -3416,7 +3416,7 @@
     "rating_new": "Buy",
     "pt_old": "",
     "pt_new": "$295.00",
-    "price": "$251.70",
+    "price": "$251.96",
     "id": "2486169",
     "cap": 175820614792.0
    },
@@ -3425,13 +3425,13 @@
     "ticker": "ACN",
     "company": "Accenture",
     "action": "Target change",
-    "action_raw": "Target Set",
+    "action_raw": "Target Raised",
     "firm": "Wells Fargo & Company",
     "rating_old": "",
     "rating_new": "Equal Weight",
     "pt_old": "$210.00",
     "pt_new": "$252.00",
-    "price": "$249.47",
+    "price": "$250.17",
     "id": "2486249",
     "cap": 166759408127.0
    },
@@ -3461,7 +3461,7 @@
     "rating_new": "",
     "pt_old": "",
     "pt_new": "$165.00",
-    "price": "$186.35",
+    "price": "$186.99",
     "id": "2486091",
     "cap": 156203943000.0
    },
@@ -3476,7 +3476,7 @@
     "rating_new": "Overweight",
     "pt_old": "$1,300.00",
     "pt_new": "$1,000.00",
-    "price": "$629.37",
+    "price": "$630.74",
     "id": "2486154",
     "cap": 144204759220.0
    },
@@ -3491,7 +3491,7 @@
     "rating_new": "Neutral",
     "pt_old": "",
     "pt_new": "$620.00",
-    "price": "$621.46",
+    "price": "$623.51",
     "id": "2486033",
     "cap": 139568383395.0
    },
@@ -3506,7 +3506,7 @@
     "rating_new": "Neutral",
     "pt_old": "",
     "pt_new": "",
-    "price": "$357.60",
+    "price": "$356.92",
     "id": "2486254",
     "cap": 137001387929.0
    },
@@ -3521,7 +3521,7 @@
     "rating_new": "Overweight",
     "pt_old": "$48.00",
     "pt_new": "$50.00",
-    "price": "$46.33",
+    "price": "$46.30",
     "id": "2486038",
     "cap": 135733037221.0
    },
@@ -3536,7 +3536,7 @@
     "rating_new": "Neutral",
     "pt_old": "",
     "pt_new": "",
-    "price": "$183.45",
+    "price": "$183.56",
     "id": "2486137",
     "cap": 132061120403.0
    },
@@ -3551,7 +3551,7 @@
     "rating_new": "Buy",
     "pt_old": "$600.00",
     "pt_new": "$500.00",
-    "price": "$344.13",
+    "price": "$343.79",
     "id": "2486208",
     "cap": 128384107687.0
    },
@@ -3566,7 +3566,7 @@
     "rating_new": "Overweight",
     "pt_old": "$82.00",
     "pt_new": "$78.00",
-    "price": "$61.52",
+    "price": "$61.58",
     "id": "2486144",
     "cap": 125586097051.0
    },
@@ -3581,7 +3581,7 @@
     "rating_new": "Buy",
     "pt_old": "",
     "pt_new": "",
-    "price": "$153.75",
+    "price": "$154.06",
     "id": "2486034",
     "cap": 117087623315.0
    },
@@ -3596,7 +3596,7 @@
     "rating_new": "",
     "pt_old": "",
     "pt_new": "$195.00",
-    "price": "$198.78",
+    "price": "$199.16",
     "id": "2486233",
     "cap": 111470212495.0
    },
@@ -3611,7 +3611,7 @@
     "rating_new": "Neutral",
     "pt_old": "",
     "pt_new": "",
-    "price": "$60.02",
+    "price": "$59.95",
     "id": "2486042",
     "cap": 97675589139.0
    },
@@ -3626,7 +3626,7 @@
     "rating_new": "Buy",
     "pt_old": "",
     "pt_new": "$20.00",
-    "price": "$12.04",
+    "price": "$12.03",
     "id": "2486087",
     "cap": 73612012261.0
    },
@@ -3641,7 +3641,7 @@
     "rating_new": "Buy",
     "pt_old": "",
     "pt_new": "$315.00",
-    "price": "$235.82",
+    "price": "$236.01",
     "id": "2485995",
     "cap": 73250598123.0
    },
@@ -3656,7 +3656,7 @@
     "rating_new": "Buy",
     "pt_old": "",
     "pt_new": "$106.00",
-    "price": "$91.16",
+    "price": "$91.15",
     "id": "2486222",
     "cap": 72741754417.0
    },
@@ -3671,7 +3671,7 @@
     "rating_new": "Buy",
     "pt_old": "",
     "pt_new": "$3,800.00",
-    "price": "$3,240.14",
+    "price": "$3,238.50",
     "id": "2486223",
     "cap": 52253543270.0
    },
@@ -3686,7 +3686,7 @@
     "rating_new": "Buy",
     "pt_old": "",
     "pt_new": "$190.00",
-    "price": "$176.16",
+    "price": "$176.65",
     "id": "2486189",
     "cap": 48793426762.0
    },
@@ -3701,7 +3701,7 @@
     "rating_new": "Neutral",
     "pt_old": "",
     "pt_new": "$70.00",
-    "price": "$74.15",
+    "price": "$73.95",
     "id": "2486041",
     "cap": 45709719877.0
    },
@@ -3716,7 +3716,7 @@
     "rating_new": "Neutral",
     "pt_old": "",
     "pt_new": "$490.00",
-    "price": "$449.62",
+    "price": "$450.50",
     "id": "2486067",
     "cap": 43332428934.0
    },
@@ -3731,7 +3731,7 @@
     "rating_new": "Neutral",
     "pt_old": "",
     "pt_new": "",
-    "price": "$220.20",
+    "price": "$220.28",
     "id": "2485997",
     "cap": 42324367197.0
    },
@@ -3746,7 +3746,7 @@
     "rating_new": "Overweight",
     "pt_old": "",
     "pt_new": "",
-    "price": "$44.64",
+    "price": "$44.70",
     "id": "2486181",
     "cap": 27327523905.0
    },
@@ -3776,7 +3776,7 @@
     "rating_new": "Buy",
     "pt_old": "",
     "pt_new": "$90.00",
-    "price": "$69.40",
+    "price": "$69.60",
     "id": "2486080",
     "cap": 23646481620.0
    },
@@ -3791,7 +3791,7 @@
     "rating_new": "Sector Perform",
     "pt_old": "",
     "pt_new": "$189.00",
-    "price": "$178.76",
+    "price": "$179.59",
     "id": "2485981",
     "cap": 21339251851.0
    },
@@ -3806,7 +3806,7 @@
     "rating_new": "Buy",
     "pt_old": "",
     "pt_new": "$100.00",
-    "price": "$72.23",
+    "price": "$72.24",
     "id": "2485998",
     "cap": 19249444534.0
    },
@@ -3821,7 +3821,7 @@
     "rating_new": "Buy",
     "pt_old": "",
     "pt_new": "$20.00",
-    "price": "$14.50",
+    "price": "$14.53",
     "id": "2486090",
     "cap": 18876300285.0
    },
@@ -3836,7 +3836,7 @@
     "rating_new": "Equal Weight",
     "pt_old": "$800.00",
     "pt_new": "$735.00",
-    "price": "$750.12",
+    "price": "$747.73",
     "id": "2486054",
     "cap": 17608767792.0
    },
@@ -3851,7 +3851,7 @@
     "rating_new": "Sector Weight",
     "pt_old": "",
     "pt_new": "",
-    "price": "$288.54",
+    "price": "$289.75",
     "id": "2486019",
     "cap": 14102265056.0
    },
@@ -3866,7 +3866,7 @@
     "rating_new": "Neutral",
     "pt_old": "",
     "pt_new": "",
-    "price": "$29.09",
+    "price": "$29.16",
     "id": "2486082",
     "cap": 11194761732.0
    },
@@ -3881,7 +3881,7 @@
     "rating_new": "Neutral",
     "pt_old": "",
     "pt_new": "",
-    "price": "$13.81",
+    "price": "$13.82",
     "id": "2486064",
     "cap": 11025818574.0
    },
@@ -3896,7 +3896,7 @@
     "rating_new": "Strong-Buy",
     "pt_old": "",
     "pt_new": "",
-    "price": "$147.49",
+    "price": "$147.72",
     "id": "2485859",
     "cap": 2003071086440.0
    },
@@ -3911,7 +3911,7 @@
     "rating_new": "Buy (B+)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$335.79",
+    "price": "$335.74",
     "id": "2485947",
     "cap": 881401378538.0
    },
@@ -3926,7 +3926,7 @@
     "rating_new": "Buy",
     "pt_old": "$406.00",
     "pt_new": "$443.00",
-    "price": "$406.20",
+    "price": "$406.16",
     "id": "2484936",
     "cap": 728853191382.0
    },
@@ -3941,7 +3941,7 @@
     "rating_new": "Buy (B-)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$269.63",
+    "price": "$269.61",
     "id": "2485726",
     "cap": 635072521273.0
    },
@@ -3956,7 +3956,7 @@
     "rating_new": "Buy",
     "pt_old": "$633.00",
     "pt_new": "$674.00",
-    "price": "$618.01",
+    "price": "$617.92",
     "id": "2484939",
     "cap": 546279798584.0
    },
@@ -3971,7 +3971,7 @@
     "rating_new": "Neutral",
     "pt_old": "$258.00",
     "pt_new": "$294.00",
-    "price": "$288.19",
+    "price": "$288.59",
     "id": "2484783",
     "cap": 504759381287.0
    },
@@ -3986,7 +3986,7 @@
     "rating_new": "Buy (B-)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$197.48",
+    "price": "$197.76",
     "id": "2485762",
     "cap": 472604022190.0
    },
@@ -4001,7 +4001,7 @@
     "rating_new": "Overweight",
     "pt_old": "$230.00",
     "pt_new": "$231.00",
-    "price": "$197.48",
+    "price": "$197.76",
     "id": "2484872",
     "cap": 472604022190.0
    },
@@ -4016,7 +4016,7 @@
     "rating_new": "Sell (D)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$87.16",
+    "price": "$87.34",
     "id": "2485946",
     "cap": 459589644677.0
    },
@@ -4031,7 +4031,7 @@
     "rating_new": "Buy (B)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$1,010.40",
+    "price": "$1,010.25",
     "id": "2485685",
     "cap": 444600538439.0
    },
@@ -4061,7 +4061,7 @@
     "rating_new": "Buy",
     "pt_old": "$240.00",
     "pt_new": "$206.00",
-    "price": "$126.07",
+    "price": "$126.27",
     "id": "2484834",
     "cap": 381474533760.0
    },
@@ -4076,7 +4076,7 @@
     "rating_new": "Hold",
     "pt_old": "$150.00",
     "pt_new": "$166.00",
-    "price": "$160.62",
+    "price": "$160.41",
     "id": "2484904",
     "cap": 373209441686.0
    },
@@ -4091,7 +4091,7 @@
     "rating_new": "Overweight",
     "pt_old": "$162.00",
     "pt_new": "$180.00",
-    "price": "$160.62",
+    "price": "$160.41",
     "id": "2485149",
     "cap": 373209441686.0
    },
@@ -4106,7 +4106,7 @@
     "rating_new": "Buy",
     "pt_old": "$172.00",
     "pt_new": "$190.00",
-    "price": "$160.62",
+    "price": "$160.41",
     "id": "2485389",
     "cap": 373209441686.0
    },
@@ -4121,7 +4121,7 @@
     "rating_new": "Buy",
     "pt_old": "",
     "pt_new": "$176.00",
-    "price": "$160.62",
+    "price": "$160.41",
     "id": "2485392",
     "cap": 373209441686.0
    },
@@ -4136,7 +4136,7 @@
     "rating_new": "Outperform",
     "pt_old": "$177.00",
     "pt_new": "$189.00",
-    "price": "$160.62",
+    "price": "$160.41",
     "id": "2485241",
     "cap": 373209441686.0
    },
@@ -4151,7 +4151,7 @@
     "rating_new": "Buy",
     "pt_old": "$180.00",
     "pt_new": "$187.00",
-    "price": "$160.62",
+    "price": "$160.41",
     "id": "2485245",
     "cap": 373209441686.0
    },
@@ -4166,7 +4166,7 @@
     "rating_new": "",
     "pt_old": "",
     "pt_new": "$169.00",
-    "price": "$160.62",
+    "price": "$160.41",
     "id": "2484922",
     "cap": 373209441686.0
    },
@@ -4181,7 +4181,7 @@
     "rating_new": "Buy",
     "pt_old": "",
     "pt_new": "",
-    "price": "$160.62",
+    "price": "$160.41",
     "id": "2484845",
     "cap": 373209441686.0
    },
@@ -4196,7 +4196,7 @@
     "rating_new": "",
     "pt_old": "",
     "pt_new": "$166.00",
-    "price": "$160.62",
+    "price": "$160.41",
     "id": "2485075",
     "cap": 373209441686.0
    },
@@ -4211,7 +4211,7 @@
     "rating_new": "Overweight",
     "pt_old": "$164.00",
     "pt_new": "$180.00",
-    "price": "$160.62",
+    "price": "$160.41",
     "id": "2484779",
     "cap": 373209441686.0
    },
@@ -4226,7 +4226,7 @@
     "rating_new": "Overweight",
     "pt_old": "$166.00",
     "pt_new": "$185.00",
-    "price": "$160.62",
+    "price": "$160.41",
     "id": "2484775",
     "cap": 373209441686.0
    },
@@ -4241,7 +4241,7 @@
     "rating_new": "",
     "pt_old": "",
     "pt_new": "$376.00",
-    "price": "$288.56",
+    "price": "$289.28",
     "id": "2485090",
     "cap": 295166642714.0
    },
@@ -4256,7 +4256,7 @@
     "rating_new": "",
     "pt_old": "",
     "pt_new": "$376.00",
-    "price": "$288.56",
+    "price": "$289.28",
     "id": "2485091",
     "cap": 295166642714.0
    },
@@ -4271,7 +4271,7 @@
     "rating_new": "Hold (C)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$241.42",
+    "price": "$241.39",
     "id": "2485780",
     "cap": 292555997808.0
    },
@@ -4286,7 +4286,7 @@
     "rating_new": "Buy",
     "pt_old": "",
     "pt_new": "",
-    "price": "$241.42",
+    "price": "$241.39",
     "id": "2485174",
     "cap": 292555997808.0
    },
@@ -4301,7 +4301,7 @@
     "rating_new": "Overweight",
     "pt_old": "$243.00",
     "pt_new": "$288.00",
-    "price": "$241.42",
+    "price": "$241.39",
     "id": "2484748",
     "cap": 292555997808.0
    },
@@ -4316,7 +4316,7 @@
     "rating_new": "Moderate Buy",
     "pt_old": "",
     "pt_new": "",
-    "price": "$64.98",
+    "price": "$64.97",
     "id": "2485844",
     "cap": 270401560713.0
    },
@@ -4331,7 +4331,7 @@
     "rating_new": "Hold (C)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$64.98",
+    "price": "$64.97",
     "id": "2485750",
     "cap": 270401560713.0
    },
@@ -4346,7 +4346,7 @@
     "rating_new": "Buy (B-)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$285.52",
+    "price": "$286.05",
     "id": "2485960",
     "cap": 259992483727.0
    },
@@ -4361,7 +4361,7 @@
     "rating_new": "Buy",
     "pt_old": "$1,200.00",
     "pt_new": "$1,100.00",
-    "price": "$892.61",
+    "price": "$892.81",
     "id": "2485393",
     "cap": 254972978557.0
    },
@@ -4376,7 +4376,7 @@
     "rating_new": "Hold",
     "pt_old": "",
     "pt_new": "",
-    "price": "$683.01",
+    "price": "$684.98",
     "id": "2485867",
     "cap": 249143116253.0
    },
@@ -4391,7 +4391,7 @@
     "rating_new": "Buy",
     "pt_old": "$685.00",
     "pt_new": "$800.00",
-    "price": "$683.01",
+    "price": "$684.98",
     "id": "2484891",
     "cap": 249143116253.0
    },
@@ -4406,7 +4406,7 @@
     "rating_new": "Outperform",
     "pt_old": "",
     "pt_new": "",
-    "price": "$447.07",
+    "price": "$447.40",
     "id": "2484850",
     "cap": 237478014516.0
    },
@@ -4421,7 +4421,7 @@
     "rating_new": "Outperform",
     "pt_old": "$450.00",
     "pt_new": "$480.00",
-    "price": "$447.07",
+    "price": "$447.40",
     "id": "2484673",
     "cap": 237478014516.0
    },
@@ -4436,7 +4436,7 @@
     "rating_new": "Outperform",
     "pt_old": "",
     "pt_new": "$200.00",
-    "price": "$170.86",
+    "price": "$170.91",
     "id": "2485305",
     "cap": 218577403697.0
    },
@@ -4451,7 +4451,7 @@
     "rating_new": "Outperform",
     "pt_old": "$175.00",
     "pt_new": "$205.00",
-    "price": "$170.86",
+    "price": "$170.91",
     "id": "2484851",
     "cap": 218577403697.0
    },
@@ -4496,7 +4496,7 @@
     "rating_new": "Buy",
     "pt_old": "",
     "pt_new": "$185.00",
-    "price": "$159.06",
+    "price": "$159.28",
     "id": "2484581",
     "cap": 193482602386.0
    },
@@ -4511,7 +4511,7 @@
     "rating_new": "Buy (B+)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$12.33",
+    "price": "$12.36",
     "id": "2485660",
     "cap": 185855256305.0
    },
@@ -4526,7 +4526,7 @@
     "rating_new": "Buy (B)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$74.98",
+    "price": "$74.97",
     "id": "2485651",
     "cap": 182703488658.0
    },
@@ -4661,7 +4661,7 @@
     "rating_new": "Equal Weight",
     "pt_old": "$84.00",
     "pt_new": "$79.00",
-    "price": "$82.36",
+    "price": "$82.42",
     "id": "2484907",
     "cap": 172188826623.0
    },
@@ -4691,7 +4691,7 @@
     "rating_new": "Equal Weight",
     "pt_old": "$190.00",
     "pt_new": "$193.00",
-    "price": "$186.35",
+    "price": "$186.99",
     "id": "2484828",
     "cap": 156203943000.0
    },
@@ -4706,7 +4706,7 @@
     "rating_new": "Buy (B-)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$369.32",
+    "price": "$370.32",
     "id": "2485691",
     "cap": 142197124000.0
    },
@@ -4721,7 +4721,7 @@
     "rating_new": "Buy (B)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$25.39",
+    "price": "$25.41",
     "id": "2485659",
     "cap": 141038844837.0
    },
@@ -4736,7 +4736,7 @@
     "rating_new": "Buy",
     "pt_old": "$653.00",
     "pt_new": "$692.00",
-    "price": "$621.46",
+    "price": "$623.51",
     "id": "2485018",
     "cap": 139568383395.0
    },
@@ -4751,7 +4751,7 @@
     "rating_new": "Sector Perform",
     "pt_old": "$550.00",
     "pt_new": "$600.00",
-    "price": "$621.46",
+    "price": "$623.51",
     "id": "2484976",
     "cap": 139568383395.0
    },
@@ -4766,7 +4766,7 @@
     "rating_new": "Buy",
     "pt_old": "$691.00",
     "pt_new": "$706.00",
-    "price": "$621.46",
+    "price": "$623.51",
     "id": "2484890",
     "cap": 139568383395.0
    },
@@ -4781,7 +4781,7 @@
     "rating_new": "Equal Weight",
     "pt_old": "$554.00",
     "pt_new": "$560.00",
-    "price": "$621.46",
+    "price": "$623.51",
     "id": "2484761",
     "cap": 139568383395.0
    },
@@ -4796,7 +4796,7 @@
     "rating_new": "Neutral",
     "pt_old": "$371.00",
     "pt_new": "$374.00",
-    "price": "$357.60",
+    "price": "$356.92",
     "id": "2485066",
     "cap": 137001387929.0
    },
@@ -4811,7 +4811,7 @@
     "rating_new": "Underweight",
     "pt_old": "$118.00",
     "pt_new": "$140.00",
-    "price": "$183.45",
+    "price": "$183.56",
     "id": "2485074",
     "cap": 132061120403.0
    },
@@ -4826,7 +4826,7 @@
     "rating_new": "",
     "pt_old": "",
     "pt_new": "$540.00",
-    "price": "$344.13",
+    "price": "$343.79",
     "id": "2484956",
     "cap": 128384107687.0
    },
@@ -4841,7 +4841,7 @@
     "rating_new": "Buy",
     "pt_old": "",
     "pt_new": "$625.00",
-    "price": "$344.13",
+    "price": "$343.79",
     "id": "2484875",
     "cap": 128384107687.0
    },
@@ -4856,7 +4856,7 @@
     "rating_new": "Outperform",
     "pt_old": "",
     "pt_new": "",
-    "price": "$344.13",
+    "price": "$343.79",
     "id": "2484576",
     "cap": 128384107687.0
    },
@@ -4871,7 +4871,7 @@
     "rating_new": "Buy",
     "pt_old": "$740.00",
     "pt_new": "$660.00",
-    "price": "$344.13",
+    "price": "$343.79",
     "id": "2484691",
     "cap": 128384107687.0
    },
@@ -4886,7 +4886,7 @@
     "rating_new": "",
     "pt_old": "",
     "pt_new": "$900.00",
-    "price": "$344.13",
+    "price": "$343.79",
     "id": "2484757",
     "cap": 128384107687.0
    },
@@ -4901,7 +4901,7 @@
     "rating_new": "Overweight",
     "pt_old": "",
     "pt_new": "$668.00",
-    "price": "$344.13",
+    "price": "$343.79",
     "id": "2484842",
     "cap": 128384107687.0
    },
@@ -4916,7 +4916,7 @@
     "rating_new": "Neutral",
     "pt_old": "$470.00",
     "pt_new": "$435.00",
-    "price": "$344.13",
+    "price": "$343.79",
     "id": "2484740",
     "cap": 128384107687.0
    },
@@ -4931,7 +4931,7 @@
     "rating_new": "",
     "pt_old": "",
     "pt_new": "$490.00",
-    "price": "$344.13",
+    "price": "$343.79",
     "id": "2484924",
     "cap": 128384107687.0
    },
@@ -4946,7 +4946,7 @@
     "rating_new": "",
     "pt_old": "",
     "pt_new": "$405.00",
-    "price": "$344.13",
+    "price": "$343.79",
     "id": "2484920",
     "cap": 128384107687.0
    },
@@ -4961,7 +4961,7 @@
     "rating_new": "Overweight",
     "pt_old": "$600.00",
     "pt_new": "$650.00",
-    "price": "$344.13",
+    "price": "$343.79",
     "id": "2485164",
     "cap": 128384107687.0
    },
@@ -4976,7 +4976,7 @@
     "rating_new": "Overweight",
     "pt_old": "$900.00",
     "pt_new": "$625.00",
-    "price": "$344.13",
+    "price": "$343.79",
     "id": "2484731",
     "cap": 128384107687.0
    },
@@ -4991,7 +4991,7 @@
     "rating_new": "Buy",
     "pt_old": "$800.00",
     "pt_new": "$650.00",
-    "price": "$344.13",
+    "price": "$343.79",
     "id": "2484796",
     "cap": 128384107687.0
    },
@@ -5006,7 +5006,7 @@
     "rating_new": "Buy",
     "pt_old": "$540.00",
     "pt_new": "$430.00",
-    "price": "$344.13",
+    "price": "$343.79",
     "id": "2484905",
     "cap": 128384107687.0
    },
@@ -5021,7 +5021,7 @@
     "rating_new": "Overweight",
     "pt_old": "$570.00",
     "pt_new": "$660.00",
-    "price": "$577.03",
+    "price": "$577.82",
     "id": "2485014",
     "cap": 123119263591.0
    },
@@ -5036,7 +5036,7 @@
     "rating_new": "Neutral",
     "pt_old": "$490.00",
     "pt_new": "$550.00",
-    "price": "$577.03",
+    "price": "$577.82",
     "id": "2484732",
     "cap": 123119263591.0
    },
@@ -5051,7 +5051,7 @@
     "rating_new": "Buy",
     "pt_old": "$575.00",
     "pt_new": "$650.00",
-    "price": "$577.03",
+    "price": "$577.82",
     "id": "2484799",
     "cap": 123119263591.0
    },
@@ -5066,7 +5066,7 @@
     "rating_new": "Market Outperform",
     "pt_old": "",
     "pt_new": "$625.00",
-    "price": "$577.03",
+    "price": "$577.82",
     "id": "2484906",
     "cap": 123119263591.0
    },
@@ -5081,7 +5081,7 @@
     "rating_new": "Overweight",
     "pt_old": "$650.00",
     "pt_new": "$700.00",
-    "price": "$577.03",
+    "price": "$577.82",
     "id": "2485150",
     "cap": 123119263591.0
    },
@@ -5096,7 +5096,7 @@
     "rating_new": "Hold",
     "pt_old": "",
     "pt_new": "$525.00",
-    "price": "$577.03",
+    "price": "$577.82",
     "id": "2484909",
     "cap": 123119263591.0
    },
@@ -5111,7 +5111,7 @@
     "rating_new": "Overweight",
     "pt_old": "$565.00",
     "pt_new": "$650.00",
-    "price": "$577.03",
+    "price": "$577.82",
     "id": "2484998",
     "cap": 123119263591.0
    },
@@ -5126,7 +5126,7 @@
     "rating_new": "Outperform",
     "pt_old": "$550.00",
     "pt_new": "$650.00",
-    "price": "$577.03",
+    "price": "$577.82",
     "id": "2485177",
     "cap": 123119263591.0
    },
@@ -5141,7 +5141,7 @@
     "rating_new": "Neutral",
     "pt_old": "$540.00",
     "pt_new": "$580.00",
-    "price": "$577.03",
+    "price": "$577.82",
     "id": "2485178",
     "cap": 123119263591.0
    },
@@ -5156,7 +5156,7 @@
     "rating_new": "Overweight",
     "pt_old": "$640.00",
     "pt_new": "$700.00",
-    "price": "$577.03",
+    "price": "$577.82",
     "id": "2485210",
     "cap": 123119263591.0
    },
@@ -5171,7 +5171,7 @@
     "rating_new": "Sell",
     "pt_old": "",
     "pt_new": "$276.00",
-    "price": "$428.11",
+    "price": "$426.38",
     "id": "2485391",
     "cap": 120722225848.0
    },
@@ -5186,7 +5186,7 @@
     "rating_new": "Neutral",
     "pt_old": "$485.00",
     "pt_new": "$490.00",
-    "price": "$428.11",
+    "price": "$426.38",
     "id": "2485324",
     "cap": 120722225848.0
    },
@@ -5201,7 +5201,7 @@
     "rating_new": "Overweight",
     "pt_old": "$485.00",
     "pt_new": "$489.00",
-    "price": "$428.11",
+    "price": "$426.38",
     "id": "2484992",
     "cap": 120722225848.0
    },
@@ -5216,7 +5216,7 @@
     "rating_new": "Overweight",
     "pt_old": "$441.00",
     "pt_new": "$443.00",
-    "price": "$428.11",
+    "price": "$426.38",
     "id": "2484997",
     "cap": 120722225848.0
    },
@@ -5231,7 +5231,7 @@
     "rating_new": "Buy",
     "pt_old": "$300.00",
     "pt_new": "$340.00",
-    "price": "$304.32",
+    "price": "$304.41",
     "id": "2485052",
     "cap": 120523870840.0
    },
@@ -5246,7 +5246,7 @@
     "rating_new": "",
     "pt_old": "",
     "pt_new": "$141.00",
-    "price": "$126.68",
+    "price": "$126.76",
     "id": "2485395",
     "cap": 119884210200.0
    },
@@ -5276,7 +5276,7 @@
     "rating_new": "Neutral",
     "pt_old": "$115.00",
     "pt_new": "$105.00",
-    "price": "$102.90",
+    "price": "$103.13",
     "id": "2484736",
     "cap": 114912000000.0
    },
@@ -5291,7 +5291,7 @@
     "rating_new": "Buy (B)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$308.38",
+    "price": "$308.57",
     "id": "2485679",
     "cap": 109926976492.0
    },
@@ -5306,7 +5306,7 @@
     "rating_new": "Buy (B)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$173.65",
+    "price": "$173.63",
     "id": "2485640",
     "cap": 89631911906.0
    },
@@ -5321,7 +5321,7 @@
     "rating_new": "Buy (B-)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$225.23",
+    "price": "$225.34",
     "id": "2485937",
     "cap": 88984528341.0
    },
@@ -5336,7 +5336,7 @@
     "rating_new": "Hold (C)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$189.87",
+    "price": "$189.98",
     "id": "2485650",
     "cap": 88052470271.0
    },
@@ -5351,7 +5351,7 @@
     "rating_new": "Sell (D)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$22.23",
+    "price": "$22.32",
     "id": "2485681",
     "cap": 80572333741.0
    },
@@ -5366,7 +5366,7 @@
     "rating_new": "Buy (B+)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$33.63",
+    "price": "$33.62",
     "id": "2485729",
     "cap": 76668795924.0
    },
@@ -5396,7 +5396,7 @@
     "rating_new": "Buy (B)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$17.09",
+    "price": "$17.08",
     "id": "2485748",
     "cap": 66780581162.0
    },
@@ -5411,7 +5411,7 @@
     "rating_new": "Buy (B+)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$32.80",
+    "price": "$32.71",
     "id": "2485674",
     "cap": 61650000000.0
    },
@@ -5426,7 +5426,7 @@
     "rating_new": "Buy (B)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$120.82",
+    "price": "$121.46",
     "id": "2485966",
     "cap": 54903398532.0
    },
@@ -5441,7 +5441,7 @@
     "rating_new": "Hold (C+)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$18.86",
+    "price": "$18.91",
     "id": "2485807",
     "cap": 47558054671.0
    },
@@ -5456,7 +5456,7 @@
     "rating_new": "Sell (D+)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$11.67",
+    "price": "$11.69",
     "id": "2485702",
     "cap": 45434225656.0
    },
@@ -5471,7 +5471,7 @@
     "rating_new": "Hold (C)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$252.05",
+    "price": "$252.86",
     "id": "2485655",
     "cap": 44613429345.0
    },
@@ -5486,7 +5486,7 @@
     "rating_new": "Equal Weight",
     "pt_old": "",
     "pt_new": "$275.00",
-    "price": "$270.70",
+    "price": "$270.67",
     "id": "2485836",
     "cap": 40682420000.0
    },
@@ -5501,7 +5501,7 @@
     "rating_new": "Buy (B-)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$1,236.51",
+    "price": "$1,241.17",
     "id": "2485682",
     "cap": 40613736517.0
    },
@@ -5516,7 +5516,7 @@
     "rating_new": "Overweight",
     "pt_old": "",
     "pt_new": "",
-    "price": "$7.74",
+    "price": "$7.69",
     "id": "2485114",
     "cap": 39177723736.0
    },
@@ -5531,7 +5531,7 @@
     "rating_new": "Neutral",
     "pt_old": "",
     "pt_new": "",
-    "price": "$7.74",
+    "price": "$7.69",
     "id": "2485115",
     "cap": 39177723736.0
    },
@@ -5546,7 +5546,7 @@
     "rating_new": "Buy",
     "pt_old": "",
     "pt_new": "",
-    "price": "$7.74",
+    "price": "$7.69",
     "id": "2485116",
     "cap": 39177723736.0
    },
@@ -5561,7 +5561,7 @@
     "rating_new": "Buy",
     "pt_old": "",
     "pt_new": "",
-    "price": "$7.74",
+    "price": "$7.69",
     "id": "2485117",
     "cap": 39177723736.0
    },
@@ -5576,7 +5576,7 @@
     "rating_new": "Buy",
     "pt_old": "",
     "pt_new": "",
-    "price": "$7.74",
+    "price": "$7.69",
     "id": "2485119",
     "cap": 39177723736.0
    },
@@ -5591,7 +5591,7 @@
     "rating_new": "Overweight",
     "pt_old": "",
     "pt_new": "",
-    "price": "$7.74",
+    "price": "$7.69",
     "id": "2485120",
     "cap": 39177723736.0
    },
@@ -5606,7 +5606,7 @@
     "rating_new": "Neutral",
     "pt_old": "",
     "pt_new": "$9.00",
-    "price": "$7.74",
+    "price": "$7.69",
     "id": "2484897",
     "cap": 39177723736.0
    },
@@ -5621,7 +5621,7 @@
     "rating_new": "Hold",
     "pt_old": "",
     "pt_new": "$105.00",
-    "price": "$110.37",
+    "price": "$110.49",
     "id": "2484772",
     "cap": 36633581036.0
    },
@@ -5636,7 +5636,7 @@
     "rating_new": "Hold (C)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$167.77",
+    "price": "$168.03",
     "id": "2485801",
     "cap": 34085028453.0
    },
@@ -5651,7 +5651,7 @@
     "rating_new": "Hold (C-)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$12.72",
+    "price": "$12.74",
     "id": "2485765",
     "cap": 33850588691.0
    },
@@ -5666,7 +5666,7 @@
     "rating_new": "Buy (B)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$171.82",
+    "price": "$171.64",
     "id": "2485754",
     "cap": 30721913252.0
    },
@@ -5681,7 +5681,7 @@
     "rating_new": "Buy (A-)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$363.43",
+    "price": "$363.65",
     "id": "2485939",
     "cap": 29401825347.0
    },
@@ -5696,7 +5696,7 @@
     "rating_new": "Buy (B-)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$59.62",
+    "price": "$59.77",
     "id": "2485798",
     "cap": 28907504112.0
    },
@@ -5711,7 +5711,7 @@
     "rating_new": "Buy (B-)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$22.29",
+    "price": "$22.38",
     "id": "2485731",
     "cap": 26676194000.0
    },
@@ -5741,7 +5741,7 @@
     "rating_new": "Buy (B)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$114.34",
+    "price": "$114.85",
     "id": "2485720",
     "cap": 23454156190.0
    },
@@ -5756,7 +5756,7 @@
     "rating_new": "Hold (C+)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$41.42",
+    "price": "$41.53",
     "id": "2485787",
     "cap": 21951283700.0
    },
@@ -5771,7 +5771,7 @@
     "rating_new": "Buy (A-)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$102.85",
+    "price": "$103.00",
     "id": "2485962",
     "cap": 21829933258.0
    },
@@ -5786,7 +5786,7 @@
     "rating_new": "Buy (B-)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$42.82",
+    "price": "$42.83",
     "id": "2485790",
     "cap": 20440899365.0
    },
@@ -5801,7 +5801,7 @@
     "rating_new": "Buy (B-)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$128.23",
+    "price": "$128.42",
     "id": "2485756",
     "cap": 20296985551.0
    },
@@ -5816,7 +5816,7 @@
     "rating_new": "Buy (B)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$251.02",
+    "price": "$251.26",
     "id": "2485797",
     "cap": 19732169571.0
    },
@@ -5831,7 +5831,7 @@
     "rating_new": "Outperform",
     "pt_old": "",
     "pt_new": "",
-    "price": "$83.15",
+    "price": "$82.99",
     "id": "2484689",
     "cap": 19466978468.0
    },
@@ -5846,7 +5846,7 @@
     "rating_new": "Hold (C-)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$20.26",
+    "price": "$20.29",
     "id": "2485934",
     "cap": 19023526667.0
    },
@@ -5861,7 +5861,7 @@
     "rating_new": "Hold (C)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$167.16",
+    "price": "$167.47",
     "id": "2485700",
     "cap": 18483728838.0
    },
@@ -5876,7 +5876,7 @@
     "rating_new": "Hold (C-)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$750.12",
+    "price": "$747.73",
     "id": "2485944",
     "cap": 17608767792.0
    },
@@ -5891,7 +5891,7 @@
     "rating_new": "Buy (B-)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$191.99",
+    "price": "$191.71",
     "id": "2485725",
     "cap": 16994940000.0
    },
@@ -5906,7 +5906,7 @@
     "rating_new": "Hold (C)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$161.96",
+    "price": "$161.43",
     "id": "2485676",
     "cap": 16237063825.0
    },
@@ -5921,7 +5921,7 @@
     "rating_new": "Underperform",
     "pt_old": "",
     "pt_new": "$5,900.00",
-    "price": "$5,943.08",
+    "price": "$5,931.51",
     "id": "2484766",
     "cap": 15945669485.0
    },
@@ -5936,7 +5936,7 @@
     "rating_new": "Buy (B-)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$329.02",
+    "price": "$330.22",
     "id": "2485814",
     "cap": 15498022229.0
    },
@@ -5951,7 +5951,7 @@
     "rating_new": "Sector Outperform",
     "pt_old": "$50.80",
     "pt_new": "$55.70",
-    "price": "$39.14",
+    "price": "$39.32",
     "id": "2485023",
     "cap": 15484974586.0
    },
@@ -5966,7 +5966,7 @@
     "rating_new": "Buy",
     "pt_old": "$164.00",
     "pt_new": "$200.00",
-    "price": "$178.03",
+    "price": "$178.14",
     "id": "2484706",
     "cap": 15091849899.0
    },
@@ -5981,7 +5981,7 @@
     "rating_new": "Sell (D+)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$120.48",
+    "price": "$120.64",
     "id": "2485794",
     "cap": 14645347070.0
    },
@@ -5996,7 +5996,7 @@
     "rating_new": "Hold (C-)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$458.26",
+    "price": "$459.33",
     "id": "2485783",
     "cap": 13839292188.0
    },
@@ -6011,7 +6011,7 @@
     "rating_new": "Buy (B-)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$345.42",
+    "price": "$345.40",
     "id": "2485672",
     "cap": 13702964450.0
    },
@@ -6026,7 +6026,7 @@
     "rating_new": "Hold (C-)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$48.20",
+    "price": "$48.21",
     "id": "2485951",
     "cap": 12947382729.0
    },
@@ -6056,7 +6056,7 @@
     "rating_new": "Neutral",
     "pt_old": "$200.00",
     "pt_new": "$165.00",
-    "price": "$158.31",
+    "price": "$158.24",
     "id": "2484510",
     "cap": 11895525901.0
    },
@@ -6071,7 +6071,7 @@
     "rating_new": "Hold (C)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$326.88",
+    "price": "$326.92",
     "id": "2485943",
     "cap": 11680905271.0
    },
@@ -6086,7 +6086,7 @@
     "rating_new": "Buy (B)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$322.97",
+    "price": "$323.08",
     "id": "2485652",
     "cap": 11644644715.0
    },
@@ -6101,7 +6101,7 @@
     "rating_new": "Underweight",
     "pt_old": "$100.00",
     "pt_new": "$75.00",
-    "price": "$80.98",
+    "price": "$81.02",
     "id": "2484572",
     "cap": 11061829667.0
    },
@@ -6116,7 +6116,7 @@
     "rating_new": "Sell (D+)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$93.08",
+    "price": "$93.38",
     "id": "2485644",
     "cap": 11053533689.0
    },
@@ -6131,7 +6131,7 @@
     "rating_new": "Buy (B-)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$15.85",
+    "price": "$15.90",
     "id": "2485714",
     "cap": 10048373071.0
    },
@@ -16603,9 +16603,9 @@
   "days_failed": [],
   "source": "https://www.marketbeat.com/ratings/",
   "note": "All actions for stocks with market cap >= $100B; upgrades, downgrades and initiations for >= $10B (caps from Nasdaq).",
-  "updated_et": "2026-10-26 10:34 ET"
+  "updated_et": "2026-10-26 10:38 ET"
  },
- "updated_et": "2026-10-26 10:34 ET",
+ "updated_et": "2026-10-26 10:38 ET",
  "indicators": [
   {
    "key": "cpi",
