@@ -207,7 +207,7 @@
     "name": "Taiwan Semiconductor Manufacturing Company Ltd.",
     "time": "",
     "eps_est": "$4.45",
-    "cap": 2170604220000,
+    "cap": 2138655290000,
     "url": "https://www.nasdaq.com/market-activity/stocks/tsm/earnings"
    },
    {
@@ -217,7 +217,7 @@
     "name": "The Charles Schwab Corporation",
     "time": "",
     "eps_est": "$1.66",
-    "cap": 156643230000,
+    "cap": 158130455000,
     "url": "https://www.nasdaq.com/market-activity/stocks/schw/earnings"
    },
    {
@@ -227,7 +227,7 @@
     "name": "Prologis, Inc.",
     "time": "",
     "eps_est": "$1.58",
-    "cap": 119884210000,
+    "cap": 120083309000,
     "url": "https://www.nasdaq.com/market-activity/stocks/pld/earnings"
    },
    {
@@ -237,7 +237,7 @@
     "name": "Space Exploration Technologies Corp.",
     "time": "",
     "eps_est": "$0.10",
-    "cap": 1964666000000,
+    "cap": 2003071140000,
     "url": "https://www.nasdaq.com/market-activity/stocks/spcx/earnings"
    },
    {
@@ -247,7 +247,7 @@
     "name": "GE Aerospace",
     "time": "",
     "eps_est": "$2.02",
-    "cap": 303330132000,
+    "cap": 295166640000,
     "url": "https://www.nasdaq.com/market-activity/stocks/ge/earnings"
    },
    {
@@ -257,7 +257,7 @@
     "name": "Netflix, Inc.",
     "time": "",
     "eps_est": "$0.82",
-    "cap": 275329155000,
+    "cap": 270401569000,
     "url": "https://www.nasdaq.com/market-activity/stocks/nflx/earnings"
    },
    {
@@ -267,7 +267,7 @@
     "name": "RTX Corporation",
     "time": "",
     "eps_est": "$1.78",
-    "cap": 262749569000,
+    "cap": 257756643000,
     "url": "https://www.nasdaq.com/market-activity/stocks/rtx/earnings"
    },
    {
@@ -277,7 +277,7 @@
     "name": "Intuitive Surgical, Inc.",
     "time": "",
     "eps_est": "$2.13",
-    "cap": 153857819000,
+    "cap": 156783493000,
     "url": "https://www.nasdaq.com/market-activity/stocks/isrg/earnings"
    },
    {
@@ -287,7 +287,7 @@
     "name": "Chubb Limited",
     "time": "",
     "eps_est": "$6.53",
-    "cap": 140411863000,
+    "cap": 137001386000,
     "url": "https://www.nasdaq.com/market-activity/stocks/cb/earnings"
    },
    {
@@ -297,7 +297,7 @@
     "name": "Capital One Financial Corporation",
     "time": "",
     "eps_est": "$5.45",
-    "cap": 124801221000,
+    "cap": 123519033000,
     "url": "https://www.nasdaq.com/market-activity/stocks/cof/earnings"
    },
    {
@@ -455,7 +455,7 @@
     "name": "Procter & Gamble Company (The)",
     "time": "",
     "eps_est": "$1.89",
-    "cap": 384902857000,
+    "cap": 373209432000,
     "url": "https://www.nasdaq.com/market-activity/stocks/pg/earnings"
    },
    {
@@ -465,7 +465,7 @@
     "name": "Union Pacific Corporation",
     "time": "",
     "eps_est": "$3.47",
-    "cap": 177087971000,
+    "cap": 174038122000,
     "url": "https://www.nasdaq.com/market-activity/stocks/unp/earnings"
    },
    {
@@ -475,7 +475,7 @@
     "name": "Lockheed Martin Corporation",
     "time": "",
     "eps_est": "$7.49",
-    "cap": 136145773000,
+    "cap": 139568382000,
     "url": "https://www.nasdaq.com/market-activity/stocks/lmt/earnings"
    },
    {
@@ -491,11 +491,21 @@
    {
     "date": "2026-10-22",
     "type": "earnings",
+    "title": "SPOT",
+    "name": "Spotify Technology S.A.",
+    "time": "",
+    "eps_est": "$3.10",
+    "cap": 123119264000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/spot/earnings"
+   },
+   {
+    "date": "2026-10-22",
+    "type": "earnings",
     "title": "VLO",
     "name": "Valero Energy Corporation",
     "time": "",
     "eps_est": "$21.28",
-    "cap": 122737721000,
+    "cap": 120722227000,
     "url": "https://www.nasdaq.com/market-activity/stocks/vlo/earnings"
    },
    {
@@ -505,18 +515,8 @@
     "name": "Newmont Corporation",
     "time": "",
     "eps_est": "$1.94",
-    "cap": 120236827000,
+    "cap": 113136959000,
     "url": "https://www.nasdaq.com/market-activity/stocks/nem/earnings"
-   },
-   {
-    "date": "2026-10-22",
-    "type": "earnings",
-    "title": "SPOT",
-    "name": "Spotify Technology S.A.",
-    "time": "",
-    "eps_est": "$3.10",
-    "cap": 120136212000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/spot/earnings"
    },
    {
     "date": "2026-10-23",
@@ -681,8 +681,18 @@
     "name": "GE Vernova Inc.",
     "time": "BMO",
     "eps_est": "$4.03",
-    "cap": 217061868000,
+    "cap": 220369732000,
     "url": "https://www.nasdaq.com/market-activity/stocks/gev/earnings"
+   },
+   {
+    "date": "2026-10-28",
+    "type": "earnings",
+    "title": "SAN",
+    "name": "Banco Santander, S.A.",
+    "time": "BMO",
+    "eps_est": "$0.26",
+    "cap": 195044770000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/san/earnings"
    },
    {
     "date": "2026-10-28",
@@ -697,21 +707,11 @@
    {
     "date": "2026-10-28",
     "type": "earnings",
-    "title": "SAN",
-    "name": "Banco Santander, S.A.",
-    "time": "BMO",
-    "eps_est": "$0.26",
-    "cap": 185979306000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/san/earnings"
-   },
-   {
-    "date": "2026-10-28",
-    "type": "earnings",
     "title": "APH",
     "name": "Amphenol Corporation",
     "time": "BMO",
     "eps_est": "$0.73",
-    "cap": 182703489000,
+    "cap": 180188201000,
     "url": "https://www.nasdaq.com/market-activity/stocks/aph/earnings"
    },
    {
@@ -721,7 +721,7 @@
     "name": "ServiceNow, Inc.",
     "time": "AMC",
     "eps_est": "$0.56",
-    "cap": 164364632000,
+    "cap": 162337997000,
     "url": "https://www.nasdaq.com/market-activity/stocks/now/earnings"
    },
    {
@@ -741,7 +741,7 @@
     "name": "UBS AG",
     "time": "BMO",
     "eps_est": "$0.91",
-    "cap": 143906292000,
+    "cap": 145458004000,
     "url": "https://www.nasdaq.com/market-activity/stocks/ubs/earnings"
    },
    {
@@ -751,7 +751,7 @@
     "name": "Banco Bilbao Vizcaya Argentaria S.A.",
     "time": "AMC",
     "eps_est": "$0.60",
-    "cap": 141038846000,
+    "cap": 141889159000,
     "url": "https://www.nasdaq.com/market-activity/stocks/bbva/earnings"
    },
    {
@@ -781,7 +781,7 @@
     "name": "Phillips 66",
     "time": "BMO",
     "eps_est": "$11.97",
-    "cap": 112994746000,
+    "cap": 113573323000,
     "url": "https://www.nasdaq.com/market-activity/stocks/psx/earnings"
    },
    {
@@ -791,7 +791,7 @@
     "name": "GSK plc",
     "time": "BMO",
     "eps_est": "$1.40",
-    "cap": 102441058000,
+    "cap": 101219934000,
     "url": "https://www.nasdaq.com/market-activity/stocks/gsk/earnings"
    },
    {
@@ -989,7 +989,7 @@
     "name": "ExxonMobil Holdings Corporation",
     "time": "BMO",
     "eps_est": "$3.90",
-    "cap": 753343400000,
+    "cap": 732866080000,
     "url": "https://www.nasdaq.com/market-activity/stocks/xom/earnings"
    },
    {
@@ -999,7 +999,7 @@
     "name": "AbbVie Inc.",
     "time": "BMO",
     "eps_est": "$3.76",
-    "cap": 504759386000,
+    "cap": 503964172000,
     "url": "https://www.nasdaq.com/market-activity/stocks/abbv/earnings"
    },
    {
@@ -1009,7 +1009,7 @@
     "name": "Chevron Corporation",
     "time": "BMO",
     "eps_est": "$4.78",
-    "cap": 460769624000,
+    "cap": 447867847000,
     "url": "https://www.nasdaq.com/market-activity/stocks/cvx/earnings"
    },
    {
@@ -1019,7 +1019,7 @@
     "name": "AstraZeneca PLC",
     "time": "BMO",
     "eps_est": "$2.60",
-    "cap": 265882616000,
+    "cap": 262007882000,
     "url": "https://www.nasdaq.com/market-activity/stocks/azn/earnings"
    },
    {
@@ -1029,7 +1029,7 @@
     "name": "BP p.l.c.",
     "time": "BMO",
     "eps_est": "$2.66",
-    "cap": 134091629000,
+    "cap": 129834885000,
     "url": "https://www.nasdaq.com/market-activity/stocks/bp/earnings"
    },
    {
@@ -1039,7 +1039,7 @@
     "name": "Sanofi",
     "time": "BMO",
     "eps_est": "$1.63",
-    "cap": 101456331000,
+    "cap": 102334325000,
     "url": "https://www.nasdaq.com/market-activity/stocks/sny/earnings"
    },
    {
@@ -1197,7 +1197,7 @@
     "name": "Arm Holdings plc",
     "time": "AMC",
     "eps_est": "$0.22",
-    "cap": 223802737000,
+    "cap": 223558009000,
     "url": "https://www.nasdaq.com/market-activity/stocks/arm/earnings"
    },
    {
@@ -1207,7 +1207,7 @@
     "name": "QUALCOMM Incorporated",
     "time": "AMC",
     "eps_est": "$1.46",
-    "cap": 184746656000,
+    "cap": 181511930000,
     "url": "https://www.nasdaq.com/market-activity/stocks/qcom/earnings"
    },
    {
@@ -1285,7 +1285,7 @@
     "name": "ConocoPhillips",
     "time": "BMO",
     "eps_est": "$2.95",
-    "cap": 174950777000,
+    "cap": 181161689000,
     "url": "https://www.nasdaq.com/market-activity/stocks/cop/earnings"
    },
    {
@@ -1295,7 +1295,7 @@
     "name": "Sony Group Corporation",
     "time": "BMO",
     "eps_est": "$0.38",
-    "cap": 154476577000,
+    "cap": 153769050000,
     "url": "https://www.nasdaq.com/market-activity/stocks/sony/earnings"
    },
    {
@@ -1305,28 +1305,8 @@
     "name": "Monster Beverage Corporation",
     "time": "",
     "eps_est": "$0.30",
-    "cap": 138994860000,
+    "cap": 135733035000,
     "url": "https://www.nasdaq.com/market-activity/stocks/mnst/earnings"
-   },
-   {
-    "date": "2026-11-05",
-    "type": "earnings",
-    "title": "PH",
-    "name": "Parker-Hannifin Corporation",
-    "time": "BMO",
-    "eps_est": "$8.23",
-    "cap": 112644874000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/ph/earnings"
-   },
-   {
-    "date": "2026-11-05",
-    "type": "earnings",
-    "title": "CNQ",
-    "name": "Canadian Natural Resources Limited",
-    "time": "BMO",
-    "eps_est": "$1.05",
-    "cap": 111228355000,
-    "url": "https://www.nasdaq.com/market-activity/stocks/cnq/earnings"
    },
    {
     "date": "2026-11-05",
@@ -1335,8 +1315,28 @@
     "name": "Cloudflare, Inc.",
     "time": "AMC",
     "eps_est": "$0.02",
-    "cap": 108109365000,
+    "cap": 115985842000,
     "url": "https://www.nasdaq.com/market-activity/stocks/net/earnings"
+   },
+   {
+    "date": "2026-11-05",
+    "type": "earnings",
+    "title": "CNQ",
+    "name": "Canadian Natural Resources Limited",
+    "time": "BMO",
+    "eps_est": "$1.05",
+    "cap": 113922843000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/cnq/earnings"
+   },
+   {
+    "date": "2026-11-05",
+    "type": "earnings",
+    "title": "PH",
+    "name": "Parker-Hannifin Corporation",
+    "time": "BMO",
+    "eps_est": "$8.23",
+    "cap": 111050809000,
+    "url": "https://www.nasdaq.com/market-activity/stocks/ph/earnings"
    },
    {
     "date": "2026-11-05",
@@ -1345,7 +1345,7 @@
     "name": "Southern Company (The)",
     "time": "BMO",
     "eps_est": "$1.71",
-    "cap": 107927052000,
+    "cap": 106857218000,
     "url": "https://www.nasdaq.com/market-activity/stocks/so/earnings"
    },
    {
@@ -1355,7 +1355,7 @@
     "name": "Airbnb, Inc.",
     "time": "AMC",
     "eps_est": "$2.89",
-    "cap": 105242575000,
+    "cap": 102997123000,
     "url": "https://www.nasdaq.com/market-activity/stocks/abnb/earnings"
    },
    {
@@ -1373,7 +1373,7 @@
     "name": "Berkshire Hathaway Inc.",
     "time": "",
     "eps_est": "",
-    "cap": 1168682780000,
+    "cap": 1178601520000,
     "url": "https://www.nasdaq.com/market-activity/stocks/brk.a/earnings"
    },
    {
@@ -1383,7 +1383,7 @@
     "name": "Enbridge Inc",
     "time": "BMO",
     "eps_est": "$0.38",
-    "cap": 105064907000,
+    "cap": 104501019000,
     "url": "https://www.nasdaq.com/market-activity/stocks/enb/earnings"
    },
    {
@@ -1404,7 +1404,7 @@
     "name": "Petroleo Brasileiro S.A.- Petrobras",
     "time": "AMC",
     "eps_est": "$1.21",
-    "cap": 168584626000,
+    "cap": 165104665000,
     "url": "https://www.nasdaq.com/market-activity/stocks/pbr/earnings"
    },
    {
@@ -1450,7 +1450,7 @@
     "name": "Mitsubishi UFJ Financial Group Inc",
     "time": "",
     "eps_est": "$0.45",
-    "cap": 254087692000,
+    "cap": 250052674000,
     "url": "https://www.nasdaq.com/market-activity/stocks/mufg/earnings"
    },
    {
@@ -1460,7 +1460,7 @@
     "name": "Sumitomo Mitsui Financial Group Inc",
     "time": "",
     "eps_est": "$0.24",
-    "cap": 153740116000,
+    "cap": 151889363000,
     "url": "https://www.nasdaq.com/market-activity/stocks/smfg/earnings"
    },
    {
@@ -1470,7 +1470,7 @@
     "name": "Mizuho Financial Group, Inc.",
     "time": "",
     "eps_est": "$0.21",
-    "cap": 120882151000,
+    "cap": 119139254000,
     "url": "https://www.nasdaq.com/market-activity/stocks/mfg/earnings"
    },
    {
@@ -1558,7 +1558,7 @@
     "name": "TJX Companies, Inc. (The)",
     "time": "BMO",
     "eps_est": "$1.33",
-    "cap": 162114175000,
+    "cap": 159562236000,
     "url": "https://www.nasdaq.com/market-activity/stocks/tjx/earnings"
    },
    {
@@ -1568,7 +1568,7 @@
     "name": "Lowe's Companies, Inc.",
     "time": "BMO",
     "eps_est": "$2.86",
-    "cap": 114662613000,
+    "cap": 111470215000,
     "url": "https://www.nasdaq.com/market-activity/stocks/low/earnings"
    },
    {
@@ -1586,7 +1586,7 @@
     "name": "Walmart Inc.",
     "time": "BMO",
     "eps_est": "$0.64",
-    "cap": 960935360000,
+    "cap": 951176860000,
     "url": "https://www.nasdaq.com/market-activity/stocks/wmt/earnings"
    },
    {
@@ -1662,7 +1662,7 @@
     "name": "Deere & Company",
     "time": "BMO",
     "eps_est": "$4.07",
-    "cap": 174218461000,
+    "cap": 173536313000,
     "url": "https://www.nasdaq.com/market-activity/stocks/de/earnings"
    }
   ],
@@ -1673,7 +1673,7 @@
    "Nasdaq earnings calendar (market cap >= $100B)"
   ]
  },
- "updated_et": "2026-10-26 08:46 ET",
+ "updated_et": "2026-10-26 08:56 ET",
  "indicators": [
   {
    "key": "cpi",
