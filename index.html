@@ -37,6 +37,11 @@ h2:before{content:"";width:10px;height:10px;border-radius:3px;background:var(--s
 .list{margin-top:12px}.ev{display:flex;gap:10px;align-items:center;background:var(--card);border:1px solid var(--bd);border-left:5px solid var(--ec);border-radius:12px;padding:9px 12px;margin-bottom:6px;color:inherit;text-decoration:none}
 .ev b{font-size:15px}.ev .t{margin-left:auto;font-size:12px;color:var(--mu);text-align:right;white-space:nowrap}
 .note{font-size:12px;color:var(--mu);margin:8px 4px}
+.up7{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:4px 12px 8px;margin-top:14px;box-shadow:0 6px 20px #7c3aed1a;background:linear-gradient(90deg,#7c3aed,#db2777,#f97316) top/100% 4px no-repeat,var(--card)}
+.up7 h2{margin:12px 0 6px}.ud{display:flex;gap:10px;padding:7px 0;border-top:1px solid var(--bd)}.ud:first-of-type{border-top:0}
+.udl{width:64px;flex:none;font-weight:800;font-size:13px;padding-top:2px}.ud>div:last-child{flex:1;min-width:0}
+.ur{display:flex;align-items:center;gap:6px;color:inherit;text-decoration:none;padding:2px 0}.ur .chip{font-size:12px;padding:2px 8px}
+.ux{font-size:12px;font-weight:700;color:var(--mu);min-width:0}.ut{margin-left:auto;font-size:12px;color:var(--mu);white-space:nowrap}
 footer{text-align:center;color:var(--mu);font-size:12px;padding:16px 12px 32px}footer a{color:inherit}
 </style></head><body>
 <header><div><h1 id="t"></h1><div id="upd">Loading…</div></div></header>
@@ -66,14 +71,24 @@ body=`<div class="row"><div><div class="v">${f(i.latest,i.decimals,i.unit)}${ex}
 let src=`FRED: ${esc(i.series)} ↗`;if(i.expected)src+=' · Exp.: '+esc(i.expected.source);if(i.forecast)src+=' · Exp.: '+esc(i.forecast.source)+', published '+esc(i.forecast.published);
 return`<a class="c" href="${esc(i.source)}" target="_blank" rel="noopener"><div class="l">${esc(i.label)}</div>${body}<div class="m">${src}</div></a>`}
 let D,calM,sel;
+function upcoming(){const ev=(D.calendar&&D.calendar.events||[]).filter(e=>e.type=='macro');const t0=new Date();t0.setHours(0,0,0,0);
+const end=n=>iso(new Date(t0.getFullYear(),t0.getMonth(),t0.getDate()+n));let n=7,list=ev.filter(e=>e.date>=iso(t0)&&e.date<end(n));
+if(list.length<3){n=14;list=ev.filter(e=>e.date>=iso(t0)&&e.date<end(n))}
+const by={};list.forEach(e=>(by[e.date]=by[e.date]||[]).push(e));
+const lab=d=>d==iso(t0)?'Today':d==end(1)?'Tomorrow':new Date(d+'T12:00').toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
+let h=`<section class="up7" style="--sc:var(--labor)"><h2>Upcoming macro data · next ${n} days</h2>`;
+if(!list.length)h+='<div class="note">No major releases scheduled.</div>';
+for(const d of Object.keys(by).sort()){h+=`<div class="ud"><div class="udl">${lab(d)}</div><div>`+by[d].map(e=>{const c=catOf(e),x=expFor(e);
+return`<a class="ur" href="${esc(e.url)}" target="_blank" rel="noopener"><span class="chip" style="background:var(--${c})">${esc(e.title)}</span><span class="ux">${x?'(Exp. '+esc(x)+')':''}</span><span class="ut">${esc(e.time)}</span></a>`}).join('')+'</div></div>'}
+return h+'</section>'}
 function cards(t){const gs={};D.indicators.forEach(i=>(gs[i.group]=gs[i.group]||[]).push(i));let h='';
 for(const g of TABS[t]){if(!gs[g])continue;h+=`<section style="--sc:var(--${SC[g]})"><h2>${g}</h2><div class="g">${gs[g].map(card).join('')}</div></section>`}return h}
 const iso=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
 function expFor(e){if(!e.keys||!e.keys.length)return'';const now=iso(new Date());
 const nxt=D.calendar.events.find(x=>x.title==e.title&&x.date>=now);if(!nxt||nxt.date!=e.date)return'';
-return e.keys.map(k=>D.indicators.find(i=>i.key==k)).filter(i=>i&&i.expected).map(i=>`${esc(i.label.replace(' YoY',''))} exp. ${f(i.expected.value,i.decimals,i.unit)}`).join(' · ')}
+return e.keys.map(k=>D.indicators.find(i=>i.key==k)).filter(i=>i&&i.expected).map(i=>`${i.label.replace(' YoY','').replace(/ \(.*\)/,'').replace('Real GDP growth','GDP')} ${f(i.expected.value,i.decimals,i.unit)}`).join(', ')}
 function evRow(e){const c=catOf(e);const ex=expFor(e);
-const sub=e.type=='earnings'?esc(e.name)+(e.eps_est?` · EPS est. ${esc(e.eps_est)}`:''):(ex||'');
+const sub=e.type=='earnings'?esc(e.name)+(e.eps_est?` · EPS est. ${esc(e.eps_est)}`:''):(ex?'Exp. '+esc(ex):'');
 return`<a class="ev" style="--ec:var(--${c})" href="${esc(e.url)}" target="_blank" rel="noopener"><span class="chip" style="background:var(--${c})">${e.type=='earnings'?'Earnings':'Macro'}</span><div><b>${esc(e.title)}</b>${sub?`<div class="m" style="margin:0">${sub}</div>`:''}</div><span class="t">${esc(e.time)}</span></a>`}
 function calendar(){const C=D.calendar||{events:[]};const today=new Date();if(!calM)calM=new Date(today.getFullYear(),today.getMonth(),1);
 if(!sel)sel=iso(today);const y=calM.getFullYear(),mo=calM.getMonth();const by={};C.events.forEach(e=>(by[e.date]=by[e.date]||[]).push(e));
@@ -93,7 +108,7 @@ function mv(n){calM=new Date(calM.getFullYear(),calM.getMonth()+n,1);render()}
 function pick(d){sel=d;render()}
 function render(){if(!D)return;const t=['#more','#calendar'].includes(location.hash)?location.hash.slice(1):'macro';
 document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('on',a.dataset.t==t));
-document.getElementById('m').innerHTML=t=='calendar'?calendar():cards(t)}
+document.getElementById('m').innerHTML=t=='calendar'?calendar():(t=='macro'?upcoming():'')+cards(t)}
 window.addEventListener('hashchange',render);
 fetch('data.json?v='+Date.now()).then(r=>r.json()).then(j=>{D=j;document.getElementById('upd').textContent='Last updated '+D.updated_et;render()}).catch(()=>document.getElementById('upd').textContent='Data unavailable');
 </script></body></html>

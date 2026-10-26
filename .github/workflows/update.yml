@@ -1,7 +1,8 @@
 name: Update data
 on:
   schedule:
-    - cron: "0 13,14,15,21 * * 1-5"   # 9-11 AM & 5 PM ET (EDT); 8-10 AM & 4 PM EST
+    - cron: "0 13,14,15,21 * * 1-5"   # weekdays: 9, 10, 11 AM & 5 PM EDT (8, 9, 10 AM & 4 PM EST)
+    - cron: "0 11 * * *"              # daily incl. weekends: 7 AM EDT (6 AM EST)
   workflow_dispatch:
 permissions:
   contents: write
