@@ -52,6 +52,42 @@ def nasdaq_etf(http, sym, today):
         m, dd, y = r["date"].split("/"); h.append([f"{y}-{m}-{dd}", float(r["close"].replace("$", "").replace(",", ""))])
     return sorted(h)
 
+def _et(ms):
+    from zoneinfo import ZoneInfo
+    return datetime.fromtimestamp(ms / 1000, ZoneInfo("America/New_York")).strftime("%Y-%m-%d %H:%M ET")
+
+def deribit(http, cur):
+    import time
+    e = int(time.time() * 1000); s0 = e - KEEP * 86400000
+    u = "https://www.deribit.com/api/v2/public/get_volatility_index_data?currency={}&resolution={}&start_timestamp={}&end_timestamp={}"
+    d = json.loads(http(u.format(cur, "1D", s0, e), "application/json", 2, 20))["result"]["data"]
+    h = [[datetime.utcfromtimestamp(r[0] / 1000).date().isoformat(), r[4]] for r in d]
+    if not h: raise ValueError("no data")
+    ts = d[-1][0]
+    try:  # latest hourly close = current reading
+        x = json.loads(http(u.format(cur, "3600", e - 3 * 3600000, e), "application/json", 1, 15))["result"]["data"]
+        if x:
+            ts = x[-1][0]; dd = datetime.utcfromtimestamp(ts / 1000).date().isoformat()
+            if dd == h[-1][0]: h[-1][1] = x[-1][4]
+            elif dd > h[-1][0]: h.append([dd, x[-1][4]])
+    except Exception: pass
+    return h, _et(ts)
+
+def coinbase(http, prod):
+    d = json.loads(http(f"https://api.exchange.coinbase.com/products/{prod}/candles?granularity=86400", "application/json", 2, 20))
+    import time
+    d = [r for r in d if r[0] + 86400 <= time.time()]  # completed UTC days only
+    return sorted([datetime.utcfromtimestamp(r[0]).date().isoformat(), float(r[4])] for r in d), _et(max(r[0] for r in d) * 1000 + 86400000)
+
+def rvol(h, n=30):
+    import math
+    r = [(h[i][0], math.log(h[i][1] / h[i - 1][1])) for i in range(1, len(h))]
+    out = []
+    for i in range(n - 1, len(r)):
+        w = [x for _, x in r[i - n + 1:i + 1]]; m = sum(w) / n
+        out.append([r[i][0], round(math.sqrt(sum((x - m) ** 2 for x in w) / (n - 1)) * math.sqrt(365) * 100, 2)])
+    return out
+
 def boe(http):
     fr = (date.today() - timedelta(days=KEEP)).strftime("%d/%b/%Y")
     txt = http("https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?csv.x=yes&Datefrom="
@@ -218,8 +254,31 @@ def build(http, today, prev=None):
     spread("in10m", "usm10", "inusm", "India − US 10Y spread (monthly, OECD)", "india", "monthly")
     spread("cn10", "us10Y", "cnus", "China − US 10Y spread", "china")
     items.pop("usm10", None)
+    # Crypto volatility (24/7)
+    for c in ("BTC", "ETH"):
+        try:
+            h, ts = deribit(http, c)
+            items["dv" + c] = dict(key="dv" + c, ticker=c + " DVOL", label=f"Deribit {c} DVOL · 30-day implied vol", sec="vol_c", unit="",
+                                  src="Deribit", url=f"https://www.deribit.com/statistics/{c}/volatility-index", freq="24/7 · latest " + ts, h=h)
+        except Exception as e: failed.append(f"Deribit {c} DVOL: {str(e)[:80]}")
+        try:
+            px, ts2 = coinbase(http, c + "-USD"); rv = rvol(px)
+            items["rv" + c] = dict(key="rv" + c, ticker=c + " RV30", label=f"{c} realized vol 30D (realized, computed)", sec="vol_c", unit="",
+                                  src="computed from Coinbase daily closes (UTC)", url=f"https://exchange.coinbase.com/trade/{c}-USD",
+                                  freq="daily UTC closes · latest close " + ts2, h=rv)
+        except Exception as e: failed.append(f"{c} realized vol (Coinbase): {str(e)[:80]}")
+        if "dv" + c in items and "rv" + c in items:
+            m = dict(items["rv" + c]["h"])
+            hs = [[d, round(v - m[d], 2)] for d, v in items["dv" + c]["h"] if d in m]
+            if hs: items["ir" + c] = dict(key="ir" + c, ticker=c + " IV−RV", label=f"{c} implied − realized (DVOL − RV30)", sec="vol_c", unit="vp",
+                                        src="computed (Deribit DVOL − Coinbase RV30)", url=items["dv" + c]["url"], freq="daily, computed", h=hs)
+    if "dvBTC" in items and "vVIX" in items:
+        m = dict(items["vVIX"]["h"])
+        hs = [[d, round(v / m[d], 3)] for d, v in items["dvBTC"]["h"] if d in m]
+        if hs: items["btcvix"] = dict(key="btcvix", ticker="DVOL/VIX", label="BTC DVOL / VIX ratio", sec="vol_c", unit="×",
+                                     src="computed (Deribit DVOL ÷ Cboe VIX, same-date closes)", url="https://www.cboe.com/us/indices/dashboard/VIX/", freq="US trading days, computed", h=hs)
     bonds = dict(items=[v for v in items.values() if not v["sec"].startswith("vol")], cn_curve=curve,
-                 failed=[f for f in failed if not f.startswith(("VIX", "VVIX", "VX", "RVX", "SKEW", "OVX", "GVZ", "EVZ", "MOVE", "VSTOXX", "India VIX"))])
+                 failed=[f for f in failed if not f.startswith(("VIX", "VVIX", "VX", "RVX", "SKEW", "OVX", "GVZ", "EVZ", "MOVE", "VSTOXX", "India VIX", "Deribit", "BTC", "ETH"))])
     vol = dict(items=[v for v in items.values() if v["sec"].startswith("vol")], failed=[f for f in failed if f not in bonds["failed"]])
     return bonds, vol
 
