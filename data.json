@@ -20013,7 +20013,7 @@
      ],
      [
       "2026-08-21",
-      3.251
+      3.2485
      ],
      [
       "2026-08-22",
@@ -21432,7 +21432,7 @@
      ],
      [
       "2026-08-21",
-      4.1177
+      4.1136
      ],
      [
       "2026-08-22",
@@ -22818,12 +22818,8 @@
       4.072
      ],
      [
-      "2026-08-20",
-      4.0758
-     ],
-     [
       "2026-08-21",
-      4.084
+      4.0817
      ],
      [
       "2026-08-22",
@@ -24065,10 +24061,6 @@
       1.682
      ],
      [
-      "2026-09-09",
-      1.74
-     ],
-     [
       "2026-09-10",
       1.684
      ],
@@ -24087,14 +24079,6 @@
      [
       "2026-09-15",
       1.685
-     ],
-     [
-      "2026-09-16",
-      1.684
-     ],
-     [
-      "2026-09-17",
-      1.684
      ],
      [
       "2026-09-18",
@@ -53659,10 +53643,6 @@
       -3.118
      ],
      [
-      "2026-09-09",
-      -3.09
-     ],
-     [
       "2026-09-10",
       -3.266
      ],
@@ -53677,14 +53657,6 @@
      [
       "2026-09-15",
       -3.315
-     ],
-     [
-      "2026-09-16",
-      -3.326
-     ],
-     [
-      "2026-09-17",
-      -3.256
      ],
      [
       "2026-09-18",
@@ -53817,7 +53789,7 @@
    ]
   },
   "failed": [],
-  "updated_et": "2026-10-28 09:49 ET"
+  "updated_et": "2026-10-28 10:44 ET"
  },
  "vol": {
   "items": [
@@ -69304,10 +69276,6 @@
       77.92
      ],
      [
-      "2026-08-12",
-      72.09
-     ],
-     [
       "2026-08-13",
       69.23
      ],
@@ -69406,10 +69374,6 @@
      [
       "2026-09-17",
       76.22
-     ],
-     [
-      "2026-09-18",
-      80.64
      ],
      [
       "2026-09-21",
@@ -71749,7 +71713,7 @@
     "unit": "",
     "src": "Deribit",
     "url": "https://www.deribit.com/statistics/BTC/volatility-index",
-    "freq": "24/7 \u00b7 latest 2026-10-28 09:00 ET",
+    "freq": "24/7 \u00b7 latest 2026-10-28 10:00 ET",
     "h": [
      [
       "2025-09-23",
@@ -73353,7 +73317,7 @@
      ],
      [
       "2026-10-28",
-      37.7
+      37.71
      ]
     ]
    },
@@ -75941,7 +75905,7 @@
     "unit": "",
     "src": "Deribit",
     "url": "https://www.deribit.com/statistics/ETH/volatility-index",
-    "freq": "24/7 \u00b7 latest 2026-10-28 09:00 ET",
+    "freq": "24/7 \u00b7 latest 2026-10-28 10:00 ET",
     "h": [
      [
       "2025-09-23",
@@ -77545,7 +77509,7 @@
      ],
      [
       "2026-10-28",
-      52.85
+      52.7
      ]
     ]
    },
@@ -81271,7 +81235,7 @@
    }
   ],
   "failed": [],
-  "updated_et": "2026-10-28 09:49 ET"
+  "updated_et": "2026-10-28 10:44 ET"
  },
  "indexes": {
   "items": [
@@ -82394,7 +82358,7 @@
      ],
      [
       "2026-10-28",
-      7720.44
+      7731.76
      ]
     ],
     "live": "2026-10-28"
@@ -83518,7 +83482,7 @@
      ],
      [
       "2026-10-28",
-      52409.09
+      52470.82
      ]
     ],
     "live": "2026-10-28"
@@ -84642,7 +84606,7 @@
      ],
      [
       "2026-10-28",
-      26443.983
+      26468.403
      ]
     ],
     "live": "2026-10-28"
@@ -85766,7 +85730,7 @@
      ],
      [
       "2026-10-28",
-      29628.769
+      29679.729
      ]
     ],
     "live": "2026-10-28"
@@ -86890,7 +86854,7 @@
      ],
      [
       "2026-10-28",
-      2820.896
+      2821.625
      ]
     ],
     "live": "2026-10-28"
@@ -88014,7 +87978,7 @@
      ],
      [
       "2026-10-28",
-      3654.49
+      3652.59
      ]
     ],
     "live": "2026-10-28"
@@ -89138,7 +89102,7 @@
      ],
      [
       "2026-10-28",
-      8782.71
+      8798.93
      ]
     ],
     "live": "2026-10-28"
@@ -93572,7 +93536,7 @@
      ],
      [
       "2026-10-28",
-      6171.02
+      6170.73
      ]
     ],
     "live": "2026-10-28"
@@ -94700,7 +94664,7 @@
      ],
      [
       "2026-10-28",
-      25703.82
+      25691.09
      ]
     ],
     "live": "2026-10-28"
@@ -95832,7 +95796,7 @@
      ],
      [
       "2026-10-28",
-      10699.49
+      10706.04
      ]
     ],
     "live": "2026-10-28"
@@ -96972,7 +96936,7 @@
      ],
      [
       "2026-10-28",
-      7903.83
+      7897.15
      ]
     ],
     "live": "2026-10-28"
@@ -98124,7 +98088,7 @@
      ],
      [
       "2026-10-28",
-      18980.4
+      18951.8
      ]
     ],
     "live": "2026-10-28"
@@ -99256,7 +99220,7 @@
      ],
      [
       "2026-10-28",
-      49773.84
+      49752.41
      ]
     ],
     "live": "2026-10-28"
@@ -100376,7 +100340,7 @@
      ],
      [
       "2026-10-28",
-      14539.52
+      14601.62
      ]
     ],
     "live": "2026-10-28"
@@ -110116,7 +110080,7 @@
      ],
      [
       "2026-10-28",
-      36167.13
+      36129.02
      ]
     ],
     "live": "2026-10-28"
@@ -111228,7 +111192,7 @@
      ],
      [
       "2026-10-28",
-      173312.33
+      171078.98
      ]
     ],
     "live": "2026-10-28"
@@ -112353,8 +112317,13 @@
      [
       "2026-10-27",
       69711.87
+     ],
+     [
+      "2026-10-28",
+      69279.94
      ]
-    ]
+    ],
+    "live": "2026-10-28"
    },
    {
     "key": "spy",
@@ -120163,7 +120132,7 @@
    }
   ],
   "failed": [],
-  "updated_et": "2026-10-28 09:49 ET"
+  "updated_et": "2026-10-28 10:44 ET"
  },
  "calendar": {
   "start": "2026-10-01",
@@ -120184,7 +120153,7 @@
     "name": "Accenture plc",
     "time": "",
     "eps_est": "$3.19",
-    "cap": 157256860000,
+    "cap": 165328339000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/acn/earnings"
    },
@@ -120195,7 +120164,7 @@
     "name": "Nike, Inc.",
     "time": "",
     "eps_est": "$0.43",
-    "cap": 55788200000,
+    "cap": 56308056000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/nke/earnings"
    },
@@ -120241,7 +120210,7 @@
     "name": "J P Morgan Chase & Co",
     "time": "",
     "eps_est": "$5.94",
-    "cap": 887940510000,
+    "cap": 892592320000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/jpm/earnings"
    },
@@ -120252,7 +120221,7 @@
     "name": "Johnson & Johnson",
     "time": "",
     "eps_est": "$2.53",
-    "cap": 641066730000,
+    "cap": 646916470000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/jnj/earnings"
    },
@@ -120263,7 +120232,7 @@
     "name": "UnitedHealth Group Incorporated",
     "time": "",
     "eps_est": "$4.12",
-    "cap": 368642195000,
+    "cap": 368363962000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/unh/earnings"
    },
@@ -120274,7 +120243,7 @@
     "name": "The Goldman Sachs Group, Inc.",
     "time": "",
     "eps_est": "$12.90",
-    "cap": 260097589000,
+    "cap": 265481355000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/gs/earnings"
    },
@@ -120285,7 +120254,7 @@
     "name": "Wells Fargo & Company",
     "time": "",
     "eps_est": "$1.85",
-    "cap": 249933545000,
+    "cap": 249963790000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/wfc/earnings"
    },
@@ -120296,7 +120265,7 @@
     "name": "Citigroup Inc.",
     "time": "",
     "eps_est": "$2.66",
-    "cap": 203036951000,
+    "cap": 205804716000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/c/earnings"
    },
@@ -120397,7 +120366,7 @@
     "name": "Taiwan Semiconductor Manufacturing Company Ltd.",
     "time": "",
     "eps_est": "$4.45",
-    "cap": 2265828290000,
+    "cap": 2200997200000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/tsm/earnings"
    },
@@ -120408,7 +120377,7 @@
     "name": "The Charles Schwab Corporation",
     "time": "",
     "eps_est": "$1.66",
-    "cap": 154429686000,
+    "cap": 155173290000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/schw/earnings"
    },
@@ -120419,20 +120388,9 @@
     "name": "Prologis, Inc.",
     "time": "",
     "eps_est": "$1.58",
-    "cap": 119903175000,
+    "cap": 119751483000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/pld/earnings"
-   },
-   {
-    "date": "2026-10-15",
-    "type": "earnings",
-    "title": "BNY",
-    "name": "The Bank Of New York Mellon Corporation ",
-    "time": "",
-    "eps_est": "$2.26",
-    "cap": 100133642000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/bny/earnings"
    },
    {
     "date": "2026-10-20",
@@ -120691,7 +120649,7 @@
     "name": "Procter & Gamble Company (The)",
     "time": "",
     "eps_est": "$1.89",
-    "cap": 369060610000,
+    "cap": 370659885000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/pg/earnings"
    },
@@ -120702,7 +120660,7 @@
     "name": "Union Pacific Corporation",
     "time": "",
     "eps_est": "$3.47",
-    "cap": 178203820000,
+    "cap": 176474538000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/unp/earnings"
    },
@@ -120713,7 +120671,7 @@
     "name": "Lockheed Martin Corporation",
     "time": "",
     "eps_est": "$7.49",
-    "cap": 143913583000,
+    "cap": 146734154000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/lmt/earnings"
    },
@@ -120724,9 +120682,20 @@
     "name": "Western Digital Corporation",
     "time": "",
     "eps_est": "$3.99",
-    "cap": 142572241000,
+    "cap": 133307744000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/wdc/earnings"
+   },
+   {
+    "date": "2026-10-22",
+    "type": "earnings",
+    "title": "VLO",
+    "name": "Valero Energy Corporation",
+    "time": "",
+    "eps_est": "$21.28",
+    "cap": 122875920000,
+    "tier": "",
+    "url": "https://www.nasdaq.com/market-activity/stocks/vlo/earnings"
    },
    {
     "date": "2026-10-22",
@@ -120735,7 +120704,7 @@
     "name": "Spotify Technology S.A.",
     "time": "",
     "eps_est": "$3.10",
-    "cap": 117056233000,
+    "cap": 120619868000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/spot/earnings"
    },
@@ -120746,20 +120715,9 @@
     "name": "Newmont Corporation",
     "time": "",
     "eps_est": "$1.94",
-    "cap": 117054718000,
+    "cap": 114716533000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/nem/earnings"
-   },
-   {
-    "date": "2026-10-22",
-    "type": "earnings",
-    "title": "VLO",
-    "name": "Valero Energy Corporation",
-    "time": "",
-    "eps_est": "$21.28",
-    "cap": 111525822000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/vlo/earnings"
    },
    {
     "date": "2026-10-23",
@@ -120820,7 +120778,7 @@
     "name": "Visa Inc.",
     "time": "",
     "eps_est": "$3.43",
-    "cap": 718025460000,
+    "cap": 722135020000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/v/earnings"
    },
@@ -120831,7 +120789,7 @@
     "name": "Coca-Cola Company (The)",
     "time": "",
     "eps_est": "$0.87",
-    "cap": 392306426000,
+    "cap": 398846329000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/ko/earnings"
    },
@@ -120842,7 +120800,7 @@
     "name": "HSBC Holdings plc",
     "time": "",
     "eps_est": "$2.13",
-    "cap": 312784749000,
+    "cap": 310460088000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/hsbc/earnings"
    },
@@ -120853,20 +120811,9 @@
     "name": "Novartis AG",
     "time": "",
     "eps_est": "$2.25",
-    "cap": 299312677000,
+    "cap": 293492818000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/nvs/earnings"
-   },
-   {
-    "date": "2026-10-27",
-    "type": "earnings",
-    "title": "STX",
-    "name": "Seagate Technology Holdings PLC",
-    "time": "",
-    "eps_est": "$7.17",
-    "cap": 152749687000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/stx/earnings"
    },
    {
     "date": "2026-10-27",
@@ -120875,9 +120822,20 @@
     "name": "Boeing Company (The)",
     "time": "",
     "eps_est": "($0.21)",
-    "cap": 132924432000,
+    "cap": 148834583000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/ba/earnings"
+   },
+   {
+    "date": "2026-10-27",
+    "type": "earnings",
+    "title": "STX",
+    "name": "Seagate Technology Holdings PLC",
+    "time": "",
+    "eps_est": "$7.17",
+    "cap": 147342770000,
+    "tier": "",
+    "url": "https://www.nasdaq.com/market-activity/stocks/stx/earnings"
    },
    {
     "date": "2026-10-27",
@@ -120886,7 +120844,7 @@
     "name": "S&P Global Inc.",
     "time": "",
     "eps_est": "$4.43",
-    "cap": 130144805000,
+    "cap": 130643436000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/spgi/earnings"
    },
@@ -120897,9 +120855,20 @@
     "name": "Corning Incorporated",
     "time": "",
     "eps_est": "$0.89",
-    "cap": 108793348000,
+    "cap": 110033748000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/glw/earnings"
+   },
+   {
+    "date": "2026-10-27",
+    "type": "earnings",
+    "title": "HCA",
+    "name": "HCA Healthcare, Inc.",
+    "time": "",
+    "eps_est": "$6.74",
+    "cap": 100729487000,
+    "tier": "",
+    "url": "https://www.nasdaq.com/market-activity/stocks/hca/earnings"
    },
    {
     "date": "2026-10-27",
@@ -120908,7 +120877,7 @@
     "name": "United Parcel Service, Inc.",
     "time": "",
     "eps_est": "$1.63",
-    "cap": 90259415000,
+    "cap": 85350408000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/ups/earnings"
    },
@@ -121299,7 +121268,7 @@
     "name": "Amazon.com, Inc.",
     "time": "AMC",
     "eps_est": "$2.01",
-    "cap": 2730015850000,
+    "cap": 2686762880000,
     "tier": "mag7",
     "url": "https://www.nasdaq.com/market-activity/stocks/amzn/earnings",
     "analyst": {
@@ -121321,7 +121290,7 @@
     "name": "Eli Lilly and Company",
     "time": "BMO",
     "eps_est": "$5.38",
-    "cap": 1206735080000,
+    "cap": 1204127530000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/lly/earnings",
     "analyst": {
@@ -121343,7 +121312,7 @@
     "name": "Mastercard Incorporated",
     "time": "BMO",
     "eps_est": "$5.14",
-    "cap": 534234661000,
+    "cap": 537432097000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/ma/earnings",
     "analyst": {
@@ -121365,7 +121334,7 @@
     "name": "Intel Corporation",
     "time": "AMC",
     "eps_est": "$0.28",
-    "cap": 495422407000,
+    "cap": 478140236000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/intc/earnings",
     "analyst": {
@@ -121387,7 +121356,7 @@
     "name": "Merck & Company, Inc.",
     "time": "BMO",
     "eps_est": "$2.12",
-    "cap": 349894279000,
+    "cap": 346909016000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/mrk/earnings",
     "analyst": {
@@ -121409,7 +121378,7 @@
     "name": "Caterpillar, Inc.",
     "time": "BMO",
     "eps_est": "$7.12",
-    "cap": 327890698000,
+    "cap": 318154768000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/cat/earnings",
     "analyst": {
@@ -121431,7 +121400,7 @@
     "name": "Shell PLC",
     "time": "BMO",
     "eps_est": "$3.54",
-    "cap": 295255736000,
+    "cap": 298445013000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/shel/earnings",
     "analyst": {
@@ -121453,7 +121422,7 @@
     "name": "Linde plc",
     "time": "BMO",
     "eps_est": "$4.52",
-    "cap": 234477568000,
+    "cap": 233975087000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/lin/earnings",
     "analyst": {
@@ -121475,7 +121444,7 @@
     "name": "TotalEnergies SE",
     "time": "BMO",
     "eps_est": "$4.11",
-    "cap": 204169839000,
+    "cap": 212914766000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/tte/earnings",
     "analyst": {
@@ -121497,7 +121466,7 @@
     "name": "Gilead Sciences, Inc.",
     "time": "AMC",
     "eps_est": "$2.17",
-    "cap": 197252071000,
+    "cap": 196768481000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/gild/earnings",
     "analyst": {
@@ -121519,7 +121488,7 @@
     "name": "Sandisk Corporation",
     "time": "AMC",
     "eps_est": "$46.19",
-    "cap": 189629366000,
+    "cap": 182470525000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/sndk/earnings",
     "analyst": {
@@ -121541,7 +121510,7 @@
     "name": "Anheuser-Busch Inbev SA",
     "time": "BMO",
     "eps_est": "$1.14",
-    "cap": 160472465000,
+    "cap": 161675461000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/bud/earnings",
     "analyst": {
@@ -121563,7 +121532,7 @@
     "name": "Bristol-Myers Squibb Company",
     "time": "BMO",
     "eps_est": "$1.21",
-    "cap": 125729087000,
+    "cap": 125851648000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/bmy/earnings",
     "analyst": {
@@ -121585,7 +121554,7 @@
     "name": "Altria Group",
     "time": "BMO",
     "eps_est": "$1.51",
-    "cap": 122709484000,
+    "cap": 122926547000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mo/earnings",
     "analyst": {
@@ -121603,33 +121572,11 @@
    {
     "date": "2026-10-29",
     "type": "earnings",
-    "title": "SBUX",
-    "name": "Starbucks Corporation",
-    "time": "AMC",
-    "eps_est": "$0.73",
-    "cap": 117465596000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/sbux/earnings",
-    "analyst": {
-     "rating": "Hold",
-     "sentiment": "Neutral",
-     "buy": 12,
-     "hold": 7,
-     "sell": 0,
-     "target": 116.25,
-     "price": 102.29,
-     "price_time": "Oct 28, 2026 7:32 AM ET",
-     "fetched": "2026-10-28"
-    }
-   },
-   {
-    "date": "2026-10-29",
-    "type": "earnings",
     "title": "SYK",
     "name": "Stryker Corporation",
     "time": "AMC",
     "eps_est": "$3.56",
-    "cap": 115616588000,
+    "cap": 117423219000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/syk/earnings",
     "analyst": {
@@ -121647,11 +121594,33 @@
    {
     "date": "2026-10-29",
     "type": "earnings",
+    "title": "SBUX",
+    "name": "Starbucks Corporation",
+    "time": "AMC",
+    "eps_est": "$0.73",
+    "cap": 117066596000,
+    "tier": "key",
+    "url": "https://www.nasdaq.com/market-activity/stocks/sbux/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 12,
+     "hold": 7,
+     "sell": 0,
+     "target": 116.25,
+     "price": 102.29,
+     "price_time": "Oct 28, 2026 7:32 AM ET",
+     "fetched": "2026-10-28"
+    }
+   },
+   {
+    "date": "2026-10-29",
+    "type": "earnings",
     "title": "TT",
     "name": "Trane Technologies plc",
     "time": "BMO",
     "eps_est": "$4.74",
-    "cap": 101446083000,
+    "cap": 100117144000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/tt/earnings",
     "analyst": {
@@ -121673,7 +121642,7 @@
     "name": "Coinbase Global, Inc.",
     "time": "AMC",
     "eps_est": "($0.16)",
-    "cap": 42501489000,
+    "cap": 42108371000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/coin/earnings",
     "analyst": {
@@ -122161,7 +122130,7 @@
     "name": "Toyota Motor Corp Ltd Ord",
     "time": "",
     "eps_est": "",
-    "cap": 256194970000,
+    "cap": 257602634000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/tm/earnings",
     "analyst": {
@@ -122179,7 +122148,7 @@
     "name": "Arm Holdings plc",
     "time": "AMC",
     "eps_est": "$0.22",
-    "cap": 241114923000,
+    "cap": 237656736000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/arm/earnings",
     "analyst": {
@@ -122201,7 +122170,7 @@
     "name": "QUALCOMM Incorporated",
     "time": "AMC",
     "eps_est": "$1.46",
-    "cap": 193421574000,
+    "cap": 188622012000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/qcom/earnings",
     "analyst": {
@@ -122223,7 +122192,7 @@
     "name": "McDonald's Corporation",
     "time": "BMO",
     "eps_est": "$3.36",
-    "cap": 176535339000,
+    "cap": 177497719000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mcd/earnings",
     "analyst": {
@@ -122245,7 +122214,7 @@
     "name": "Novo Nordisk A/S",
     "time": "BMO",
     "eps_est": "$0.81",
-    "cap": 171228070000,
+    "cap": 173264929000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/nvo/earnings",
     "analyst": {
@@ -122267,7 +122236,7 @@
     "name": "Uber Technologies, Inc.",
     "time": "BMO",
     "eps_est": "$0.94",
-    "cap": 134359605000,
+    "cap": 135074505000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/uber/earnings",
     "analyst": {
@@ -122289,7 +122258,7 @@
     "name": "Equinor ASA",
     "time": "",
     "eps_est": "$1.38",
-    "cap": 117662753000,
+    "cap": 120263033000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/eqnr/earnings",
     "analyst": {
@@ -122311,7 +122280,7 @@
     "name": "CVS Health Corporation",
     "time": "BMO",
     "eps_est": "$1.62",
-    "cap": 116552573000,
+    "cap": 118343131000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/cvs/earnings",
     "analyst": {
@@ -122333,7 +122302,7 @@
     "name": "McKesson Corporation",
     "time": "AMC",
     "eps_est": "$10.69",
-    "cap": 112745210000,
+    "cap": 115759071000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mck/earnings",
     "analyst": {
@@ -122355,7 +122324,7 @@
     "name": "Datadog, Inc.",
     "time": "BMO",
     "eps_est": "$0.18",
-    "cap": 100835451000,
+    "cap": 100627186000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/ddog/earnings",
     "analyst": {
@@ -122650,7 +122619,7 @@
     "name": "Applied Materials, Inc.",
     "time": "AMC",
     "eps_est": "$4.06",
-    "cap": 314209042000,
+    "cap": 307590431000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/amat/earnings"
    },
@@ -122817,7 +122786,7 @@
     "name": "Walmart Inc.",
     "time": "BMO",
     "eps_est": "$0.64",
-    "cap": 954350310000,
+    "cap": 946654610000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/wmt/earnings"
    },
@@ -122962,8 +122931,8 @@
     "shares": "10,000,000",
     "size": "$100,000,000",
     "deal": "1402228-119376",
-    "last": 9.97,
-    "last_time": "Oct 28, 2026 9:48 AM ET"
+    "last": 9.975,
+    "last_time": "Oct 28, 2026 10:44 AM ET"
    },
    {
     "date": "2026-10-23",
@@ -122974,8 +122943,8 @@
     "shares": "17,640,000",
     "size": "$317,520,000",
     "deal": "1112626-119575",
-    "last": 25.415,
-    "last_time": "Oct 28, 2026 9:48 AM ET"
+    "last": 25.0,
+    "last_time": "Oct 28, 2026 10:44 AM ET"
    },
    {
     "date": "2026-10-22",
@@ -122986,8 +122955,8 @@
     "shares": "25,000,000",
     "size": "",
     "deal": "1344257-114782",
-    "last": 3.4799,
-    "last_time": "Oct 28, 2026 9:48 AM ET"
+    "last": 3.3234,
+    "last_time": "Oct 28, 2026 10:44 AM ET"
    },
    {
     "date": "2026-10-16",
@@ -122998,8 +122967,8 @@
     "shares": "11,111,111",
     "size": "$199,999,998",
     "deal": "1403574-119467",
-    "last": 21.0,
-    "last_time": "Oct 28, 2026 9:48 AM ET"
+    "last": 21.12,
+    "last_time": "Oct 28, 2026 10:44 AM ET"
    },
    {
     "date": "2026-10-16",
@@ -123010,8 +122979,8 @@
     "shares": "10,000,000",
     "size": "$100,000,000",
     "deal": "1403753-119489",
-    "last": 10.4,
-    "last_time": "Oct 28, 2026 9:48 AM ET"
+    "last": 10.48,
+    "last_time": "Oct 28, 2026 10:44 AM ET"
    },
    {
     "date": "2026-10-15",
@@ -123022,8 +122991,8 @@
     "shares": "4,705,883",
     "size": "$20,000,003",
     "deal": "1400157-119190",
-    "last": 5.93,
-    "last_time": "Oct 28, 2026 9:48 AM ET"
+    "last": 6.0,
+    "last_time": "Oct 28, 2026 10:44 AM ET"
    },
    {
     "date": "2026-10-15",
@@ -123034,8 +123003,8 @@
     "shares": "9,375,000",
     "size": "$150,000,000",
     "deal": "1273626-119431",
-    "last": 13.75,
-    "last_time": "Oct 28, 2026 9:48 AM ET"
+    "last": 14.95,
+    "last_time": "Oct 28, 2026 10:44 AM ET"
    },
    {
     "date": "2026-10-14",
@@ -123046,8 +123015,8 @@
     "shares": "7,500,000",
     "size": "$75,000,000",
     "deal": "1403442-119456",
-    "last": 10.225,
-    "last_time": "Oct 28, 2026 9:48 AM ET"
+    "last": 10.27,
+    "last_time": "Oct 28, 2026 10:44 AM ET"
    }
   ],
   "filed": [
@@ -123537,7 +123506,7 @@
     "rating_new": "Buy",
     "pt_old": "$320.00",
     "pt_new": "$400.00",
-    "price": "$159.24",
+    "price": "$160.53",
     "id": "2487512",
     "cap": 1059478890800.0
    },
@@ -123552,7 +123521,7 @@
     "rating_new": "Outperform",
     "pt_old": "",
     "pt_new": "$200.00",
-    "price": "$159.24",
+    "price": "$160.53",
     "id": "2487622",
     "cap": 1059478890800.0
    },
@@ -123567,7 +123536,7 @@
     "rating_new": "Buy",
     "pt_old": "",
     "pt_new": "",
-    "price": "$159.24",
+    "price": "$160.53",
     "id": "2487551",
     "cap": 1059478890800.0
    },
@@ -123582,7 +123551,7 @@
     "rating_new": "Buy",
     "pt_old": "$220.00",
     "pt_new": "$235.00",
-    "price": "$159.24",
+    "price": "$160.53",
     "id": "2487552",
     "cap": 1059478890800.0
    },
@@ -123597,7 +123566,7 @@
     "rating_new": "Overweight",
     "pt_old": "$100.00",
     "pt_new": "$103.00",
-    "price": "$91.35",
+    "price": "$91.97",
     "id": "2487540",
     "cap": 392306439977.0
    },
@@ -123612,7 +123581,7 @@
     "rating_new": "Overweight",
     "pt_old": "$90.00",
     "pt_new": "$100.00",
-    "price": "$91.35",
+    "price": "$91.97",
     "id": "2487486",
     "cap": 392306439977.0
    },
@@ -123627,9 +123596,24 @@
     "rating_new": "Buy",
     "pt_old": "",
     "pt_new": "$1,341.00",
-    "price": "$1,150.58",
+    "price": "$1,149.83",
     "id": "2487324",
     "cap": 175939221687.0
+   },
+   {
+    "date": "2026-10-28",
+    "ticker": "XYL",
+    "company": "Xylem",
+    "action": "Downgrade",
+    "action_raw": "Downgraded",
+    "firm": "JPMorgan Chase & Co.",
+    "rating_old": "Overweight",
+    "rating_new": "Neutral",
+    "pt_old": "$118.00",
+    "pt_new": "$90.00",
+    "price": "$88.16",
+    "id": "2487467",
+    "cap": 21681585362.0
    },
    {
     "date": "2026-10-27",
@@ -123642,7 +123626,7 @@
     "rating_new": "Buy",
     "pt_old": "",
     "pt_new": "",
-    "price": "$345.41",
+    "price": "$344.86",
     "id": "2486955",
     "cap": 5065639878000.0
    },
@@ -123657,7 +123641,7 @@
     "rating_new": "Outperform",
     "pt_old": "",
     "pt_new": "",
-    "price": "$345.41",
+    "price": "$344.86",
     "id": "2487149",
     "cap": 5065639878000.0
    },
@@ -123672,7 +123656,7 @@
     "rating_new": "Buy (B)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$971.35",
+    "price": "$969.33",
     "id": "2487404",
     "cap": 1050820622377.0
    },
@@ -123687,7 +123671,7 @@
     "rating_new": "Overweight",
     "pt_old": "$529.00",
     "pt_new": "$531.00",
-    "price": "$413.26",
+    "price": "$413.95",
     "id": "2486814",
     "cap": 368363949260.0
    },
@@ -123702,7 +123686,7 @@
     "rating_new": "Overweight",
     "pt_old": "$526.00",
     "pt_new": "$487.00",
-    "price": "$413.26",
+    "price": "$413.95",
     "id": "2486730",
     "cap": 368363949260.0
    },
@@ -123717,7 +123701,7 @@
     "rating_new": "Hold",
     "pt_old": "",
     "pt_new": "",
-    "price": "$102.95",
+    "price": "$103.88",
     "id": "2486811",
     "cap": 178402517818.0
    },
@@ -123732,7 +123716,7 @@
     "rating_new": "Positive",
     "pt_old": "$333.00",
     "pt_new": "$345.00",
-    "price": "$299.55",
+    "price": "$299.29",
     "id": "2486969",
     "cap": 178203814750.0
    },
@@ -123747,7 +123731,7 @@
     "rating_new": "Neutral",
     "pt_old": "",
     "pt_new": "$157.00",
-    "price": "$148.89",
+    "price": "$149.03",
     "id": "2486834",
     "cap": 177749893393.0
    },
@@ -123762,9 +123746,24 @@
     "rating_new": "Buy",
     "pt_old": "$175.00",
     "pt_new": "$170.00",
-    "price": "$139.52",
+    "price": "$139.06",
     "id": "2486884",
     "cap": 154216363352.0
+   },
+   {
+    "date": "2026-10-27",
+    "ticker": "SO",
+    "company": "Southern",
+    "action": "Reiterated",
+    "action_raw": "Reiterated",
+    "firm": "Weiss Ratings",
+    "rating_old": "",
+    "rating_new": "Buy (B)",
+    "pt_old": "",
+    "pt_new": "",
+    "price": "$92.59",
+    "id": "2487444",
+    "cap": 106581128800.0
    },
    {
     "date": "2026-10-27",
@@ -123777,7 +123776,7 @@
     "rating_new": "Peer Perform",
     "pt_old": "",
     "pt_new": "",
-    "price": "$59.73",
+    "price": "$59.57",
     "id": "2486819",
     "cap": 93077993384.0
    },
@@ -123792,7 +123791,7 @@
     "rating_new": "Buy",
     "pt_old": "$2,100.00",
     "pt_new": "$2,050.00",
-    "price": "$1,668.29",
+    "price": "$1,665.63",
     "id": "2486712",
     "cap": 85196482729.0
    },
@@ -123807,7 +123806,7 @@
     "rating_new": "Neutral",
     "pt_old": "",
     "pt_new": "$69.00",
-    "price": "$63.10",
+    "price": "$63.13",
     "id": "2486828",
     "cap": 62707252283.0
    },
@@ -123822,7 +123821,7 @@
     "rating_new": "Peer Perform",
     "pt_old": "",
     "pt_new": "",
-    "price": "$48.57",
+    "price": "$48.41",
     "id": "2486821",
     "cap": 59297735166.0
    },
@@ -123837,9 +123836,24 @@
     "rating_new": "Outperform",
     "pt_old": "",
     "pt_new": "",
-    "price": "$53.56",
+    "price": "$53.42",
     "id": "2486833",
     "cap": 48600372505.0
+   },
+   {
+    "date": "2026-10-27",
+    "ticker": "SKYD",
+    "company": "Skydance",
+    "action": "Upgrade",
+    "action_raw": "Upgraded",
+    "firm": "Huber Research",
+    "rating_old": "",
+    "rating_new": "Overweight",
+    "pt_old": "",
+    "pt_new": "",
+    "price": "$7.63",
+    "id": "2487193",
+    "cap": 39076880174.0
    },
    {
     "date": "2026-10-27",
@@ -123852,7 +123866,7 @@
     "rating_new": "Peer Perform",
     "pt_old": "",
     "pt_new": "",
-    "price": "$15.72",
+    "price": "$15.70",
     "id": "2486831",
     "cap": 31740716916.0
    },
@@ -123867,7 +123881,7 @@
     "rating_new": "Buy (B-)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$15.72",
+    "price": "$15.70",
     "id": "2487389",
     "cap": 31740716916.0
    },
@@ -123882,7 +123896,7 @@
     "rating_new": "Overweight",
     "pt_old": "",
     "pt_new": "$152.00",
-    "price": "$115.16",
+    "price": "$109.22",
     "id": "2486826",
     "cap": 20304693394.0
    },
@@ -123897,7 +123911,7 @@
     "rating_new": "Outperform",
     "pt_old": "",
     "pt_new": "$300.00",
-    "price": "$255.14",
+    "price": "$254.67",
     "id": "2486532",
     "cap": 19526519638.0
    },
@@ -123912,7 +123926,7 @@
     "rating_new": "Hold (C+)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$101.66",
+    "price": "$101.24",
     "id": "2487360",
     "cap": 19473194307.0
    },
@@ -123927,7 +123941,7 @@
     "rating_new": "Buy (A-)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$8.24",
+    "price": "$8.21",
     "id": "2487342",
     "cap": 14793358947.0
    },
@@ -123942,7 +123956,7 @@
     "rating_new": "Hold (C+)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$14.09",
+    "price": "$13.99",
     "id": "2487364",
     "cap": 14606956322.0
    },
@@ -123957,9 +123971,24 @@
     "rating_new": "Hold (C)",
     "pt_old": "",
     "pt_new": "",
-    "price": "$77.97",
+    "price": "$77.79",
     "id": "2487441",
     "cap": 13445937171.0
+   },
+   {
+    "date": "2026-10-27",
+    "ticker": "AR",
+    "company": "Antero Resources",
+    "action": "Upgrade",
+    "action_raw": "Upgraded",
+    "firm": "Weiss Ratings",
+    "rating_old": "Hold (C+)",
+    "rating_new": "Buy (B-)",
+    "pt_old": "",
+    "pt_new": "",
+    "price": "$41.74",
+    "id": "2487350",
+    "cap": 12943181900.0
    },
    {
     "date": "2026-10-26",
@@ -134909,9 +134938,9 @@
   "days_failed": [],
   "source": "https://www.marketbeat.com/ratings/",
   "note": "All actions for stocks with market cap >= $100B; upgrades, downgrades and initiations for >= $10B (caps from Nasdaq).",
-  "updated_et": "2026-10-28 09:48 ET"
+  "updated_et": "2026-10-28 10:44 ET"
  },
- "updated_et": "2026-10-28 09:49 ET",
+ "updated_et": "2026-10-28 10:44 ET",
  "indicators": [
   {
    "key": "cpi",
