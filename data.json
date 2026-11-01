@@ -18908,10 +18908,6 @@
     "freq": "daily",
     "h": [
      [
-      "2025-09-25",
-      2.7721
-     ],
-     [
       "2025-09-26",
       2.7454
      ],
@@ -20052,8 +20048,12 @@
       3.2627
      ],
      [
+      "2026-08-20",
+      3.2553
+     ],
+     [
       "2026-08-21",
-      3.2485
+      3.251
      ],
      [
       "2026-08-22",
@@ -20298,6 +20298,10 @@
      [
       "2026-10-30",
       3.3297
+     ],
+     [
+      "2026-10-31",
+      3.3244
      ]
     ]
    },
@@ -20310,10 +20314,6 @@
     "url": "https://www.cnbc.com/quotes/FR10Y-FR",
     "freq": "daily",
     "h": [
-     [
-      "2025-09-25",
-      3.6039
-     ],
      [
       "2025-09-26",
       3.5689
@@ -21717,6 +21717,10 @@
      [
       "2026-10-30",
       4.9796
+     ],
+     [
+      "2026-10-31",
+      4.9759
      ]
     ]
    },
@@ -21729,10 +21733,6 @@
     "url": "https://www.cnbc.com/quotes/IT10Y-IT",
     "freq": "daily",
     "h": [
-     [
-      "2025-09-25",
-      3.6439
-     ],
      [
       "2025-09-26",
       3.611
@@ -22858,8 +22858,12 @@
       4.072
      ],
      [
+      "2026-08-20",
+      4.0758
+     ],
+     [
       "2026-08-21",
-      4.0776
+      4.084
      ],
      [
       "2026-08-22",
@@ -23094,12 +23098,12 @@
       4.5128
      ],
      [
-      "2026-10-29",
-      4.4608
-     ],
-     [
       "2026-10-30",
       4.5079
+     ],
+     [
+      "2026-10-31",
+      4.4904
      ]
     ]
    },
@@ -24021,6 +24025,10 @@
       1.706
      ],
      [
+      "2026-08-12",
+      1.703
+     ],
+     [
       "2026-08-13",
       1.696
      ],
@@ -24193,6 +24201,10 @@
       1.677
      ],
      [
+      "2026-10-15",
+      1.67
+     ],
+     [
       "2026-10-16",
       1.598
      ],
@@ -24229,6 +24241,10 @@
       1.624
      ],
      [
+      "2026-10-29",
+      1.618
+     ],
+     [
       "2026-10-30",
       1.631
      ]
@@ -24243,10 +24259,6 @@
     "url": "https://www.bankofengland.co.uk/boeapps/database/",
     "freq": "daily",
     "h": [
-     [
-      "2025-09-26",
-      4.7396
-     ],
      [
       "2025-09-29",
       4.7045
@@ -26437,10 +26449,6 @@
     "url": "https://www.bankofcanada.ca/rates/interest-rates/",
     "freq": "daily",
     "h": [
-     [
-      "2025-09-26",
-      3.23
-     ],
      [
       "2025-09-29",
       3.17
@@ -28812,10 +28820,6 @@
     "ticker": "SHY",
     "h": [
      [
-      "2025-09-26",
-      82.89
-     ],
-     [
       "2025-09-29",
       82.92
      ],
@@ -29927,10 +29931,6 @@
     "freq": "daily",
     "ticker": "IEI",
     "h": [
-     [
-      "2025-09-26",
-      119.32
-     ],
      [
       "2025-09-29",
       119.47
@@ -31044,10 +31044,6 @@
     "ticker": "IEF",
     "h": [
      [
-      "2025-09-26",
-      96.22
-     ],
-     [
       "2025-09-29",
       96.5
      ],
@@ -32159,10 +32155,6 @@
     "freq": "daily",
     "ticker": "TLT",
     "h": [
-     [
-      "2025-09-26",
-      88.9
-     ],
      [
       "2025-09-29",
       89.63
@@ -33276,10 +33268,6 @@
     "ticker": "VGLT",
     "h": [
      [
-      "2025-09-26",
-      56.56
-     ],
-     [
       "2025-09-29",
       56.98
      ],
@@ -34391,10 +34379,6 @@
     "freq": "daily",
     "ticker": "ZROZ",
     "h": [
-     [
-      "2025-09-26",
-      67.43
-     ],
      [
       "2025-09-29",
       68.47
@@ -35508,10 +35492,6 @@
     "ticker": "GOVT",
     "h": [
      [
-      "2025-09-26",
-      23.065
-     ],
-     [
       "2025-09-29",
       23.12
      ],
@@ -36623,10 +36603,6 @@
     "freq": "daily",
     "ticker": "BIL",
     "h": [
-     [
-      "2025-09-26",
-      91.74
-     ],
      [
       "2025-09-29",
       91.75
@@ -37740,10 +37716,6 @@
     "ticker": "SGOV",
     "h": [
      [
-      "2025-09-26",
-      100.69
-     ],
-     [
       "2025-09-29",
       100.7
      ],
@@ -38855,10 +38827,6 @@
     "freq": "daily",
     "ticker": "AGG",
     "h": [
-     [
-      "2025-09-26",
-      100.07
-     ],
      [
       "2025-09-29",
       100.26
@@ -39972,10 +39940,6 @@
     "ticker": "BND",
     "h": [
      [
-      "2025-09-26",
-      74.21
-     ],
-     [
       "2025-09-29",
       74.4
      ],
@@ -41087,10 +41051,6 @@
     "freq": "daily",
     "ticker": "LQD",
     "h": [
-     [
-      "2025-09-26",
-      111.21
-     ],
      [
       "2025-09-29",
       111.58
@@ -42204,10 +42164,6 @@
     "ticker": "HYG",
     "h": [
      [
-      "2025-09-26",
-      81.08
-     ],
-     [
       "2025-09-29",
       81.22
      ],
@@ -43319,10 +43275,6 @@
     "freq": "daily",
     "ticker": "JNK",
     "h": [
-     [
-      "2025-09-26",
-      97.85
-     ],
      [
       "2025-09-29",
       98.06
@@ -44436,10 +44388,6 @@
     "ticker": "TIP",
     "h": [
      [
-      "2025-09-26",
-      111.11
-     ],
-     [
       "2025-09-29",
       111.25
      ],
@@ -45551,10 +45499,6 @@
     "freq": "daily",
     "ticker": "SCHP",
     "h": [
-     [
-      "2025-09-26",
-      26.91
-     ],
      [
       "2025-09-29",
       26.94
@@ -46668,10 +46612,6 @@
     "ticker": "MUB",
     "h": [
      [
-      "2025-09-26",
-      106.26
-     ],
-     [
       "2025-09-29",
       106.42
      ],
@@ -47783,10 +47723,6 @@
     "freq": "daily",
     "ticker": "EMB",
     "h": [
-     [
-      "2025-09-26",
-      95.23
-     ],
      [
       "2025-09-29",
       95.39
@@ -53667,6 +53603,10 @@
       -2.994
      ],
      [
+      "2026-08-12",
+      -2.977
+     ],
+     [
       "2026-08-13",
       -2.934
      ],
@@ -53815,6 +53755,10 @@
       -3.513
      ],
      [
+      "2026-10-15",
+      -3.43
+     ],
+     [
       "2026-10-16",
       -3.492
      ],
@@ -53849,6 +53793,10 @@
      [
       "2026-10-28",
       -3.426
+     ],
+     [
+      "2026-10-29",
+      -3.362
      ]
     ]
    }
@@ -53901,7 +53849,7 @@
    ]
   },
   "failed": [],
-  "updated_et": "2026-10-31 07:26 ET"
+  "updated_et": "2026-11-01 06:26 ET"
  },
  "vol": {
   "items": [
@@ -71825,12 +71773,8 @@
     "unit": "",
     "src": "Deribit",
     "url": "https://www.deribit.com/statistics/BTC/volatility-index",
-    "freq": "24/7 \u00b7 latest 2026-10-31 07:00 ET",
+    "freq": "24/7 \u00b7 latest 2026-11-01 06:00 ET",
     "h": [
-     [
-      "2025-09-26",
-      36.55
-     ],
      [
       "2025-09-27",
       36.42
@@ -73429,7 +73373,11 @@
      ],
      [
       "2026-10-31",
-      40.55
+      40.03
+     ],
+     [
+      "2026-11-01",
+      39.24
      ]
     ]
    },
@@ -73441,12 +73389,8 @@
     "unit": "",
     "src": "computed from Coinbase daily closes (UTC)",
     "url": "https://exchange.coinbase.com/trade/BTC-USD",
-    "freq": "daily UTC closes \u00b7 latest close 2026-10-30 20:00 ET",
+    "freq": "daily UTC closes \u00b7 latest close 2026-10-31 20:00 ET",
     "h": [
-     [
-      "2025-12-16",
-      44.92
-     ],
      [
       "2025-12-17",
       44.74
@@ -74718,6 +74662,10 @@
      [
       "2026-10-30",
       29.3
+     ],
+     [
+      "2026-10-31",
+      28.66
      ]
     ]
    },
@@ -74731,10 +74679,6 @@
     "url": "https://www.deribit.com/statistics/BTC/volatility-index",
     "freq": "daily, computed",
     "h": [
-     [
-      "2025-12-16",
-      0.77
-     ],
      [
       "2025-12-17",
       2.26
@@ -76006,6 +75950,10 @@
      [
       "2026-10-30",
       11.29
+     ],
+     [
+      "2026-10-31",
+      11.37
      ]
     ]
    },
@@ -76017,12 +75965,8 @@
     "unit": "",
     "src": "Deribit",
     "url": "https://www.deribit.com/statistics/ETH/volatility-index",
-    "freq": "24/7 \u00b7 latest 2026-10-31 07:00 ET",
+    "freq": "24/7 \u00b7 latest 2026-11-01 06:00 ET",
     "h": [
-     [
-      "2025-09-26",
-      63.6
-     ],
      [
       "2025-09-27",
       63.5
@@ -77621,7 +77565,11 @@
      ],
      [
       "2026-10-31",
-      55.01
+      55.44
+     ],
+     [
+      "2026-11-01",
+      54.04
      ]
     ]
    },
@@ -77633,12 +77581,8 @@
     "unit": "",
     "src": "computed from Coinbase daily closes (UTC)",
     "url": "https://exchange.coinbase.com/trade/ETH-USD",
-    "freq": "daily UTC closes \u00b7 latest close 2026-10-30 20:00 ET",
+    "freq": "daily UTC closes \u00b7 latest close 2026-10-31 20:00 ET",
     "h": [
-     [
-      "2025-12-16",
-      65.63
-     ],
      [
       "2025-12-17",
       67.03
@@ -78910,6 +78854,10 @@
      [
       "2026-10-30",
       36.89
+     ],
+     [
+      "2026-10-31",
+      36.77
      ]
     ]
    },
@@ -78923,10 +78871,6 @@
     "url": "https://www.deribit.com/statistics/ETH/volatility-index",
     "freq": "daily, computed",
     "h": [
-     [
-      "2025-12-16",
-      3.43
-     ],
      [
       "2025-12-17",
       2.55
@@ -80198,6 +80142,10 @@
      [
       "2026-10-30",
       18.35
+     ],
+     [
+      "2026-10-31",
+      18.67
      ]
     ]
    },
@@ -80211,10 +80159,6 @@
     "url": "https://www.cboe.com/us/indices/dashboard/VIX/",
     "freq": "US trading days, computed",
     "h": [
-     [
-      "2025-09-26",
-      2.39
-     ],
      [
       "2025-09-29",
       2.257
@@ -81347,7 +81291,7 @@
    }
   ],
   "failed": [],
-  "updated_et": "2026-10-31 07:26 ET"
+  "updated_et": "2026-11-01 06:26 ET"
  },
  "indexes": {
   "items": [
@@ -112369,10 +112313,6 @@
     "url": "https://www.nasdaq.com/market-activity/etf/spy/historical",
     "h": [
      [
-      "2025-09-26",
-      661.82
-     ],
-     [
       "2025-09-29",
       663.68
      ],
@@ -113483,10 +113423,6 @@
     "src": "Nasdaq",
     "url": "https://www.nasdaq.com/market-activity/etf/qqq/historical",
     "h": [
-     [
-      "2025-09-26",
-      595.97
-     ],
      [
       "2025-09-29",
       598.73
@@ -114599,10 +114535,6 @@
     "url": "https://www.nasdaq.com/market-activity/etf/dia/historical",
     "h": [
      [
-      "2025-09-26",
-      462.28
-     ],
-     [
       "2025-09-29",
       463.04
      ],
@@ -115713,10 +115645,6 @@
     "src": "Nasdaq",
     "url": "https://www.nasdaq.com/market-activity/etf/iwm/historical",
     "h": [
-     [
-      "2025-09-26",
-      241.34
-     ],
      [
       "2025-09-29",
       241.62
@@ -116829,10 +116757,6 @@
     "url": "https://www.nasdaq.com/market-activity/etf/urth/historical",
     "h": [
      [
-      "2025-09-26",
-      180.3
-     ],
-     [
       "2025-09-29",
       180.93
      ],
@@ -117943,10 +117867,6 @@
     "src": "Nasdaq",
     "url": "https://www.nasdaq.com/market-activity/etf/acwi/historical",
     "h": [
-     [
-      "2025-09-26",
-      137.34
-     ],
      [
       "2025-09-29",
       137.68
@@ -119059,10 +118979,6 @@
     "url": "https://www.nasdaq.com/market-activity/etf/eem/historical",
     "h": [
      [
-      "2025-09-26",
-      52.71
-     ],
-     [
       "2025-09-29",
       53.19
      ],
@@ -120166,1274 +120082,12 @@
    }
   ],
   "failed": [],
-  "updated_et": "2026-10-31 07:26 ET"
+  "updated_et": "2026-11-01 06:26 ET"
  },
  "calendar": {
-  "start": "2026-10-01",
-  "end": "2026-11-30",
+  "start": "2026-11-01",
+  "end": "2026-12-31",
   "events": [
-   {
-    "date": "2026-10-01",
-    "type": "macro",
-    "title": "Jobless claims",
-    "time": "8:30 am ET",
-    "keys": [],
-    "url": "https://fred.stlouisfed.org/releases/calendar?rid=180"
-   },
-   {
-    "date": "2026-10-01",
-    "type": "earnings",
-    "title": "ACN",
-    "name": "Accenture plc",
-    "time": "",
-    "eps_est": "$3.19",
-    "cap": 165321654000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/acn/earnings"
-   },
-   {
-    "date": "2026-10-01",
-    "type": "earnings",
-    "title": "NKE",
-    "name": "Nike, Inc.",
-    "time": "",
-    "eps_est": "$0.43",
-    "cap": 57065566000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/nke/earnings"
-   },
-   {
-    "date": "2026-10-02",
-    "type": "macro",
-    "title": "Jobs report",
-    "time": "8:30 am ET",
-    "keys": [],
-    "url": "https://fred.stlouisfed.org/releases/calendar?rid=50"
-   },
-   {
-    "date": "2026-10-07",
-    "type": "macro",
-    "title": "FOMC minutes",
-    "time": "2:00 pm ET",
-    "keys": [],
-    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
-   },
-   {
-    "date": "2026-10-08",
-    "type": "macro",
-    "title": "Jobless claims",
-    "time": "8:30 am ET",
-    "keys": [],
-    "url": "https://fred.stlouisfed.org/releases/calendar?rid=180"
-   },
-   {
-    "date": "2026-10-08",
-    "type": "earnings",
-    "title": "PEP",
-    "name": "Pepsico, Inc.",
-    "time": "",
-    "eps_est": "$2.29",
-    "cap": 182321136000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/pep/earnings"
-   },
-   {
-    "date": "2026-10-13",
-    "type": "earnings",
-    "title": "JPM",
-    "name": "J P Morgan Chase & Co",
-    "time": "",
-    "eps_est": "$5.94",
-    "cap": 913299600000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/jpm/earnings"
-   },
-   {
-    "date": "2026-10-13",
-    "type": "earnings",
-    "title": "JNJ",
-    "name": "Johnson & Johnson",
-    "time": "",
-    "eps_est": "$2.53",
-    "cap": 662491760000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/jnj/earnings"
-   },
-   {
-    "date": "2026-10-13",
-    "type": "earnings",
-    "title": "UNH",
-    "name": "UnitedHealth Group Incorporated",
-    "time": "",
-    "eps_est": "$4.12",
-    "cap": 368830710000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/unh/earnings"
-   },
-   {
-    "date": "2026-10-13",
-    "type": "earnings",
-    "title": "GS",
-    "name": "The Goldman Sachs Group, Inc.",
-    "time": "",
-    "eps_est": "$12.90",
-    "cap": 270128447000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/gs/earnings"
-   },
-   {
-    "date": "2026-10-13",
-    "type": "earnings",
-    "title": "WFC",
-    "name": "Wells Fargo & Company",
-    "time": "",
-    "eps_est": "$1.85",
-    "cap": 254586929000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/wfc/earnings"
-   },
-   {
-    "date": "2026-10-13",
-    "type": "earnings",
-    "title": "C",
-    "name": "Citigroup Inc.",
-    "time": "",
-    "eps_est": "$2.66",
-    "cap": 210954453000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/c/earnings"
-   },
-   {
-    "date": "2026-10-14",
-    "type": "macro",
-    "title": "CPI",
-    "time": "8:30 am ET",
-    "keys": [
-     "cpi",
-     "core_cpi"
-    ],
-    "url": "https://fred.stlouisfed.org/releases/calendar?rid=10"
-   },
-   {
-    "date": "2026-10-14",
-    "type": "earnings",
-    "title": "ASML",
-    "name": "ASML Holding N.V.",
-    "time": "",
-    "eps_est": "$12.47",
-    "cap": 645844370000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/asml/earnings"
-   },
-   {
-    "date": "2026-10-14",
-    "type": "earnings",
-    "title": "BAC",
-    "name": "Bank of America Corporation",
-    "time": "",
-    "eps_est": "$1.11",
-    "cap": 357609144000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/bac/earnings"
-   },
-   {
-    "date": "2026-10-14",
-    "type": "earnings",
-    "title": "MS",
-    "name": "Morgan Stanley",
-    "time": "",
-    "eps_est": "$2.83",
-    "cap": 298407592000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/ms/earnings"
-   },
-   {
-    "date": "2026-10-14",
-    "type": "earnings",
-    "title": "BLK",
-    "name": "BlackRock, Inc.",
-    "time": "",
-    "eps_est": "$14.01",
-    "cap": 182163423000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/blk/earnings"
-   },
-   {
-    "date": "2026-10-14",
-    "type": "earnings",
-    "title": "PGR",
-    "name": "Progressive Corporation (The)",
-    "time": "",
-    "eps_est": "$4.46",
-    "cap": 133820154000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/pgr/earnings"
-   },
-   {
-    "date": "2026-10-15",
-    "type": "macro",
-    "title": "PPI",
-    "time": "8:30 am ET",
-    "keys": [],
-    "url": "https://fred.stlouisfed.org/releases/calendar?rid=46"
-   },
-   {
-    "date": "2026-10-15",
-    "type": "macro",
-    "title": "Jobless claims",
-    "time": "8:30 am ET",
-    "keys": [],
-    "url": "https://fred.stlouisfed.org/releases/calendar?rid=180"
-   },
-   {
-    "date": "2026-10-15",
-    "type": "macro",
-    "title": "Retail sales",
-    "time": "8:30 am ET",
-    "keys": [],
-    "url": "https://fred.stlouisfed.org/releases/calendar?rid=9"
-   },
-   {
-    "date": "2026-10-15",
-    "type": "earnings",
-    "title": "TSM",
-    "name": "Taiwan Semiconductor Manufacturing Company Ltd.",
-    "time": "",
-    "eps_est": "$4.45",
-    "cap": 2239584800000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/tsm/earnings"
-   },
-   {
-    "date": "2026-10-15",
-    "type": "earnings",
-    "title": "SCHW",
-    "name": "The Charles Schwab Corporation",
-    "time": "",
-    "eps_est": "$1.66",
-    "cap": 154723664000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/schw/earnings"
-   },
-   {
-    "date": "2026-10-15",
-    "type": "earnings",
-    "title": "PLD",
-    "name": "Prologis, Inc.",
-    "time": "",
-    "eps_est": "$1.58",
-    "cap": 121684673000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/pld/earnings"
-   },
-   {
-    "date": "2026-10-15",
-    "type": "earnings",
-    "title": "BNY",
-    "name": "The Bank Of New York Mellon Corporation ",
-    "time": "",
-    "eps_est": "$2.26",
-    "cap": 101348164000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/bny/earnings"
-   },
-   {
-    "date": "2026-10-20",
-    "type": "earnings",
-    "title": "SPCX",
-    "name": "Space Exploration Technologies Corp.",
-    "time": "",
-    "eps_est": "$0.10",
-    "cap": 1954179320000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/spcx/earnings"
-   },
-   {
-    "date": "2026-10-20",
-    "type": "earnings",
-    "title": "GE",
-    "name": "GE Aerospace",
-    "time": "",
-    "eps_est": "$2.02",
-    "cap": 323490808000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/ge/earnings"
-   },
-   {
-    "date": "2026-10-20",
-    "type": "earnings",
-    "title": "RTX",
-    "name": "RTX Corporation",
-    "time": "",
-    "eps_est": "$1.78",
-    "cap": 269078446000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/rtx/earnings"
-   },
-   {
-    "date": "2026-10-20",
-    "type": "earnings",
-    "title": "NFLX",
-    "name": "Netflix, Inc.",
-    "time": "",
-    "eps_est": "$0.82",
-    "cap": 254797529000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/nflx/earnings"
-   },
-   {
-    "date": "2026-10-20",
-    "type": "earnings",
-    "title": "ISRG",
-    "name": "Intuitive Surgical, Inc.",
-    "time": "",
-    "eps_est": "$2.13",
-    "cap": 155559838000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/isrg/earnings"
-   },
-   {
-    "date": "2026-10-20",
-    "type": "earnings",
-    "title": "CB",
-    "name": "Chubb Limited",
-    "time": "",
-    "eps_est": "$6.53",
-    "cap": 138419667000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/cb/earnings"
-   },
-   {
-    "date": "2026-10-20",
-    "type": "earnings",
-    "title": "COF",
-    "name": "Capital One Financial Corporation",
-    "time": "",
-    "eps_est": "$5.45",
-    "cap": 128058827000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/cof/earnings"
-   },
-   {
-    "date": "2026-10-20",
-    "type": "earnings",
-    "title": "GM",
-    "name": "General Motors Company",
-    "time": "",
-    "eps_est": "$3.55",
-    "cap": 72309055000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/gm/earnings"
-   },
-   {
-    "date": "2026-10-21",
-    "type": "earnings",
-    "title": "META",
-    "name": "Meta Platforms, Inc.",
-    "time": "",
-    "eps_est": "$6.52",
-    "cap": 1596423800000,
-    "tier": "mag7",
-    "url": "https://www.nasdaq.com/market-activity/stocks/meta/earnings"
-   },
-   {
-    "date": "2026-10-21",
-    "type": "earnings",
-    "title": "TSLA",
-    "name": "Tesla, Inc. ",
-    "time": "",
-    "eps_est": "$0.22",
-    "cap": 1594147340000,
-    "tier": "mag7",
-    "url": "https://www.nasdaq.com/market-activity/stocks/tsla/earnings"
-   },
-   {
-    "date": "2026-10-21",
-    "type": "earnings",
-    "title": "PM",
-    "name": "Philip Morris International Inc",
-    "time": "",
-    "eps_est": "$2.30",
-    "cap": 324979687000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/pm/earnings"
-   },
-   {
-    "date": "2026-10-21",
-    "type": "earnings",
-    "title": "LRCX",
-    "name": "Lam Research Corporation",
-    "time": "",
-    "eps_est": "$2.17",
-    "cap": 317776626000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/lrcx/earnings"
-   },
-   {
-    "date": "2026-10-21",
-    "type": "earnings",
-    "title": "SAP",
-    "name": "SAP SE",
-    "time": "",
-    "eps_est": "$2.03",
-    "cap": 287555977000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/sap/earnings"
-   },
-   {
-    "date": "2026-10-21",
-    "type": "earnings",
-    "title": "TXN",
-    "name": "Texas Instruments Incorporated",
-    "time": "",
-    "eps_est": "$2.40",
-    "cap": 285955293000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/txn/earnings"
-   },
-   {
-    "date": "2026-10-21",
-    "type": "earnings",
-    "title": "TMO",
-    "name": "Thermo Fisher Scientific Inc",
-    "time": "",
-    "eps_est": "$6.40",
-    "cap": 262217384000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/tmo/earnings"
-   },
-   {
-    "date": "2026-10-21",
-    "type": "earnings",
-    "title": "IBM",
-    "name": "International Business Machines Corporation",
-    "time": "",
-    "eps_est": "$2.88",
-    "cap": 244105806000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/ibm/earnings"
-   },
-   {
-    "date": "2026-10-21",
-    "type": "earnings",
-    "title": "ABT",
-    "name": "Abbott Laboratories",
-    "time": "",
-    "eps_est": "$1.43",
-    "cap": 180946174000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/abt/earnings"
-   },
-   {
-    "date": "2026-10-21",
-    "type": "earnings",
-    "title": "NEE",
-    "name": "NextEra Energy, Inc.",
-    "time": "",
-    "eps_est": "$1.20",
-    "cap": 172272714000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/nee/earnings"
-   },
-   {
-    "date": "2026-10-21",
-    "type": "earnings",
-    "title": "DHR",
-    "name": "Danaher Corporation",
-    "time": "",
-    "eps_est": "$1.92",
-    "cap": 166722732000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/dhr/earnings"
-   },
-   {
-    "date": "2026-10-21",
-    "type": "earnings",
-    "title": "SCCO",
-    "name": "Southern Copper Corporation",
-    "time": "",
-    "eps_est": "$2.04",
-    "cap": 161894531000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/scco/earnings"
-   },
-   {
-    "date": "2026-10-21",
-    "type": "earnings",
-    "title": "T",
-    "name": "AT&T Inc.",
-    "time": "",
-    "eps_est": "$0.61",
-    "cap": 140927025000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/t/earnings"
-   },
-   {
-    "date": "2026-10-21",
-    "type": "earnings",
-    "title": "CME",
-    "name": "CME Group Inc.",
-    "time": "",
-    "eps_est": "$2.98",
-    "cap": 106098016000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/cme/earnings"
-   },
-   {
-    "date": "2026-10-22",
-    "type": "macro",
-    "title": "Jobless claims",
-    "time": "8:30 am ET",
-    "keys": [],
-    "url": "https://fred.stlouisfed.org/releases/calendar?rid=180"
-   },
-   {
-    "date": "2026-10-22",
-    "type": "earnings",
-    "title": "PG",
-    "name": "Procter & Gamble Company (The)",
-    "time": "",
-    "eps_est": "$1.89",
-    "cap": 372212793000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/pg/earnings"
-   },
-   {
-    "date": "2026-10-22",
-    "type": "earnings",
-    "title": "UNP",
-    "name": "Union Pacific Corporation",
-    "time": "",
-    "eps_est": "$3.47",
-    "cap": 179422036000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/unp/earnings"
-   },
-   {
-    "date": "2026-10-22",
-    "type": "earnings",
-    "title": "LMT",
-    "name": "Lockheed Martin Corporation",
-    "time": "",
-    "eps_est": "$7.49",
-    "cap": 148672283000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/lmt/earnings"
-   },
-   {
-    "date": "2026-10-22",
-    "type": "earnings",
-    "title": "WDC",
-    "name": "Western Digital Corporation",
-    "time": "",
-    "eps_est": "$3.99",
-    "cap": 148011172000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/wdc/earnings"
-   },
-   {
-    "date": "2026-10-22",
-    "type": "earnings",
-    "title": "SPOT",
-    "name": "Spotify Technology S.A.",
-    "time": "",
-    "eps_est": "$3.10",
-    "cap": 117433467000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/spot/earnings"
-   },
-   {
-    "date": "2026-10-22",
-    "type": "earnings",
-    "title": "NEM",
-    "name": "Newmont Corporation",
-    "time": "",
-    "eps_est": "$1.94",
-    "cap": 116181795000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/nem/earnings"
-   },
-   {
-    "date": "2026-10-22",
-    "type": "earnings",
-    "title": "VLO",
-    "name": "Valero Energy Corporation",
-    "time": "",
-    "eps_est": "$21.28",
-    "cap": 107250573000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/vlo/earnings"
-   },
-   {
-    "date": "2026-10-23",
-    "type": "macro",
-    "title": "UMich sentiment",
-    "time": "11:00 am ET",
-    "keys": [],
-    "url": "https://fred.stlouisfed.org/releases/calendar?rid=91"
-   },
-   {
-    "date": "2026-10-23",
-    "type": "earnings",
-    "title": "AXP",
-    "name": "American Express Company",
-    "time": "",
-    "eps_est": "$4.47",
-    "cap": 217064391000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/axp/earnings"
-   },
-   {
-    "date": "2026-10-26",
-    "type": "earnings",
-    "title": "KOF",
-    "name": "Coca Cola Femsa S.A.B. de C.V.",
-    "time": "",
-    "eps_est": "$1.89",
-    "cap": 194116895000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/kof/earnings"
-   },
-   {
-    "date": "2026-10-26",
-    "type": "earnings",
-    "title": "VZ",
-    "name": "Verizon Communications Inc.",
-    "time": "",
-    "eps_est": "$1.27",
-    "cap": 181397488000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/vz/earnings"
-   },
-   {
-    "date": "2026-10-26",
-    "type": "earnings",
-    "title": "WELL",
-    "name": "Welltower Inc.",
-    "time": "",
-    "eps_est": "$1.64",
-    "cap": 171055809000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/well/earnings"
-   },
-   {
-    "date": "2026-10-27",
-    "type": "earnings",
-    "title": "V",
-    "name": "Visa Inc.",
-    "time": "",
-    "eps_est": "$3.43",
-    "cap": 733534490000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/v/earnings"
-   },
-   {
-    "date": "2026-10-27",
-    "type": "earnings",
-    "title": "KO",
-    "name": "Coca-Cola Company (The)",
-    "time": "",
-    "eps_est": "$0.87",
-    "cap": 399302590000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/ko/earnings"
-   },
-   {
-    "date": "2026-10-27",
-    "type": "earnings",
-    "title": "NVS",
-    "name": "Novartis AG",
-    "time": "",
-    "eps_est": "$2.25",
-    "cap": 307403227000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/nvs/earnings"
-   },
-   {
-    "date": "2026-10-27",
-    "type": "earnings",
-    "title": "HSBC",
-    "name": "HSBC Holdings plc",
-    "time": "",
-    "eps_est": "$2.13",
-    "cap": 296637923000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/hsbc/earnings"
-   },
-   {
-    "date": "2026-10-27",
-    "type": "earnings",
-    "title": "STX",
-    "name": "Seagate Technology Holdings PLC",
-    "time": "",
-    "eps_est": "$7.17",
-    "cap": 160210485000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/stx/earnings"
-   },
-   {
-    "date": "2026-10-27",
-    "type": "earnings",
-    "title": "BA",
-    "name": "Boeing Company (The)",
-    "time": "",
-    "eps_est": "($0.21)",
-    "cap": 136816484000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/ba/earnings"
-   },
-   {
-    "date": "2026-10-27",
-    "type": "earnings",
-    "title": "SPGI",
-    "name": "S&P Global Inc.",
-    "time": "",
-    "eps_est": "$4.43",
-    "cap": 133545337000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/spgi/earnings"
-   },
-   {
-    "date": "2026-10-27",
-    "type": "earnings",
-    "title": "GLW",
-    "name": "Corning Incorporated",
-    "time": "",
-    "eps_est": "$0.89",
-    "cap": 111015731000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/glw/earnings"
-   },
-   {
-    "date": "2026-10-27",
-    "type": "earnings",
-    "title": "HCA",
-    "name": "HCA Healthcare, Inc.",
-    "time": "",
-    "eps_est": "$6.74",
-    "cap": 103505035000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/hca/earnings"
-   },
-   {
-    "date": "2026-10-27",
-    "type": "earnings",
-    "title": "UPS",
-    "name": "United Parcel Service, Inc.",
-    "time": "",
-    "eps_est": "$1.63",
-    "cap": 91314389000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/ups/earnings"
-   },
-   {
-    "date": "2026-10-28",
-    "type": "macro",
-    "title": "FOMC decision",
-    "time": "2:00 pm ET",
-    "keys": [],
-    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
-   },
-   {
-    "date": "2026-10-28",
-    "type": "earnings",
-    "title": "MSFT",
-    "name": "Microsoft Corporation",
-    "time": "",
-    "eps_est": "$4.71",
-    "cap": 3936922890000,
-    "tier": "mag7",
-    "url": "https://www.nasdaq.com/market-activity/stocks/msft/earnings"
-   },
-   {
-    "date": "2026-10-28",
-    "type": "earnings",
-    "title": "GOOG",
-    "name": "Alphabet Inc.",
-    "time": "",
-    "eps_est": "$2.94",
-    "cap": 3489283180000,
-    "tier": "mag7",
-    "url": "https://www.nasdaq.com/market-activity/stocks/goog/earnings"
-   },
-   {
-    "date": "2026-10-28",
-    "type": "earnings",
-    "title": "SKHY",
-    "name": "SK hynix Inc.",
-    "time": "",
-    "eps_est": "$5.96",
-    "cap": 1181418130000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/skhy/earnings"
-   },
-   {
-    "date": "2026-10-28",
-    "type": "earnings",
-    "title": "GEV",
-    "name": "GE Vernova Inc.",
-    "time": "",
-    "eps_est": "$4.03",
-    "cap": 234993533000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/gev/earnings"
-   },
-   {
-    "date": "2026-10-28",
-    "type": "earnings",
-    "title": "KLAC",
-    "name": "KLA Corporation ",
-    "time": "",
-    "eps_est": "$1.18",
-    "cap": 218497237000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/klac/earnings"
-   },
-   {
-    "date": "2026-10-28",
-    "type": "earnings",
-    "title": "APH",
-    "name": "Amphenol Corporation",
-    "time": "",
-    "eps_est": "$0.73",
-    "cap": 202406560000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/aph/earnings"
-   },
-   {
-    "date": "2026-10-28",
-    "type": "earnings",
-    "title": "SAN",
-    "name": "Banco Santander, S.A.",
-    "time": "",
-    "eps_est": "$0.26",
-    "cap": 166862963000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/san/earnings"
-   },
-   {
-    "date": "2026-10-28",
-    "type": "earnings",
-    "title": "TMUS",
-    "name": "T-Mobile US, Inc.",
-    "time": "",
-    "eps_est": "$2.86",
-    "cap": 156020261000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/tmus/earnings"
-   },
-   {
-    "date": "2026-10-28",
-    "type": "earnings",
-    "title": "UBS",
-    "name": "UBS AG",
-    "time": "",
-    "eps_est": "$0.91",
-    "cap": 149368340000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/ubs/earnings"
-   },
-   {
-    "date": "2026-10-28",
-    "type": "earnings",
-    "title": "EQNR",
-    "name": "Equinor ASA",
-    "time": "",
-    "eps_est": "$1.38",
-    "cap": 118962897000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/eqnr/earnings"
-   },
-   {
-    "date": "2026-10-28",
-    "type": "earnings",
-    "title": "NOW",
-    "name": "ServiceNow, Inc.",
-    "time": "",
-    "eps_est": "$0.56",
-    "cap": 113837457000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/now/earnings"
-   },
-   {
-    "date": "2026-10-28",
-    "type": "earnings",
-    "title": "ADP",
-    "name": "Automatic Data Processing, Inc.",
-    "time": "",
-    "eps_est": "$2.78",
-    "cap": 113359643000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/adp/earnings"
-   },
-   {
-    "date": "2026-10-28",
-    "type": "earnings",
-    "title": "PSX",
-    "name": "Phillips 66",
-    "time": "",
-    "eps_est": "$11.97",
-    "cap": 106727703000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/psx/earnings"
-   },
-   {
-    "date": "2026-10-28",
-    "type": "earnings",
-    "title": "EQIX",
-    "name": "Equinix, Inc.",
-    "time": "",
-    "eps_est": "$9.28",
-    "cap": 102618218000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/eqix/earnings"
-   },
-   {
-    "date": "2026-10-28",
-    "type": "earnings",
-    "title": "FTNT",
-    "name": "Fortinet, Inc.",
-    "time": "",
-    "eps_est": "$0.77",
-    "cap": 102059565000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/ftnt/earnings"
-   },
-   {
-    "date": "2026-10-28",
-    "type": "earnings",
-    "title": "FDX",
-    "name": "FedEx Corporation",
-    "time": "",
-    "eps_est": "$3.24",
-    "cap": 72091247000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/fdx/earnings"
-   },
-   {
-    "date": "2026-10-28",
-    "type": "earnings",
-    "title": "F",
-    "name": "Ford Motor Company",
-    "time": "",
-    "eps_est": "$0.39",
-    "cap": 48410952000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/f/earnings"
-   },
-   {
-    "date": "2026-10-29",
-    "type": "macro",
-    "title": "Jobless claims",
-    "time": "8:30 am ET",
-    "keys": [],
-    "url": "https://fred.stlouisfed.org/releases/calendar?rid=180"
-   },
-   {
-    "date": "2026-10-29",
-    "type": "macro",
-    "title": "GDP",
-    "time": "8:30 am ET",
-    "keys": [
-     "gdp"
-    ],
-    "url": "https://fred.stlouisfed.org/releases/calendar?rid=53"
-   },
-   {
-    "date": "2026-10-29",
-    "type": "macro",
-    "title": "PCE / income",
-    "time": "8:30 am ET",
-    "keys": [
-     "core_pce"
-    ],
-    "url": "https://fred.stlouisfed.org/releases/calendar?rid=54"
-   },
-   {
-    "date": "2026-10-29",
-    "type": "earnings",
-    "title": "AMZN",
-    "name": "Amazon.com, Inc.",
-    "time": "",
-    "eps_est": "$2.01",
-    "cap": 2629595300000,
-    "tier": "mag7",
-    "url": "https://www.nasdaq.com/market-activity/stocks/amzn/earnings"
-   },
-   {
-    "date": "2026-10-29",
-    "type": "earnings",
-    "title": "LLY",
-    "name": "Eli Lilly and Company",
-    "time": "",
-    "eps_est": "$5.38",
-    "cap": 1293142200000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/lly/earnings"
-   },
-   {
-    "date": "2026-10-29",
-    "type": "earnings",
-    "title": "MA",
-    "name": "Mastercard Incorporated",
-    "time": "",
-    "eps_est": "$5.14",
-    "cap": 556879510000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/ma/earnings"
-   },
-   {
-    "date": "2026-10-29",
-    "type": "earnings",
-    "title": "INTC",
-    "name": "Intel Corporation",
-    "time": "",
-    "eps_est": "$0.28",
-    "cap": 486596346000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/intc/earnings"
-   },
-   {
-    "date": "2026-10-29",
-    "type": "earnings",
-    "title": "MRK",
-    "name": "Merck & Company, Inc.",
-    "time": "",
-    "eps_est": "$2.12",
-    "cap": 361021211000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/mrk/earnings"
-   },
-   {
-    "date": "2026-10-29",
-    "type": "earnings",
-    "title": "CAT",
-    "name": "Caterpillar, Inc.",
-    "time": "",
-    "eps_est": "$7.12",
-    "cap": 297588916000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/cat/earnings"
-   },
-   {
-    "date": "2026-10-29",
-    "type": "earnings",
-    "title": "SHEL",
-    "name": "Shell PLC",
-    "time": "",
-    "eps_est": "$3.54",
-    "cap": 291701588000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/shel/earnings"
-   },
-   {
-    "date": "2026-10-29",
-    "type": "earnings",
-    "title": "LIN",
-    "name": "Linde plc",
-    "time": "",
-    "eps_est": "$4.52",
-    "cap": 231942177000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/lin/earnings"
-   },
-   {
-    "date": "2026-10-29",
-    "type": "earnings",
-    "title": "TTE",
-    "name": "TotalEnergies SE",
-    "time": "",
-    "eps_est": "$4.11",
-    "cap": 214202368000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/tte/earnings"
-   },
-   {
-    "date": "2026-10-29",
-    "type": "earnings",
-    "title": "GILD",
-    "name": "Gilead Sciences, Inc.",
-    "time": "",
-    "eps_est": "$2.17",
-    "cap": 205348979000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/gild/earnings"
-   },
-   {
-    "date": "2026-10-29",
-    "type": "earnings",
-    "title": "SNDK",
-    "name": "Sandisk Corporation",
-    "time": "",
-    "eps_est": "$46.19",
-    "cap": 193293091000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/sndk/earnings"
-   },
-   {
-    "date": "2026-10-29",
-    "type": "earnings",
-    "title": "BUD",
-    "name": "Anheuser-Busch Inbev SA",
-    "time": "",
-    "eps_est": "$1.14",
-    "cap": 156824027000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/bud/earnings"
-   },
-   {
-    "date": "2026-10-29",
-    "type": "earnings",
-    "title": "BBVA",
-    "name": "Banco Bilbao Vizcaya Argentaria S.A.",
-    "time": "",
-    "eps_est": "$0.62",
-    "cap": 138601284000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/bbva/earnings"
-   },
-   {
-    "date": "2026-10-29",
-    "type": "earnings",
-    "title": "MO",
-    "name": "Altria Group",
-    "time": "",
-    "eps_est": "$1.51",
-    "cap": 128152846000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/mo/earnings"
-   },
-   {
-    "date": "2026-10-29",
-    "type": "earnings",
-    "title": "BMY",
-    "name": "Bristol-Myers Squibb Company",
-    "time": "",
-    "eps_est": "$1.21",
-    "cap": 125402251000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/bmy/earnings"
-   },
-   {
-    "date": "2026-10-29",
-    "type": "earnings",
-    "title": "SBUX",
-    "name": "Starbucks Corporation",
-    "time": "",
-    "eps_est": "$0.73",
-    "cap": 120281399000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/sbux/earnings"
-   },
-   {
-    "date": "2026-10-29",
-    "type": "earnings",
-    "title": "SYK",
-    "name": "Stryker Corporation",
-    "time": "",
-    "eps_est": "$3.56",
-    "cap": 119578894000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/syk/earnings"
-   },
-   {
-    "date": "2026-10-29",
-    "type": "earnings",
-    "title": "COIN",
-    "name": "Coinbase Global, Inc.",
-    "time": "",
-    "eps_est": "($0.16)",
-    "cap": 42369573000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/coin/earnings"
-   },
-   {
-    "date": "2026-10-30",
-    "type": "earnings",
-    "title": "XOM",
-    "name": "ExxonMobil Holdings Corporation",
-    "time": "BMO",
-    "eps_est": "$3.90",
-    "cap": 753672320000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/xom/earnings"
-   },
-   {
-    "date": "2026-10-30",
-    "type": "earnings",
-    "title": "ABBV",
-    "name": "AbbVie Inc.",
-    "time": "BMO",
-    "eps_est": "$3.74",
-    "cap": 513860043000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/abbv/earnings"
-   },
-   {
-    "date": "2026-10-30",
-    "type": "earnings",
-    "title": "CVX",
-    "name": "Chevron Corporation",
-    "time": "BMO",
-    "eps_est": "$4.78",
-    "cap": 457312010000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/cvx/earnings"
-   },
-   {
-    "date": "2026-10-30",
-    "type": "earnings",
-    "title": "AZN",
-    "name": "AstraZeneca PLC",
-    "time": "BMO",
-    "eps_est": "$2.60",
-    "cap": 263788495000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/azn/earnings"
-   },
-   {
-    "date": "2026-10-30",
-    "type": "earnings",
-    "title": "BP",
-    "name": "BP p.l.c.",
-    "time": "BMO",
-    "eps_est": "$2.66",
-    "cap": 129767219000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/bp/earnings"
-   },
-   {
-    "date": "2026-10-30",
-    "type": "earnings",
-    "title": "SNY",
-    "name": "Sanofi",
-    "time": "BMO",
-    "eps_est": "$1.63",
-    "cap": 105187779000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/sny/earnings"
-   },
-   {
-    "date": "2026-10-30",
-    "type": "earnings",
-    "title": "GD",
-    "name": "General Dynamics Corporation",
-    "time": "BMO",
-    "eps_est": "$4.14",
-    "cap": 100328022000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/gd/earnings"
-   },
-   {
-    "date": "2026-10-30",
-    "type": "ipo",
-    "title": "OPAY",
-    "name": "OPAY Ltd",
-    "time": "",
-    "price": "19.00-21.00",
-    "size": "$386,400,000",
-    "url": "https://www.nasdaq.com/market-activity/ipos/overview?dealId=1405668-119603"
-   },
    {
     "date": "2026-11-02",
     "type": "earnings",
@@ -121447,13 +120101,13 @@
     "analyst": {
      "rating": "Hold",
      "sentiment": "Neutral",
-     "buy": 14,
+     "buy": 13,
      "hold": 9,
      "sell": 4,
-     "target": 338.28,
+     "target": 337.77,
      "price": 344.63,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121475,7 +120129,7 @@
      "target": 218.95,
      "price": 184.11,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121497,7 +120151,7 @@
      "target": 589.5,
      "price": 558.88,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121519,7 +120173,7 @@
      "target": 391.0,
      "price": 399.3,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121549,7 +120203,7 @@
      "target": 664.31,
      "price": 504.8,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121571,7 +120225,7 @@
      "target": 406.71,
      "price": 466.01,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121593,7 +120247,7 @@
      "target": 248.24,
      "price": 168.86,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121612,10 +120266,10 @@
      "buy": 28,
      "hold": 3,
      "sell": 0,
-     "target": 178.9,
+     "target": 178.89,
      "price": 157.49,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121637,7 +120291,7 @@
      "target": 29.62,
      "price": 30.52,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121659,7 +120313,7 @@
      "target": 507.78,
      "price": 369.97,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121681,7 +120335,7 @@
      "target": 457.12,
      "price": 444.73,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121703,7 +120357,7 @@
      "target": 233.38,
      "price": 148.13,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121725,7 +120379,7 @@
      "target": 40.58,
      "price": 32.95,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121743,7 +120397,7 @@
      "sentiment": "Bullish",
      "price": 195.71,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121765,7 +120419,7 @@
      "target": 326.29,
      "price": 205.97,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121781,13 +120435,13 @@
     "analyst": {
      "rating": "Hold",
      "sentiment": "Neutral",
-     "buy": 3,
+     "buy": 2,
      "hold": 6,
      "sell": 2,
-     "target": 200.42,
+     "target": 197.73,
      "price": 164.79,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121809,7 +120463,7 @@
      "target": 285.91,
      "price": 258.12,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121831,7 +120485,7 @@
      "target": 42.53,
      "price": 40.0,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121853,7 +120507,7 @@
      "target": 103.0,
      "price": 65.25,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121875,7 +120529,7 @@
      "target": 114.5,
      "price": 90.25,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121897,7 +120551,7 @@
      "target": 1021.5,
      "price": 994.58,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121927,7 +120581,7 @@
      "target": 152.8,
      "price": 154.03,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121945,7 +120599,7 @@
      "sentiment": "Bullish",
      "price": 25.3,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121967,7 +120621,7 @@
      "target": 51.44,
      "price": 47.34,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -121989,7 +120643,7 @@
      "target": 1173.75,
      "price": 899.82,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -122008,10 +120662,10 @@
      "buy": 6,
      "hold": 5,
      "sell": 0,
-     "target": 54.85,
+     "target": 54.81,
      "price": 56.11,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -122033,7 +120687,7 @@
      "target": 361.36,
      "price": 280.7,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -122049,13 +120703,13 @@
     "analyst": {
      "rating": "Hold",
      "sentiment": "Neutral",
-     "buy": 5,
+     "buy": 4,
      "hold": 7,
      "sell": 2,
      "target": 94.65,
      "price": 93.71,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -122093,10 +120747,10 @@
      "buy": 8,
      "hold": 6,
      "sell": 1,
-     "target": 55.87,
+     "target": 55.83,
      "price": 49.46,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -122129,7 +120783,7 @@
      "target": 22.83,
      "price": 22.05,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -122151,7 +120805,7 @@
      "target": 138.44,
      "price": 104.51,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -122181,7 +120835,7 @@
      "target": 661.5,
      "price": 390.09,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -122208,10 +120862,10 @@
      "buy": 1,
      "hold": 0,
      "sell": 0,
-     "target": 25.42,
+     "target": 25.38,
      "price": 21.56,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -122229,7 +120883,7 @@
      "sentiment": "Neutral",
      "price": 24.2,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -122247,7 +120901,7 @@
      "sentiment": "Bullish",
      "price": 9.66,
      "price_time": "Oct 30, 2026",
-     "fetched": "2026-10-31"
+     "fetched": "2026-11-01"
     }
    },
    {
@@ -122455,9 +121109,295 @@
     "cap": 177952768000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/de/earnings"
+   },
+   {
+    "date": "2026-12-01",
+    "type": "macro",
+    "title": "JOLTS",
+    "time": "10:00 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=192"
+   },
+   {
+    "date": "2026-12-01",
+    "type": "earnings",
+    "title": "CRWD",
+    "name": "CrowdStrike Holdings, Inc.",
+    "time": "",
+    "eps_est": "$0",
+    "cap": 267400577000,
+    "tier": "key",
+    "url": "https://www.nasdaq.com/market-activity/stocks/crwd/earnings"
+   },
+   {
+    "date": "2026-12-01",
+    "type": "earnings",
+    "title": "MRVL",
+    "name": "Marvell Technology, Inc.",
+    "time": "",
+    "eps_est": "$0.79",
+    "cap": 191462343000,
+    "tier": "",
+    "url": "https://www.nasdaq.com/market-activity/stocks/mrvl/earnings"
+   },
+   {
+    "date": "2026-12-01",
+    "type": "earnings",
+    "title": "BNS",
+    "name": "Bank of Nova Scotia (The)",
+    "time": "",
+    "eps_est": "$1.59",
+    "cap": 117038612000,
+    "tier": "",
+    "url": "https://www.nasdaq.com/market-activity/stocks/bns/earnings"
+   },
+   {
+    "date": "2026-12-02",
+    "type": "earnings",
+    "title": "RY",
+    "name": "Royal Bank Of Canada",
+    "time": "",
+    "eps_est": "$2.98",
+    "cap": 285268509000,
+    "tier": "key",
+    "url": "https://www.nasdaq.com/market-activity/stocks/ry/earnings"
+   },
+   {
+    "date": "2026-12-02",
+    "type": "earnings",
+    "title": "CRM",
+    "name": "Salesforce, Inc.",
+    "time": "",
+    "eps_est": "$2.41",
+    "cap": 190030692000,
+    "tier": "",
+    "url": "https://www.nasdaq.com/market-activity/stocks/crm/earnings"
+   },
+   {
+    "date": "2026-12-02",
+    "type": "earnings",
+    "title": "SNOW",
+    "name": "Snowflake Inc.",
+    "time": "",
+    "eps_est": "($0.32)",
+    "cap": 116519256000,
+    "tier": "",
+    "url": "https://www.nasdaq.com/market-activity/stocks/snow/earnings"
+   },
+   {
+    "date": "2026-12-03",
+    "type": "macro",
+    "title": "Jobless claims",
+    "time": "8:30 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=180"
+   },
+   {
+    "date": "2026-12-03",
+    "type": "earnings",
+    "title": "TD",
+    "name": "Toronto Dominion Bank (The)",
+    "time": "",
+    "eps_est": "$1.83",
+    "cap": 207984935000,
+    "tier": "key",
+    "url": "https://www.nasdaq.com/market-activity/stocks/td/earnings"
+   },
+   {
+    "date": "2026-12-03",
+    "type": "earnings",
+    "title": "BMO",
+    "name": "Bank Of Montreal",
+    "time": "",
+    "eps_est": "$2.76",
+    "cap": 122389856000,
+    "tier": "",
+    "url": "https://www.nasdaq.com/market-activity/stocks/bmo/earnings"
+   },
+   {
+    "date": "2026-12-03",
+    "type": "earnings",
+    "title": "CM",
+    "name": "Canadian Imperial Bank of Commerce",
+    "time": "",
+    "eps_est": "$1.83",
+    "cap": 107900133000,
+    "tier": "",
+    "url": "https://www.nasdaq.com/market-activity/stocks/cm/earnings"
+   },
+   {
+    "date": "2026-12-04",
+    "type": "macro",
+    "title": "Jobs report",
+    "time": "8:30 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=50"
+   },
+   {
+    "date": "2026-12-09",
+    "type": "macro",
+    "title": "FOMC decision + SEP",
+    "time": "2:00 pm ET",
+    "keys": [],
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+   },
+   {
+    "date": "2026-12-09",
+    "type": "earnings",
+    "title": "ORCL",
+    "name": "Oracle Corporation",
+    "time": "",
+    "eps_est": "$1.57",
+    "cap": 421992595000,
+    "tier": "key",
+    "url": "https://www.nasdaq.com/market-activity/stocks/orcl/earnings"
+   },
+   {
+    "date": "2026-12-10",
+    "type": "macro",
+    "title": "CPI",
+    "time": "8:30 am ET",
+    "keys": [
+     "cpi",
+     "core_cpi"
+    ],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=10"
+   },
+   {
+    "date": "2026-12-10",
+    "type": "macro",
+    "title": "Jobless claims",
+    "time": "8:30 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=180"
+   },
+   {
+    "date": "2026-12-10",
+    "type": "earnings",
+    "title": "AVGO",
+    "name": "Broadcom Inc.",
+    "time": "",
+    "eps_est": "$3.45",
+    "cap": 1646902250000,
+    "tier": "key",
+    "url": "https://www.nasdaq.com/market-activity/stocks/avgo/earnings"
+   },
+   {
+    "date": "2026-12-10",
+    "type": "earnings",
+    "title": "COST",
+    "name": "Costco Wholesale Corporation",
+    "time": "",
+    "eps_est": "$4.87",
+    "cap": 441392267000,
+    "tier": "key",
+    "url": "https://www.nasdaq.com/market-activity/stocks/cost/earnings"
+   },
+   {
+    "date": "2026-12-15",
+    "type": "macro",
+    "title": "PPI",
+    "time": "8:30 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=46"
+   },
+   {
+    "date": "2026-12-16",
+    "type": "macro",
+    "title": "Retail sales",
+    "time": "8:30 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=9"
+   },
+   {
+    "date": "2026-12-16",
+    "type": "earnings",
+    "title": "MU",
+    "name": "Micron Technology, Inc.",
+    "time": "",
+    "eps_est": "$37.93",
+    "cap": 1057054790000,
+    "tier": "key",
+    "url": "https://www.nasdaq.com/market-activity/stocks/mu/earnings"
+   },
+   {
+    "date": "2026-12-17",
+    "type": "macro",
+    "title": "Jobless claims",
+    "time": "8:30 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=180"
+   },
+   {
+    "date": "2026-12-17",
+    "type": "earnings",
+    "title": "ACN",
+    "name": "Accenture plc",
+    "time": "",
+    "eps_est": "$3.90",
+    "cap": 165321654000,
+    "tier": "",
+    "url": "https://www.nasdaq.com/market-activity/stocks/acn/earnings"
+   },
+   {
+    "date": "2026-12-17",
+    "type": "earnings",
+    "title": "NKE",
+    "name": "Nike, Inc.",
+    "time": "",
+    "eps_est": "$0.34",
+    "cap": 57065566000,
+    "tier": "key",
+    "url": "https://www.nasdaq.com/market-activity/stocks/nke/earnings"
+   },
+   {
+    "date": "2026-12-18",
+    "type": "macro",
+    "title": "UMich sentiment",
+    "time": "11:00 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=91"
+   },
+   {
+    "date": "2026-12-23",
+    "type": "macro",
+    "title": "GDP",
+    "time": "8:30 am ET",
+    "keys": [
+     "gdp"
+    ],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=53"
+   },
+   {
+    "date": "2026-12-23",
+    "type": "macro",
+    "title": "PCE / income",
+    "time": "8:30 am ET",
+    "keys": [
+     "core_pce"
+    ],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=54"
+   },
+   {
+    "date": "2026-12-24",
+    "type": "macro",
+    "title": "Jobless claims",
+    "time": "8:30 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=180"
+   },
+   {
+    "date": "2026-12-31",
+    "type": "macro",
+    "title": "Jobless claims",
+    "time": "8:30 am ET",
+    "keys": [],
+    "url": "https://fred.stlouisfed.org/releases/calendar?rid=180"
    }
   ],
-  "notes": [],
+  "notes": [
+   "Nasdaq earnings calendar failed for 7 day(s)"
+  ],
   "sources": [
    "FRED release calendar (BLS, BEA, Census, DOL, UMich release dates)",
    "Federal Reserve FOMC calendar",
@@ -122735,303 +121675,9 @@
     "name": "POP GLOBAL ACQUISITION Ltd",
     "size": "$115,000,000",
     "deal": "1404403-119532"
-   },
-   {
-    "date": "2026-09-30",
-    "ticker": "BHAIU",
-    "name": "BHAV Acquisition Corp II",
-    "size": "$100,000,000",
-    "deal": "1404187-119517"
-   },
-   {
-    "date": "2026-09-30",
-    "ticker": "YHTE",
-    "name": "Primagrove Ltd",
-    "size": "$43,125,000.00",
-    "deal": "1404178-119516"
-   },
-   {
-    "date": "2026-09-29",
-    "ticker": "MNBSU",
-    "name": "MNBS Acquisition Corp.",
-    "size": "$86,250,000",
-    "deal": "1403890-119505"
-   },
-   {
-    "date": "2026-09-28",
-    "ticker": "SRAV",
-    "name": "Source Agriventures Inc.",
-    "size": "$15,000,000",
-    "deal": "1290129-119499"
-   },
-   {
-    "date": "2026-09-28",
-    "ticker": "OSACU",
-    "name": "Orange Street Acquisition Corp",
-    "size": "$74,750,000",
-    "deal": "1403836-119493"
-   },
-   {
-    "date": "2026-09-28",
-    "ticker": "CSEAU",
-    "name": "Calm Seas Acquisition Corp.",
-    "size": "$230,000,000",
-    "deal": "1403800-119491"
-   },
-   {
-    "date": "2026-09-25",
-    "ticker": "TCXB",
-    "name": "TCGX Acquisition Corp. II",
-    "size": "$100,000,000",
-    "deal": "1403753-119489"
-   },
-   {
-    "date": "2026-09-25",
-    "ticker": "RGNA",
-    "name": "Regenlab USA Inc.",
-    "size": "$23,000,000",
-    "deal": "1403732-119482"
-   },
-   {
-    "date": "2026-09-25",
-    "ticker": "TFP",
-    "name": "TFP Group Ltd",
-    "size": "$100,000,000",
-    "deal": "1403703-119478"
-   },
-   {
-    "date": "2026-09-25",
-    "ticker": "MXRX",
-    "name": "MED-X, INC.",
-    "size": "",
-    "deal": "945915-119492"
-   },
-   {
-    "date": "2026-09-24",
-    "ticker": "CTY",
-    "name": "CITY THERAPEUTICS, INC.",
-    "size": "$199,999,998",
-    "deal": "1403574-119467"
-   },
-   {
-    "date": "2026-09-24",
-    "ticker": "FLSC",
-    "name": "Frazier Life Sciences Acquisition Corp. II",
-    "size": "$75,000,000",
-    "deal": "1403442-119456"
-   },
-   {
-    "date": "2026-09-21",
-    "ticker": "SVATU",
-    "name": "Silicon Valley Acquisition Corp. II",
-    "size": "$253,000,000",
-    "deal": "1403051-119432"
-   },
-   {
-    "date": "2026-09-21",
-    "ticker": "IAM",
-    "name": "Iambic Therapeutics, Inc.",
-    "size": "$150,000,000",
-    "deal": "1273626-119431"
-   },
-   {
-    "date": "2026-09-21",
-    "ticker": "FYH",
-    "name": "Sprout Red International Ltd",
-    "size": "$1,000,000",
-    "deal": "1402961-119427"
-   },
-   {
-    "date": "2026-09-18",
-    "ticker": "RTSN",
-    "name": "Retension Pharmaceuticals, Inc.",
-    "size": "$45,000,000",
-    "deal": "1278671-119418"
-   },
-   {
-    "date": "2026-09-18",
-    "ticker": "TRXB",
-    "name": "TRex Bio, Inc.",
-    "size": "$116,666,676",
-    "deal": "1402904-119414"
-   },
-   {
-    "date": "2026-09-18",
-    "ticker": "STNF",
-    "name": "Santa Ana Global Enterprises, S.A.",
-    "size": "$19,906,500",
-    "deal": "1402898-119407"
-   },
-   {
-    "date": "2026-09-18",
-    "ticker": "NSCL",
-    "name": "NSCALE Ltd",
-    "size": "$100,000,000",
-    "deal": "1402874-119401"
-   },
-   {
-    "date": "2026-09-18",
-    "ticker": "VME",
-    "name": "VME Companies, Inc.",
-    "size": "$23,000,000",
-    "deal": "1402710-119397"
-   },
-   {
-    "date": "2026-09-16",
-    "ticker": "LCACU",
-    "name": "Lower Cross Acquisitions Corp",
-    "size": "$230,000,000",
-    "deal": "1402416-119386"
-   },
-   {
-    "date": "2026-09-15",
-    "ticker": "SCQCU",
-    "name": "SPACCircle Acquisition Corp.",
-    "size": "$100,000,000",
-    "deal": "1402228-119376"
-   },
-   {
-    "date": "2026-09-15",
-    "ticker": "OHIIU",
-    "name": "Oceanhawk Acquisition II Corp.",
-    "size": "$172,500,000",
-    "deal": "1402102-119369"
-   },
-   {
-    "date": "2026-09-11",
-    "ticker": "",
-    "name": "Meey Global Corp",
-    "size": "$34,500,000",
-    "deal": "1401909-119352"
-   },
-   {
-    "date": "2026-09-11",
-    "ticker": "FTPKU",
-    "name": "FuturePeak Acquisition Corp",
-    "size": "$86,250,000",
-    "deal": "1401861-119333"
-   },
-   {
-    "date": "2026-09-11",
-    "ticker": "HFE",
-    "name": "Hao Feng Group Ltd.",
-    "size": "$29,440,000",
-    "deal": "1401807-119332"
-   },
-   {
-    "date": "2026-09-10",
-    "ticker": "ALLNU",
-    "name": "Allarity Acquisition Corp.",
-    "size": "$92,000,000",
-    "deal": "1401548-119323"
-   },
-   {
-    "date": "2026-09-10",
-    "ticker": "ELEVU",
-    "name": "Elevation Acquisition Group Inc.",
-    "size": "$115,000,000",
-    "deal": "1401447-119317"
-   },
-   {
-    "date": "2026-09-09",
-    "ticker": "FBLLU",
-    "name": "Football Manager SPAC Inc.",
-    "size": "$115,000,000",
-    "deal": "1401430-119311"
-   },
-   {
-    "date": "2026-09-09",
-    "ticker": "HRIAU",
-    "name": "Harbour Island Acquisition Corp. I",
-    "size": "$115,000,000",
-    "deal": "1401396-119307"
-   },
-   {
-    "date": "2026-09-08",
-    "ticker": "JRWP",
-    "name": "Jingrui Wang Pu Holdings Group Ltd.",
-    "size": "$43,125,000.00",
-    "deal": "1328896-119287"
-   },
-   {
-    "date": "2026-09-04",
-    "ticker": "",
-    "name": "New Iceland Arctic Acquisition Corp.",
-    "size": "$143,750,000",
-    "deal": "1401052-119286"
-   },
-   {
-    "date": "2026-09-04",
-    "ticker": "ADRX",
-    "name": "ADARx Pharmaceuticals, Inc.",
-    "size": "$446,250,000",
-    "deal": "1108603-119284"
-   },
-   {
-    "date": "2026-09-04",
-    "ticker": "RDEV",
-    "name": "Rothe Development, Inc.",
-    "size": "$50,000,000",
-    "deal": "1366131-119294"
-   },
-   {
-    "date": "2026-09-04",
-    "ticker": "LCADU",
-    "name": "Legion Capital Acquisition Corp.",
-    "size": "$230,000,000",
-    "deal": "1400940-119267"
-   },
-   {
-    "date": "2026-09-03",
-    "ticker": "OURA",
-    "name": "Oura Inc.",
-    "size": "$2,530,000,000",
-    "deal": "1400871-119254"
-   },
-   {
-    "date": "2026-09-02",
-    "ticker": "ACCV",
-    "name": "Accelevation Holdings Corp.",
-    "size": "$540,000,000",
-    "deal": "1400711-119247"
-   },
-   {
-    "date": "2026-09-02",
-    "ticker": "LPNE",
-    "name": "LiPower New Energy Holdings Ltd",
-    "size": "$34,500,000",
-    "deal": "1400604-119241"
-   },
-   {
-    "date": "2026-09-01",
-    "ticker": "BOGD",
-    "name": "Bogd FT Ltd",
-    "size": "$43,125,000",
-    "deal": "1400511-119235"
-   },
-   {
-    "date": "2026-09-01",
-    "ticker": "RRCKU",
-    "name": "RainRock Acquisition Corp.",
-    "size": "$172,500,000",
-    "deal": "1400473-119233"
-   },
-   {
-    "date": "2026-09-01",
-    "ticker": "GLG",
-    "name": "GLGHK Ltd",
-    "size": "$40,250,000",
-    "deal": "1400461-119231"
-   },
-   {
-    "date": "2026-09-01",
-    "ticker": "SBE",
-    "name": "SB Energy, Inc.",
-    "size": "$100,000,000",
-    "deal": "1400437-119230"
    }
   ],
-  "as_of": "2026-10-31",
+  "as_of": "2026-11-01",
   "source": "https://www.nasdaq.com/market-activity/ipos"
  },
  "analysts": {
@@ -140059,9 +138705,9 @@
   "days_failed": [],
   "source": "https://www.marketbeat.com/ratings/",
   "note": "All actions for stocks with market cap >= $100B; upgrades, downgrades and initiations for >= $10B (caps from Nasdaq).",
-  "updated_et": "2026-10-31 07:25 ET"
+  "updated_et": "2026-11-01 06:26 ET"
  },
- "updated_et": "2026-10-31 07:26 ET",
+ "updated_et": "2026-11-01 06:26 ET",
  "indicators": [
   {
    "key": "cpi",
@@ -141262,7 +139908,7 @@
     3.75,
     4.0
    ],
-   "date": "2026-10-30",
+   "date": "2026-10-31",
    "source": "https://fred.stlouisfed.org/series/DFEDTARU"
   }
  ],
