@@ -20025,7 +20025,7 @@
      ],
      [
       "2026-08-21",
-      3.2485
+      3.251
      ],
      [
       "2026-08-22",
@@ -22826,12 +22826,8 @@
       4.072
      ],
      [
-      "2026-08-20",
-      4.0758
-     ],
-     [
       "2026-08-21",
-      4.084
+      4.0817
      ],
      [
       "2026-08-22",
@@ -23064,6 +23060,10 @@
      [
       "2026-10-28",
       4.5128
+     ],
+     [
+      "2026-10-29",
+      4.4608
      ],
      [
       "2026-10-30",
@@ -23989,10 +23989,6 @@
       1.706
      ],
      [
-      "2026-08-12",
-      1.703
-     ],
-     [
       "2026-08-13",
       1.696
      ],
@@ -24069,6 +24065,10 @@
       1.682
      ],
      [
+      "2026-09-09",
+      1.74
+     ],
+     [
       "2026-09-10",
       1.684
      ],
@@ -24087,6 +24087,14 @@
      [
       "2026-09-15",
       1.685
+     ],
+     [
+      "2026-09-16",
+      1.684
+     ],
+     [
+      "2026-09-17",
+      1.684
      ],
      [
       "2026-09-18",
@@ -24153,10 +24161,6 @@
       1.677
      ],
      [
-      "2026-10-15",
-      1.67
-     ],
-     [
       "2026-10-16",
       1.598
      ],
@@ -24187,6 +24191,10 @@
      [
       "2026-10-27",
       1.633
+     ],
+     [
+      "2026-10-28",
+      1.624
      ],
      [
       "2026-10-30",
@@ -53687,10 +53695,6 @@
       -2.994
      ],
      [
-      "2026-08-12",
-      -2.977
-     ],
-     [
       "2026-08-13",
       -2.934
      ],
@@ -53763,6 +53767,10 @@
       -3.118
      ],
      [
+      "2026-09-09",
+      -3.09
+     ],
+     [
       "2026-09-10",
       -3.266
      ],
@@ -53777,6 +53785,14 @@
      [
       "2026-09-15",
       -3.315
+     ],
+     [
+      "2026-09-16",
+      -3.326
+     ],
+     [
+      "2026-09-17",
+      -3.256
      ],
      [
       "2026-09-18",
@@ -53827,10 +53843,6 @@
       -3.513
      ],
      [
-      "2026-10-15",
-      -3.43
-     ],
-     [
       "2026-10-16",
       -3.492
      ],
@@ -53861,6 +53873,10 @@
      [
       "2026-10-27",
       -3.357
+     ],
+     [
+      "2026-10-28",
+      -3.426
      ],
      [
       "2026-10-30",
@@ -53917,7 +53933,7 @@
    ]
   },
   "failed": [],
-  "updated_et": "2026-11-03 06:43 ET"
+  "updated_et": "2026-11-03 09:02 ET"
  },
  "vol": {
   "items": [
@@ -69252,6 +69268,10 @@
       75.03
      ],
      [
+      "2026-07-15",
+      68.48
+     ],
+     [
       "2026-07-16",
       68.16
      ],
@@ -69318,6 +69338,10 @@
      [
       "2026-08-07",
       72.03
+     ],
+     [
+      "2026-08-10",
+      75.46
      ],
      [
       "2026-08-11",
@@ -71781,7 +71805,7 @@
     "unit": "",
     "src": "Deribit",
     "url": "https://www.deribit.com/statistics/BTC/volatility-index",
-    "freq": "24/7 \u00b7 latest 2026-11-03 06:00 ET",
+    "freq": "24/7 \u00b7 latest 2026-11-03 09:00 ET",
     "h": [
      [
       "2025-09-29",
@@ -73385,7 +73409,7 @@
      ],
      [
       "2026-11-03",
-      39.84
+      40.55
      ]
     ]
    },
@@ -75973,7 +75997,7 @@
     "unit": "",
     "src": "Deribit",
     "url": "https://www.deribit.com/statistics/ETH/volatility-index",
-    "freq": "24/7 \u00b7 latest 2026-11-03 06:00 ET",
+    "freq": "24/7 \u00b7 latest 2026-11-03 09:00 ET",
     "h": [
      [
       "2025-09-29",
@@ -77577,7 +77601,7 @@
      ],
      [
       "2026-11-03",
-      51.23
+      51.99
      ]
     ]
    },
@@ -81303,7 +81327,7 @@
    }
   ],
   "failed": [],
-  "updated_et": "2026-11-03 06:43 ET"
+  "updated_et": "2026-11-03 09:02 ET"
  },
  "indexes": {
   "items": [
@@ -93533,7 +93557,7 @@
      ],
      [
       "2026-11-03",
-      6146.21
+      6192.58
      ]
     ],
     "live": "2026-11-03"
@@ -94661,7 +94685,7 @@
      ],
      [
       "2026-11-03",
-      25827.27
+      25996.7
      ]
     ],
     "live": "2026-11-03"
@@ -95789,7 +95813,7 @@
      ],
      [
       "2026-11-03",
-      10697.89
+      10713.02
      ]
     ],
     "live": "2026-11-03"
@@ -96925,7 +96949,7 @@
      ],
      [
       "2026-11-03",
-      8030.03
+      8097.91
      ]
     ],
     "live": "2026-11-03"
@@ -98073,7 +98097,7 @@
      ],
      [
       "2026-11-03",
-      18840.5
+      18986.6
      ]
     ],
     "live": "2026-11-03"
@@ -99201,7 +99225,7 @@
      ],
      [
       "2026-11-03",
-      49799.72
+      50257.56
      ]
     ],
     "live": "2026-11-03"
@@ -100317,7 +100341,7 @@
      ],
      [
       "2026-11-03",
-      14783.66
+      14860.49
      ]
     ],
     "live": "2026-11-03"
@@ -111157,8 +111181,13 @@
      [
       "2026-10-30",
       167921.8
+     ],
+     [
+      "2026-11-03",
+      165604.03
      ]
-    ]
+    ],
+    "live": "2026-11-03"
    },
    {
     "key": "mxx",
@@ -120090,7 +120119,7 @@
    }
   ],
   "failed": [],
-  "updated_et": "2026-11-03 06:43 ET"
+  "updated_et": "2026-11-03 09:02 ET"
  },
  "calendar": {
   "start": "2026-11-01",
@@ -120101,9 +120130,9 @@
     "type": "earnings",
     "title": "AAPL",
     "name": "Apple Inc.",
-    "time": "AMC",
+    "time": "",
     "eps_est": "$1.98",
-    "cap": 5029592300000,
+    "cap": 4937503200000,
     "tier": "mag7",
     "url": "https://www.nasdaq.com/market-activity/stocks/aapl/earnings"
    },
@@ -120112,9 +120141,9 @@
     "type": "earnings",
     "title": "PLTR",
     "name": "Palantir Technologies Inc.",
-    "time": "AMC",
+    "time": "",
     "eps_est": "$0.32",
-    "cap": 442242073000,
+    "cap": 428382224000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/pltr/earnings"
    },
@@ -120123,9 +120152,9 @@
     "type": "earnings",
     "title": "VRTX",
     "name": "Vertex Pharmaceuticals Incorporated",
-    "time": "AMC",
+    "time": "",
     "eps_est": "$4.36",
-    "cap": 141654245000,
+    "cap": 140201902000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/vrtx/earnings"
    },
@@ -120134,9 +120163,9 @@
     "type": "earnings",
     "title": "MAR",
     "name": "Marriott International",
-    "time": "BMO",
+    "time": "",
     "eps_est": "$2.86",
-    "cap": 104123982000,
+    "cap": 108557009000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mar/earnings"
    },
@@ -120532,7 +120561,7 @@
     "title": "COP",
     "name": "ConocoPhillips",
     "time": "BMO",
-    "eps_est": "$2.95",
+    "eps_est": "$2.97",
     "cap": 185042010000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/cop/earnings",
@@ -120713,7 +120742,7 @@
     "name": "Petroleo Brasileiro S.A.- Petrobras",
     "time": "AMC",
     "eps_est": "$1.23",
-    "cap": 142098285000,
+    "cap": 136362795000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/pbr/earnings",
     "analyst": {
@@ -120765,7 +120794,7 @@
     "name": "Applied Materials, Inc.",
     "time": "AMC",
     "eps_est": "$4.06",
-    "cap": 309574435000,
+    "cap": 297226043000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/amat/earnings",
     "analyst": {
@@ -120777,6 +120806,28 @@
      "target": 661.5,
      "price": 384.58,
      "price_time": "Nov 3, 2026 6:42 AM ET",
+     "fetched": "2026-11-03"
+    }
+   },
+   {
+    "date": "2026-11-12",
+    "type": "earnings",
+    "title": "BN",
+    "name": "Brookfield Corporation",
+    "time": "BMO",
+    "eps_est": "$0.72",
+    "cap": 101562147000,
+    "tier": "",
+    "url": "https://www.nasdaq.com/market-activity/stocks/bn/earnings",
+    "analyst": {
+     "rating": "Buy",
+     "sentiment": "Bullish",
+     "buy": 6,
+     "hold": 0,
+     "sell": 0,
+     "target": 56.17,
+     "price": 41.4268,
+     "price_time": "Nov 3, 2026 8:55 AM ET",
      "fetched": "2026-11-03"
     }
    },
@@ -120861,7 +120912,7 @@
     "name": "NVIDIA Corporation",
     "time": "AMC",
     "eps_est": "$2.49",
-    "cap": 4931824100000,
+    "cap": 4869646200000,
     "tier": "mag7",
     "url": "https://www.nasdaq.com/market-activity/stocks/nvda/earnings"
    },
@@ -120872,7 +120923,7 @@
     "name": "Home Depot, Inc. (The)",
     "time": "BMO",
     "eps_est": "$3.86",
-    "cap": 328439431000,
+    "cap": 340361806000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/hd/earnings"
    },
@@ -120883,7 +120934,7 @@
     "name": "BHP Group Limited",
     "time": "",
     "eps_est": "",
-    "cap": 201122054000,
+    "cap": 204877545000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/bhp/earnings"
    },
@@ -120894,7 +120945,7 @@
     "name": "Walt Disney Company (The)",
     "time": "BMO",
     "eps_est": "$1.67",
-    "cap": 191558648000,
+    "cap": 195305554000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/dis/earnings"
    },
@@ -120905,7 +120956,7 @@
     "name": "Medtronic plc",
     "time": "",
     "eps_est": "$1.34",
-    "cap": 123487969000,
+    "cap": 127005598000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mdt/earnings"
    },
@@ -120916,7 +120967,7 @@
     "name": "PDD Holdings Inc.",
     "time": "",
     "eps_est": "$2.60",
-    "cap": 111893193000,
+    "cap": 116263027000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/pdd/earnings"
    },
@@ -120927,7 +120978,7 @@
     "name": "Palo Alto Networks, Inc.",
     "time": "",
     "eps_est": "$0.52",
-    "cap": 299443782000,
+    "cap": 287862817000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/panw/earnings"
    },
@@ -120938,7 +120989,7 @@
     "name": "TJX Companies, Inc. (The)",
     "time": "BMO",
     "eps_est": "$1.33",
-    "cap": 154337362000,
+    "cap": 155096351000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/tjx/earnings"
    },
@@ -120949,7 +121000,7 @@
     "name": "Lowe's Companies, Inc.",
     "time": "BMO",
     "eps_est": "$2.86",
-    "cap": 117299560000,
+    "cap": 122393936000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/low/earnings"
    },
@@ -120968,7 +121019,7 @@
     "name": "Walmart Inc.",
     "time": "BMO",
     "eps_est": "$0.64",
-    "cap": 979897020000,
+    "cap": 1013060080000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/wmt/earnings"
    },
@@ -120987,7 +121038,7 @@
     "name": "Dell Technologies Inc.",
     "time": "",
     "eps_est": "$6.41",
-    "cap": 269775356000,
+    "cap": 249734529000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/dell/earnings"
    },
@@ -120998,7 +121049,7 @@
     "name": "Alibaba Group Holding Limited",
     "time": "",
     "eps_est": "$1.31",
-    "cap": 237500531000,
+    "cap": 245882323000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/baba/earnings"
    },
@@ -121009,7 +121060,7 @@
     "name": "Analog Devices, Inc.",
     "time": "BMO",
     "eps_est": "$3.89",
-    "cap": 202117104000,
+    "cap": 200052851000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/adi/earnings"
    },
@@ -121048,7 +121099,7 @@
     "name": "Deere & Company",
     "time": "BMO",
     "eps_est": "$4.07",
-    "cap": 182126576000,
+    "cap": 180001931000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/de/earnings"
    },
@@ -121067,7 +121118,7 @@
     "name": "CrowdStrike Holdings, Inc.",
     "time": "",
     "eps_est": "$0",
-    "cap": 256424002000,
+    "cap": 247597679000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/crwd/earnings"
    },
@@ -121078,7 +121129,7 @@
     "name": "Marvell Technology, Inc.",
     "time": "",
     "eps_est": "$0.79",
-    "cap": 172223152000,
+    "cap": 150309421000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mrvl/earnings"
    },
@@ -121089,20 +121140,9 @@
     "name": "Bank of Nova Scotia (The)",
     "time": "",
     "eps_est": "$1.59",
-    "cap": 115033260000,
+    "cap": 115461620000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/bns/earnings"
-   },
-   {
-    "date": "2026-12-02",
-    "type": "earnings",
-    "title": "RY",
-    "name": "Royal Bank Of Canada",
-    "time": "",
-    "eps_est": "$2.98",
-    "cap": 281254396000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/ry/earnings"
    },
    {
     "date": "2026-12-02",
@@ -121111,7 +121151,7 @@
     "name": "Salesforce, Inc.",
     "time": "",
     "eps_est": "$2.41",
-    "cap": 188606906000,
+    "cap": 186146144000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/crm/earnings"
    },
@@ -121120,9 +121160,9 @@
     "type": "earnings",
     "title": "SNOW",
     "name": "Snowflake Inc.",
-    "time": "",
+    "time": "AMC",
     "eps_est": "($0.32)",
-    "cap": 107985027000,
+    "cap": 102551904000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/snow/earnings"
    },
@@ -121133,6 +121173,17 @@
     "time": "8:30 am ET",
     "keys": [],
     "url": "https://fred.stlouisfed.org/releases/calendar?rid=180"
+   },
+   {
+    "date": "2026-12-03",
+    "type": "earnings",
+    "title": "RY",
+    "name": "Royal Bank Of Canada",
+    "time": "BMO",
+    "eps_est": "$2.98",
+    "cap": 281254396000,
+    "tier": "key",
+    "url": "https://www.nasdaq.com/market-activity/stocks/ry/earnings"
    },
    {
     "date": "2026-12-03",
@@ -121189,8 +121240,8 @@
     "title": "ORCL",
     "name": "Oracle Corporation",
     "time": "",
-    "eps_est": "$1.57",
-    "cap": 395111596000,
+    "eps_est": "$1.56",
+    "cap": 360489812000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/orcl/earnings"
    },
@@ -121220,7 +121271,7 @@
     "name": "Broadcom Inc.",
     "time": "",
     "eps_est": "$3.45",
-    "cap": 1556585250000,
+    "cap": 1538206730000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/avgo/earnings"
    },
@@ -121231,7 +121282,7 @@
     "name": "Costco Wholesale Corporation",
     "time": "",
     "eps_est": "$4.87",
-    "cap": 448570982000,
+    "cap": 461098254000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/cost/earnings"
    },
@@ -121258,7 +121309,7 @@
     "name": "Micron Technology, Inc.",
     "time": "",
     "eps_est": "$37.93",
-    "cap": 1001015350000,
+    "cap": 943143060000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/mu/earnings"
    },
@@ -121277,7 +121328,7 @@
     "name": "Accenture plc",
     "time": "",
     "eps_est": "$3.90",
-    "cap": 172690981000,
+    "cap": 174496530000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/acn/earnings"
    },
@@ -121288,7 +121339,7 @@
     "name": "Nike, Inc.",
     "time": "",
     "eps_est": "$0.34",
-    "cap": 57436893000,
+    "cap": 58105283000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/nke/earnings"
    },
@@ -121338,7 +121389,7 @@
    }
   ],
   "notes": [
-   "Nasdaq earnings calendar failed for 6 day(s)"
+   "Nasdaq earnings calendar failed for 3 day(s)"
   ],
   "sources": [
    "FRED release calendar (BLS, BEA, Census, DOL, UMich release dates)",
@@ -121349,6 +121400,18 @@
  "ipo": {
   "upcoming": [],
   "priced": [
+   {
+    "date": "2026-11-02",
+    "ticker": "NARA",
+    "name": "Narragansett Bancorp, Inc.",
+    "exchange": "NASDAQ Capital",
+    "price": "10.00",
+    "shares": "9,098,800",
+    "size": "$90,988,000",
+    "deal": "1390143-118358",
+    "last": 11.0,
+    "last_time": "Nov 3, 2026 8:20 AM ET"
+   },
    {
     "date": "2026-10-30",
     "ticker": "BBTX",
@@ -121370,8 +121433,8 @@
     "shares": "9,375,000",
     "size": "$140,625,000",
     "deal": "1405733-119610",
-    "last": 13.04,
-    "last_time": "Nov 3, 2026 4:41 AM ET"
+    "last": 13.08,
+    "last_time": "Nov 3, 2026 7:44 AM ET"
    },
    {
     "date": "2026-10-29",
@@ -121383,7 +121446,7 @@
     "size": "",
     "deal": "165535-119563",
     "last": 37.28,
-    "last_time": "Nov 2, 2026"
+    "last_time": "Apr 2, 2027"
    },
    {
     "date": "2026-10-29",
@@ -121395,7 +121458,7 @@
     "size": "$100,000,000",
     "deal": "1404187-119517",
     "last": 9.995,
-    "last_time": "Apr 2, 2027"
+    "last_time": "Nov 2, 2026"
    },
    {
     "date": "2026-10-27",
@@ -121429,9 +121492,7 @@
     "price": "",
     "shares": "25,000,000",
     "size": "",
-    "deal": "1344257-114782",
-    "last": 1.4976,
-    "last_time": "Nov 3, 2026 6:40 AM ET"
+    "deal": "1344257-114782"
    }
   ],
   "filed": [
@@ -121551,7 +121612,7 @@
     "date": "2026-10-09",
     "ticker": "OPAY",
     "name": "OPAY Ltd",
-    "size": "$304,000,000",
+    "size": "$386,400,000",
     "deal": "1405668-119603"
    },
    {
@@ -121648,6 +121709,36 @@
     "date": "2026-11-03",
     "ticker": "AAPL",
     "company": "Apple",
+    "action": "Reiterated",
+    "action_raw": "Reiterated",
+    "firm": "Rosenblatt Securities",
+    "rating_old": "",
+    "rating_new": "Neutral",
+    "pt_old": "",
+    "pt_new": "$303.00",
+    "price": "$338.32",
+    "id": "2492126",
+    "cap": 4937502977600.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "AAPL",
+    "company": "Apple",
+    "action": "Reiterated",
+    "action_raw": "Reiterated",
+    "firm": "KeyCorp",
+    "rating_old": "",
+    "rating_new": "Underweight",
+    "pt_old": "",
+    "pt_new": "$250.00",
+    "price": "$338.32",
+    "id": "2492179",
+    "cap": 4937502977600.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "AAPL",
+    "company": "Apple",
     "action": "Target change",
     "action_raw": "Target Set",
     "firm": "UBS Group",
@@ -121667,8 +121758,8 @@
     "action_raw": "Target Set",
     "firm": "Morgan Stanley",
     "rating_old": "",
-    "rating_new": "",
-    "pt_old": "",
+    "rating_new": "Overweight",
+    "pt_old": "$355.00",
     "pt_new": "$350.00",
     "price": "$338.32",
     "id": "2491719",
@@ -121721,6 +121812,111 @@
    },
    {
     "date": "2026-11-03",
+    "ticker": "AAPL",
+    "company": "Apple",
+    "action": "Target change",
+    "action_raw": "Target Set",
+    "firm": "Robert W. Baird",
+    "rating_old": "",
+    "rating_new": "Outperform",
+    "pt_old": "$330.00",
+    "pt_new": "$340.00",
+    "price": "$338.32",
+    "id": "2492049",
+    "cap": 4937502977600.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "CVX",
+    "company": "Chevron",
+    "action": "Downgrade",
+    "action_raw": "Downgraded",
+    "firm": "DZ Bank",
+    "rating_old": "Buy",
+    "rating_new": "Hold",
+    "pt_old": "",
+    "pt_new": "$240.00",
+    "price": "$228.00",
+    "id": "2492031",
+    "cap": 450021423079.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "PLTR",
+    "company": "Palantir Technologies",
+    "action": "Reiterated",
+    "action_raw": "Reiterated",
+    "firm": "Rosenblatt Securities",
+    "rating_old": "",
+    "rating_new": "Buy",
+    "pt_old": "",
+    "pt_new": "$260.00",
+    "price": "$178.34",
+    "id": "2492128",
+    "cap": 428382217623.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "PLTR",
+    "company": "Palantir Technologies",
+    "action": "Reiterated",
+    "action_raw": "Reiterated",
+    "firm": "DA Davidson",
+    "rating_old": "",
+    "rating_new": "Buy",
+    "pt_old": "",
+    "pt_new": "$250.00",
+    "price": "$178.34",
+    "id": "2492170",
+    "cap": 428382217623.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "PLTR",
+    "company": "Palantir Technologies",
+    "action": "Target change",
+    "action_raw": "Target Raised",
+    "firm": "Morgan Stanley",
+    "rating_old": "Cautious",
+    "rating_new": "Buy",
+    "pt_old": "$205.00",
+    "pt_new": "$233.00",
+    "price": "$178.34",
+    "id": "2491716",
+    "cap": 428382217623.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "PLTR",
+    "company": "Palantir Technologies",
+    "action": "Reiterated",
+    "action_raw": "Reiterated",
+    "firm": "Piper Sandler",
+    "rating_old": "",
+    "rating_new": "Overweight",
+    "pt_old": "$231.00",
+    "pt_new": "$235.00",
+    "price": "$178.34",
+    "id": "2492040",
+    "cap": 428382217623.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "PLTR",
+    "company": "Palantir Technologies",
+    "action": "Target change",
+    "action_raw": "Target Raised",
+    "firm": "Royal Bank Of Canada",
+    "rating_old": "",
+    "rating_new": "Underperform",
+    "pt_old": "$90.00",
+    "pt_new": "$130.00",
+    "price": "$178.34",
+    "id": "2492044",
+    "cap": 428382217623.0
+   },
+   {
+    "date": "2026-11-03",
     "ticker": "PLTR",
     "company": "Palantir Technologies",
     "action": "Reiterated",
@@ -121738,16 +121934,46 @@
     "date": "2026-11-03",
     "ticker": "PLTR",
     "company": "Palantir Technologies",
-    "action": "Upgrade",
-    "action_raw": "Upgraded",
-    "firm": "Morgan Stanley",
-    "rating_old": "Cautious",
-    "rating_new": "Buy",
+    "action": "Target change",
+    "action_raw": "Target Set",
+    "firm": "Truist Financial",
+    "rating_old": "",
+    "rating_new": "",
     "pt_old": "",
-    "pt_new": "$233.00",
+    "pt_new": "$250.00",
     "price": "$178.34",
-    "id": "2491716",
+    "id": "2492048",
     "cap": 428382217623.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "MRK",
+    "company": "Merck & Co., Inc.",
+    "action": "Downgrade",
+    "action_raw": "Downgraded",
+    "firm": "DZ Bank",
+    "rating_old": "Buy",
+    "rating_new": "Hold",
+    "pt_old": "",
+    "pt_new": "$153.00",
+    "price": "$148.58",
+    "id": "2492042",
+    "cap": 366029584214.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "PM",
+    "company": "Philip Morris International",
+    "action": "Target change",
+    "action_raw": "Target Raised",
+    "firm": "Stifel Nicolaus",
+    "rating_old": "",
+    "rating_new": "Buy",
+    "pt_old": "$205.00",
+    "pt_new": "$232.00",
+    "price": "$208.34",
+    "id": "2492164",
+    "cap": 324652380964.0
    },
    {
     "date": "2026-11-03",
@@ -121756,13 +121982,283 @@
     "action": "Downgrade",
     "action_raw": "Downgraded",
     "firm": "Itau BBA Securities",
-    "rating_old": "",
+    "rating_old": "Outperform",
     "rating_new": "Market Perform",
     "pt_old": "",
-    "pt_new": "",
+    "pt_new": "$116.00",
     "price": "$117.27",
     "id": "2491725",
     "cap": 196721933061.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "MRVL",
+    "company": "Marvell Technology",
+    "action": "Downgrade",
+    "action_raw": "Downgraded",
+    "firm": "Bank of America",
+    "rating_old": "Buy",
+    "rating_new": "Neutral",
+    "pt_old": "$400.00",
+    "pt_new": "$225.00",
+    "price": "$171.41",
+    "id": "2492034",
+    "cap": 150309429000.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "MRVL",
+    "company": "Marvell Technology",
+    "action": "Downgrade",
+    "action_raw": "Downgraded",
+    "firm": "TD Cowen",
+    "rating_old": "Buy",
+    "rating_new": "Hold",
+    "pt_old": "",
+    "pt_new": "$175.00",
+    "price": "$171.41",
+    "id": "2492035",
+    "cap": 150309429000.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "MRVL",
+    "company": "Marvell Technology",
+    "action": "Target change",
+    "action_raw": "Target Lowered",
+    "firm": "Cantor Fitzgerald",
+    "rating_old": "",
+    "rating_new": "Neutral",
+    "pt_old": "$350.00",
+    "pt_new": "$225.00",
+    "price": "$171.41",
+    "id": "2492147",
+    "cap": 150309429000.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "MRVL",
+    "company": "Marvell Technology",
+    "action": "Target change",
+    "action_raw": "Target Lowered",
+    "firm": "Needham & Company LLC",
+    "rating_old": "",
+    "rating_new": "Buy",
+    "pt_old": "$400.00",
+    "pt_new": "$300.00",
+    "price": "$171.41",
+    "id": "2492107",
+    "cap": 150309429000.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "VRTX",
+    "company": "Vertex Pharmaceuticals",
+    "action": "Target change",
+    "action_raw": "Target Raised",
+    "firm": "Cantor Fitzgerald",
+    "rating_old": "",
+    "rating_new": "Overweight",
+    "pt_old": "$595.00",
+    "pt_new": "$619.00",
+    "price": "$553.15",
+    "id": "2492150",
+    "cap": 140201910111.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "VRTX",
+    "company": "Vertex Pharmaceuticals",
+    "action": "Target change",
+    "action_raw": "Target Raised",
+    "firm": "Stifel Nicolaus",
+    "rating_old": "",
+    "rating_new": "Hold",
+    "pt_old": "$500.00",
+    "pt_new": "$563.00",
+    "price": "$553.15",
+    "id": "2492162",
+    "cap": 140201910111.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "SBUX",
+    "company": "Starbucks",
+    "action": "Initiated",
+    "action_raw": "Initiated",
+    "firm": "Stephens",
+    "rating_old": "",
+    "rating_new": "Equal Weight",
+    "pt_old": "",
+    "pt_new": "$39.00",
+    "price": "$104.40",
+    "id": "2492184",
+    "cap": 119016000000.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "MAR",
+    "company": "Marriott International",
+    "action": "Target change",
+    "action_raw": "Target Set",
+    "firm": "Wells Fargo & Company",
+    "rating_old": "",
+    "rating_new": "",
+    "pt_old": "",
+    "pt_new": "$463.00",
+    "price": "$416.30",
+    "id": "2492041",
+    "cap": 108557005694.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "MAR",
+    "company": "Marriott International",
+    "action": "Target change",
+    "action_raw": "Target Raised",
+    "firm": "Robert W. Baird",
+    "rating_old": "",
+    "rating_new": "Neutral",
+    "pt_old": "$395.00",
+    "pt_new": "$414.00",
+    "price": "$416.30",
+    "id": "2492155",
+    "cap": 108557005694.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "ABNB",
+    "company": "Airbnb",
+    "action": "Reiterated",
+    "action_raw": "Reiterated",
+    "firm": "Raymond James Financial",
+    "rating_old": "",
+    "rating_new": "Outperform",
+    "pt_old": "",
+    "pt_new": "",
+    "price": "$171.11",
+    "id": "2492064",
+    "cap": 102458218047.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "MRSH",
+    "company": "Marsh & McLennan Companies",
+    "action": "Upgrade",
+    "action_raw": "Upgraded",
+    "firm": "BMO Capital Markets",
+    "rating_old": "Market Perform",
+    "rating_new": "Outperform",
+    "pt_old": "$204.00",
+    "pt_new": "$230.00",
+    "price": "$205.67",
+    "id": "2492027",
+    "cap": 97661132479.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "NET",
+    "company": "Cloudflare",
+    "action": "Upgrade",
+    "action_raw": "Upgraded",
+    "firm": "JPMorgan Chase & Co.",
+    "rating_old": "Neutral",
+    "rating_new": "Overweight",
+    "pt_old": "",
+    "pt_new": "$350.00",
+    "price": "$264.86",
+    "id": "2492025",
+    "cap": 94421658027.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "HWM",
+    "company": "Howmet Aerospace",
+    "action": "Upgrade",
+    "action_raw": "Upgraded",
+    "firm": "KeyCorp",
+    "rating_old": "Sector Weight",
+    "rating_new": "Overweight",
+    "pt_old": "",
+    "pt_new": "$237.00",
+    "price": "$212.89",
+    "id": "2492026",
+    "cap": 84697707765.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "AJG",
+    "company": "Arthur J. Gallagher & Co.",
+    "action": "Downgrade",
+    "action_raw": "Downgraded",
+    "firm": "BMO Capital Markets",
+    "rating_old": "Outperform",
+    "rating_new": "Market Perform",
+    "pt_old": "",
+    "pt_new": "$295.00",
+    "price": "$279.22",
+    "id": "2492030",
+    "cap": 71479507000.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "AON",
+    "company": "AON",
+    "action": "Upgrade",
+    "action_raw": "Upgraded",
+    "firm": "BMO Capital Markets",
+    "rating_old": "Market Perform",
+    "rating_new": "Outperform",
+    "pt_old": "$319.00",
+    "pt_new": "$380.00",
+    "price": "$333.74",
+    "id": "2492023",
+    "cap": 70728959335.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "LITE",
+    "company": "Lumentum",
+    "action": "Downgrade",
+    "action_raw": "Downgraded",
+    "firm": "B. Riley Financial",
+    "rating_old": "Buy",
+    "rating_new": "Neutral",
+    "pt_old": "",
+    "pt_new": "$770.00",
+    "price": "$684.40",
+    "id": "2492032",
+    "cap": 61994906646.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "BE",
+    "company": "Bloom Energy",
+    "action": "Upgrade",
+    "action_raw": "Upgraded",
+    "firm": "Barclays",
+    "rating_old": "Equal Weight",
+    "rating_new": "Overweight",
+    "pt_old": "$316.00",
+    "pt_new": "$289.00",
+    "price": "$196.15",
+    "id": "2492024",
+    "cap": 58022625216.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "BE",
+    "company": "Bloom Energy",
+    "action": "Downgrade",
+    "action_raw": "Downgraded",
+    "firm": "BMO Capital Markets",
+    "rating_old": "Outperform",
+    "rating_new": "Market Perform",
+    "pt_old": "",
+    "pt_new": "",
+    "price": "$196.15",
+    "id": "2492068",
+    "cap": 58022625216.0
    },
    {
     "date": "2026-11-03",
@@ -121771,7 +122267,7 @@
     "action": "Downgrade",
     "action_raw": "Downgraded",
     "firm": "Raymond James Financial",
-    "rating_old": "Outperform",
+    "rating_old": "Market Perform",
     "rating_new": "Underperform",
     "pt_old": "",
     "pt_new": "",
@@ -121788,11 +122284,86 @@
     "firm": "HSBC",
     "rating_old": "Reduce",
     "rating_new": "Hold",
-    "pt_old": "",
+    "pt_old": "$211.00",
     "pt_new": "$215.00",
     "price": "$207.14",
     "id": "2491726",
-    "cap": 31882215672.0
+    "cap": 32122785043.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "ON",
+    "company": "onsemi",
+    "action": "Upgrade",
+    "action_raw": "Upgraded",
+    "firm": "Craig Hallum",
+    "rating_old": "Hold",
+    "rating_new": "Buy",
+    "pt_old": "",
+    "pt_new": "$85.00",
+    "price": "$70.11",
+    "id": "2492082",
+    "cap": 27295127957.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "ROKU",
+    "company": "Roku",
+    "action": "Downgrade",
+    "action_raw": "Downgraded",
+    "firm": "Rosenblatt Securities",
+    "rating_old": "Buy",
+    "rating_new": "Neutral",
+    "pt_old": "",
+    "pt_new": "$160.00",
+    "price": "$155.52",
+    "id": "2492123",
+    "cap": 23082118059.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "ROKU",
+    "company": "Roku",
+    "action": "Upgrade",
+    "action_raw": "Upgraded",
+    "firm": "BMO Capital Markets",
+    "rating_old": "Market Perform",
+    "rating_new": "Outperform",
+    "pt_old": "",
+    "pt_new": "",
+    "price": "$155.52",
+    "id": "2492060",
+    "cap": 23082118059.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "ONON",
+    "company": "ON",
+    "action": "Upgrade",
+    "action_raw": "Upgraded",
+    "firm": "Cantor Fitzgerald",
+    "rating_old": "",
+    "rating_new": "Buy",
+    "pt_old": "",
+    "pt_new": "",
+    "price": "$35.45",
+    "id": "2492099",
+    "cap": 21433871606.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "VNOM",
+    "company": "Viper Energy",
+    "action": "Downgrade",
+    "action_raw": "Downgraded",
+    "firm": "Oppenheimer",
+    "rating_old": "Outperform",
+    "rating_new": "Market Perform",
+    "pt_old": "",
+    "pt_new": "$53.00",
+    "price": "$45.72",
+    "id": "2492067",
+    "cap": 16422390508.0
    },
    {
     "date": "2026-11-03",
@@ -121801,9 +122372,9 @@
     "action": "Upgrade",
     "action_raw": "Upgraded",
     "firm": "Jefferies Financial Group",
-    "rating_old": "",
+    "rating_old": "Underperform",
     "rating_new": "Hold",
-    "pt_old": "",
+    "pt_old": "$35.00",
     "pt_new": "$70.00",
     "price": "$78.48",
     "id": "2491717",
@@ -121856,6 +122427,21 @@
    },
    {
     "date": "2026-11-02",
+    "ticker": "AMZN",
+    "company": "Amazon.com",
+    "action": "Upgrade",
+    "action_raw": "Upgraded",
+    "firm": "Phillip Securities",
+    "rating_old": "Moderate Buy",
+    "rating_new": "Strong-Buy",
+    "pt_old": "",
+    "pt_new": "",
+    "price": "$245.63",
+    "id": "2491949",
+    "cap": 2656031162103.0
+   },
+   {
+    "date": "2026-11-02",
     "ticker": "LLY",
     "company": "Eli Lilly and Company",
     "action": "Target change",
@@ -121905,13 +122491,13 @@
     "company": "ExxonMobil",
     "action": "Target change",
     "action_raw": "Target Raised",
-    "firm": "Morgan Stanley",
+    "firm": "UBS Group",
     "rating_old": "",
-    "rating_new": "Overweight",
-    "pt_old": "$185.00",
-    "pt_new": "$187.00",
+    "rating_new": "Buy",
+    "pt_old": "$199.00",
+    "pt_new": "$213.00",
     "price": "$179.92",
-    "id": "2491421",
+    "id": "2491621",
     "cap": 738787221853.0
    },
    {
@@ -121920,13 +122506,13 @@
     "company": "ExxonMobil",
     "action": "Target change",
     "action_raw": "Target Raised",
-    "firm": "UBS Group",
+    "firm": "Morgan Stanley",
     "rating_old": "",
-    "rating_new": "Buy",
-    "pt_old": "$199.00",
-    "pt_new": "$213.00",
+    "rating_new": "Overweight",
+    "pt_old": "$185.00",
+    "pt_new": "$187.00",
     "price": "$179.92",
-    "id": "2491621",
+    "id": "2491421",
     "cap": 738787221853.0
    },
    {
@@ -121943,6 +122529,66 @@
     "price": "$179.92",
     "id": "2491230",
     "cap": 738787221853.0
+   },
+   {
+    "date": "2026-11-02",
+    "ticker": "ABBV",
+    "company": "AbbVie",
+    "action": "Reiterated",
+    "action_raw": "Reiterated",
+    "firm": "Sanford C. Bernstein",
+    "rating_old": "",
+    "rating_new": "Market Perform",
+    "pt_old": "",
+    "pt_new": "$275.00",
+    "price": "$288.66",
+    "id": "2491302",
+    "cap": 510414156599.0
+   },
+   {
+    "date": "2026-11-02",
+    "ticker": "ABBV",
+    "company": "AbbVie",
+    "action": "Target change",
+    "action_raw": "Target Raised",
+    "firm": "Guggenheim",
+    "rating_old": "",
+    "rating_new": "Buy",
+    "pt_old": "$288.00",
+    "pt_new": "$322.00",
+    "price": "$288.66",
+    "id": "2491264",
+    "cap": 510414156599.0
+   },
+   {
+    "date": "2026-11-02",
+    "ticker": "ABBV",
+    "company": "AbbVie",
+    "action": "Target change",
+    "action_raw": "Target Raised",
+    "firm": "UBS Group",
+    "rating_old": "",
+    "rating_new": "Neutral",
+    "pt_old": "$275.00",
+    "pt_new": "$295.00",
+    "price": "$288.66",
+    "id": "2491032",
+    "cap": 510414156599.0
+   },
+   {
+    "date": "2026-11-02",
+    "ticker": "ABBV",
+    "company": "AbbVie",
+    "action": "Target change",
+    "action_raw": "Target Raised",
+    "firm": "Wells Fargo & Company",
+    "rating_old": "",
+    "rating_new": "Overweight",
+    "pt_old": "$300.00",
+    "pt_new": "$340.00",
+    "price": "$288.66",
+    "id": "2491029",
+    "cap": 510414156599.0
    },
    {
     "date": "2026-11-02",
@@ -122021,81 +122667,6 @@
    },
    {
     "date": "2026-11-02",
-    "ticker": "ABBV",
-    "company": "AbbVie",
-    "action": "Target change",
-    "action_raw": "Target Raised",
-    "firm": "UBS Group",
-    "rating_old": "",
-    "rating_new": "Neutral",
-    "pt_old": "$275.00",
-    "pt_new": "$295.00",
-    "price": "$288.66",
-    "id": "2491032",
-    "cap": 510414156599.0
-   },
-   {
-    "date": "2026-11-02",
-    "ticker": "ABBV",
-    "company": "AbbVie",
-    "action": "Target change",
-    "action_raw": "Target Raised",
-    "firm": "Wells Fargo & Company",
-    "rating_old": "",
-    "rating_new": "Overweight",
-    "pt_old": "$300.00",
-    "pt_new": "$340.00",
-    "price": "$288.66",
-    "id": "2491029",
-    "cap": 510414156599.0
-   },
-   {
-    "date": "2026-11-02",
-    "ticker": "ABBV",
-    "company": "AbbVie",
-    "action": "Reiterated",
-    "action_raw": "Reiterated",
-    "firm": "Sanford C. Bernstein",
-    "rating_old": "",
-    "rating_new": "Market Perform",
-    "pt_old": "",
-    "pt_new": "$275.00",
-    "price": "$288.66",
-    "id": "2491302",
-    "cap": 510414156599.0
-   },
-   {
-    "date": "2026-11-02",
-    "ticker": "ABBV",
-    "company": "AbbVie",
-    "action": "Target change",
-    "action_raw": "Target Raised",
-    "firm": "Guggenheim",
-    "rating_old": "",
-    "rating_new": "Buy",
-    "pt_old": "$288.00",
-    "pt_new": "$322.00",
-    "price": "$288.66",
-    "id": "2491264",
-    "cap": 510414156599.0
-   },
-   {
-    "date": "2026-11-02",
-    "ticker": "CVX",
-    "company": "Chevron",
-    "action": "Target change",
-    "action_raw": "Target Raised",
-    "firm": "Wells Fargo & Company",
-    "rating_old": "",
-    "rating_new": "Overweight",
-    "pt_old": "$230.00",
-    "pt_new": "$268.00",
-    "price": "$228.00",
-    "id": "2490937",
-    "cap": 450021423079.0
-   },
-   {
-    "date": "2026-11-02",
     "ticker": "CVX",
     "company": "Chevron",
     "action": "Target change",
@@ -122137,6 +122708,21 @@
     "pt_new": "$230.00",
     "price": "$228.00",
     "id": "2491106",
+    "cap": 450021423079.0
+   },
+   {
+    "date": "2026-11-02",
+    "ticker": "CVX",
+    "company": "Chevron",
+    "action": "Target change",
+    "action_raw": "Target Raised",
+    "firm": "Wells Fargo & Company",
+    "rating_old": "",
+    "rating_new": "Overweight",
+    "pt_old": "$230.00",
+    "pt_new": "$268.00",
+    "price": "$228.00",
+    "id": "2490937",
     "cap": 450021423079.0
    },
    {
@@ -122287,7 +122873,7 @@
     "pt_new": "$62.00",
     "price": "$49.47",
     "id": "2491641",
-    "cap": 346630536453.0
+    "cap": 342043360427.0
    },
    {
     "date": "2026-11-02",
@@ -122392,7 +122978,7 @@
     "pt_new": "$175.00",
     "price": "$170.33",
     "id": "2491304",
-    "cap": 211201561551.0
+    "cap": 211266876123.0
    },
    {
     "date": "2026-11-02",
@@ -122443,21 +123029,6 @@
     "date": "2026-11-02",
     "ticker": "APH",
     "company": "Amphenol",
-    "action": "Target change",
-    "action_raw": "Target Raised",
-    "firm": "Barclays",
-    "rating_old": "",
-    "rating_new": "Overweight",
-    "pt_old": "$100.00",
-    "pt_new": "$111.00",
-    "price": "$79.58",
-    "id": "2491563",
-    "cap": 196882798414.0
-   },
-   {
-    "date": "2026-11-02",
-    "ticker": "APH",
-    "company": "Amphenol",
     "action": "Reiterated",
     "action_raw": "Reiterated",
     "firm": "Sanford C. Bernstein",
@@ -122467,7 +123038,22 @@
     "pt_new": "$102.00",
     "price": "$79.58",
     "id": "2491303",
-    "cap": 196882798414.0
+    "cap": 197145813250.0
+   },
+   {
+    "date": "2026-11-02",
+    "ticker": "APH",
+    "company": "Amphenol",
+    "action": "Target change",
+    "action_raw": "Target Raised",
+    "firm": "Barclays",
+    "rating_old": "",
+    "rating_new": "Overweight",
+    "pt_old": "$100.00",
+    "pt_new": "$111.00",
+    "price": "$79.58",
+    "id": "2491563",
+    "cap": 197145813250.0
    },
    {
     "date": "2026-11-02",
@@ -122542,7 +123128,7 @@
     "pt_new": "",
     "price": "$1,075.08",
     "id": "2491515",
-    "cap": 156238884365.0
+    "cap": 152972450524.0
    },
    {
     "date": "2026-11-02",
@@ -122775,21 +123361,6 @@
     "company": "Starbucks",
     "action": "Reiterated",
     "action_raw": "Reiterated",
-    "firm": "Bank of America",
-    "rating_old": "",
-    "rating_new": "Buy",
-    "pt_old": "",
-    "pt_new": "",
-    "price": "$104.40",
-    "id": "2491062",
-    "cap": 119016000000.0
-   },
-   {
-    "date": "2026-11-02",
-    "ticker": "SBUX",
-    "company": "Starbucks",
-    "action": "Reiterated",
-    "action_raw": "Reiterated",
     "firm": "Guggenheim",
     "rating_old": "",
     "rating_new": "Neutral",
@@ -122801,18 +123372,18 @@
    },
    {
     "date": "2026-11-02",
-    "ticker": "SYK",
-    "company": "Stryker",
+    "ticker": "SBUX",
+    "company": "Starbucks",
     "action": "Reiterated",
     "action_raw": "Reiterated",
-    "firm": "Truist Financial",
+    "firm": "Bank of America",
     "rating_old": "",
-    "rating_new": "Hold",
-    "pt_old": "$310.00",
-    "pt_new": "$305.00",
-    "price": "$306.77",
-    "id": "2491356",
-    "cap": 117684046243.0
+    "rating_new": "Buy",
+    "pt_old": "",
+    "pt_new": "",
+    "price": "$104.40",
+    "id": "2491062",
+    "cap": 119016000000.0
    },
    {
     "date": "2026-11-02",
@@ -122827,7 +123398,22 @@
     "pt_new": "$325.00",
     "price": "$306.77",
     "id": "2491294",
-    "cap": 117684046243.0
+    "cap": 116799806937.0
+   },
+   {
+    "date": "2026-11-02",
+    "ticker": "SYK",
+    "company": "Stryker",
+    "action": "Reiterated",
+    "action_raw": "Reiterated",
+    "firm": "Truist Financial",
+    "rating_old": "",
+    "rating_new": "Hold",
+    "pt_old": "$310.00",
+    "pt_new": "$305.00",
+    "price": "$306.77",
+    "id": "2491356",
+    "cap": 116799806937.0
    },
    {
     "date": "2026-11-02",
@@ -122917,7 +123503,7 @@
     "pt_new": "$455.00",
     "price": "$373.16",
     "id": "2491067",
-    "cap": 101042290045.0
+    "cap": 100917746363.0
    },
    {
     "date": "2026-11-02",
@@ -122932,7 +123518,7 @@
     "pt_new": "$400.00",
     "price": "$373.16",
     "id": "2491436",
-    "cap": 101042290045.0
+    "cap": 100917746363.0
    },
    {
     "date": "2026-11-02",
@@ -122947,7 +123533,7 @@
     "pt_new": "$400.00",
     "price": "$373.16",
     "id": "2491333",
-    "cap": 101042290045.0
+    "cap": 100917746363.0
    },
    {
     "date": "2026-11-02",
@@ -122962,7 +123548,7 @@
     "pt_new": "",
     "price": "$961.26",
     "id": "2491904",
-    "cap": 98966511765.0
+    "cap": 99440288942.0
    },
    {
     "date": "2026-11-02",
@@ -122977,6 +123563,21 @@
     "pt_new": "$212.00",
     "price": "$170.21",
     "id": "2491711",
+    "cap": 86150175827.0
+   },
+   {
+    "date": "2026-11-02",
+    "ticker": "AEM",
+    "company": "Agnico Eagle Mines",
+    "action": "Upgrade",
+    "action_raw": "Upgraded",
+    "firm": "Freedom Broker",
+    "rating_old": "Hold",
+    "rating_new": "Strong-Buy",
+    "pt_old": "",
+    "pt_new": "",
+    "price": "C$238.41",
+    "id": "2491992",
     "cap": 86150175827.0
    },
    {
@@ -123037,7 +123638,7 @@
     "pt_new": "",
     "price": "$175.79",
     "id": "2491805",
-    "cap": 65107865167.0
+    "cap": 66566426973.0
    },
    {
     "date": "2026-11-02",
@@ -123097,7 +123698,7 @@
     "pt_new": "",
     "price": "$67.83",
     "id": "2491808",
-    "cap": 59561497266.0
+    "cap": 59564214802.0
    },
    {
     "date": "2026-11-02",
@@ -123161,6 +123762,21 @@
    },
    {
     "date": "2026-11-02",
+    "ticker": "AU",
+    "company": "AngloGold Ashanti",
+    "action": "Initiated",
+    "action_raw": "Initiated",
+    "firm": "TD Securities",
+    "rating_old": "",
+    "rating_new": "Strong-Buy",
+    "pt_old": "",
+    "pt_new": "",
+    "price": "$82.15",
+    "id": "2491951",
+    "cap": 41604578999.0
+   },
+   {
+    "date": "2026-11-02",
     "ticker": "WEC",
     "company": "WEC Energy Group",
     "action": "Upgrade",
@@ -123172,7 +123788,7 @@
     "pt_new": "",
     "price": "$117.03",
     "id": "2491937",
-    "cap": 38091792873.0
+    "cap": 38459203260.0
    },
    {
     "date": "2026-11-02",
@@ -123202,22 +123818,7 @@
     "pt_new": "",
     "price": "$226.58",
     "id": "2491840",
-    "cap": 34213580000.0
-   },
-   {
-    "date": "2026-11-02",
-    "ticker": "EXR",
-    "company": "Extra Space Storage",
-    "action": "Upgrade",
-    "action_raw": "Upgraded",
-    "firm": "Weiss Ratings",
-    "rating_old": "Hold (C)",
-    "rating_new": "Hold (C+)",
-    "pt_old": "",
-    "pt_new": "",
-    "price": "$155.89",
-    "id": "2491816",
-    "cap": 32953825657.0
+    "cap": 34258896000.0
    },
    {
     "date": "2026-11-02",
@@ -123232,7 +123833,22 @@
     "pt_new": "",
     "price": "$232.98",
     "id": "2491090",
-    "cap": 32760505264.0
+    "cap": 32764658119.0
+   },
+   {
+    "date": "2026-11-02",
+    "ticker": "EXR",
+    "company": "Extra Space Storage",
+    "action": "Upgrade",
+    "action_raw": "Upgraded",
+    "firm": "Weiss Ratings",
+    "rating_old": "Hold (C)",
+    "rating_new": "Hold (C+)",
+    "pt_old": "",
+    "pt_new": "",
+    "price": "$155.89",
+    "id": "2491816",
+    "cap": 32556119239.0
    },
    {
     "date": "2026-11-02",
@@ -123367,7 +123983,7 @@
     "pt_new": "",
     "price": "$66.82",
     "id": "2491862",
-    "cap": 21604778230.0
+    "cap": 21618458132.0
    },
    {
     "date": "2026-11-02",
@@ -123422,12 +124038,12 @@
     "action_raw": "Downgraded",
     "firm": "Evercore",
     "rating_old": "Outperform",
-    "rating_new": "In-Line",
+    "rating_new": "Hold",
     "pt_old": "",
     "pt_new": "$120.00",
     "price": "$91.05",
     "id": "2491088",
-    "cap": 17502310515.0
+    "cap": 17565736709.0
    },
    {
     "date": "2026-11-02",
@@ -123442,7 +124058,7 @@
     "pt_new": "$100.00",
     "price": "$91.05",
     "id": "2491089",
-    "cap": 17502310515.0
+    "cap": 17565736709.0
    },
    {
     "date": "2026-11-02",
@@ -123502,7 +124118,7 @@
     "pt_new": "",
     "price": "$21.25",
     "id": "2491940",
-    "cap": 15344469440.0
+    "cap": 15336123760.0
    },
    {
     "date": "2026-11-02",
@@ -123562,7 +124178,7 @@
     "pt_new": "",
     "price": "$66.26",
     "id": "2491777",
-    "cap": 13110484609.0
+    "cap": 13184720391.0
    },
    {
     "date": "2026-11-02",
@@ -123596,48 +124212,33 @@
    },
    {
     "date": "2026-11-02",
+    "ticker": "RGEN",
+    "company": "Repligen",
+    "action": "Downgrade",
+    "action_raw": "Downgraded",
+    "firm": "Weiss Ratings",
+    "rating_old": "Hold (C)",
+    "rating_new": "Sell (D+)",
+    "pt_old": "",
+    "pt_new": "",
+    "price": "$172.95",
+    "id": "2491906",
+    "cap": 11055610487.0
+   },
+   {
+    "date": "2026-11-02",
     "ticker": "CLX",
     "company": "Clorox",
     "action": "Upgrade",
     "action_raw": "Upgraded",
     "firm": "Evercore",
     "rating_old": "Underperform",
-    "rating_new": "In-Line",
+    "rating_new": "Hold",
     "pt_old": "",
     "pt_new": "$99.00",
     "price": "$90.04",
     "id": "2491074",
     "cap": 10872281430.0
-   },
-   {
-    "date": "2026-11-02",
-    "ticker": "MHK",
-    "company": "Mohawk Industries",
-    "action": "Upgrade",
-    "action_raw": "Upgraded",
-    "firm": "Evercore",
-    "rating_old": "In-Line",
-    "rating_new": "Outperform",
-    "pt_old": "",
-    "pt_new": "$171.00",
-    "price": "$148.36",
-    "id": "2490919",
-    "cap": 10064533584.0
-   },
-   {
-    "date": "2026-11-02",
-    "ticker": "MHK",
-    "company": "Mohawk Industries",
-    "action": "Upgrade",
-    "action_raw": "Upgraded",
-    "firm": "Weiss Ratings",
-    "rating_old": "Hold (C)",
-    "rating_new": "Hold (C+)",
-    "pt_old": "",
-    "pt_new": "",
-    "price": "$148.36",
-    "id": "2491871",
-    "cap": 10064533584.0
    },
    {
     "date": "2026-10-30",
@@ -135427,9 +136028,9 @@
   "days_failed": [],
   "source": "https://www.marketbeat.com/ratings/",
   "note": "All actions for stocks with market cap >= $100B; upgrades, downgrades and initiations for >= $10B (caps from Nasdaq).",
-  "updated_et": "2026-11-03 06:43 ET"
+  "updated_et": "2026-11-03 09:02 ET"
  },
- "updated_et": "2026-11-03 06:43 ET",
+ "updated_et": "2026-11-03 09:02 ET",
  "indicators": [
   {
    "key": "cpi",
@@ -136630,7 +137231,7 @@
     3.75,
     4.0
    ],
-   "date": "2026-11-02",
+   "date": "2026-11-03",
    "source": "https://fred.stlouisfed.org/series/DFEDTARU"
   }
  ],
