@@ -21428,7 +21428,7 @@
      ],
      [
       "2026-08-15",
-      4.0491
+      4.0489
      ],
      [
       "2026-08-17",
@@ -21443,8 +21443,12 @@
       4.11
      ],
      [
+      "2026-08-20",
+      4.1165
+     ],
+     [
       "2026-08-21",
-      4.1177
+      4.1186
      ],
      [
       "2026-08-22",
@@ -22827,7 +22831,7 @@
      ],
      [
       "2026-08-21",
-      4.0776
+      4.0817
      ],
      [
       "2026-08-22",
@@ -23100,10 +23104,6 @@
     "url": "https://www.cnbc.com/quotes/CN10Y-CN",
     "freq": "daily",
     "h": [
-     [
-      "2025-09-30",
-      1.878
-     ],
      [
       "2025-10-09",
       1.925
@@ -24073,6 +24073,10 @@
       1.682
      ],
      [
+      "2026-09-09",
+      1.74
+     ],
+     [
       "2026-09-10",
       1.684
      ],
@@ -24091,6 +24095,14 @@
      [
       "2026-09-15",
       1.685
+     ],
+     [
+      "2026-09-16",
+      1.684
+     ],
+     [
+      "2026-09-17",
+      1.684
      ],
      [
       "2026-09-18",
@@ -24193,6 +24205,14 @@
       1.633
      ],
      [
+      "2026-10-28",
+      1.624
+     ],
+     [
+      "2026-10-29",
+      1.618
+     ],
+     [
       "2026-10-30",
       1.631
      ],
@@ -24207,6 +24227,10 @@
      [
       "2026-11-04",
       1.631
+     ],
+     [
+      "2026-11-05",
+      1.619
      ]
     ]
    },
@@ -51030,10 +51054,6 @@
       1.25
      ],
      [
-      "2026-08-12",
-      1.243
-     ],
-     [
       "2026-08-13",
       1.24
      ],
@@ -52991,10 +53011,6 @@
     "freq": "daily",
     "h": [
      [
-      "2025-09-30",
-      -2.282
-     ],
-     [
       "2025-10-09",
       -2.215
      ],
@@ -53867,6 +53883,10 @@
       -3.118
      ],
      [
+      "2026-09-09",
+      -3.09
+     ],
+     [
       "2026-09-10",
       -3.266
      ],
@@ -53881,6 +53901,14 @@
      [
       "2026-09-15",
       -3.315
+     ],
+     [
+      "2026-09-16",
+      -3.326
+     ],
+     [
+      "2026-09-17",
+      -3.256
      ],
      [
       "2026-09-18",
@@ -53967,6 +53995,14 @@
       -3.357
      ],
      [
+      "2026-10-28",
+      -3.426
+     ],
+     [
+      "2026-10-29",
+      -3.362
+     ],
+     [
       "2026-10-30",
       -3.309
      ],
@@ -54033,7 +54069,7 @@
    ]
   },
   "failed": [],
-  "updated_et": "2026-11-06 06:44 ET"
+  "updated_et": "2026-11-06 09:02 ET"
  },
  "vol": {
   "items": [
@@ -69492,10 +69528,6 @@
       77.92
      ],
      [
-      "2026-08-12",
-      72.09
-     ],
-     [
       "2026-08-13",
       69.23
      ],
@@ -69594,10 +69626,6 @@
      [
       "2026-09-17",
       76.22
-     ],
-     [
-      "2026-09-18",
-      80.64
      ],
      [
       "2026-09-21",
@@ -71965,7 +71993,7 @@
     "unit": "",
     "src": "Deribit",
     "url": "https://www.deribit.com/statistics/BTC/volatility-index",
-    "freq": "24/7 \u00b7 latest 2026-11-06 06:00 ET",
+    "freq": "24/7 \u00b7 latest 2026-11-06 09:00 ET",
     "h": [
      [
       "2025-10-02",
@@ -73569,7 +73597,7 @@
      ],
      [
       "2026-11-06",
-      40.95
+      41.11
      ]
     ]
    },
@@ -76157,7 +76185,7 @@
     "unit": "",
     "src": "Deribit",
     "url": "https://www.deribit.com/statistics/ETH/volatility-index",
-    "freq": "24/7 \u00b7 latest 2026-11-06 06:00 ET",
+    "freq": "24/7 \u00b7 latest 2026-11-06 09:00 ET",
     "h": [
      [
       "2025-10-02",
@@ -77761,7 +77789,7 @@
      ],
      [
       "2026-11-06",
-      55.63
+      56.07
      ]
     ]
    },
@@ -81487,7 +81515,7 @@
    }
   ],
   "failed": [],
-  "updated_et": "2026-11-06 06:44 ET"
+  "updated_et": "2026-11-06 09:02 ET"
  },
  "indexes": {
   "items": [
@@ -93753,7 +93781,7 @@
      ],
      [
       "2026-11-06",
-      6139.17
+      6143.53
      ]
     ],
     "live": "2026-11-06"
@@ -94881,7 +94909,7 @@
      ],
      [
       "2026-11-06",
-      25742.12
+      25709.87
      ]
     ],
     "live": "2026-11-06"
@@ -96013,7 +96041,7 @@
      ],
      [
       "2026-11-06",
-      10553.32
+      10566.25
      ]
     ],
     "live": "2026-11-06"
@@ -97153,7 +97181,7 @@
      ],
      [
       "2026-11-06",
-      8064.19
+      8075.49
      ]
     ],
     "live": "2026-11-06"
@@ -98305,7 +98333,7 @@
      ],
      [
       "2026-11-06",
-      19228.1
+      19211.1
      ]
     ],
     "live": "2026-11-06"
@@ -99437,7 +99465,7 @@
      ],
      [
       "2026-11-06",
-      49912.71
+      49895.59
      ]
     ],
     "live": "2026-11-06"
@@ -100557,7 +100585,7 @@
      ],
      [
       "2026-11-06",
-      14613.7
+      14653.89
      ]
     ],
     "live": "2026-11-06"
@@ -111413,8 +111441,13 @@
      [
       "2026-11-05",
       166191.45
+     ],
+     [
+      "2026-11-06",
+      166643.64
      ]
-    ]
+    ],
+    "live": "2026-11-06"
    },
    {
     "key": "mxx",
@@ -120342,7 +120375,7 @@
    }
   ],
   "failed": [],
-  "updated_et": "2026-11-06 06:44 ET"
+  "updated_et": "2026-11-06 09:02 ET"
  },
  "calendar": {
   "start": "2026-11-01",
@@ -120644,7 +120677,7 @@
     "type": "earnings",
     "title": "MNST",
     "name": "Monster Beverage Corporation",
-    "time": "AMC",
+    "time": "",
     "eps_est": "$0.30",
     "cap": 143255798000,
     "tier": "",
@@ -120677,7 +120710,7 @@
     "type": "earnings",
     "title": "ABNB",
     "name": "Airbnb, Inc.",
-    "time": "AMC",
+    "time": "",
     "eps_est": "$2.86",
     "cap": 105607832000,
     "tier": "",
@@ -120716,22 +120749,11 @@
    {
     "date": "2026-11-06",
     "type": "earnings",
-    "title": "BRK.A",
-    "name": "Berkshire Hathaway Inc.",
-    "time": "",
-    "eps_est": "",
-    "cap": 1248701050000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/brk.a/earnings"
-   },
-   {
-    "date": "2026-11-06",
-    "type": "earnings",
     "title": "ENB",
     "name": "Enbridge Inc",
     "time": "BMO",
     "eps_est": "$0.36",
-    "cap": 106319618000,
+    "cap": 104905523000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/enb/earnings",
     "analyst": {
@@ -120743,28 +120765,6 @@
      "target": 56.64,
      "price": 48.77,
      "price_time": "Nov 6, 2026 6:25 AM ET",
-     "fetched": "2026-11-06"
-    }
-   },
-   {
-    "date": "2026-11-06",
-    "type": "earnings",
-    "title": "MRNA",
-    "name": "Moderna, Inc.",
-    "time": "BMO",
-    "eps_est": "($1.10)",
-    "cap": 103154565000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/mrna/earnings",
-    "analyst": {
-     "rating": "Hold",
-     "sentiment": "Neutral",
-     "buy": 2,
-     "hold": 15,
-     "sell": 3,
-     "target": 127.69,
-     "price": 236.3,
-     "price_time": "Nov 6, 2026 6:43 AM ET",
      "fetched": "2026-11-06"
     }
    },
@@ -120785,7 +120785,7 @@
     "title": "PBR",
     "name": "Petroleo Brasileiro S.A.- Petrobras",
     "time": "AMC",
-    "eps_est": "$1.23",
+    "eps_est": "$1.38",
     "cap": 126374027000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/pbr/earnings",
@@ -120874,6 +120874,16 @@
      "price_time": "Nov 6, 2026 6:39 AM ET",
      "fetched": "2026-11-06"
     }
+   },
+   {
+    "date": "2026-11-12",
+    "type": "ipo",
+    "title": "RZRA",
+    "name": "Rezera Inc.",
+    "time": "",
+    "price": "11.00-13.00",
+    "size": "$249,166,671",
+    "url": "https://www.nasdaq.com/market-activity/ipos/overview?dealId=1407089-119692"
    },
    {
     "date": "2026-11-13",
@@ -121030,28 +121040,6 @@
      "target": 84.33,
      "price": 78.95,
      "price_time": "Nov 6, 2026 6:42 AM ET",
-     "fetched": "2026-11-06"
-    }
-   },
-   {
-    "date": "2026-11-17",
-    "type": "earnings",
-    "title": "MDT",
-    "name": "Medtronic plc",
-    "time": "",
-    "eps_est": "$1.34",
-    "cap": 134258311000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/mdt/earnings",
-    "analyst": {
-     "rating": "Buy",
-     "sentiment": "Bullish",
-     "buy": 10,
-     "hold": 9,
-     "sell": 0,
-     "target": 103.19,
-     "price": 102.99,
-     "price_time": "Nov 6, 2026 6:40 AM ET",
      "fetched": "2026-11-06"
     }
    },
@@ -121215,6 +121203,17 @@
     "url": "https://www.nasdaq.com/market-activity/stocks/adi/earnings"
    },
    {
+    "date": "2026-11-24",
+    "type": "earnings",
+    "title": "MDT",
+    "name": "Medtronic plc",
+    "time": "BMO",
+    "eps_est": "$1.34",
+    "cap": 134258311000,
+    "tier": "",
+    "url": "https://www.nasdaq.com/market-activity/stocks/mdt/earnings"
+   },
+   {
     "date": "2026-11-25",
     "type": "macro",
     "title": "Jobless claims",
@@ -121249,7 +121248,7 @@
     "name": "Deere & Company",
     "time": "BMO",
     "eps_est": "$4.07",
-    "cap": 182401597000,
+    "cap": 178845237000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/de/earnings"
    },
@@ -121268,7 +121267,7 @@
     "name": "CrowdStrike Holdings, Inc.",
     "time": "AMC",
     "eps_est": "$0",
-    "cap": 246768304000,
+    "cap": 222398644000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/crwd/earnings"
    },
@@ -121279,7 +121278,7 @@
     "name": "Marvell Technology, Inc.",
     "time": "",
     "eps_est": "$0.79",
-    "cap": 140128616000,
+    "cap": 117109998000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mrvl/earnings"
    },
@@ -121349,20 +121348,9 @@
    {
     "date": "2026-12-03",
     "type": "earnings",
-    "title": "BMO",
-    "name": "Bank Of Montreal",
-    "time": "",
-    "eps_est": "$2.76",
-    "cap": 123172332000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/bmo/earnings"
-   },
-   {
-    "date": "2026-12-03",
-    "type": "earnings",
     "title": "CM",
     "name": "Canadian Imperial Bank of Commerce",
-    "time": "",
+    "time": "BMO",
     "eps_est": "$1.83",
     "cap": 108669477000,
     "tier": "",
@@ -121391,7 +121379,7 @@
     "name": "Oracle Corporation",
     "time": "",
     "eps_est": "$1.56",
-    "cap": 374126871000,
+    "cap": 348213445000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/orcl/earnings"
    },
@@ -121548,7 +121536,18 @@
   ]
  },
  "ipo": {
-  "upcoming": [],
+  "upcoming": [
+   {
+    "date": "2026-11-12",
+    "ticker": "RZRA",
+    "name": "Rezera Inc.",
+    "exchange": "NASDAQ Global",
+    "price": "11.00-13.00",
+    "shares": "16,666,667",
+    "size": "$249,166,671",
+    "deal": "1407089-119692"
+   }
+  ],
   "priced": [
    {
     "date": "2026-11-02",
@@ -121559,20 +121558,8 @@
     "shares": "9,098,800",
     "size": "$90,988,000",
     "deal": "1390143-118358",
-    "last": 10.83,
-    "last_time": "Nov 6, 2026 6:29 AM ET"
-   },
-   {
-    "date": "2026-10-30",
-    "ticker": "ASPE",
-    "name": "Aspen Neuroscience, Inc.",
-    "exchange": "NASDAQ Global Select",
-    "price": "15.00",
-    "shares": "9,375,000",
-    "size": "$140,625,000",
-    "deal": "1405733-119610",
-    "last": 11.76,
-    "last_time": "Nov 6, 2026 6:31 AM ET"
+    "last": 10.8,
+    "last_time": "Nov 6, 2026 7:00 AM ET"
    },
    {
     "date": "2026-10-30",
@@ -121587,16 +121574,16 @@
     "last_time": "Nov 5, 2026"
    },
    {
-    "date": "2026-10-29",
-    "ticker": "BHAIU",
-    "name": "BHAV Acquisition Corp II",
-    "exchange": "NASDAQ Global",
-    "price": "10.00",
-    "shares": "10,000,000",
-    "size": "$100,000,000",
-    "deal": "1404187-119517",
-    "last": 9.99,
-    "last_time": "Nov 5, 2026"
+    "date": "2026-10-30",
+    "ticker": "ASPE",
+    "name": "Aspen Neuroscience, Inc.",
+    "exchange": "NASDAQ Global Select",
+    "price": "15.00",
+    "shares": "9,375,000",
+    "size": "$140,625,000",
+    "deal": "1405733-119610",
+    "last": 11.51,
+    "last_time": "Nov 6, 2026 7:22 AM ET"
    },
    {
     "date": "2026-10-29",
@@ -121607,8 +121594,20 @@
     "shares": "7,074,016",
     "size": "",
     "deal": "165535-119563",
-    "last": 31.4159,
-    "last_time": "Nov 6, 2026 4:00 AM ET"
+    "last": 30.0,
+    "last_time": "Nov 6, 2026 7:00 AM ET"
+   },
+   {
+    "date": "2026-10-29",
+    "ticker": "BHAIU",
+    "name": "BHAV Acquisition Corp II",
+    "exchange": "NASDAQ Global",
+    "price": "10.00",
+    "shares": "10,000,000",
+    "size": "$100,000,000",
+    "deal": "1404187-119517",
+    "last": 9.99,
+    "last_time": "Nov 5, 2026"
    },
    {
     "date": "2026-10-27",
@@ -121636,6 +121635,20 @@
    }
   ],
   "filed": [
+   {
+    "date": "2026-11-05",
+    "ticker": "",
+    "name": "Guitar Group Ltd",
+    "size": "$31,050,000.00",
+    "deal": "1409091-119839"
+   },
+   {
+    "date": "2026-11-05",
+    "ticker": "KACQU",
+    "name": "Kartoon Studios Acquisition Corp",
+    "size": "$345,000,000",
+    "deal": "1409007-119836"
+   },
    {
     "date": "2026-11-04",
     "ticker": "CXIVU",
@@ -121682,7 +121695,7 @@
     "date": "2026-10-26",
     "ticker": "LIS",
     "name": "LIS Technologies Inc",
-    "size": "$22,808,338",
+    "size": "$24,955,000",
     "deal": "1268763-119729"
    },
    {
@@ -121702,8 +121715,8 @@
    {
     "date": "2026-10-21",
     "ticker": "RZRA",
-    "name": "NODTHERA INC.",
-    "size": "$100,000,000",
+    "name": "Rezera Inc.",
+    "size": "$249,166,671",
     "deal": "1407089-119692"
    },
    {
@@ -135171,9 +135184,9 @@
   ],
   "source": "https://www.marketbeat.com/ratings/",
   "note": "All actions for stocks with market cap >= $100B; upgrades, downgrades and initiations for >= $10B (caps from Nasdaq).",
-  "updated_et": "2026-11-06 06:44 ET"
+  "updated_et": "2026-11-06 09:02 ET"
  },
- "updated_et": "2026-11-06 06:44 ET",
+ "updated_et": "2026-11-06 09:02 ET",
  "indicators": [
   {
    "key": "cpi",
@@ -136374,7 +136387,7 @@
     3.75,
     4.0
    ],
-   "date": "2026-11-05",
+   "date": "2026-11-06",
    "source": "https://fred.stlouisfed.org/series/DFEDTARU"
   }
  ],
