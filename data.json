@@ -21436,7 +21436,7 @@
      ],
      [
       "2026-08-21",
-      4.1136
+      4.1177
      ],
      [
       "2026-08-22",
@@ -22818,8 +22818,12 @@
       4.072
      ],
      [
+      "2026-08-20",
+      4.0758
+     ],
+     [
       "2026-08-21",
-      4.0776
+      4.0841
      ],
      [
       "2026-08-22",
@@ -50978,10 +50982,6 @@
       1.25
      ],
      [
-      "2026-08-12",
-      1.243
-     ],
-     [
       "2026-08-13",
       1.24
      ],
@@ -54037,7 +54037,7 @@
    ]
   },
   "failed": [],
-  "updated_et": "2026-11-09 09:11 ET"
+  "updated_et": "2026-11-09 10:50 ET"
  },
  "vol": {
   "items": [
@@ -69412,6 +69412,10 @@
       75.03
      ],
      [
+      "2026-07-15",
+      68.48
+     ],
+     [
       "2026-07-16",
       68.16
      ],
@@ -69478,6 +69482,10 @@
      [
       "2026-08-07",
       72.03
+     ],
+     [
+      "2026-08-10",
+      75.46
      ],
      [
       "2026-08-11",
@@ -69718,6 +69726,10 @@
      [
       "2026-11-04",
       93.88
+     ],
+     [
+      "2026-11-05",
+      97.92
      ],
      [
       "2026-11-06",
@@ -71961,7 +71973,7 @@
     "unit": "",
     "src": "Deribit",
     "url": "https://www.deribit.com/statistics/BTC/volatility-index",
-    "freq": "24/7 \u00b7 latest 2026-11-09 09:00 ET",
+    "freq": "24/7 \u00b7 latest 2026-11-09 10:00 ET",
     "h": [
      [
       "2025-10-05",
@@ -73565,7 +73577,7 @@
      ],
      [
       "2026-11-09",
-      40.51
+      40.12
      ]
     ]
    },
@@ -76153,7 +76165,7 @@
     "unit": "",
     "src": "Deribit",
     "url": "https://www.deribit.com/statistics/ETH/volatility-index",
-    "freq": "24/7 \u00b7 latest 2026-11-09 09:00 ET",
+    "freq": "24/7 \u00b7 latest 2026-11-09 10:00 ET",
     "h": [
      [
       "2025-10-05",
@@ -77757,7 +77769,7 @@
      ],
      [
       "2026-11-09",
-      57.59
+      57.62
      ]
     ]
    },
@@ -81479,7 +81491,7 @@
    }
   ],
   "failed": [],
-  "updated_et": "2026-11-09 09:11 ET"
+  "updated_et": "2026-11-09 10:50 ET"
  },
  "indexes": {
   "items": [
@@ -82599,8 +82611,13 @@
      [
       "2026-11-06",
       7376.86
+     ],
+     [
+      "2026-11-09",
+      7528.28
      ]
-    ]
+    ],
+    "live": "2026-11-09"
    },
    {
     "key": "dji",
@@ -83718,8 +83735,13 @@
      [
       "2026-11-06",
       51285.73
+     ],
+     [
+      "2026-11-09",
+      52148.8
      ]
-    ]
+    ],
+    "live": "2026-11-09"
    },
    {
     "key": "ixic",
@@ -84837,8 +84859,13 @@
      [
       "2026-11-06",
       24579.425
+     ],
+     [
+      "2026-11-09",
+      25208.229
      ]
-    ]
+    ],
+    "live": "2026-11-09"
    },
    {
     "key": "ndx",
@@ -85956,8 +85983,13 @@
      [
       "2026-11-06",
       26989.992
+     ],
+     [
+      "2026-11-09",
+      27801.904
      ]
-    ]
+    ],
+    "live": "2026-11-09"
    },
    {
     "key": "rut",
@@ -87074,9 +87106,14 @@
      ],
      [
       "2026-11-06",
-      2754.105
+      2754.1054
+     ],
+     [
+      "2026-11-09",
+      2814.746
      ]
-    ]
+    ],
+    "live": "2026-11-09"
    },
    {
     "key": "mid",
@@ -88194,8 +88231,13 @@
      [
       "2026-11-06",
       3602.5
+     ],
+     [
+      "2026-11-09",
+      3693.22
      ]
-    ]
+    ],
+    "live": "2026-11-09"
    },
    {
     "key": "spxew",
@@ -89313,8 +89355,13 @@
      [
       "2026-11-06",
       8748.16
+     ],
+     [
+      "2026-11-09",
+      8904.43
      ]
-    ]
+    ],
+    "live": "2026-11-09"
    },
    {
     "key": "nifty",
@@ -93753,7 +93800,7 @@
      ],
      [
       "2026-11-09",
-      6270.24
+      6290.93
      ]
     ],
     "live": "2026-11-09"
@@ -94552,6 +94599,10 @@
       25147.03
      ],
      [
+      "2026-07-15",
+      24999.53
+     ],
+     [
       "2026-07-16",
       24915.49
      ],
@@ -94881,7 +94932,7 @@
      ],
      [
       "2026-11-09",
-      26180.17
+      26246.22
      ]
     ],
     "live": "2026-11-09"
@@ -96013,7 +96064,7 @@
      ],
      [
       "2026-11-09",
-      10760.23
+      10772.22
      ]
     ],
     "live": "2026-11-09"
@@ -97153,7 +97204,7 @@
      ],
      [
       "2026-11-09",
-      8229.03
+      8240.32
      ]
     ],
     "live": "2026-11-09"
@@ -98305,7 +98356,7 @@
      ],
      [
       "2026-11-09",
-      19739.6
+      19747.0
      ]
     ],
     "live": "2026-11-09"
@@ -99437,7 +99488,7 @@
      ],
      [
       "2026-11-09",
-      51246.6
+      51339.08
      ]
     ],
     "live": "2026-11-09"
@@ -100557,7 +100608,7 @@
      ],
      [
       "2026-11-09",
-      14911.1
+      14924.57
      ]
     ],
     "live": "2026-11-09"
@@ -110298,8 +110349,13 @@
      [
       "2026-11-06",
       35789.09
+     ],
+     [
+      "2026-11-09",
+      36254.27
      ]
-    ]
+    ],
+    "live": "2026-11-09"
    },
    {
     "key": "bvsp",
@@ -111404,7 +111460,7 @@
      ],
      [
       "2026-11-09",
-      169469.12
+      170289.45
      ]
     ],
     "live": "2026-11-09"
@@ -112525,8 +112581,13 @@
      [
       "2026-11-06",
       71393.57
+     ],
+     [
+      "2026-11-09",
+      71746.47
      ]
-    ]
+    ],
+    "live": "2026-11-09"
    },
    {
     "key": "spy",
@@ -120307,7 +120368,7 @@
    }
   ],
   "failed": [],
-  "updated_et": "2026-11-09 09:11 ET"
+  "updated_et": "2026-11-09 10:50 ET"
  },
  "calendar": {
   "start": "2026-11-01",
@@ -120383,7 +120444,7 @@
     "name": "Advanced Micro Devices, Inc.",
     "time": "",
     "eps_est": "$1.68",
-    "cap": 736464800000,
+    "cap": 663251260000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/amd/earnings"
    },
@@ -120394,7 +120455,7 @@
     "name": "Amgen Inc.",
     "time": "",
     "eps_est": "$5.74",
-    "cap": 249046467000,
+    "cap": 248970740000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/amgn/earnings"
    },
@@ -120405,7 +120466,7 @@
     "name": "Arista Networks, Inc.",
     "time": "",
     "eps_est": "$0.99",
-    "cap": 215789126000,
+    "cap": 201083109000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/anet/earnings"
    },
@@ -120416,7 +120477,7 @@
     "name": "Shopify Inc.",
     "time": "",
     "eps_est": "$0.33",
-    "cap": 191820841000,
+    "cap": 184682381000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/shop/earnings"
    },
@@ -120427,7 +120488,7 @@
     "name": "Pfizer, Inc.",
     "time": "",
     "eps_est": "$0.72",
-    "cap": 167518700000,
+    "cap": 170311631000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/pfe/earnings"
    },
@@ -120438,7 +120499,7 @@
     "name": "Eaton Corporation, PLC",
     "time": "",
     "eps_est": "$3.54",
-    "cap": 132758217000,
+    "cap": 127047270000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/etn/earnings"
    },
@@ -120449,7 +120510,7 @@
     "name": "Booking Holdings Inc.",
     "time": "",
     "eps_est": "$4.48",
-    "cap": 119486759000,
+    "cap": 125477274000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/bkng/earnings"
    },
@@ -120460,7 +120521,7 @@
     "name": "Marathon Petroleum Corporation",
     "time": "",
     "eps_est": "$25.74",
-    "cap": 101490500000,
+    "cap": 102737551000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mpc/earnings"
    },
@@ -120471,7 +120532,7 @@
     "name": "Super Micro Computer, Inc.",
     "time": "",
     "eps_est": "$1.04",
-    "cap": 18894323700,
+    "cap": 17790621700,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/smci/earnings"
    },
@@ -120578,7 +120639,7 @@
     "name": "Toyota Motor Corp Ltd Ord",
     "time": "",
     "eps_est": "",
-    "cap": 284283077000,
+    "cap": 281780584000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/tm/earnings"
    },
@@ -120589,7 +120650,7 @@
     "name": "ConocoPhillips",
     "time": "",
     "eps_est": "$3.06",
-    "cap": 162733179000,
+    "cap": 161116799000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/cop/earnings"
    },
@@ -120600,7 +120661,7 @@
     "name": "Sony Group Corporation",
     "time": "",
     "eps_est": "$0.38",
-    "cap": 162377286000,
+    "cap": 159193416000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/sony/earnings"
    },
@@ -120611,7 +120672,7 @@
     "name": "Monster Beverage Corporation",
     "time": "",
     "eps_est": "$0.30",
-    "cap": 140552307000,
+    "cap": 134351905000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mnst/earnings"
    },
@@ -120622,20 +120683,9 @@
     "name": "Parker-Hannifin Corporation",
     "time": "",
     "eps_est": "$8.23",
-    "cap": 112528843000,
+    "cap": 115730375000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/ph/earnings"
-   },
-   {
-    "date": "2026-11-05",
-    "type": "earnings",
-    "title": "SO",
-    "name": "Southern Company (The)",
-    "time": "",
-    "eps_est": "$1.71",
-    "cap": 107374879000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/so/earnings"
    },
    {
     "date": "2026-11-05",
@@ -120644,31 +120694,20 @@
     "name": "Airbnb, Inc.",
     "time": "",
     "eps_est": "$2.86",
-    "cap": 101871411000,
+    "cap": 111627141000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/abnb/earnings"
    },
    {
     "date": "2026-11-05",
     "type": "earnings",
-    "title": "DUK",
-    "name": "Duke Energy Corporation",
+    "title": "SO",
+    "name": "Southern Company (The)",
     "time": "",
-    "eps_est": "$1.87",
-    "cap": 101423661000,
+    "eps_est": "$1.71",
+    "cap": 107507859000,
     "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/duk/earnings"
-   },
-   {
-    "date": "2026-11-05",
-    "type": "earnings",
-    "title": "CNQ",
-    "name": "Canadian Natural Resources Limited",
-    "time": "",
-    "eps_est": "$1.05",
-    "cap": 101066252000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/cnq/earnings"
+    "url": "https://www.nasdaq.com/market-activity/stocks/so/earnings"
    },
    {
     "date": "2026-11-06",
@@ -120821,7 +120860,7 @@
     "name": "Mitsubishi UFJ Financial Group Inc",
     "time": "",
     "eps_est": "$0.45",
-    "cap": 248865898000,
+    "cap": 250883408000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/mufg/earnings",
     "analyst": {
@@ -120839,7 +120878,7 @@
     "name": "Sumitomo Mitsui Financial Group Inc",
     "time": "",
     "eps_est": "$0.24",
-    "cap": 148762231000,
+    "cap": 149847146000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/smfg/earnings",
     "analyst": {
@@ -120857,7 +120896,7 @@
     "name": "Mizuho Financial Group, Inc.",
     "time": "",
     "eps_est": "$0.21",
-    "cap": 117022884000,
+    "cap": 116898390000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mfg/earnings",
     "analyst": {
@@ -121490,8 +121529,8 @@
     "shares": "9,098,800",
     "size": "$90,988,000",
     "deal": "1390143-118358",
-    "last": 10.9199,
-    "last_time": "Nov 9, 2026 7:33 AM ET"
+    "last": 10.725,
+    "last_time": "Nov 9, 2026 10:50 AM ET"
    },
    {
     "date": "2026-10-30",
@@ -121502,8 +121541,8 @@
     "shares": "10,555,555",
     "size": "$168,888,880",
     "deal": "1320589-119617",
-    "last": 16.56,
-    "last_time": "Nov 9, 2026 7:35 AM ET"
+    "last": 16.5,
+    "last_time": "Nov 9, 2026 10:50 AM ET"
    },
    {
     "date": "2026-10-30",
@@ -121514,8 +121553,8 @@
     "shares": "9,375,000",
     "size": "$140,625,000",
     "deal": "1405733-119610",
-    "last": 13.33,
-    "last_time": "Nov 9, 2026 9:08 AM ET"
+    "last": 12.5,
+    "last_time": "Nov 9, 2026 10:50 AM ET"
    },
    {
     "date": "2026-10-29",
@@ -121526,8 +121565,8 @@
     "shares": "7,074,016",
     "size": "",
     "deal": "165535-119563",
-    "last": 33.1,
-    "last_time": "Nov 9, 2026 9:06 AM ET"
+    "last": 33.5,
+    "last_time": "Nov 9, 2026 10:50 AM ET"
    },
    {
     "date": "2026-10-29",
@@ -121538,8 +121577,8 @@
     "shares": "10,000,000",
     "size": "$100,000,000",
     "deal": "1404187-119517",
-    "last": 10.0,
-    "last_time": "Nov 6, 2026"
+    "last": 9.9901,
+    "last_time": "Nov 9, 2026 10:50 AM ET"
    },
    {
     "date": "2026-10-27",
@@ -121550,8 +121589,8 @@
     "shares": "10,000,000",
     "size": "$100,000,000",
     "deal": "1402228-119376",
-    "last": 10.0,
-    "last_time": "Nov 6, 2026"
+    "last": 10.03,
+    "last_time": "Nov 9, 2026 10:50 AM ET"
    }
   ],
   "filed": [
@@ -131660,9 +131699,9 @@
   ],
   "source": "https://www.marketbeat.com/ratings/",
   "note": "All actions for stocks with market cap >= $100B; upgrades, downgrades and initiations for >= $10B (caps from Nasdaq).",
-  "updated_et": "2026-11-09 09:11 ET"
+  "updated_et": "2026-11-09 10:50 ET"
  },
- "updated_et": "2026-11-09 09:11 ET",
+ "updated_et": "2026-11-09 10:50 ET",
  "indicators": [
   {
    "key": "cpi",
