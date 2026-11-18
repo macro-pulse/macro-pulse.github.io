@@ -1102,6 +1102,10 @@
      [
       "2026-11-16",
       4.1
+     ],
+     [
+      "2026-11-17",
+      4.09
      ]
     ]
    },
@@ -2206,6 +2210,10 @@
      [
       "2026-11-16",
       4.34
+     ],
+     [
+      "2026-11-17",
+      4.33
      ]
     ]
    },
@@ -3310,6 +3318,10 @@
      [
       "2026-11-16",
       4.42
+     ],
+     [
+      "2026-11-17",
+      4.41
      ]
     ]
    },
@@ -4414,6 +4426,10 @@
      [
       "2026-11-16",
       4.62
+     ],
+     [
+      "2026-11-17",
+      4.6
      ]
     ]
    },
@@ -5518,6 +5534,10 @@
      [
       "2026-11-16",
       4.83
+     ],
+     [
+      "2026-11-17",
+      4.8
      ]
     ]
    },
@@ -6622,6 +6642,10 @@
      [
       "2026-11-16",
       4.93
+     ],
+     [
+      "2026-11-17",
+      4.9
      ]
     ]
    },
@@ -7726,6 +7750,10 @@
      [
       "2026-11-16",
       5.01
+     ],
+     [
+      "2026-11-17",
+      4.99
      ]
     ]
    },
@@ -8830,6 +8858,10 @@
      [
       "2026-11-16",
       5.12
+     ],
+     [
+      "2026-11-17",
+      5.1
      ]
     ]
    },
@@ -9934,6 +9966,10 @@
      [
       "2026-11-16",
       5.51
+     ],
+     [
+      "2026-11-17",
+      5.5
      ]
     ]
    },
@@ -11037,6 +11073,10 @@
      ],
      [
       "2026-11-16",
+      5.46
+     ],
+     [
+      "2026-11-17",
       5.46
      ]
     ]
@@ -14355,6 +14395,10 @@
      [
       "2026-11-16",
       2.68
+     ],
+     [
+      "2026-11-17",
+      2.64
      ]
     ]
    },
@@ -15458,6 +15502,10 @@
      [
       "2026-11-16",
       2.92
+     ],
+     [
+      "2026-11-17",
+      2.89
      ]
     ]
    },
@@ -16561,6 +16609,10 @@
      [
       "2026-11-16",
       3.3
+     ],
+     [
+      "2026-11-17",
+      3.28
      ]
     ]
    },
@@ -18788,10 +18840,6 @@
     "freq": "daily",
     "h": [
      [
-      "2025-10-13",
-      2.6303
-     ],
-     [
       "2025-10-14",
       2.6063
      ],
@@ -19868,10 +19916,6 @@
       3.2627
      ],
      [
-      "2026-08-20",
-      3.2553
-     ],
-     [
       "2026-08-21",
       3.251
      ],
@@ -20182,6 +20226,10 @@
      [
       "2026-11-17",
       3.3837
+     ],
+     [
+      "2026-11-18",
+      3.377
      ]
     ]
    },
@@ -20194,10 +20242,6 @@
     "url": "https://www.cnbc.com/quotes/FR10Y-FR",
     "freq": "daily",
     "h": [
-     [
-      "2025-10-13",
-      3.4658
-     ],
      [
       "2025-10-14",
       3.4064
@@ -21292,7 +21336,7 @@
      ],
      [
       "2026-08-21",
-      4.1136
+      4.1177
      ],
      [
       "2026-08-22",
@@ -21601,6 +21645,10 @@
      [
       "2026-11-17",
       4.899
+     ],
+     [
+      "2026-11-18",
+      4.874
      ]
     ]
    },
@@ -21613,10 +21661,6 @@
     "url": "https://www.cnbc.com/quotes/IT10Y-IT",
     "freq": "daily",
     "h": [
-     [
-      "2025-10-13",
-      3.4597
-     ],
      [
       "2025-10-14",
       3.4261
@@ -22678,12 +22722,8 @@
       4.072
      ],
      [
-      "2026-08-20",
-      4.0758
-     ],
-     [
       "2026-08-21",
-      4.084
+      4.0776
      ],
      [
       "2026-08-22",
@@ -22918,6 +22958,10 @@
       4.5128
      ],
      [
+      "2026-10-29",
+      4.4608
+     ],
+     [
       "2026-10-30",
       4.5079
      ],
@@ -22980,6 +23024,10 @@
      [
       "2026-11-17",
       4.4426
+     ],
+     [
+      "2026-11-18",
+      4.4526
      ]
     ]
    },
@@ -52978,11 +53026,11 @@
      ],
      [
       "2026-11-17",
-      2.133
+      2.153
      ],
      [
       "2026-11-18",
-      2.166
+      2.186
      ]
     ]
    },
@@ -54153,6 +54201,10 @@
      [
       "2026-11-16",
       -3.485
+     ],
+     [
+      "2026-11-17",
+      -3.455
      ]
     ]
    }
@@ -54205,7 +54257,7 @@
    ]
   },
   "failed": [],
-  "updated_et": "2026-11-18 10:51 ET"
+  "updated_et": "2026-11-18 16:44 ET"
  },
  "vol": {
   "items": [
@@ -69900,10 +69952,6 @@
     "ticker": "V2TX",
     "h": [
      [
-      "2025-10-13",
-      19.677
-     ],
-     [
       "2025-10-14",
       20.4203
      ],
@@ -71014,6 +71062,10 @@
      [
       "2026-11-17",
       21.8684
+     ],
+     [
+      "2026-11-18",
+      22.1821
      ]
     ]
    },
@@ -72125,7 +72177,7 @@
     "unit": "",
     "src": "Deribit",
     "url": "https://www.deribit.com/statistics/BTC/volatility-index",
-    "freq": "24/7 \u00b7 latest 2026-11-18 10:00 ET",
+    "freq": "24/7 \u00b7 latest 2026-11-18 16:00 ET",
     "h": [
      [
       "2025-10-14",
@@ -73729,7 +73781,7 @@
      ],
      [
       "2026-11-18",
-      45.15
+      45.66
      ]
     ]
    },
@@ -76317,7 +76369,7 @@
     "unit": "",
     "src": "Deribit",
     "url": "https://www.deribit.com/statistics/ETH/volatility-index",
-    "freq": "24/7 \u00b7 latest 2026-11-18 10:00 ET",
+    "freq": "24/7 \u00b7 latest 2026-11-18 16:00 ET",
     "h": [
      [
       "2025-10-14",
@@ -77921,7 +77973,7 @@
      ],
      [
       "2026-11-18",
-      59.26
+      59.73
      ]
     ]
    },
@@ -81647,7 +81699,7 @@
    }
   ],
   "failed": [],
-  "updated_et": "2026-11-18 10:51 ET"
+  "updated_et": "2026-11-18 16:44 ET"
  },
  "indexes": {
   "items": [
@@ -82770,7 +82822,7 @@
      ],
      [
       "2026-11-18",
-      7315.14
+      7323.63
      ]
     ],
     "live": "2026-11-18"
@@ -83894,7 +83946,7 @@
      ],
      [
       "2026-11-18",
-      50171.36
+      50198.17
      ]
     ],
     "live": "2026-11-18"
@@ -85018,7 +85070,7 @@
      ],
      [
       "2026-11-18",
-      24362.567
+      24429.885
      ]
     ],
     "live": "2026-11-18"
@@ -86142,7 +86194,7 @@
      ],
      [
       "2026-11-18",
-      27016.008
+      27116.259
      ]
     ],
     "live": "2026-11-18"
@@ -87266,7 +87318,7 @@
      ],
      [
       "2026-11-18",
-      2717.062
+      2714.306
      ]
     ],
     "live": "2026-11-18"
@@ -88390,7 +88442,7 @@
      ],
      [
       "2026-11-18",
-      3586.14
+      3590.7
      ]
     ],
     "live": "2026-11-18"
@@ -89514,7 +89566,7 @@
      ],
      [
       "2026-11-18",
-      8714.06
+      8721.54
      ]
     ],
     "live": "2026-11-18"
@@ -93960,7 +94012,7 @@
      ],
      [
       "2026-11-18",
-      6178.47
+      6154.39
      ]
     ],
     "live": "2026-11-18"
@@ -95092,7 +95144,7 @@
      ],
      [
       "2026-11-18",
-      25868.29
+      25736.24
      ]
     ],
     "live": "2026-11-18"
@@ -96224,7 +96276,7 @@
      ],
      [
       "2026-11-18",
-      10579.68
+      10551.17
      ]
     ],
     "live": "2026-11-18"
@@ -97364,7 +97416,7 @@
      ],
      [
       "2026-11-18",
-      8172.02
+      8146.83
      ]
     ],
     "live": "2026-11-18"
@@ -98516,7 +98568,7 @@
      ],
      [
       "2026-11-18",
-      19441.3
+      19373.3
      ]
     ],
     "live": "2026-11-18"
@@ -99648,7 +99700,7 @@
      ],
      [
       "2026-11-18",
-      50391.09
+      50173.67
      ]
     ],
     "live": "2026-11-18"
@@ -100768,7 +100820,7 @@
      ],
      [
       "2026-11-18",
-      14933.23
+      14886.12
      ]
     ],
     "live": "2026-11-18"
@@ -110604,7 +110656,7 @@
      ],
      [
       "2026-11-18",
-      34732.55
+      34578.05
      ]
     ],
     "live": "2026-11-18"
@@ -111712,7 +111764,7 @@
      ],
      [
       "2026-11-18",
-      168057.99
+      167537.95
      ]
     ],
     "live": "2026-11-18"
@@ -112832,7 +112884,7 @@
      ],
      [
       "2026-11-18",
-      69760.94
+      69154.17
      ]
     ],
     "live": "2026-11-18"
@@ -120644,7 +120696,7 @@
    }
   ],
   "failed": [],
-  "updated_et": "2026-11-18 10:51 ET"
+  "updated_et": "2026-11-18 16:44 ET"
  },
  "calendar": {
   "start": "2026-11-01",
@@ -121033,7 +121085,7 @@
     "name": "Petroleo Brasileiro S.A.- Petrobras",
     "time": "",
     "eps_est": "$1.38",
-    "cap": 111487541000,
+    "cap": 112196420000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/pbr/earnings"
    },
@@ -121123,7 +121175,7 @@
     "name": "NVIDIA Corporation",
     "time": "",
     "eps_est": "$2.47",
-    "cap": 3762974100000,
+    "cap": 3746585900000,
     "tier": "mag7",
     "url": "https://www.nasdaq.com/market-activity/stocks/nvda/earnings"
    },
@@ -121134,7 +121186,7 @@
     "name": "Home Depot, Inc. (The)",
     "time": "",
     "eps_est": "$3.86",
-    "cap": 346707132000,
+    "cap": 338226774000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/hd/earnings"
    },
@@ -121145,7 +121197,7 @@
     "name": "Walt Disney Company (The)",
     "time": "",
     "eps_est": "$1.67",
-    "cap": 204957729000,
+    "cap": 201918759000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/dis/earnings"
    },
@@ -121156,9 +121208,17 @@
     "name": "BHP Group Limited",
     "time": "",
     "eps_est": "",
-    "cap": 195077603000,
+    "cap": 189398172000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/bhp/earnings"
+   },
+   {
+    "date": "2026-11-18",
+    "type": "macro",
+    "title": "FOMC minutes",
+    "time": "2:00 pm ET",
+    "keys": [],
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
    },
    {
     "date": "2026-11-18",
@@ -121241,7 +121301,7 @@
     "name": "Walmart Inc.",
     "time": "BMO",
     "eps_est": "$0.64",
-    "cap": 1018772320000,
+    "cap": 1011711340000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/wmt/earnings",
     "analyst": {
@@ -121263,7 +121323,7 @@
     "name": "Alibaba Group Holding Limited",
     "time": "BMO",
     "eps_est": "$1.56",
-    "cap": 219525677000,
+    "cap": 209908417000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/baba/earnings",
     "analyst": {
@@ -121285,7 +121345,7 @@
     "name": "PDD Holdings Inc.",
     "time": "BMO",
     "eps_est": "$2.61",
-    "cap": 111181496000,
+    "cap": 110156653000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/pdd/earnings",
     "analyst": {
@@ -121335,7 +121395,7 @@
     "name": "Dell Technologies Inc.",
     "time": "AMC",
     "eps_est": "$6.41",
-    "cap": 203809784000,
+    "cap": 205233996000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/dell/earnings",
     "analyst": {
@@ -121357,7 +121417,7 @@
     "name": "Analog Devices, Inc.",
     "time": "BMO",
     "eps_est": "$3.89",
-    "cap": 185670943000,
+    "cap": 185913229000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/adi/earnings",
     "analyst": {
@@ -121379,7 +121439,7 @@
     "name": "Medtronic plc",
     "time": "BMO",
     "eps_est": "$1.34",
-    "cap": 131597705000,
+    "cap": 130881389000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mdt/earnings",
     "analyst": {
@@ -121429,7 +121489,7 @@
     "name": "Deere & Company",
     "time": "BMO",
     "eps_est": "$4.07",
-    "cap": 176332325000,
+    "cap": 175048901000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/de/earnings",
     "analyst": {
@@ -121459,7 +121519,7 @@
     "name": "CrowdStrike Holdings, Inc.",
     "time": "AMC",
     "eps_est": "$0",
-    "cap": 228552491000,
+    "cap": 224835617000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/crwd/earnings",
     "analyst": {
@@ -121481,7 +121541,7 @@
     "name": "Marvell Technology, Inc.",
     "time": "AMC",
     "eps_est": "$0.79",
-    "cap": 127466185000,
+    "cap": 130430108000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mrvl/earnings",
     "analyst": {
@@ -121503,7 +121563,7 @@
     "name": "Salesforce, Inc.",
     "time": "AMC",
     "eps_est": "$2.41",
-    "cap": 176805085000,
+    "cap": 160089965000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/crm/earnings"
    },
@@ -121514,7 +121574,7 @@
     "name": "Bank Of Montreal",
     "time": "BMO",
     "eps_est": "$2.76",
-    "cap": 118130172000,
+    "cap": 115676561000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/bmo/earnings"
    },
@@ -121525,7 +121585,7 @@
     "name": "Bank of Nova Scotia (The)",
     "time": "BMO",
     "eps_est": "$1.58",
-    "cap": 111303418000,
+    "cap": 109320962000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/bns/earnings"
    },
@@ -121544,7 +121604,7 @@
     "name": "Royal Bank Of Canada",
     "time": "BMO",
     "eps_est": "$2.97",
-    "cap": 276650656000,
+    "cap": 272034677000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/ry/earnings"
    },
@@ -121555,7 +121615,7 @@
     "name": "Toronto Dominion Bank (The)",
     "time": "BMO",
     "eps_est": "$1.77",
-    "cap": 199003062000,
+    "cap": 195381150000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/td/earnings"
    },
@@ -121566,7 +121626,7 @@
     "name": "Canadian Imperial Bank of Commerce",
     "time": "BMO",
     "eps_est": "$1.72",
-    "cap": 103404241000,
+    "cap": 101557404000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/cm/earnings"
    },
@@ -121593,7 +121653,7 @@
     "name": "Broadcom Inc.",
     "time": "AMC",
     "eps_est": "$3.45",
-    "cap": 1591528260000,
+    "cap": 1630671990000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/avgo/earnings"
    },
@@ -121604,7 +121664,7 @@
     "name": "Oracle Corporation",
     "time": "",
     "eps_est": "$1.56",
-    "cap": 360096727000,
+    "cap": 347729625000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/orcl/earnings"
    },
@@ -121634,7 +121694,7 @@
     "name": "Costco Wholesale Corporation",
     "time": "AMC",
     "eps_est": "$4.89",
-    "cap": 493530874000,
+    "cap": 491909022000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/cost/earnings"
    },
@@ -121661,7 +121721,7 @@
     "name": "Micron Technology, Inc.",
     "time": "",
     "eps_est": "$37.95",
-    "cap": 813515930000,
+    "cap": 806048500000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/mu/earnings"
    },
@@ -121780,8 +121840,8 @@
     "shares": "9,411,764",
     "size": "$39,999,997",
     "deal": "1212697-115511",
-    "last": 2.0499,
-    "last_time": "Nov 18, 2026 10:50 AM ET"
+    "last": 1.88,
+    "last_time": "Nov 18, 2026 4:44 PM ET"
    },
    {
     "date": "2026-11-13",
@@ -121792,8 +121852,8 @@
     "shares": "9,722,223",
     "size": "$175,000,014",
     "deal": "1235548-119602",
-    "last": 15.6401,
-    "last_time": "Nov 18, 2026 10:50 AM ET"
+    "last": 15.2,
+    "last_time": "Nov 18, 2026 4:44 PM ET"
    },
    {
     "date": "2026-11-13",
@@ -121804,8 +121864,8 @@
     "shares": "10,294,117",
     "size": "$174,999,989",
     "deal": "1407588-119709",
-    "last": 28.39,
-    "last_time": "Nov 18, 2026 10:50 AM ET"
+    "last": 22.3132,
+    "last_time": "Nov 18, 2026 4:44 PM ET"
    }
   ],
   "filed": [
@@ -122114,9 +122174,9 @@
   ],
   "source": "https://www.marketbeat.com/ratings/",
   "note": "All actions for stocks with market cap >= $100B; upgrades, downgrades and initiations for >= $10B (caps from Nasdaq).",
-  "updated_et": "2026-11-18 10:50 ET"
+  "updated_et": "2026-11-18 16:44 ET"
  },
- "updated_et": "2026-11-18 10:51 ET",
+ "updated_et": "2026-11-18 16:44 ET",
  "indicators": [
   {
    "key": "cpi",
@@ -122603,9 +122663,9 @@
    "group": "Rates",
    "decimals": 2,
    "latest": 3.88,
-   "date": "2026-11-16",
+   "date": "2026-11-17",
    "prior": 3.88,
-   "prior_date": "2026-11-15",
+   "prior_date": "2026-11-16",
    "change": 0.0,
    "spark": [
     3.88,
@@ -122678,13 +122738,12 @@
    "unit": "%",
    "group": "Rates",
    "decimals": 2,
-   "latest": 4.83,
-   "date": "2026-11-16",
-   "prior": 4.88,
-   "prior_date": "2026-11-13",
-   "change": -0.05,
+   "latest": 4.8,
+   "date": "2026-11-17",
+   "prior": 4.83,
+   "prior_date": "2026-11-16",
+   "change": -0.03,
    "spark": [
-    4.19,
     4.24,
     4.24,
     4.17,
@@ -122743,7 +122802,8 @@
     4.73,
     4.86,
     4.88,
-    4.83
+    4.83,
+    4.8
    ],
    "source": "https://fred.stlouisfed.org/series/DGS2"
   },
@@ -122754,13 +122814,12 @@
    "unit": "%",
    "group": "Rates",
    "decimals": 2,
-   "latest": 5.12,
-   "date": "2026-11-16",
-   "prior": 5.15,
-   "prior_date": "2026-11-13",
-   "change": -0.03,
+   "latest": 5.1,
+   "date": "2026-11-17",
+   "prior": 5.12,
+   "prior_date": "2026-11-16",
+   "change": -0.02,
    "spark": [
-    4.69,
     4.74,
     4.7,
     4.64,
@@ -122819,7 +122878,8 @@
     4.98,
     5.1,
     5.15,
-    5.12
+    5.12,
+    5.1
    ],
    "source": "https://fred.stlouisfed.org/series/DGS10"
   },
@@ -122831,12 +122891,11 @@
    "group": "Rates",
    "decimals": 2,
    "latest": 5.46,
-   "date": "2026-11-16",
-   "prior": 5.47,
-   "prior_date": "2026-11-13",
-   "change": -0.01,
+   "date": "2026-11-17",
+   "prior": 5.46,
+   "prior_date": "2026-11-16",
+   "change": 0.0,
    "spark": [
-    5.23,
     5.27,
     5.23,
     5.17,
@@ -122895,6 +122954,7 @@
     5.35,
     5.43,
     5.47,
+    5.46,
     5.46
    ],
    "source": "https://fred.stlouisfed.org/series/DGS30"
@@ -123058,16 +123118,12 @@
    "unit": "$",
    "group": "Markets",
    "decimals": 2,
-   "latest": 89.62,
-   "date": "2026-11-11",
-   "prior": 89.62,
-   "prior_date": "2026-11-10",
-   "change": 0.0,
+   "latest": 89.53,
+   "date": "2026-11-17",
+   "prior": 89.24,
+   "prior_date": "2026-11-16",
+   "change": 0.29,
    "spark": [
-    87.28,
-    89.75,
-    87.21,
-    86.34,
     83.9,
     83.46,
     84.81,
@@ -123123,7 +123179,11 @@
     94.37,
     90.4,
     89.62,
-    89.62
+    89.62,
+    92.3,
+    91.96,
+    89.24,
+    89.53
    ],
    "source": "https://fred.stlouisfed.org/series/DCOILWTICO"
   },
