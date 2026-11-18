@@ -19868,6 +19868,10 @@
       3.2627
      ],
      [
+      "2026-08-20",
+      3.2553
+     ],
+     [
       "2026-08-21",
       3.251
      ],
@@ -21288,7 +21292,7 @@
      ],
      [
       "2026-08-21",
-      4.1177
+      4.1136
      ],
      [
       "2026-08-22",
@@ -22674,8 +22678,12 @@
       4.072
      ],
      [
+      "2026-08-20",
+      4.0758
+     ],
+     [
       "2026-08-21",
-      4.0817
+      4.084
      ],
      [
       "2026-08-22",
@@ -22908,10 +22916,6 @@
      [
       "2026-10-28",
       4.5128
-     ],
-     [
-      "2026-10-29",
-      4.4608
      ],
      [
       "2026-10-30",
@@ -23941,10 +23945,6 @@
       1.682
      ],
      [
-      "2026-09-09",
-      1.74
-     ],
-     [
       "2026-09-10",
       1.684
      ],
@@ -23963,14 +23963,6 @@
      [
       "2026-09-15",
       1.685
-     ],
-     [
-      "2026-09-16",
-      1.684
-     ],
-     [
-      "2026-09-17",
-      1.684
      ],
      [
       "2026-09-18",
@@ -24073,14 +24065,6 @@
       1.633
      ],
      [
-      "2026-10-28",
-      1.624
-     ],
-     [
-      "2026-10-29",
-      1.618
-     ],
-     [
       "2026-10-30",
       1.631
      ],
@@ -24095,10 +24079,6 @@
      [
       "2026-11-04",
       1.631
-     ],
-     [
-      "2026-11-05",
-      1.619
      ],
      [
       "2026-11-06",
@@ -54035,10 +54015,6 @@
       -3.118
      ],
      [
-      "2026-09-09",
-      -3.09
-     ],
-     [
       "2026-09-10",
       -3.266
      ],
@@ -54053,14 +54029,6 @@
      [
       "2026-09-15",
       -3.315
-     ],
-     [
-      "2026-09-16",
-      -3.326
-     ],
-     [
-      "2026-09-17",
-      -3.256
      ],
      [
       "2026-09-18",
@@ -54147,14 +54115,6 @@
       -3.357
      ],
      [
-      "2026-10-28",
-      -3.426
-     ],
-     [
-      "2026-10-29",
-      -3.362
-     ],
-     [
       "2026-10-30",
       -3.309
      ],
@@ -54169,10 +54129,6 @@
      [
       "2026-11-04",
       -3.269
-     ],
-     [
-      "2026-11-05",
-      -3.221
      ],
      [
       "2026-11-06",
@@ -54249,7 +54205,7 @@
    ]
   },
   "failed": [],
-  "updated_et": "2026-11-18 09:10 ET"
+  "updated_et": "2026-11-18 10:51 ET"
  },
  "vol": {
   "items": [
@@ -72169,7 +72125,7 @@
     "unit": "",
     "src": "Deribit",
     "url": "https://www.deribit.com/statistics/BTC/volatility-index",
-    "freq": "24/7 \u00b7 latest 2026-11-18 09:00 ET",
+    "freq": "24/7 \u00b7 latest 2026-11-18 10:00 ET",
     "h": [
      [
       "2025-10-14",
@@ -73773,7 +73729,7 @@
      ],
      [
       "2026-11-18",
-      44.69
+      45.15
      ]
     ]
    },
@@ -76361,7 +76317,7 @@
     "unit": "",
     "src": "Deribit",
     "url": "https://www.deribit.com/statistics/ETH/volatility-index",
-    "freq": "24/7 \u00b7 latest 2026-11-18 09:00 ET",
+    "freq": "24/7 \u00b7 latest 2026-11-18 10:00 ET",
     "h": [
      [
       "2025-10-14",
@@ -77965,7 +77921,7 @@
      ],
      [
       "2026-11-18",
-      58.62
+      59.26
      ]
     ]
    },
@@ -81691,7 +81647,7 @@
    }
   ],
   "failed": [],
-  "updated_et": "2026-11-18 09:10 ET"
+  "updated_et": "2026-11-18 10:51 ET"
  },
  "indexes": {
   "items": [
@@ -82811,8 +82767,13 @@
      [
       "2026-11-17",
       7340.53
+     ],
+     [
+      "2026-11-18",
+      7315.14
      ]
-    ]
+    ],
+    "live": "2026-11-18"
    },
    {
     "key": "dji",
@@ -83930,8 +83891,13 @@
      [
       "2026-11-17",
       50759.42
+     ],
+     [
+      "2026-11-18",
+      50171.36
      ]
-    ]
+    ],
+    "live": "2026-11-18"
    },
    {
     "key": "ixic",
@@ -85049,8 +85015,13 @@
      [
       "2026-11-17",
       24328.383
+     ],
+     [
+      "2026-11-18",
+      24362.567
      ]
-    ]
+    ],
+    "live": "2026-11-18"
    },
    {
     "key": "ndx",
@@ -86168,8 +86139,13 @@
      [
       "2026-11-17",
       27001.784
+     ],
+     [
+      "2026-11-18",
+      27016.008
      ]
-    ]
+    ],
+    "live": "2026-11-18"
    },
    {
     "key": "rut",
@@ -87286,9 +87262,14 @@
      ],
      [
       "2026-11-17",
-      2701.871
+      2701.8707
+     ],
+     [
+      "2026-11-18",
+      2717.062
      ]
-    ]
+    ],
+    "live": "2026-11-18"
    },
    {
     "key": "mid",
@@ -88406,8 +88387,13 @@
      [
       "2026-11-17",
       3580.16
+     ],
+     [
+      "2026-11-18",
+      3586.14
      ]
-    ]
+    ],
+    "live": "2026-11-18"
    },
    {
     "key": "spxew",
@@ -89525,8 +89511,13 @@
      [
       "2026-11-17",
       8731.61
+     ],
+     [
+      "2026-11-18",
+      8714.06
      ]
-    ]
+    ],
+    "live": "2026-11-18"
    },
    {
     "key": "nifty",
@@ -93969,7 +93960,7 @@
      ],
      [
       "2026-11-18",
-      6205.75
+      6178.47
      ]
     ],
     "live": "2026-11-18"
@@ -95101,7 +95092,7 @@
      ],
      [
       "2026-11-18",
-      25962.25
+      25868.29
      ]
     ],
     "live": "2026-11-18"
@@ -96233,7 +96224,7 @@
      ],
      [
       "2026-11-18",
-      10642.65
+      10579.68
      ]
     ],
     "live": "2026-11-18"
@@ -97373,7 +97364,7 @@
      ],
      [
       "2026-11-18",
-      8194.54
+      8172.02
      ]
     ],
     "live": "2026-11-18"
@@ -98525,7 +98516,7 @@
      ],
      [
       "2026-11-18",
-      19496.9
+      19441.3
      ]
     ],
     "live": "2026-11-18"
@@ -99657,7 +99648,7 @@
      ],
      [
       "2026-11-18",
-      50676.03
+      50391.09
      ]
     ],
     "live": "2026-11-18"
@@ -100777,7 +100768,7 @@
      ],
      [
       "2026-11-18",
-      14959.73
+      14933.23
      ]
     ],
     "live": "2026-11-18"
@@ -110610,8 +110601,13 @@
      [
       "2026-11-17",
       35315.3
+     ],
+     [
+      "2026-11-18",
+      34732.55
      ]
-    ]
+    ],
+    "live": "2026-11-18"
    },
    {
     "key": "bvsp",
@@ -111716,7 +111712,7 @@
      ],
      [
       "2026-11-18",
-      169681.07
+      168057.99
      ]
     ],
     "live": "2026-11-18"
@@ -112833,8 +112829,13 @@
      [
       "2026-11-17",
       70388.96
+     ],
+     [
+      "2026-11-18",
+      69760.94
      ]
-    ]
+    ],
+    "live": "2026-11-18"
    },
    {
     "key": "spy",
@@ -120643,7 +120644,7 @@
    }
   ],
   "failed": [],
-  "updated_et": "2026-11-18 09:11 ET"
+  "updated_et": "2026-11-18 10:51 ET"
  },
  "calendar": {
   "start": "2026-11-01",
@@ -120719,7 +120720,7 @@
     "name": "Advanced Micro Devices, Inc.",
     "time": "",
     "eps_est": "$1.68",
-    "cap": 827063210000,
+    "cap": 833176540000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/amd/earnings"
    },
@@ -120730,7 +120731,7 @@
     "name": "Amgen Inc.",
     "time": "",
     "eps_est": "$5.74",
-    "cap": 250074202000,
+    "cap": 247699603000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/amgn/earnings"
    },
@@ -120741,7 +120742,7 @@
     "name": "Arista Networks, Inc.",
     "time": "",
     "eps_est": "$0.99",
-    "cap": 236281512000,
+    "cap": 235523457000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/anet/earnings"
    },
@@ -120752,7 +120753,7 @@
     "name": "Shopify Inc.",
     "time": "",
     "eps_est": "$0.33",
-    "cap": 190260904000,
+    "cap": 182478569000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/shop/earnings"
    },
@@ -120763,7 +120764,7 @@
     "name": "Pfizer, Inc.",
     "time": "",
     "eps_est": "$0.72",
-    "cap": 164497785000,
+    "cap": 162274836000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/pfe/earnings"
    },
@@ -120774,7 +120775,7 @@
     "name": "Eaton Corporation, PLC",
     "time": "",
     "eps_est": "$3.54",
-    "cap": 130877882000,
+    "cap": 130967233000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/etn/earnings"
    },
@@ -120785,7 +120786,7 @@
     "name": "Booking Holdings Inc.",
     "time": "",
     "eps_est": "$4.48",
-    "cap": 117155258000,
+    "cap": 114872099000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/bkng/earnings"
    },
@@ -120796,7 +120797,7 @@
     "name": "Marathon Petroleum Corporation",
     "time": "",
     "eps_est": "$25.74",
-    "cap": 109509214000,
+    "cap": 107717591000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mpc/earnings"
    },
@@ -120807,7 +120808,7 @@
     "name": "Super Micro Computer, Inc.",
     "time": "",
     "eps_est": "$1.04",
-    "cap": 16497165300,
+    "cap": 15913748500,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/smci/earnings"
    },
@@ -121122,7 +121123,7 @@
     "name": "NVIDIA Corporation",
     "time": "",
     "eps_est": "$2.47",
-    "cap": 3746585900000,
+    "cap": 3762974100000,
     "tier": "mag7",
     "url": "https://www.nasdaq.com/market-activity/stocks/nvda/earnings"
    },
@@ -121133,7 +121134,7 @@
     "name": "Home Depot, Inc. (The)",
     "time": "",
     "eps_est": "$3.86",
-    "cap": 338226774000,
+    "cap": 346707132000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/hd/earnings"
    },
@@ -121144,7 +121145,7 @@
     "name": "Walt Disney Company (The)",
     "time": "",
     "eps_est": "$1.67",
-    "cap": 201918759000,
+    "cap": 204957729000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/dis/earnings"
    },
@@ -121155,7 +121156,7 @@
     "name": "BHP Group Limited",
     "time": "",
     "eps_est": "",
-    "cap": 189398172000,
+    "cap": 195077603000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/bhp/earnings"
    },
@@ -121428,7 +121429,7 @@
     "name": "Deere & Company",
     "time": "BMO",
     "eps_est": "$4.07",
-    "cap": 175048901000,
+    "cap": 176332325000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/de/earnings",
     "analyst": {
@@ -121458,7 +121459,7 @@
     "name": "CrowdStrike Holdings, Inc.",
     "time": "AMC",
     "eps_est": "$0",
-    "cap": 224835617000,
+    "cap": 228552491000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/crwd/earnings",
     "analyst": {
@@ -121480,7 +121481,7 @@
     "name": "Marvell Technology, Inc.",
     "time": "AMC",
     "eps_est": "$0.79",
-    "cap": 130430108000,
+    "cap": 127466185000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mrvl/earnings",
     "analyst": {
@@ -121502,7 +121503,7 @@
     "name": "Salesforce, Inc.",
     "time": "AMC",
     "eps_est": "$2.41",
-    "cap": 160089965000,
+    "cap": 176805085000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/crm/earnings"
    },
@@ -121513,7 +121514,7 @@
     "name": "Bank Of Montreal",
     "time": "BMO",
     "eps_est": "$2.76",
-    "cap": 115676561000,
+    "cap": 118130172000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/bmo/earnings"
    },
@@ -121524,7 +121525,7 @@
     "name": "Bank of Nova Scotia (The)",
     "time": "BMO",
     "eps_est": "$1.58",
-    "cap": 109320962000,
+    "cap": 111303418000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/bns/earnings"
    },
@@ -121592,7 +121593,7 @@
     "name": "Broadcom Inc.",
     "time": "AMC",
     "eps_est": "$3.45",
-    "cap": 1630671990000,
+    "cap": 1591528260000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/avgo/earnings"
    },
@@ -121603,7 +121604,7 @@
     "name": "Oracle Corporation",
     "time": "",
     "eps_est": "$1.56",
-    "cap": 347729625000,
+    "cap": 360096727000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/orcl/earnings"
    },
@@ -121633,7 +121634,7 @@
     "name": "Costco Wholesale Corporation",
     "time": "AMC",
     "eps_est": "$4.89",
-    "cap": 491909022000,
+    "cap": 493530874000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/cost/earnings"
    },
@@ -121679,7 +121680,7 @@
     "name": "Accenture plc",
     "time": "BMO",
     "eps_est": "$3.90",
-    "cap": 165642633000,
+    "cap": 160011993000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/acn/earnings"
    },
@@ -121690,7 +121691,7 @@
     "name": "Nike, Inc.",
     "time": "",
     "eps_est": "$0.34",
-    "cap": 56827916000,
+    "cap": 53248319000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/nke/earnings"
    },
@@ -121779,8 +121780,8 @@
     "shares": "9,411,764",
     "size": "$39,999,997",
     "deal": "1212697-115511",
-    "last": 1.8565,
-    "last_time": "Nov 18, 2026 8:57 AM ET"
+    "last": 2.0499,
+    "last_time": "Nov 18, 2026 10:50 AM ET"
    },
    {
     "date": "2026-11-13",
@@ -121791,8 +121792,8 @@
     "shares": "9,722,223",
     "size": "$175,000,014",
     "deal": "1235548-119602",
-    "last": 15.7,
-    "last_time": "Nov 18, 2026 7:59 AM ET"
+    "last": 15.6401,
+    "last_time": "Nov 18, 2026 10:50 AM ET"
    },
    {
     "date": "2026-11-13",
@@ -121803,8 +121804,8 @@
     "shares": "10,294,117",
     "size": "$174,999,989",
     "deal": "1407588-119709",
-    "last": 25.01,
-    "last_time": "Nov 18, 2026 7:54 AM ET"
+    "last": 28.39,
+    "last_time": "Nov 18, 2026 10:50 AM ET"
    }
   ],
   "filed": [
@@ -122113,9 +122114,9 @@
   ],
   "source": "https://www.marketbeat.com/ratings/",
   "note": "All actions for stocks with market cap >= $100B; upgrades, downgrades and initiations for >= $10B (caps from Nasdaq).",
-  "updated_et": "2026-11-18 09:10 ET"
+  "updated_et": "2026-11-18 10:50 ET"
  },
- "updated_et": "2026-11-18 09:11 ET",
+ "updated_et": "2026-11-18 10:51 ET",
  "indicators": [
   {
    "key": "cpi",
@@ -122484,7 +122485,7 @@
    ],
    "source": "https://fred.stlouisfed.org/series/A191RL1Q225SBEA",
    "expected": {
-    "value": 3.38,
+    "value": 3.21,
     "period": "Q4 2026",
     "source": "Atlanta Fed GDPNow (via FRED)",
     "url": "https://fred.stlouisfed.org/series/GDPNOW"
