@@ -1106,6 +1106,10 @@
      [
       "2026-11-17",
       4.09
+     ],
+     [
+      "2026-11-18",
+      4.1
      ]
     ]
    },
@@ -2214,6 +2218,10 @@
      [
       "2026-11-17",
       4.33
+     ],
+     [
+      "2026-11-18",
+      4.34
      ]
     ]
    },
@@ -3322,6 +3330,10 @@
      [
       "2026-11-17",
       4.41
+     ],
+     [
+      "2026-11-18",
+      4.43
      ]
     ]
    },
@@ -4430,6 +4442,10 @@
      [
       "2026-11-17",
       4.6
+     ],
+     [
+      "2026-11-18",
+      4.62
      ]
     ]
    },
@@ -5537,6 +5553,10 @@
      ],
      [
       "2026-11-17",
+      4.8
+     ],
+     [
+      "2026-11-18",
       4.8
      ]
     ]
@@ -6646,6 +6666,10 @@
      [
       "2026-11-17",
       4.9
+     ],
+     [
+      "2026-11-18",
+      4.89
      ]
     ]
    },
@@ -7754,6 +7778,10 @@
      [
       "2026-11-17",
       4.99
+     ],
+     [
+      "2026-11-18",
+      4.96
      ]
     ]
    },
@@ -8862,6 +8890,10 @@
      [
       "2026-11-17",
       5.1
+     ],
+     [
+      "2026-11-18",
+      5.07
      ]
     ]
    },
@@ -9970,6 +10002,10 @@
      [
       "2026-11-17",
       5.5
+     ],
+     [
+      "2026-11-18",
+      5.44
      ]
     ]
    },
@@ -11078,6 +11114,10 @@
      [
       "2026-11-17",
       5.46
+     ],
+     [
+      "2026-11-18",
+      5.41
      ]
     ]
    },
@@ -14407,6 +14447,10 @@
      [
       "2026-11-17",
       2.64
+     ],
+     [
+      "2026-11-18",
+      2.66
      ]
     ]
    },
@@ -15514,6 +15558,10 @@
      [
       "2026-11-17",
       2.89
+     ],
+     [
+      "2026-11-18",
+      2.88
      ]
     ]
    },
@@ -16621,6 +16669,10 @@
      [
       "2026-11-17",
       3.28
+     ],
+     [
+      "2026-11-18",
+      3.25
      ]
     ]
    },
@@ -18856,10 +18908,6 @@
     "freq": "daily",
     "h": [
      [
-      "2025-10-14",
-      2.6063
-     ],
-     [
       "2025-10-15",
       2.5578
      ],
@@ -19933,7 +19981,7 @@
      ],
      [
       "2026-08-21",
-      3.2485
+      3.251
      ],
      [
       "2026-08-22",
@@ -20246,6 +20294,10 @@
      [
       "2026-11-18",
       3.377
+     ],
+     [
+      "2026-11-19",
+      3.4099
      ]
     ]
    },
@@ -20258,10 +20310,6 @@
     "url": "https://www.cnbc.com/quotes/FR10Y-FR",
     "freq": "daily",
     "h": [
-     [
-      "2025-10-14",
-      3.4064
-     ],
      [
       "2025-10-15",
       3.3318
@@ -21336,7 +21384,7 @@
      ],
      [
       "2026-08-15",
-      4.0491
+      4.0489
      ],
      [
       "2026-08-17",
@@ -21351,8 +21399,12 @@
       4.11
      ],
      [
+      "2026-08-20",
+      4.1165
+     ],
+     [
       "2026-08-21",
-      4.1136
+      4.1186
      ],
      [
       "2026-08-22",
@@ -21665,6 +21717,10 @@
      [
       "2026-11-18",
       4.874
+     ],
+     [
+      "2026-11-19",
+      4.9412
      ]
     ]
    },
@@ -21677,10 +21733,6 @@
     "url": "https://www.cnbc.com/quotes/IT10Y-IT",
     "freq": "daily",
     "h": [
-     [
-      "2025-10-14",
-      3.4261
-     ],
      [
       "2025-10-15",
       3.3654
@@ -23044,6 +23096,10 @@
      [
       "2026-11-18",
       4.4526
+     ],
+     [
+      "2026-11-19",
+      4.484
      ]
     ]
    },
@@ -23925,6 +23981,10 @@
       1.706
      ],
      [
+      "2026-08-12",
+      1.703
+     ],
+     [
       "2026-08-13",
       1.696
      ],
@@ -24001,10 +24061,6 @@
       1.682
      ],
      [
-      "2026-09-09",
-      1.74
-     ],
-     [
       "2026-09-10",
       1.684
      ],
@@ -24023,14 +24079,6 @@
      [
       "2026-09-15",
       1.685
-     ],
-     [
-      "2026-09-16",
-      1.684
-     ],
-     [
-      "2026-09-17",
-      1.684
      ],
      [
       "2026-09-18",
@@ -24097,6 +24145,10 @@
       1.677
      ],
      [
+      "2026-10-15",
+      1.67
+     ],
+     [
       "2026-10-16",
       1.598
      ],
@@ -24129,10 +24181,6 @@
       1.633
      ],
      [
-      "2026-10-28",
-      1.624
-     ],
-     [
       "2026-10-30",
       1.631
      ],
@@ -24147,10 +24195,6 @@
      [
       "2026-11-04",
       1.631
-     ],
-     [
-      "2026-11-05",
-      1.619
      ],
      [
       "2026-11-06",
@@ -50998,10 +51042,6 @@
       1.25
      ],
      [
-      "2026-08-12",
-      1.243
-     ],
-     [
       "2026-08-13",
       1.24
      ],
@@ -53094,11 +53134,11 @@
      ],
      [
       "2026-11-18",
-      2.186
+      2.216
      ],
      [
       "2026-11-19",
-      2.154
+      2.184
      ]
     ]
    },
@@ -54055,6 +54095,10 @@
       -2.994
      ],
      [
+      "2026-08-12",
+      -2.977
+     ],
+     [
       "2026-08-13",
       -2.934
      ],
@@ -54127,10 +54171,6 @@
       -3.118
      ],
      [
-      "2026-09-09",
-      -3.09
-     ],
-     [
       "2026-09-10",
       -3.266
      ],
@@ -54145,14 +54185,6 @@
      [
       "2026-09-15",
       -3.315
-     ],
-     [
-      "2026-09-16",
-      -3.326
-     ],
-     [
-      "2026-09-17",
-      -3.256
      ],
      [
       "2026-09-18",
@@ -54203,6 +54235,10 @@
       -3.513
      ],
      [
+      "2026-10-15",
+      -3.43
+     ],
+     [
       "2026-10-16",
       -3.492
      ],
@@ -54235,10 +54271,6 @@
       -3.357
      ],
      [
-      "2026-10-28",
-      -3.426
-     ],
-     [
       "2026-10-30",
       -3.309
      ],
@@ -54253,10 +54285,6 @@
      [
       "2026-11-04",
       -3.269
-     ],
-     [
-      "2026-11-05",
-      -3.221
      ],
      [
       "2026-11-06",
@@ -54285,6 +54313,10 @@
      [
       "2026-11-17",
       -3.455
+     ],
+     [
+      "2026-11-18",
+      -3.427
      ]
     ]
    }
@@ -54337,7 +54369,7 @@
    ]
   },
   "failed": [],
-  "updated_et": "2026-11-19 10:49 ET"
+  "updated_et": "2026-11-19 16:41 ET"
  },
  "vol": {
   "items": [
@@ -70040,10 +70072,6 @@
     "ticker": "V2TX",
     "h": [
      [
-      "2025-10-14",
-      20.4203
-     ],
-     [
       "2025-10-15",
       19.1624
      ],
@@ -71154,6 +71182,10 @@
      [
       "2026-11-18",
       22.1821
+     ],
+     [
+      "2026-11-19",
+      22.5282
      ]
     ]
    },
@@ -72265,7 +72297,7 @@
     "unit": "",
     "src": "Deribit",
     "url": "https://www.deribit.com/statistics/BTC/volatility-index",
-    "freq": "24/7 \u00b7 latest 2026-11-19 10:00 ET",
+    "freq": "24/7 \u00b7 latest 2026-11-19 16:00 ET",
     "h": [
      [
       "2025-10-15",
@@ -73869,7 +73901,7 @@
      ],
      [
       "2026-11-19",
-      45.69
+      47.62
      ]
     ]
    },
@@ -76457,7 +76489,7 @@
     "unit": "",
     "src": "Deribit",
     "url": "https://www.deribit.com/statistics/ETH/volatility-index",
-    "freq": "24/7 \u00b7 latest 2026-11-19 10:00 ET",
+    "freq": "24/7 \u00b7 latest 2026-11-19 16:00 ET",
     "h": [
      [
       "2025-10-15",
@@ -78061,7 +78093,7 @@
      ],
      [
       "2026-11-19",
-      60.43
+      61.92
      ]
     ]
    },
@@ -81787,7 +81819,7 @@
    }
   ],
   "failed": [],
-  "updated_et": "2026-11-19 10:49 ET"
+  "updated_et": "2026-11-19 16:41 ET"
  },
  "indexes": {
   "items": [
@@ -82910,7 +82942,7 @@
      ],
      [
       "2026-11-19",
-      7285.67
+      7175.83
      ]
     ],
     "live": "2026-11-19"
@@ -84034,7 +84066,7 @@
      ],
      [
       "2026-11-19",
-      49665.07
+      49097.06
      ]
     ],
     "live": "2026-11-19"
@@ -85158,7 +85190,7 @@
      ],
      [
       "2026-11-19",
-      24415.196
+      23879.199
      ]
     ],
     "live": "2026-11-19"
@@ -86282,7 +86314,7 @@
      ],
      [
       "2026-11-19",
-      27043.861
+      26517.052
      ]
     ],
     "live": "2026-11-19"
@@ -87406,7 +87438,7 @@
      ],
      [
       "2026-11-19",
-      2692.636
+      2655.105
      ]
     ],
     "live": "2026-11-19"
@@ -88530,7 +88562,7 @@
      ],
      [
       "2026-11-19",
-      3552.24
+      3518.91
      ]
     ],
     "live": "2026-11-19"
@@ -89654,7 +89686,7 @@
      ],
      [
       "2026-11-19",
-      8628.42
+      8566.99
      ]
     ],
     "live": "2026-11-19"
@@ -94100,7 +94132,7 @@
      ],
      [
       "2026-11-19",
-      6138.46
+      6113.86
      ]
     ],
     "live": "2026-11-19"
@@ -94867,10 +94899,6 @@
       25147.03
      ],
      [
-      "2026-07-15",
-      24999.53
-     ],
-     [
       "2026-07-16",
       24915.49
      ],
@@ -95232,7 +95260,7 @@
      ],
      [
       "2026-11-19",
-      25592.64
+      25463.81
      ]
     ],
     "live": "2026-11-19"
@@ -96364,7 +96392,7 @@
      ],
      [
       "2026-11-19",
-      10494.35
+      10452.68
      ]
     ],
     "live": "2026-11-19"
@@ -97504,7 +97532,7 @@
      ],
      [
       "2026-11-19",
-      8113.58
+      8080.74
      ]
     ],
     "live": "2026-11-19"
@@ -98656,7 +98684,7 @@
      ],
      [
       "2026-11-19",
-      19302.8
+      19186.2
      ]
     ],
     "live": "2026-11-19"
@@ -99788,7 +99816,7 @@
      ],
      [
       "2026-11-19",
-      50239.94
+      49941.25
      ]
     ],
     "live": "2026-11-19"
@@ -100908,7 +100936,7 @@
      ],
      [
       "2026-11-19",
-      14782.27
+      14721.84
      ]
     ],
     "live": "2026-11-19"
@@ -110748,7 +110776,7 @@
      ],
      [
       "2026-11-19",
-      34251.63
+      34028.73
      ]
     ],
     "live": "2026-11-19"
@@ -111856,7 +111884,7 @@
      ],
      [
       "2026-11-19",
-      167169.37
+      166376.43
      ]
     ],
     "live": "2026-11-19"
@@ -112976,7 +113004,7 @@
      ],
      [
       "2026-11-19",
-      69118.58
+      68730.4
      ]
     ],
     "live": "2026-11-19"
@@ -120788,7 +120816,7 @@
    }
   ],
   "failed": [],
-  "updated_et": "2026-11-19 10:50 ET"
+  "updated_et": "2026-11-19 16:41 ET"
  },
  "calendar": {
   "start": "2026-11-01",
@@ -120801,7 +120829,7 @@
     "name": "Apple Inc.",
     "time": "",
     "eps_est": "$1.98",
-    "cap": 5114020000000,
+    "cap": 5121867500000,
     "tier": "mag7",
     "url": "https://www.nasdaq.com/market-activity/stocks/aapl/earnings"
    },
@@ -120812,7 +120840,7 @@
     "name": "Palantir Technologies Inc.",
     "time": "",
     "eps_est": "$0.32",
-    "cap": 377230918000,
+    "cap": 377495978000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/pltr/earnings"
    },
@@ -120823,7 +120851,7 @@
     "name": "Williams Companies, Inc. (The)",
     "time": "",
     "eps_est": "$0.55",
-    "cap": 171331731000,
+    "cap": 170747593000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/wmb/earnings"
    },
@@ -120834,7 +120862,7 @@
     "name": "Vertex Pharmaceuticals Incorporated",
     "time": "",
     "eps_est": "$4.36",
-    "cap": 135439827000,
+    "cap": 136010285000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/vrtx/earnings"
    },
@@ -120845,7 +120873,7 @@
     "name": "Marriott International",
     "time": "",
     "eps_est": "$2.86",
-    "cap": 108857410000,
+    "cap": 109671121000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mar/earnings"
    },
@@ -120864,20 +120892,9 @@
     "name": "Advanced Micro Devices, Inc.",
     "time": "",
     "eps_est": "$1.68",
-    "cap": 833176540000,
+    "cap": 877416480000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/amd/earnings"
-   },
-   {
-    "date": "2026-11-03",
-    "type": "earnings",
-    "title": "AMGN",
-    "name": "Amgen Inc.",
-    "time": "",
-    "eps_est": "$5.74",
-    "cap": 247699603000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/amgn/earnings"
    },
    {
     "date": "2026-11-03",
@@ -120886,9 +120903,20 @@
     "name": "Arista Networks, Inc.",
     "time": "",
     "eps_est": "$0.99",
-    "cap": 235523457000,
+    "cap": 245024244000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/anet/earnings"
+   },
+   {
+    "date": "2026-11-03",
+    "type": "earnings",
+    "title": "AMGN",
+    "name": "Amgen Inc.",
+    "time": "",
+    "eps_est": "$5.74",
+    "cap": 240105193000,
+    "tier": "key",
+    "url": "https://www.nasdaq.com/market-activity/stocks/amgn/earnings"
    },
    {
     "date": "2026-11-03",
@@ -120897,7 +120925,7 @@
     "name": "Shopify Inc.",
     "time": "",
     "eps_est": "$0.33",
-    "cap": 182478569000,
+    "cap": 179339543000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/shop/earnings"
    },
@@ -120908,7 +120936,7 @@
     "name": "Pfizer, Inc.",
     "time": "",
     "eps_est": "$0.72",
-    "cap": 162274836000,
+    "cap": 159937888000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/pfe/earnings"
    },
@@ -120919,7 +120947,7 @@
     "name": "Eaton Corporation, PLC",
     "time": "",
     "eps_est": "$3.54",
-    "cap": 130967233000,
+    "cap": 131445088000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/etn/earnings"
    },
@@ -120930,7 +120958,7 @@
     "name": "Booking Holdings Inc.",
     "time": "",
     "eps_est": "$4.48",
-    "cap": 114872099000,
+    "cap": 113994531000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/bkng/earnings"
    },
@@ -120941,7 +120969,7 @@
     "name": "Marathon Petroleum Corporation",
     "time": "",
     "eps_est": "$25.74",
-    "cap": 107717591000,
+    "cap": 101795455000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mpc/earnings"
    },
@@ -120952,7 +120980,7 @@
     "name": "Super Micro Computer, Inc.",
     "time": "",
     "eps_est": "$1.04",
-    "cap": 15913748500,
+    "cap": 16065371100,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/smci/earnings"
    },
@@ -120963,7 +120991,7 @@
     "name": "Arm Holdings plc",
     "time": "",
     "eps_est": "$0.22",
-    "cap": 195137094000,
+    "cap": 194466742000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/arm/earnings"
    },
@@ -120974,7 +121002,7 @@
     "name": "McDonald's Corporation",
     "time": "",
     "eps_est": "$3.36",
-    "cap": 194669543000,
+    "cap": 193406190000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mcd/earnings"
    },
@@ -120985,7 +121013,7 @@
     "name": "Novo Nordisk A/S",
     "time": "",
     "eps_est": "$0.81",
-    "cap": 180216775000,
+    "cap": 174593294000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/nvo/earnings"
    },
@@ -120996,7 +121024,7 @@
     "name": "QUALCOMM Incorporated",
     "time": "",
     "eps_est": "$1.46",
-    "cap": 178336907000,
+    "cap": 170996695000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/qcom/earnings"
    },
@@ -121007,7 +121035,7 @@
     "name": "Uber Technologies, Inc.",
     "time": "",
     "eps_est": "$0.94",
-    "cap": 140503007000,
+    "cap": 140400919000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/uber/earnings"
    },
@@ -121018,7 +121046,7 @@
     "name": "Applovin Corporation",
     "time": "",
     "eps_est": "$3.94",
-    "cap": 132177625000,
+    "cap": 129517109000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/app/earnings"
    },
@@ -121029,7 +121057,7 @@
     "name": "McKesson Corporation",
     "time": "",
     "eps_est": "$10.69",
-    "cap": 126040580000,
+    "cap": 125204668000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mck/earnings"
    },
@@ -121040,7 +121068,7 @@
     "name": "CVS Health Corporation",
     "time": "",
     "eps_est": "$1.62",
-    "cap": 109791683000,
+    "cap": 104085225000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/cvs/earnings"
    },
@@ -121059,7 +121087,7 @@
     "name": "Toyota Motor Corp Ltd Ord",
     "time": "",
     "eps_est": "",
-    "cap": 277779153000,
+    "cap": 273895047000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/tm/earnings"
    },
@@ -121070,7 +121098,7 @@
     "name": "ConocoPhillips",
     "time": "",
     "eps_est": "$3.06",
-    "cap": 164912087000,
+    "cap": 158905827000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/cop/earnings"
    },
@@ -121081,7 +121109,7 @@
     "name": "Sony Group Corporation",
     "time": "",
     "eps_est": "$0.38",
-    "cap": 157306683000,
+    "cap": 157247717000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/sony/earnings"
    },
@@ -121092,7 +121120,7 @@
     "name": "Parker-Hannifin Corporation",
     "time": "",
     "eps_est": "$8.23",
-    "cap": 116114973000,
+    "cap": 115861520000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/ph/earnings"
    },
@@ -121103,20 +121131,9 @@
     "name": "Southern Company (The)",
     "time": "",
     "eps_est": "$1.71",
-    "cap": 108974834000,
+    "cap": 109917880000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/so/earnings"
-   },
-   {
-    "date": "2026-11-05",
-    "type": "earnings",
-    "title": "ABNB",
-    "name": "Airbnb, Inc.",
-    "time": "",
-    "eps_est": "$2.86",
-    "cap": 106309886000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/abnb/earnings"
    },
    {
     "date": "2026-11-05",
@@ -121125,9 +121142,20 @@
     "name": "Cloudflare, Inc.",
     "time": "",
     "eps_est": "$0.02",
-    "cap": 102070116000,
+    "cap": 107843813000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/net/earnings"
+   },
+   {
+    "date": "2026-11-05",
+    "type": "earnings",
+    "title": "ABNB",
+    "name": "Airbnb, Inc.",
+    "time": "",
+    "eps_est": "$2.86",
+    "cap": 105880977000,
+    "tier": "",
+    "url": "https://www.nasdaq.com/market-activity/stocks/abnb/earnings"
    },
    {
     "date": "2026-11-05",
@@ -121136,7 +121164,7 @@
     "name": "Duke Energy Corporation",
     "time": "",
     "eps_est": "$1.87",
-    "cap": 101237326000,
+    "cap": 101401068000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/duk/earnings"
    },
@@ -121420,16 +121448,6 @@
     }
    },
    {
-    "date": "2026-11-19",
-    "type": "ipo",
-    "title": "ANT",
-    "name": "Anthropic, PBC",
-    "time": "",
-    "price": "83.00",
-    "size": "$81,340,000,000",
-    "url": "https://www.nasdaq.com/market-activity/ipos/overview?dealId=1407642-119728"
-   },
-   {
     "date": "2026-11-20",
     "type": "macro",
     "title": "UMich sentiment",
@@ -121454,8 +121472,8 @@
     "name": "Dell Technologies Inc.",
     "time": "AMC",
     "eps_est": "$6.48",
-    "cap": 205233996000,
-    "tier": "key",
+    "cap": 199079330000,
+    "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/dell/earnings",
     "analyst": {
      "rating": "Buy",
@@ -121476,7 +121494,7 @@
     "name": "Analog Devices, Inc.",
     "time": "BMO",
     "eps_est": "$3.89",
-    "cap": 185913229000,
+    "cap": 185094324000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/adi/earnings",
     "analyst": {
@@ -121498,7 +121516,7 @@
     "name": "Medtronic plc",
     "time": "BMO",
     "eps_est": "$1.34",
-    "cap": 130881389000,
+    "cap": 128834765000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mdt/earnings",
     "analyst": {
@@ -121548,7 +121566,7 @@
     "name": "Deere & Company",
     "time": "BMO",
     "eps_est": "$4.07",
-    "cap": 175048901000,
+    "cap": 173840990000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/de/earnings",
     "analyst": {
@@ -121891,16 +121909,6 @@
  "ipo": {
   "upcoming": [
    {
-    "date": "2026-11-19",
-    "ticker": "ANT",
-    "name": "Anthropic, PBC",
-    "exchange": "NASDAQ Global Select",
-    "price": "83.00",
-    "shares": "980,000,000",
-    "size": "$81,340,000,000",
-    "deal": "1407642-119728"
-   },
-   {
     "date": "2026-11-20",
     "ticker": "FBLLU",
     "name": "Football Manager SPAC Inc.",
@@ -121921,8 +121929,8 @@
     "shares": "9,411,764",
     "size": "$39,999,997",
     "deal": "1212697-115511",
-    "last": 2.035,
-    "last_time": "Nov 19, 2026 10:49 AM ET"
+    "last": 2.34,
+    "last_time": "Nov 19, 2026 4:41 PM ET"
    },
    {
     "date": "2026-11-13",
@@ -121933,8 +121941,8 @@
     "shares": "9,722,223",
     "size": "$175,000,014",
     "deal": "1235548-119602",
-    "last": 15.305,
-    "last_time": "Nov 19, 2026 10:49 AM ET"
+    "last": 15.0,
+    "last_time": "Nov 19, 2026 4:41 PM ET"
    },
    {
     "date": "2026-11-13",
@@ -121945,8 +121953,8 @@
     "shares": "10,294,117",
     "size": "$174,999,989",
     "deal": "1407588-119709",
-    "last": 23.09,
-    "last_time": "Nov 19, 2026 10:49 AM ET"
+    "last": 24.01,
+    "last_time": "Nov 19, 2026 4:41 PM ET"
    }
   ],
   "filed": [
@@ -122255,9 +122263,9 @@
   ],
   "source": "https://www.marketbeat.com/ratings/",
   "note": "All actions for stocks with market cap >= $100B; upgrades, downgrades and initiations for >= $10B (caps from Nasdaq).",
-  "updated_et": "2026-11-19 10:49 ET"
+  "updated_et": "2026-11-19 16:41 ET"
  },
- "updated_et": "2026-11-19 10:50 ET",
+ "updated_et": "2026-11-19 16:41 ET",
  "indicators": [
   {
    "key": "cpi",
@@ -122744,9 +122752,9 @@
    "group": "Rates",
    "decimals": 2,
    "latest": 3.88,
-   "date": "2026-11-17",
+   "date": "2026-11-18",
    "prior": 3.88,
-   "prior_date": "2026-11-16",
+   "prior_date": "2026-11-17",
    "change": 0.0,
    "spark": [
     3.88,
@@ -122820,12 +122828,11 @@
    "group": "Rates",
    "decimals": 2,
    "latest": 4.8,
-   "date": "2026-11-17",
-   "prior": 4.83,
-   "prior_date": "2026-11-16",
-   "change": -0.03,
+   "date": "2026-11-18",
+   "prior": 4.8,
+   "prior_date": "2026-11-17",
+   "change": 0.0,
    "spark": [
-    4.24,
     4.24,
     4.17,
     4.19,
@@ -122884,6 +122891,7 @@
     4.86,
     4.88,
     4.83,
+    4.8,
     4.8
    ],
    "source": "https://fred.stlouisfed.org/series/DGS2"
@@ -122895,13 +122903,12 @@
    "unit": "%",
    "group": "Rates",
    "decimals": 2,
-   "latest": 5.1,
-   "date": "2026-11-17",
-   "prior": 5.12,
-   "prior_date": "2026-11-16",
-   "change": -0.02,
+   "latest": 5.07,
+   "date": "2026-11-18",
+   "prior": 5.1,
+   "prior_date": "2026-11-17",
+   "change": -0.03,
    "spark": [
-    4.74,
     4.7,
     4.64,
     4.66,
@@ -122960,7 +122967,8 @@
     5.1,
     5.15,
     5.12,
-    5.1
+    5.1,
+    5.07
    ],
    "source": "https://fred.stlouisfed.org/series/DGS10"
   },
@@ -122971,13 +122979,12 @@
    "unit": "%",
    "group": "Rates",
    "decimals": 2,
-   "latest": 5.46,
-   "date": "2026-11-17",
+   "latest": 5.41,
+   "date": "2026-11-18",
    "prior": 5.46,
-   "prior_date": "2026-11-16",
-   "change": 0.0,
+   "prior_date": "2026-11-17",
+   "change": -0.05,
    "spark": [
-    5.27,
     5.23,
     5.17,
     5.18,
@@ -123036,7 +123043,8 @@
     5.43,
     5.47,
     5.46,
-    5.46
+    5.46,
+    5.41
    ],
    "source": "https://fred.stlouisfed.org/series/DGS30"
   },
@@ -123275,13 +123283,12 @@
    "unit": "%",
    "group": "Mortgage rates",
    "decimals": 2,
-   "latest": 7.11,
-   "date": "2026-11-12",
-   "prior": 7.18,
-   "prior_date": "2026-11-05",
-   "change": -0.07,
+   "latest": 7.28,
+   "date": "2026-11-19",
+   "prior": 7.11,
+   "prior_date": "2026-11-12",
+   "change": 0.17,
    "spark": [
-    6.3,
     6.34,
     6.3,
     6.27,
@@ -123340,7 +123347,8 @@
     7.32,
     7.24,
     7.18,
-    7.11
+    7.11,
+    7.28
    ],
    "source": "https://fred.stlouisfed.org/series/MORTGAGE30US",
    "forecast": {
@@ -123366,13 +123374,12 @@
    "unit": "%",
    "group": "Mortgage rates",
    "decimals": 2,
-   "latest": 6.45,
-   "date": "2026-11-12",
-   "prior": 6.57,
-   "prior_date": "2026-11-05",
-   "change": -0.12,
+   "latest": 6.66,
+   "date": "2026-11-19",
+   "prior": 6.45,
+   "prior_date": "2026-11-12",
+   "change": 0.21,
    "spark": [
-    5.49,
     5.55,
     5.53,
     5.52,
@@ -123431,7 +123438,8 @@
     6.68,
     6.6,
     6.57,
-    6.45
+    6.45,
+    6.66
    ],
    "source": "https://fred.stlouisfed.org/series/MORTGAGE15US"
   },
