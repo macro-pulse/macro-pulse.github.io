@@ -21400,7 +21400,7 @@
      ],
      [
       "2026-08-21",
-      4.1177
+      4.1136
      ],
      [
       "2026-08-22",
@@ -22786,12 +22786,8 @@
       4.072
      ],
      [
-      "2026-08-20",
-      4.0758
-     ],
-     [
       "2026-08-21",
-      4.084
+      4.0817
      ],
      [
       "2026-08-22",
@@ -23024,6 +23020,10 @@
      [
       "2026-10-28",
       4.5128
+     ],
+     [
+      "2026-10-29",
+      4.4608
      ],
      [
       "2026-10-30",
@@ -23973,6 +23973,10 @@
       1.706
      ],
      [
+      "2026-08-12",
+      1.703
+     ],
+     [
       "2026-08-13",
       1.696
      ],
@@ -24145,6 +24149,10 @@
       1.677
      ],
      [
+      "2026-10-15",
+      1.67
+     ],
+     [
       "2026-10-16",
       1.598
      ],
@@ -24179,6 +24187,10 @@
      [
       "2026-10-28",
       1.624
+     ],
+     [
+      "2026-10-29",
+      1.618
      ],
      [
       "2026-10-30",
@@ -54135,6 +54147,10 @@
       -2.994
      ],
      [
+      "2026-08-12",
+      -2.977
+     ],
+     [
       "2026-08-13",
       -2.934
      ],
@@ -54283,6 +54299,10 @@
       -3.513
      ],
      [
+      "2026-10-15",
+      -3.43
+     ],
+     [
       "2026-10-16",
       -3.492
      ],
@@ -54317,6 +54337,10 @@
      [
       "2026-10-28",
       -3.426
+     ],
+     [
+      "2026-10-29",
+      -3.362
      ],
      [
       "2026-10-30",
@@ -54421,7 +54445,7 @@
    ]
   },
   "failed": [],
-  "updated_et": "2026-11-20 09:10 ET"
+  "updated_et": "2026-11-20 10:50 ET"
  },
  "vol": {
   "items": [
@@ -69844,6 +69868,10 @@
       77.92
      ],
      [
+      "2026-08-12",
+      72.09
+     ],
+     [
       "2026-08-13",
       69.23
      ],
@@ -69942,6 +69970,10 @@
      [
       "2026-09-17",
       76.22
+     ],
+     [
+      "2026-09-18",
+      80.64
      ],
      [
       "2026-09-21",
@@ -72349,7 +72381,7 @@
     "unit": "",
     "src": "Deribit",
     "url": "https://www.deribit.com/statistics/BTC/volatility-index",
-    "freq": "24/7 \u00b7 latest 2026-11-20 09:00 ET",
+    "freq": "24/7 \u00b7 latest 2026-11-20 10:00 ET",
     "h": [
      [
       "2025-10-16",
@@ -73953,7 +73985,7 @@
      ],
      [
       "2026-11-20",
-      49.6
+      50.55
      ]
     ]
    },
@@ -76541,7 +76573,7 @@
     "unit": "",
     "src": "Deribit",
     "url": "https://www.deribit.com/statistics/ETH/volatility-index",
-    "freq": "24/7 \u00b7 latest 2026-11-20 09:00 ET",
+    "freq": "24/7 \u00b7 latest 2026-11-20 10:00 ET",
     "h": [
      [
       "2025-10-16",
@@ -78145,7 +78177,7 @@
      ],
      [
       "2026-11-20",
-      61.81
+      64.32
      ]
     ]
    },
@@ -81871,7 +81903,7 @@
    }
   ],
   "failed": [],
-  "updated_et": "2026-11-20 09:10 ET"
+  "updated_et": "2026-11-20 10:50 ET"
  },
  "indexes": {
   "items": [
@@ -82991,8 +83023,13 @@
      [
       "2026-11-19",
       7175.83
+     ],
+     [
+      "2026-11-20",
+      7107.73
      ]
-    ]
+    ],
+    "live": "2026-11-20"
    },
    {
     "key": "dji",
@@ -84110,8 +84147,13 @@
      [
       "2026-11-19",
       49097.06
+     ],
+     [
+      "2026-11-20",
+      49247.58
      ]
-    ]
+    ],
+    "live": "2026-11-20"
    },
    {
     "key": "ixic",
@@ -85229,8 +85271,13 @@
      [
       "2026-11-19",
       23879.199
+     ],
+     [
+      "2026-11-20",
+      23372.265
      ]
-    ]
+    ],
+    "live": "2026-11-20"
    },
    {
     "key": "ndx",
@@ -86348,8 +86395,13 @@
      [
       "2026-11-19",
       26517.052
+     ],
+     [
+      "2026-11-20",
+      25888.13
      ]
-    ]
+    ],
+    "live": "2026-11-20"
    },
    {
     "key": "rut",
@@ -87466,9 +87518,14 @@
      ],
      [
       "2026-11-19",
-      2655.105
+      2655.1053
+     ],
+     [
+      "2026-11-20",
+      2638.198
      ]
-    ]
+    ],
+    "live": "2026-11-20"
    },
    {
     "key": "mid",
@@ -88586,8 +88643,13 @@
      [
       "2026-11-19",
       3518.91
+     ],
+     [
+      "2026-11-20",
+      3502.14
      ]
-    ]
+    ],
+    "live": "2026-11-20"
    },
    {
     "key": "spxew",
@@ -89705,8 +89767,13 @@
      [
       "2026-11-19",
       8566.99
+     ],
+     [
+      "2026-11-20",
+      8590.88
      ]
-    ]
+    ],
+    "live": "2026-11-20"
    },
    {
     "key": "nifty",
@@ -94149,7 +94216,7 @@
      ],
      [
       "2026-11-20",
-      5973.81
+      5964.05
      ]
     ],
     "live": "2026-11-20"
@@ -95281,7 +95348,7 @@
      ],
      [
       "2026-11-20",
-      24898.45
+      24873.61
      ]
     ],
     "live": "2026-11-20"
@@ -96413,7 +96480,7 @@
      ],
      [
       "2026-11-20",
-      10352.43
+      10369.2
      ]
     ],
     "live": "2026-11-20"
@@ -97553,7 +97620,7 @@
      ],
      [
       "2026-11-20",
-      7954.75
+      7952.37
      ]
     ],
     "live": "2026-11-20"
@@ -98705,7 +98772,7 @@
      ],
      [
       "2026-11-20",
-      18921.1
+      18896.1
      ]
     ],
     "live": "2026-11-20"
@@ -99837,7 +99904,7 @@
      ],
      [
       "2026-11-20",
-      48928.83
+      48828.5
      ]
     ],
     "live": "2026-11-20"
@@ -100957,7 +101024,7 @@
      ],
      [
       "2026-11-20",
-      14591.35
+      14553.54
      ]
     ],
     "live": "2026-11-20"
@@ -110794,8 +110861,13 @@
      [
       "2026-11-19",
       34028.73
+     ],
+     [
+      "2026-11-20",
+      33823.64
      ]
-    ]
+    ],
+    "live": "2026-11-20"
    },
    {
     "key": "bvsp",
@@ -113012,8 +113084,13 @@
      [
       "2026-11-19",
       68713.6
+     ],
+     [
+      "2026-11-20",
+      68405.25
      ]
-    ]
+    ],
+    "live": "2026-11-20"
    },
    {
     "key": "spy",
@@ -120822,7 +120899,7 @@
    }
   ],
   "failed": [],
-  "updated_et": "2026-11-20 09:10 ET"
+  "updated_et": "2026-11-20 10:50 ET"
  },
  "calendar": {
   "start": "2026-11-01",
@@ -121211,7 +121288,7 @@
     "name": "Petroleo Brasileiro S.A.- Petrobras",
     "time": "",
     "eps_est": "$1.38",
-    "cap": 107814248000,
+    "cap": 104978727000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/pbr/earnings"
    },
@@ -121260,7 +121337,7 @@
     "name": "Mitsubishi UFJ Financial Group Inc",
     "time": "",
     "eps_est": "$0.45",
-    "cap": 221628154000,
+    "cap": 226478031000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/mufg/earnings"
    },
@@ -121271,7 +121348,7 @@
     "name": "Sumitomo Mitsui Financial Group Inc",
     "time": "",
     "eps_est": "$0.24",
-    "cap": 143529066000,
+    "cap": 145698914000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/smfg/earnings"
    },
@@ -121282,7 +121359,7 @@
     "name": "Mizuho Financial Group, Inc.",
     "time": "",
     "eps_est": "",
-    "cap": 116898390000,
+    "cap": 120508670000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mfg/earnings"
    },
@@ -121301,7 +121378,7 @@
     "name": "NVIDIA Corporation",
     "time": "",
     "eps_est": "$2.47",
-    "cap": 3638135880000,
+    "cap": 3518117970000,
     "tier": "mag7",
     "url": "https://www.nasdaq.com/market-activity/stocks/nvda/earnings"
    },
@@ -121312,7 +121389,7 @@
     "name": "Home Depot, Inc. (The)",
     "time": "",
     "eps_est": "$3.86",
-    "cap": 336859922000,
+    "cap": 335902147000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/hd/earnings"
    },
@@ -121323,7 +121400,7 @@
     "name": "Walt Disney Company (The)",
     "time": "",
     "eps_est": "$1.67",
-    "cap": 208994517000,
+    "cap": 205390561000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/dis/earnings"
    },
@@ -121342,7 +121419,7 @@
     "name": "Palo Alto Networks, Inc.",
     "time": "",
     "eps_est": "$0.52",
-    "cap": 278205170000,
+    "cap": 296055439000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/panw/earnings"
    },
@@ -121353,7 +121430,7 @@
     "name": "TJX Companies, Inc. (The)",
     "time": "",
     "eps_est": "$1.33",
-    "cap": 154326368000,
+    "cap": 153347391000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/tjx/earnings"
    },
@@ -121364,7 +121441,7 @@
     "name": "Lowe's Companies, Inc.",
     "time": "",
     "eps_est": "$2.86",
-    "cap": 124991611000,
+    "cap": 122949378000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/low/earnings"
    },
@@ -121383,7 +121460,7 @@
     "name": "Walmart Inc.",
     "time": "",
     "eps_est": "$0.64",
-    "cap": 1010441910000,
+    "cap": 999969390000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/wmt/earnings"
    },
@@ -121394,7 +121471,7 @@
     "name": "Alibaba Group Holding Limited",
     "time": "",
     "eps_est": "$1.56",
-    "cap": 204385141000,
+    "cap": 201817309000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/baba/earnings"
    },
@@ -121405,7 +121482,7 @@
     "name": "PDD Holdings Inc.",
     "time": "",
     "eps_est": "$2.61",
-    "cap": 110242054000,
+    "cap": 122412098000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/pdd/earnings"
    },
@@ -121433,8 +121510,8 @@
     "title": "DELL",
     "name": "Dell Technologies Inc.",
     "time": "AMC",
-    "eps_est": "$6.48",
-    "cap": 199079330000,
+    "eps_est": "$6.55",
+    "cap": 198716916000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/dell/earnings",
     "analyst": {
@@ -121456,7 +121533,7 @@
     "name": "Analog Devices, Inc.",
     "time": "BMO",
     "eps_est": "$3.89",
-    "cap": 185094324000,
+    "cap": 182894395000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/adi/earnings",
     "analyst": {
@@ -121474,11 +121551,33 @@
    {
     "date": "2026-11-24",
     "type": "earnings",
+    "title": "BHP",
+    "name": "BHP Group Limited",
+    "time": "",
+    "eps_est": "",
+    "cap": 176429023000,
+    "tier": "",
+    "url": "https://www.nasdaq.com/market-activity/stocks/bhp/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 2,
+     "hold": 1,
+     "sell": 0,
+     "target": 84.33,
+     "price": 68.82,
+     "price_time": "Nov 20, 2026 10:49 AM ET",
+     "fetched": "2026-11-20"
+    }
+   },
+   {
+    "date": "2026-11-24",
+    "type": "earnings",
     "title": "MDT",
     "name": "Medtronic plc",
     "time": "BMO",
     "eps_est": "$1.34",
-    "cap": 128834765000,
+    "cap": 128694067000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mdt/earnings",
     "analyst": {
@@ -121528,7 +121627,7 @@
     "name": "Deere & Company",
     "time": "BMO",
     "eps_est": "$4.07",
-    "cap": 173840990000,
+    "cap": 168486224000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/de/earnings",
     "analyst": {
@@ -121602,7 +121701,7 @@
     "name": "Salesforce, Inc.",
     "time": "AMC",
     "eps_est": "$2.41",
-    "cap": 156699197000,
+    "cap": 150864134000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/crm/earnings",
     "analyst": {
@@ -121624,7 +121723,7 @@
     "name": "Bank Of Montreal",
     "time": "BMO",
     "eps_est": "$2.69",
-    "cap": 112682000000,
+    "cap": 111959794000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/bmo/earnings",
     "analyst": {
@@ -121646,7 +121745,7 @@
     "name": "Bank of Nova Scotia (The)",
     "time": "BMO",
     "eps_est": "$1.55",
-    "cap": 107128979000,
+    "cap": 105565037000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/bns/earnings",
     "analyst": {
@@ -121736,20 +121835,9 @@
     "name": "Broadcom Inc.",
     "time": "AMC",
     "eps_est": "$3.45",
-    "cap": 1690103710000,
+    "cap": 1654778760000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/avgo/earnings"
-   },
-   {
-    "date": "2026-12-09",
-    "type": "earnings",
-    "title": "ORCL",
-    "name": "Oracle Corporation",
-    "time": "",
-    "eps_est": "$1.56",
-    "cap": 344373297000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/orcl/earnings"
    },
    {
     "date": "2026-12-10",
@@ -121777,7 +121865,7 @@
     "name": "Costco Wholesale Corporation",
     "time": "AMC",
     "eps_est": "$4.89",
-    "cap": 485944492000,
+    "cap": 484708188000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/cost/earnings"
    },
@@ -121788,7 +121876,7 @@
     "name": "Oracle Corporation",
     "time": "AMC",
     "eps_est": "$1.56",
-    "cap": 344373297000,
+    "cap": 334334493000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/orcl/earnings"
    },
@@ -121815,7 +121903,7 @@
     "name": "Micron Technology, Inc.",
     "time": "",
     "eps_est": "$37.95",
-    "cap": 797958860000,
+    "cap": 781179810000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/mu/earnings"
    },
@@ -121924,8 +122012,8 @@
     "shares": "980,000,000",
     "size": "$81,340,000,000",
     "deal": "1407642-119728",
-    "last": 88.52,
-    "last_time": "Nov 20, 2026 9:10 AM ET"
+    "last": 86.04,
+    "last_time": "Nov 20, 2026 10:49 AM ET"
    },
    {
     "date": "2026-11-13",
@@ -121936,8 +122024,8 @@
     "shares": "10,294,117",
     "size": "$174,999,989",
     "deal": "1407588-119709",
-    "last": 24.01,
-    "last_time": "Nov 19, 2026"
+    "last": 24.5995,
+    "last_time": "Nov 20, 2026 10:49 AM ET"
    },
    {
     "date": "2026-11-13",
@@ -121948,8 +122036,8 @@
     "shares": "9,411,764",
     "size": "$39,999,997",
     "deal": "1212697-115511",
-    "last": 2.2397,
-    "last_time": "Nov 20, 2026 9:07 AM ET"
+    "last": 2.2,
+    "last_time": "Nov 20, 2026 10:49 AM ET"
    },
    {
     "date": "2026-11-13",
@@ -121960,8 +122048,8 @@
     "shares": "9,722,223",
     "size": "$175,000,014",
     "deal": "1235548-119602",
-    "last": 15.005,
-    "last_time": "Nov 19, 2026"
+    "last": 14.86,
+    "last_time": "Nov 20, 2026 10:49 AM ET"
    }
   ],
   "filed": [
@@ -122277,9 +122365,9 @@
   ],
   "source": "https://www.marketbeat.com/ratings/",
   "note": "All actions for stocks with market cap >= $100B; upgrades, downgrades and initiations for >= $10B (caps from Nasdaq).",
-  "updated_et": "2026-11-20 09:10 ET"
+  "updated_et": "2026-11-20 10:50 ET"
  },
- "updated_et": "2026-11-20 09:10 ET",
+ "updated_et": "2026-11-20 10:50 ET",
  "indicators": [
   {
    "key": "cpi",
