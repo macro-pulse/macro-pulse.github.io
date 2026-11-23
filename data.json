@@ -19968,8 +19968,12 @@
       3.2627
      ],
      [
+      "2026-08-20",
+      3.2553
+     ],
+     [
       "2026-08-21",
-      3.2485
+      3.251
      ],
      [
       "2026-08-22",
@@ -21372,7 +21376,7 @@
      ],
      [
       "2026-08-15",
-      4.0489
+      4.0491
      ],
      [
       "2026-08-17",
@@ -21387,12 +21391,8 @@
       4.11
      ],
      [
-      "2026-08-20",
-      4.1165
-     ],
-     [
       "2026-08-21",
-      4.1186
+      4.1136
      ],
      [
       "2026-08-22",
@@ -22779,7 +22779,7 @@
      ],
      [
       "2026-08-21",
-      4.0817
+      4.0776
      ],
      [
       "2026-08-22",
@@ -27544,6 +27544,10 @@
      [
       "2026-11-19",
       3.81
+     ],
+     [
+      "2026-11-20",
+      3.69
      ]
     ]
    },
@@ -54397,7 +54401,7 @@
    ]
   },
   "failed": [],
-  "updated_et": "2026-11-23 06:47 ET"
+  "updated_et": "2026-11-23 09:19 ET"
  },
  "vol": {
   "items": [
@@ -69736,6 +69740,10 @@
       75.03
      ],
      [
+      "2026-07-15",
+      68.48
+     ],
+     [
       "2026-07-16",
       68.16
      ],
@@ -69802,6 +69810,10 @@
      [
       "2026-08-07",
       72.03
+     ],
+     [
+      "2026-08-10",
+      75.46
      ],
      [
       "2026-08-11",
@@ -70042,6 +70054,10 @@
      [
       "2026-11-04",
       93.88
+     ],
+     [
+      "2026-11-05",
+      97.92
      ],
      [
       "2026-11-06",
@@ -72317,7 +72333,7 @@
     "unit": "",
     "src": "Deribit",
     "url": "https://www.deribit.com/statistics/BTC/volatility-index",
-    "freq": "24/7 \u00b7 latest 2026-11-23 06:00 ET",
+    "freq": "24/7 \u00b7 latest 2026-11-23 09:00 ET",
     "h": [
      [
       "2025-10-19",
@@ -73921,7 +73937,7 @@
      ],
      [
       "2026-11-23",
-      51.44
+      48.93
      ]
     ]
    },
@@ -76509,7 +76525,7 @@
     "unit": "",
     "src": "Deribit",
     "url": "https://www.deribit.com/statistics/ETH/volatility-index",
-    "freq": "24/7 \u00b7 latest 2026-11-23 06:00 ET",
+    "freq": "24/7 \u00b7 latest 2026-11-23 09:00 ET",
     "h": [
      [
       "2025-10-19",
@@ -78113,7 +78129,7 @@
      ],
      [
       "2026-11-23",
-      65.48
+      63.58
      ]
     ]
    },
@@ -81835,7 +81851,7 @@
    }
   ],
   "failed": [],
-  "updated_et": "2026-11-23 06:47 ET"
+  "updated_et": "2026-11-23 09:19 ET"
  },
  "indexes": {
   "items": [
@@ -94105,7 +94121,7 @@
      ],
      [
       "2026-11-23",
-      5996.31
+      6065.55
      ]
     ],
     "live": "2026-11-23"
@@ -94864,10 +94880,6 @@
       25147.03
      ],
      [
-      "2026-07-15",
-      24999.53
-     ],
-     [
       "2026-07-16",
       24915.49
      ],
@@ -95237,7 +95249,7 @@
      ],
      [
       "2026-11-23",
-      25032.12
+      25229.34
      ]
     ],
     "live": "2026-11-23"
@@ -96369,7 +96381,7 @@
      ],
      [
       "2026-11-23",
-      10403.35
+      10445.11
      ]
     ],
     "live": "2026-11-23"
@@ -97509,7 +97521,7 @@
      ],
      [
       "2026-11-23",
-      7986.66
+      8040.33
      ]
     ],
     "live": "2026-11-23"
@@ -98661,7 +98673,7 @@
      ],
      [
       "2026-11-23",
-      19005.9
+      19172.1
      ]
     ],
     "live": "2026-11-23"
@@ -99793,7 +99805,7 @@
      ],
      [
       "2026-11-23",
-      48359.63
+      48867.12
      ]
     ],
     "live": "2026-11-23"
@@ -100913,7 +100925,7 @@
      ],
      [
       "2026-11-23",
-      14639.89
+      14663.41
      ]
     ],
     "live": "2026-11-23"
@@ -111829,8 +111841,13 @@
      [
       "2026-11-19",
       166376.43
+     ],
+     [
+      "2026-11-23",
+      165317.63
      ]
-    ]
+    ],
+    "live": "2026-11-23"
    },
    {
     "key": "mxx",
@@ -120726,7 +120743,7 @@
    }
   ],
   "failed": [],
-  "updated_et": "2026-11-23 06:47 ET"
+  "updated_et": "2026-11-23 09:19 ET"
  },
  "calendar": {
   "start": "2026-11-01",
@@ -120739,7 +120756,7 @@
     "name": "Apple Inc.",
     "time": "",
     "eps_est": "$1.98",
-    "cap": 5074783300000,
+    "cap": 4978144400000,
     "tier": "mag7",
     "url": "https://www.nasdaq.com/market-activity/stocks/aapl/earnings"
    },
@@ -120750,7 +120767,7 @@
     "name": "Palantir Technologies Inc.",
     "time": "",
     "eps_est": "$0.32",
-    "cap": 370291573000,
+    "cap": 345738805000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/pltr/earnings"
    },
@@ -120761,7 +120778,7 @@
     "name": "Williams Companies, Inc. (The)",
     "time": "",
     "eps_est": "$0.55",
-    "cap": 167953875000,
+    "cap": 163331523000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/wmb/earnings"
    },
@@ -120772,7 +120789,7 @@
     "name": "Vertex Pharmaceuticals Incorporated",
     "time": "",
     "eps_est": "$4.36",
-    "cap": 132006928000,
+    "cap": 130576974000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/vrtx/earnings"
    },
@@ -120783,7 +120800,7 @@
     "name": "Marriott International",
     "time": "",
     "eps_est": "$2.86",
-    "cap": 106617119000,
+    "cap": 104711586000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mar/earnings"
    },
@@ -120802,20 +120819,9 @@
     "name": "Advanced Micro Devices, Inc.",
     "time": "",
     "eps_est": "$1.68",
-    "cap": 809641510000,
+    "cap": 702393290000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/amd/earnings"
-   },
-   {
-    "date": "2026-11-03",
-    "type": "earnings",
-    "title": "ANET",
-    "name": "Arista Networks, Inc.",
-    "time": "",
-    "eps_est": "$0.99",
-    "cap": 239528444000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/anet/earnings"
    },
    {
     "date": "2026-11-03",
@@ -120824,9 +120830,20 @@
     "name": "Amgen Inc.",
     "time": "",
     "eps_est": "$5.74",
-    "cap": 237362774000,
+    "cap": 235642683000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/amgn/earnings"
+   },
+   {
+    "date": "2026-11-03",
+    "type": "earnings",
+    "title": "ANET",
+    "name": "Arista Networks, Inc.",
+    "time": "",
+    "eps_est": "$0.99",
+    "cap": 211771507000,
+    "tier": "key",
+    "url": "https://www.nasdaq.com/market-activity/stocks/anet/earnings"
    },
    {
     "date": "2026-11-03",
@@ -120835,7 +120852,7 @@
     "name": "Shopify Inc.",
     "time": "",
     "eps_est": "$0.33",
-    "cap": 169815540000,
+    "cap": 158711382000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/shop/earnings"
    },
@@ -120846,7 +120863,7 @@
     "name": "Pfizer, Inc.",
     "time": "",
     "eps_est": "$0.72",
-    "cap": 156973974000,
+    "cap": 156175991000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/pfe/earnings"
    },
@@ -120857,7 +120874,7 @@
     "name": "Eaton Corporation, PLC",
     "time": "",
     "eps_est": "$3.54",
-    "cap": 128426443000,
+    "cap": 120951702000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/etn/earnings"
    },
@@ -120868,20 +120885,9 @@
     "name": "Booking Holdings Inc.",
     "time": "",
     "eps_est": "$4.48",
-    "cap": 109562069000,
+    "cap": 107769750000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/bkng/earnings"
-   },
-   {
-    "date": "2026-11-03",
-    "type": "earnings",
-    "title": "MPC",
-    "name": "Marathon Petroleum Corporation",
-    "time": "",
-    "eps_est": "$25.74",
-    "cap": 100180820000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/mpc/earnings"
    },
    {
     "date": "2026-11-03",
@@ -120890,7 +120896,7 @@
     "name": "Super Micro Computer, Inc.",
     "time": "",
     "eps_est": "$1.04",
-    "cap": 15715980300,
+    "cap": 14272272400,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/smci/earnings"
    },
@@ -120901,9 +120907,20 @@
     "name": "McDonald's Corporation",
     "time": "",
     "eps_est": "$3.36",
-    "cap": 192220479000,
+    "cap": 192848626000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mcd/earnings"
+   },
+   {
+    "date": "2026-11-04",
+    "type": "earnings",
+    "title": "NVO",
+    "name": "Novo Nordisk A/S",
+    "time": "",
+    "eps_est": "$0.81",
+    "cap": 167464337000,
+    "tier": "",
+    "url": "https://www.nasdaq.com/market-activity/stocks/nvo/earnings"
    },
    {
     "date": "2026-11-04",
@@ -120912,7 +120929,7 @@
     "name": "Arm Holdings plc",
     "time": "",
     "eps_est": "$0.22",
-    "cap": 188518662000,
+    "cap": 161949204000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/arm/earnings"
    },
@@ -120923,20 +120940,9 @@
     "name": "QUALCOMM Incorporated",
     "time": "",
     "eps_est": "$1.46",
-    "cap": 173350699000,
+    "cap": 160435798000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/qcom/earnings"
-   },
-   {
-    "date": "2026-11-04",
-    "type": "earnings",
-    "title": "NVO",
-    "name": "Novo Nordisk A/S",
-    "time": "",
-    "eps_est": "$0.81",
-    "cap": 172113658000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/nvo/earnings"
    },
    {
     "date": "2026-11-04",
@@ -120945,20 +120951,9 @@
     "name": "Uber Technologies, Inc.",
     "time": "",
     "eps_est": "$0.94",
-    "cap": 133948514000,
+    "cap": 129599267000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/uber/earnings"
-   },
-   {
-    "date": "2026-11-04",
-    "type": "earnings",
-    "title": "APP",
-    "name": "Applovin Corporation",
-    "time": "",
-    "eps_est": "$3.94",
-    "cap": 125577691000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/app/earnings"
    },
    {
     "date": "2026-11-04",
@@ -120967,9 +120962,20 @@
     "name": "McKesson Corporation",
     "time": "",
     "eps_est": "$10.69",
-    "cap": 122633454000,
+    "cap": 123472822000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mck/earnings"
+   },
+   {
+    "date": "2026-11-04",
+    "type": "earnings",
+    "title": "APP",
+    "name": "Applovin Corporation",
+    "time": "",
+    "eps_est": "$3.94",
+    "cap": 115396166000,
+    "tier": "",
+    "url": "https://www.nasdaq.com/market-activity/stocks/app/earnings"
    },
    {
     "date": "2026-11-04",
@@ -120978,7 +120984,7 @@
     "name": "CVS Health Corporation",
     "time": "",
     "eps_est": "$1.62",
-    "cap": 102409118000,
+    "cap": 103432692000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/cvs/earnings"
    },
@@ -120997,20 +121003,9 @@
     "name": "Toyota Motor Corp Ltd Ord",
     "time": "",
     "eps_est": "",
-    "cap": 274976866000,
+    "cap": 270441054000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/tm/earnings"
-   },
-   {
-    "date": "2026-11-05",
-    "type": "earnings",
-    "title": "SONY",
-    "name": "Sony Group Corporation",
-    "time": "",
-    "eps_est": "$0.38",
-    "cap": 160372621000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/sony/earnings"
    },
    {
     "date": "2026-11-05",
@@ -121019,9 +121014,20 @@
     "name": "ConocoPhillips",
     "time": "",
     "eps_est": "$3.06",
-    "cap": 159603409000,
+    "cap": 160939442000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/cop/earnings"
+   },
+   {
+    "date": "2026-11-05",
+    "type": "earnings",
+    "title": "SONY",
+    "name": "Sony Group Corporation",
+    "time": "",
+    "eps_est": "$0.38",
+    "cap": 160903266000,
+    "tier": "",
+    "url": "https://www.nasdaq.com/market-activity/stocks/sony/earnings"
    },
    {
     "date": "2026-11-05",
@@ -121030,20 +121036,9 @@
     "name": "Parker-Hannifin Corporation",
     "time": "",
     "eps_est": "$8.23",
-    "cap": 114260091000,
+    "cap": 109938754000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/ph/earnings"
-   },
-   {
-    "date": "2026-11-05",
-    "type": "earnings",
-    "title": "NET",
-    "name": "Cloudflare, Inc.",
-    "time": "",
-    "eps_est": "$0.02",
-    "cap": 108836561000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/net/earnings"
    },
    {
     "date": "2026-11-05",
@@ -121052,20 +121047,9 @@
     "name": "Southern Company (The)",
     "time": "",
     "eps_est": "$1.71",
-    "cap": 108613911000,
+    "cap": 108427633000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/so/earnings"
-   },
-   {
-    "date": "2026-11-05",
-    "type": "earnings",
-    "title": "ABNB",
-    "name": "Airbnb, Inc.",
-    "time": "",
-    "eps_est": "$2.86",
-    "cap": 101521416000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/abnb/earnings"
    },
    {
     "date": "2026-11-05",
@@ -121074,9 +121058,20 @@
     "name": "Duke Energy Corporation",
     "time": "",
     "eps_est": "$1.87",
-    "cap": 100473209000,
+    "cap": 101190541000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/duk/earnings"
+   },
+   {
+    "date": "2026-11-05",
+    "type": "earnings",
+    "title": "ABNB",
+    "name": "Airbnb, Inc.",
+    "time": "",
+    "eps_est": "$2.86",
+    "cap": 100093690000,
+    "tier": "",
+    "url": "https://www.nasdaq.com/market-activity/stocks/abnb/earnings"
    },
    {
     "date": "2026-11-06",
@@ -121115,7 +121110,7 @@
     "name": "Petroleo Brasileiro S.A.- Petrobras",
     "time": "",
     "eps_est": "$1.38",
-    "cap": 104978727000,
+    "cap": 103174308000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/pbr/earnings"
    },
@@ -121164,7 +121159,7 @@
     "name": "Mitsubishi UFJ Financial Group Inc",
     "time": "",
     "eps_est": "$0.45",
-    "cap": 221628154000,
+    "cap": 210687738000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/mufg/earnings"
    },
@@ -121175,7 +121170,7 @@
     "name": "Sumitomo Mitsui Financial Group Inc",
     "time": "",
     "eps_est": "$0.24",
-    "cap": 143529066000,
+    "cap": 137210978000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/smfg/earnings"
    },
@@ -121186,7 +121181,7 @@
     "name": "Mizuho Financial Group, Inc.",
     "time": "",
     "eps_est": "",
-    "cap": 116898390000,
+    "cap": 111047246000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mfg/earnings"
    },
@@ -121246,7 +121241,7 @@
     "name": "Palo Alto Networks, Inc.",
     "time": "",
     "eps_est": "$0.52",
-    "cap": 296055439000,
+    "cap": 281865716000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/panw/earnings"
    },
@@ -121257,7 +121252,7 @@
     "name": "TJX Companies, Inc. (The)",
     "time": "",
     "eps_est": "$1.33",
-    "cap": 153347391000,
+    "cap": 153578373000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/tjx/earnings"
    },
@@ -121268,7 +121263,7 @@
     "name": "Lowe's Companies, Inc.",
     "time": "",
     "eps_est": "$2.86",
-    "cap": 122949378000,
+    "cap": 123903173000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/low/earnings"
    },
@@ -121320,16 +121315,6 @@
     "time": "11:00 am ET",
     "keys": [],
     "url": "https://fred.stlouisfed.org/releases/calendar?rid=91"
-   },
-   {
-    "date": "2026-11-20",
-    "type": "ipo",
-    "title": "FBLLU",
-    "name": "Football Manager SPAC Inc.",
-    "time": "",
-    "price": "10.00",
-    "size": "$115,000,000",
-    "url": "https://www.nasdaq.com/market-activity/ipos/overview?dealId=1401430-119311"
    },
    {
     "date": "2026-11-24",
@@ -121454,7 +121439,7 @@
     "name": "Deere & Company",
     "time": "BMO",
     "eps_est": "$4.07",
-    "cap": 168486224000,
+    "cap": 164269277000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/de/earnings",
     "analyst": {
@@ -121484,7 +121469,7 @@
     "name": "CrowdStrike Holdings, Inc.",
     "time": "AMC",
     "eps_est": "$0",
-    "cap": 249287180000,
+    "cap": 234931618000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/crwd/earnings",
     "analyst": {
@@ -121506,7 +121491,7 @@
     "name": "Marvell Technology, Inc.",
     "time": "AMC",
     "eps_est": "$0.79",
-    "cap": 121424339000,
+    "cap": 107227333000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mrvl/earnings",
     "analyst": {
@@ -121662,7 +121647,7 @@
     "name": "Broadcom Inc.",
     "time": "AMC",
     "eps_est": "$3.45",
-    "cap": 1654778760000,
+    "cap": 1453140610000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/avgo/earnings"
    },
@@ -121703,7 +121688,7 @@
     "name": "Oracle Corporation",
     "time": "AMC",
     "eps_est": "$1.56",
-    "cap": 334334493000,
+    "cap": 305971855000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/orcl/earnings"
    },
@@ -121724,23 +121709,23 @@
     "url": "https://fred.stlouisfed.org/releases/calendar?rid=9"
    },
    {
-    "date": "2026-12-16",
-    "type": "earnings",
-    "title": "MU",
-    "name": "Micron Technology, Inc.",
-    "time": "",
-    "eps_est": "$37.95",
-    "cap": 781179810000,
-    "tier": "key",
-    "url": "https://www.nasdaq.com/market-activity/stocks/mu/earnings"
-   },
-   {
     "date": "2026-12-17",
     "type": "macro",
     "title": "Jobless claims",
     "time": "8:30 am ET",
     "keys": [],
     "url": "https://fred.stlouisfed.org/releases/calendar?rid=180"
+   },
+   {
+    "date": "2026-12-17",
+    "type": "earnings",
+    "title": "MU",
+    "name": "Micron Technology, Inc.",
+    "time": "AMC",
+    "eps_est": "$37.95",
+    "cap": 781179810000,
+    "tier": "key",
+    "url": "https://www.nasdaq.com/market-activity/stocks/mu/earnings"
    },
    {
     "date": "2026-12-17",
@@ -121758,7 +121743,7 @@
     "type": "earnings",
     "title": "NKE",
     "name": "Nike, Inc.",
-    "time": "",
+    "time": "AMC",
     "eps_est": "$0.34",
     "cap": 50990653000,
     "tier": "key",
@@ -121817,18 +121802,7 @@
   ]
  },
  "ipo": {
-  "upcoming": [
-   {
-    "date": "2026-11-20",
-    "ticker": "FBLLU",
-    "name": "Football Manager SPAC Inc.",
-    "exchange": "NASDAQ Global",
-    "price": "10.00",
-    "shares": "10,000,000",
-    "size": "$115,000,000",
-    "deal": "1401430-119311"
-   }
-  ],
+  "upcoming": [],
   "priced": [
    {
     "date": "2026-11-19",
@@ -121839,8 +121813,8 @@
     "shares": "980,000,000",
     "size": "$81,340,000,000",
     "deal": "1407642-119728",
-    "last": 92.8712,
-    "last_time": "Nov 23, 2026 6:47 AM ET"
+    "last": 92.72,
+    "last_time": "Nov 23, 2026 9:19 AM ET"
    },
    {
     "date": "2026-11-13",
@@ -121851,8 +121825,8 @@
     "shares": "10,294,117",
     "size": "$174,999,989",
     "deal": "1407588-119709",
-    "last": 27.58,
-    "last_time": "Nov 23, 2026 6:35 AM ET"
+    "last": 25.1646,
+    "last_time": "Nov 23, 2026 9:15 AM ET"
    },
    {
     "date": "2026-11-13",
@@ -121863,8 +121837,8 @@
     "shares": "9,411,764",
     "size": "$39,999,997",
     "deal": "1212697-115511",
-    "last": 2.7882,
-    "last_time": "Nov 23, 2026 6:29 AM ET"
+    "last": 2.57,
+    "last_time": "Nov 23, 2026 9:18 AM ET"
    },
    {
     "date": "2026-11-13",
@@ -121880,6 +121854,13 @@
    }
   ],
   "filed": [
+   {
+    "date": "2026-11-20",
+    "ticker": "TDHG",
+    "name": "Tongda International Group Co., Ltd",
+    "size": "$30,000,000",
+    "deal": "1357535-120030"
+   },
    {
     "date": "2026-11-19",
     "ticker": "ZENO",
@@ -122192,9 +122173,9 @@
   ],
   "source": "https://www.marketbeat.com/ratings/",
   "note": "All actions for stocks with market cap >= $100B; upgrades, downgrades and initiations for >= $10B (caps from Nasdaq).",
-  "updated_et": "2026-11-23 06:47 ET"
+  "updated_et": "2026-11-23 09:19 ET"
  },
- "updated_et": "2026-11-23 06:47 ET",
+ "updated_et": "2026-11-23 09:19 ET",
  "indicators": [
   {
    "key": "cpi",
@@ -123383,7 +123364,7 @@
     3.75,
     4.0
    ],
-   "date": "2026-11-22",
+   "date": "2026-11-23",
    "source": "https://fred.stlouisfed.org/series/DFEDTARU"
   }
  ],
