@@ -19949,7 +19949,7 @@
      ],
      [
       "2026-08-21",
-      3.251
+      3.2485
      ],
      [
       "2026-08-22",
@@ -21368,7 +21368,7 @@
      ],
      [
       "2026-08-21",
-      4.1177
+      4.1136
      ],
      [
       "2026-08-22",
@@ -22754,12 +22754,8 @@
       4.072
      ],
      [
-      "2026-08-20",
-      4.0758
-     ],
-     [
       "2026-08-21",
-      4.084
+      4.0776
      ],
      [
       "2026-08-22",
@@ -22992,6 +22988,10 @@
      [
       "2026-10-28",
       4.5128
+     ],
+     [
+      "2026-10-29",
+      4.4608
      ],
      [
       "2026-10-30",
@@ -23945,10 +23945,6 @@
       1.706
      ],
      [
-      "2026-08-12",
-      1.703
-     ],
-     [
       "2026-08-13",
       1.696
      ],
@@ -24121,10 +24117,6 @@
       1.677
      ],
      [
-      "2026-10-15",
-      1.67
-     ],
-     [
       "2026-10-16",
       1.598
      ],
@@ -24159,10 +24151,6 @@
      [
       "2026-10-28",
       1.624
-     ],
-     [
-      "2026-10-29",
-      1.618
      ],
      [
       "2026-10-30",
@@ -50182,18 +50170,6 @@
     "tenor": "2Y",
     "h": [
      [
-      "2025-10-16",
-      1.512
-     ],
-     [
-      "2025-10-17",
-      1.514
-     ],
-     [
-      "2025-10-18",
-      1.493
-     ],
-     [
       "2025-10-20",
       1.527
      ],
@@ -51038,10 +51014,6 @@
       1.25
      ],
      [
-      "2026-08-12",
-      1.243
-     ],
-     [
       "2026-08-13",
       1.24
      ],
@@ -51324,6 +51296,10 @@
      [
       "2026-11-20",
       1.293
+     ],
+     [
+      "2026-11-23",
+      1.233
      ]
     ]
    },
@@ -54175,10 +54151,6 @@
       -2.994
      ],
      [
-      "2026-08-12",
-      -2.977
-     ],
-     [
       "2026-08-13",
       -2.934
      ],
@@ -54327,10 +54299,6 @@
       -3.513
      ],
      [
-      "2026-10-15",
-      -3.43
-     ],
-     [
       "2026-10-16",
       -3.492
      ],
@@ -54365,10 +54333,6 @@
      [
       "2026-10-28",
       -3.426
-     ],
-     [
-      "2026-10-29",
-      -3.362
      ],
      [
       "2026-10-30",
@@ -54481,7 +54445,7 @@
    ]
   },
   "failed": [],
-  "updated_et": "2026-11-24 09:15 ET"
+  "updated_et": "2026-11-24 10:57 ET"
  },
  "vol": {
   "items": [
@@ -72341,7 +72305,7 @@
     "unit": "",
     "src": "Deribit",
     "url": "https://www.deribit.com/statistics/BTC/volatility-index",
-    "freq": "24/7 \u00b7 latest 2026-11-24 09:00 ET",
+    "freq": "24/7 \u00b7 latest 2026-11-24 10:00 ET",
     "h": [
      [
       "2025-10-20",
@@ -73945,7 +73909,7 @@
      ],
      [
       "2026-11-24",
-      54.09
+      54.32
      ]
     ]
    },
@@ -76533,7 +76497,7 @@
     "unit": "",
     "src": "Deribit",
     "url": "https://www.deribit.com/statistics/ETH/volatility-index",
-    "freq": "24/7 \u00b7 latest 2026-11-24 09:00 ET",
+    "freq": "24/7 \u00b7 latest 2026-11-24 10:00 ET",
     "h": [
      [
       "2025-10-20",
@@ -78137,7 +78101,7 @@
      ],
      [
       "2026-11-24",
-      66.41
+      67.14
      ]
     ]
    },
@@ -81863,7 +81827,7 @@
    }
   ],
   "failed": [],
-  "updated_et": "2026-11-24 09:15 ET"
+  "updated_et": "2026-11-24 10:57 ET"
  },
  "indexes": {
   "items": [
@@ -82979,8 +82943,13 @@
      [
       "2026-11-23",
       7237.17
+     ],
+     [
+      "2026-11-24",
+      7172.94
      ]
-    ]
+    ],
+    "live": "2026-11-24"
    },
    {
     "key": "dji",
@@ -84094,8 +84063,13 @@
      [
       "2026-11-23",
       49595.31
+     ],
+     [
+      "2026-11-24",
+      49697.92
      ]
-    ]
+    ],
+    "live": "2026-11-24"
    },
    {
     "key": "ixic",
@@ -85209,8 +85183,13 @@
      [
       "2026-11-23",
       24089.558
+     ],
+     [
+      "2026-11-24",
+      23614.738
      ]
-    ]
+    ],
+    "live": "2026-11-24"
    },
    {
     "key": "ndx",
@@ -86324,8 +86303,13 @@
      [
       "2026-11-23",
       26746.096
+     ],
+     [
+      "2026-11-24",
+      26110.094
      ]
-    ]
+    ],
+    "live": "2026-11-24"
    },
    {
     "key": "rut",
@@ -87438,9 +87422,14 @@
      ],
      [
       "2026-11-23",
-      2669.655
+      2669.6551
+     ],
+     [
+      "2026-11-24",
+      2670.563
      ]
-    ]
+    ],
+    "live": "2026-11-24"
    },
    {
     "key": "mid",
@@ -88554,8 +88543,13 @@
      [
       "2026-11-23",
       3541.79
+     ],
+     [
+      "2026-11-24",
+      3524.7
      ]
-    ]
+    ],
+    "live": "2026-11-24"
    },
    {
     "key": "spxew",
@@ -89669,8 +89663,13 @@
      [
       "2026-11-23",
       8609.25
+     ],
+     [
+      "2026-11-24",
+      8632.53
      ]
-    ]
+    ],
+    "live": "2026-11-24"
    },
    {
     "key": "nifty",
@@ -94092,7 +94091,7 @@
      ],
      [
       "2026-11-24",
-      6015.39
+      6017.94
      ]
     ],
     "live": "2026-11-24"
@@ -94843,6 +94842,10 @@
       25147.03
      ],
      [
+      "2026-07-15",
+      24999.53
+     ],
+     [
       "2026-07-16",
       24915.49
      ],
@@ -95216,7 +95219,7 @@
      ],
      [
       "2026-11-24",
-      25058.17
+      25056.89
      ]
     ],
     "live": "2026-11-24"
@@ -96344,7 +96347,7 @@
      ],
      [
       "2026-11-24",
-      10444.0
+      10471.02
      ]
     ],
     "live": "2026-11-24"
@@ -97480,7 +97483,7 @@
      ],
      [
       "2026-11-24",
-      8037.75
+      8051.91
      ]
     ],
     "live": "2026-11-24"
@@ -98628,7 +98631,7 @@
      ],
      [
       "2026-11-24",
-      19016.0
+      19049.9
      ]
     ],
     "live": "2026-11-24"
@@ -99756,7 +99759,7 @@
      ],
      [
       "2026-11-24",
-      48270.15
+      48230.59
      ]
     ],
     "live": "2026-11-24"
@@ -100872,7 +100875,7 @@
      ],
      [
       "2026-11-24",
-      14716.93
+      14765.91
      ]
     ],
     "live": "2026-11-24"
@@ -110698,8 +110701,13 @@
      [
       "2026-11-23",
       34082.12
+     ],
+     [
+      "2026-11-24",
+      33953.03
      ]
-    ]
+    ],
+    "live": "2026-11-24"
    },
    {
     "key": "bvsp",
@@ -111796,7 +111804,7 @@
      ],
      [
       "2026-11-24",
-      166581.42
+      165521.51
      ]
     ],
     "live": "2026-11-24"
@@ -112909,8 +112917,13 @@
      [
       "2026-11-23",
       69355.62
+     ],
+     [
+      "2026-11-24",
+      69948.46
      ]
-    ]
+    ],
+    "live": "2026-11-24"
    },
    {
     "key": "spy",
@@ -120719,7 +120732,7 @@
    }
   ],
   "failed": [],
-  "updated_et": "2026-11-24 09:15 ET"
+  "updated_et": "2026-11-24 10:57 ET"
  },
  "calendar": {
   "start": "2026-11-01",
@@ -120979,20 +120992,9 @@
     "name": "Toyota Motor Corp Ltd Ord",
     "time": "",
     "eps_est": "",
-    "cap": 276540948000,
+    "cap": 270441054000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/tm/earnings"
-   },
-   {
-    "date": "2026-11-05",
-    "type": "earnings",
-    "title": "SONY",
-    "name": "Sony Group Corporation",
-    "time": "",
-    "eps_est": "$0.38",
-    "cap": 164205068000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/sony/earnings"
    },
    {
     "date": "2026-11-05",
@@ -121001,9 +121003,20 @@
     "name": "ConocoPhillips",
     "time": "",
     "eps_est": "$3.06",
-    "cap": 156292874000,
+    "cap": 160939442000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/cop/earnings"
+   },
+   {
+    "date": "2026-11-05",
+    "type": "earnings",
+    "title": "SONY",
+    "name": "Sony Group Corporation",
+    "time": "",
+    "eps_est": "$0.38",
+    "cap": 160903266000,
+    "tier": "",
+    "url": "https://www.nasdaq.com/market-activity/stocks/sony/earnings"
    },
    {
     "date": "2026-11-05",
@@ -121012,7 +121025,7 @@
     "name": "Parker-Hannifin Corporation",
     "time": "",
     "eps_est": "$8.23",
-    "cap": 115779551000,
+    "cap": 109938754000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/ph/earnings"
    },
@@ -121023,31 +121036,9 @@
     "name": "Southern Company (The)",
     "time": "",
     "eps_est": "$1.71",
-    "cap": 108404343000,
+    "cap": 108427633000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/so/earnings"
-   },
-   {
-    "date": "2026-11-05",
-    "type": "earnings",
-    "title": "NET",
-    "name": "Cloudflare, Inc.",
-    "time": "",
-    "eps_est": "$0.02",
-    "cap": 104338735000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/net/earnings"
-   },
-   {
-    "date": "2026-11-05",
-    "type": "earnings",
-    "title": "ABNB",
-    "name": "Airbnb, Inc.",
-    "time": "",
-    "eps_est": "$2.86",
-    "cap": 102208840000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/abnb/earnings"
    },
    {
     "date": "2026-11-05",
@@ -121056,9 +121047,20 @@
     "name": "Duke Energy Corporation",
     "time": "",
     "eps_est": "$1.87",
-    "cap": 100948836000,
+    "cap": 101190541000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/duk/earnings"
+   },
+   {
+    "date": "2026-11-05",
+    "type": "earnings",
+    "title": "ABNB",
+    "name": "Airbnb, Inc.",
+    "time": "",
+    "eps_est": "$2.86",
+    "cap": 100093690000,
+    "tier": "",
+    "url": "https://www.nasdaq.com/market-activity/stocks/abnb/earnings"
    },
    {
     "date": "2026-11-06",
@@ -121075,7 +121077,7 @@
     "name": "Enbridge Inc",
     "time": "",
     "eps_est": "$0.36",
-    "cap": 101191434000,
+    "cap": 101763375000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/enb/earnings"
    },
@@ -121228,7 +121230,7 @@
     "name": "Palo Alto Networks, Inc.",
     "time": "",
     "eps_est": "$0.52",
-    "cap": 290166014000,
+    "cap": 281865716000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/panw/earnings"
    },
@@ -121239,7 +121241,7 @@
     "name": "TJX Companies, Inc. (The)",
     "time": "",
     "eps_est": "$1.33",
-    "cap": 153171395000,
+    "cap": 153578373000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/tjx/earnings"
    },
@@ -121250,7 +121252,7 @@
     "name": "Lowe's Companies, Inc.",
     "time": "",
     "eps_est": "$2.86",
-    "cap": 126876754000,
+    "cap": 123903173000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/low/earnings"
    },
@@ -121269,7 +121271,7 @@
     "name": "Walmart Inc.",
     "time": "",
     "eps_est": "$0.64",
-    "cap": 1015122820000,
+    "cap": 1028054840000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/wmt/earnings"
    },
@@ -121280,8 +121282,8 @@
     "name": "Alibaba Group Holding Limited",
     "time": "",
     "eps_est": "$1.56",
-    "cap": 196415160000,
-    "tier": "",
+    "cap": 208430694000,
+    "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/baba/earnings"
    },
    {
@@ -121291,7 +121293,7 @@
     "name": "PDD Holdings Inc.",
     "time": "",
     "eps_est": "$2.61",
-    "cap": 119109812000,
+    "cap": 124034769000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/pdd/earnings"
    },
@@ -121310,7 +121312,7 @@
     "name": "CrowdStrike Holdings, Inc.",
     "time": "",
     "eps_est": "$0",
-    "cap": 234931618000,
+    "cap": 213971665000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/crwd/earnings"
    },
@@ -121321,8 +121323,8 @@
     "name": "Dell Technologies Inc.",
     "time": "AMC",
     "eps_est": "$6.55",
-    "cap": 176768664000,
-    "tier": "",
+    "cap": 212940046000,
+    "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/dell/earnings",
     "analyst": {
      "rating": "Buy",
@@ -121339,33 +121341,11 @@
    {
     "date": "2026-11-24",
     "type": "earnings",
-    "title": "BHP",
-    "name": "BHP Group Limited",
-    "time": "",
-    "eps_est": "",
-    "cap": 173621117000,
-    "tier": "",
-    "url": "https://www.nasdaq.com/market-activity/stocks/bhp/earnings",
-    "analyst": {
-     "rating": "Hold",
-     "sentiment": "Neutral",
-     "buy": 2,
-     "hold": 1,
-     "sell": 0,
-     "target": 94.5,
-     "price": 68.5853,
-     "price_time": "Nov 24, 2026 6:47 AM ET",
-     "fetched": "2026-11-24"
-    }
-   },
-   {
-    "date": "2026-11-24",
-    "type": "earnings",
     "title": "ADI",
     "name": "Analog Devices, Inc.",
     "time": "BMO",
     "eps_est": "$3.89",
-    "cap": 167620887000,
+    "cap": 183529177000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/adi/earnings",
     "analyst": {
@@ -121383,11 +121363,33 @@
    {
     "date": "2026-11-24",
     "type": "earnings",
+    "title": "BHP",
+    "name": "BHP Group Limited",
+    "time": "",
+    "eps_est": "",
+    "cap": 179729154000,
+    "tier": "",
+    "url": "https://www.nasdaq.com/market-activity/stocks/bhp/earnings",
+    "analyst": {
+     "rating": "Hold",
+     "sentiment": "Neutral",
+     "buy": 2,
+     "hold": 1,
+     "sell": 0,
+     "target": 94.5,
+     "price": 68.5853,
+     "price_time": "Nov 24, 2026 6:47 AM ET",
+     "fetched": "2026-11-24"
+    }
+   },
+   {
+    "date": "2026-11-24",
+    "type": "earnings",
     "title": "MDT",
     "name": "Medtronic plc",
     "time": "BMO",
     "eps_est": "$1.34",
-    "cap": 127837045000,
+    "cap": 128834765000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mdt/earnings",
     "analyst": {
@@ -121467,7 +121469,7 @@
     "name": "Marvell Technology, Inc.",
     "time": "AMC",
     "eps_est": "$0.79",
-    "cap": 107227333000,
+    "cap": 126922506000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/mrvl/earnings",
     "analyst": {
@@ -121489,7 +121491,7 @@
     "name": "Salesforce, Inc.",
     "time": "AMC",
     "eps_est": "$2.41",
-    "cap": 148650263000,
+    "cap": 152633573000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/crm/earnings",
     "analyst": {
@@ -121511,7 +121513,7 @@
     "name": "Bank Of Montreal",
     "time": "BMO",
     "eps_est": "$2.69",
-    "cap": 108701680000,
+    "cap": 111529066000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/bmo/earnings",
     "analyst": {
@@ -121533,7 +121535,7 @@
     "name": "Bank of Nova Scotia (The)",
     "time": "BMO",
     "eps_est": "$1.55",
-    "cap": 102467297000,
+    "cap": 104808071000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/bns/earnings",
     "analyst": {
@@ -121563,7 +121565,7 @@
     "name": "Royal Bank Of Canada",
     "time": "BMO",
     "eps_est": "$2.93",
-    "cap": 253691576000,
+    "cap": 260480729000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/ry/earnings",
     "analyst": {
@@ -121585,7 +121587,7 @@
     "name": "Toronto Dominion Bank (The)",
     "time": "BMO",
     "eps_est": "$1.77",
-    "cap": 184360042000,
+    "cap": 188952560000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/td/earnings",
     "analyst": {
@@ -121623,7 +121625,7 @@
     "name": "Broadcom Inc.",
     "time": "AMC",
     "eps_est": "$3.45",
-    "cap": 1496771590000,
+    "cap": 1453140610000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/avgo/earnings"
    },
@@ -121699,7 +121701,7 @@
     "name": "Micron Technology, Inc.",
     "time": "AMC",
     "eps_est": "$37.95",
-    "cap": 672642430000,
+    "cap": 800708230000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/mu/earnings"
    },
@@ -121710,7 +121712,7 @@
     "name": "Accenture plc",
     "time": "BMO",
     "eps_est": "$3.91",
-    "cap": 147901432000,
+    "cap": 148650394000,
     "tier": "",
     "url": "https://www.nasdaq.com/market-activity/stocks/acn/earnings"
    },
@@ -121721,7 +121723,7 @@
     "name": "Nike, Inc.",
     "time": "AMC",
     "eps_est": "$0.34",
-    "cap": 48896369000,
+    "cap": 50144027000,
     "tier": "key",
     "url": "https://www.nasdaq.com/market-activity/stocks/nke/earnings"
    },
@@ -121789,8 +121791,8 @@
     "shares": "980,000,000",
     "size": "$81,340,000,000",
     "deal": "1407642-119728",
-    "last": 83.3,
-    "last_time": "Nov 24, 2026 9:14 AM ET"
+    "last": 78.19,
+    "last_time": "Nov 24, 2026 10:57 AM ET"
    },
    {
     "date": "2026-11-13",
@@ -121801,8 +121803,8 @@
     "shares": "10,294,117",
     "size": "$174,999,989",
     "deal": "1407588-119709",
-    "last": 26.61,
-    "last_time": "Nov 24, 2026 8:33 AM ET"
+    "last": 25.4299,
+    "last_time": "Nov 24, 2026 10:57 AM ET"
    },
    {
     "date": "2026-11-13",
@@ -121813,8 +121815,8 @@
     "shares": "9,411,764",
     "size": "$39,999,997",
     "deal": "1212697-115511",
-    "last": 2.938,
-    "last_time": "Nov 24, 2026 9:11 AM ET"
+    "last": 2.8599,
+    "last_time": "Nov 24, 2026 10:57 AM ET"
    },
    {
     "date": "2026-11-13",
@@ -121825,8 +121827,8 @@
     "shares": "9,722,223",
     "size": "$175,000,014",
     "deal": "1235548-119602",
-    "last": 13.85,
-    "last_time": "Nov 23, 2026 7:30 PM ET"
+    "last": 14.16,
+    "last_time": "Nov 24, 2026 10:57 AM ET"
    }
   ],
   "filed": [
@@ -122156,9 +122158,9 @@
   ],
   "source": "https://www.marketbeat.com/ratings/",
   "note": "All actions for stocks with market cap >= $100B; upgrades, downgrades and initiations for >= $10B (caps from Nasdaq).",
-  "updated_et": "2026-11-24 09:14 ET"
+  "updated_et": "2026-11-24 10:57 ET"
  },
- "updated_et": "2026-11-24 09:15 ET",
+ "updated_et": "2026-11-24 10:57 ET",
  "indicators": [
   {
    "key": "cpi",
